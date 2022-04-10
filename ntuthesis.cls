@@ -44,11 +44,15 @@
 \DeclareRobustCommand{\defensemonth}[2]{\gdef\@monthen{#1}\gdef\@monthzh{#2}}
 \DeclareRobustCommand{\defenseday}[1]{\gdef\@day{#1}}
 \DeclareRobustCommand{\abstractname}[2]{\gdef\@abstractnameen{#1}\gdef\@abstractnamezh{#2}}
+\DeclareRobustCommand{\partonename}[1]{\gdef\@partonenameen{#1}}
+\DeclareRobustCommand{\parttwoname}[1]{\gdef\@parttwonameen{#1}}
 \DeclareRobustCommand{\acknowledgements}[2]{\gdef\@acknowledgementsen{#1}\gdef\@acknowledgementszh{#2}}
 \DeclareRobustCommand{\doi}[1]{\gdef\@doi{#1}}
 \DeclareRobustCommand{\keywords}[2]{\gdef\@keywordsen{#1}\gdef\@keywordszh{#2}}
 
 \abstractname{Abstract}{摘要}
+\partonename{Part I}
+\parttwoname{Part II}
 \acknowledgements{Acknowledgements}{誌謝}
 
 \DeclareRobustCommand{\makecover}{
@@ -208,6 +212,8 @@
    \quotation}
   {\endquotation}
 
+\newenvironment{partoneen}{\begin{quotationpage}{\@partonenameen}}{\end{quotationpage}}
+\newenvironment{parttwoen}{\begin{quotationpage}{\@parttwonameen}}{\end{quotationpage}}
 \newenvironment{abstracten}{\begin{quotationpage}{\@abstractnameen}}{\end{quotationpage}}
 \newenvironment{abstractzh}{\begin{quotationpage}{\@abstractnamezh}}{\end{quotationpage}}
 \newenvironment{acknowledgementsen}{\begin{quotationpage}{\@acknowledgementsen}}{\end{quotationpage}}

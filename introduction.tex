@@ -1,47 +1,63 @@
 \chapter{Introduction}
 \label{c:intro}
 
-Attention plays an important role in human vision. For example, when
-we look at an image, our eye movements comprise a succession of {\em
-fixations} (repetitive positioning of eyes to parts of the image)
-and {\em saccades} (rapid eye jump). Those parts of the image that
-cause eye fixations and capture primary attention are called {\em
-regions of interest} (ROIs). Studies in visual attention and eye
-movement have shown that humans generally only attend to a few ROIs.
-Detecting these visually attentive regions in images is challenging
-but useful in many multimedia applications, such as automatic
-thumbnail cropping, object recognition, content-based image
-retrieval, adaptive image compression and automatic browsing in
-small-screen devices.
+Many high energy astrophysical problems involve relativistic flows.
+The problems include, for example, collimated jets in active galactic nuclei (AGN)
+(\citealt{Chiueh-1991ApJ...377..462C};
+\citealt{Chiueh-1992ApJ...394..459L};
+\citealt{Blandford2018}),
+collapsar models of long-duration gamma-ray bursts \citep{LongGRB},
+magnetized relativistic winds and nebulae from pulsars
+(\citealt{1984ApJ...283..694K}; \citealt{1984ApJ...283..710K};
+\citealt{Chiue-PhysRevLett.63.113}; \citealt{Chiueh_1998}), and mildly relativistic
+wide-angle outflows in neutron star mergers
+(\citealt{NM2}; \citealt{NM1}; \citealt{NM3}; \citealt{NM4}).
+The full scope of these problems generally involves substantial temperature changes between
+jets (winds) and ambient gases. For this reason, the pioneering works of
+\cite{Taub}, \cite{TM_EOS}, and \cite{Compare_TM_EOS} suggested Taub-Mathews equation of
+state (TM EoS) that approximates the exact EoS \citep{Synge} for
+ultra-relativistically hot (high-$T$ hereafter) gases coexisting with non-relativistically
+cold (low-$T$ hereafter) gases.
 
-Many algorithms have been proposed for automatic ROI detection in
-images. Unfortunately, these methods were often evaluated only on
-specific and small data sets that are not publicly available. The
-lack of published {\em benchmarks} makes experiments non-repeatable
-and quantitative evaluation difficult. However, as recommended by
-the latest ACM SIGMM retreat, repeatable experiments using published
-benchmarks are important for advancing the multimedia research
-field~\cite{Rowe:2005:ASR}.
+In addition, \cite{Noble_2006} first compared the accuracy of several schemes for
+recovering primitive variables in the Riemann problems by means of self-checking tests
+(see Appendix \ref{Appendix:Numerical error analysis} for details).
+\cite{NR_Limit} further proposed an inversion scheme for an arbitrary EoS and
+suggested that directly evolving the reduced energy density (i.e. the energy density
+subtracting the rest mass energy density from the total energy density) can avoid
+catastrophic cancellation in the non-relativistic limit.
+However, very few studies have systematically investigated how serious the catastrophic
+cancellation bears upon simulation results. This is partially due to the lack of
+exact solutions with which numerical results can be compared.
 
-\begin{figure}
-\centering
-\includegraphics[width=0.45\textwidth]{kl}
-\caption{kl-distance}
-\label{kl}
-\end{figure}
+In this paper, we propose a new numerical scheme for conversion between primitive and
+conserved variables in the presence of both high-$T$ and low-$T$ gases.
+The new scheme is carefully tailored to avoid catastrophic cancellation.
+To verify its accuracy, we numerically derive the exact solutions of two relativistic
+Riemann problems with the TM EoS and compare with the simulation results.
+It demonstrates that our new special relativistic hydrodynamics (SRHD) code can
+minimize numerical errors compared with conventional methods.
 
-\begin{table}[t]
-\begin{center}
-\begin{tabular}{lcc}
+We have integrated this new SRHD solver into the code \textsc{gamer}
+(\citealt{gamer-1}; \citealt{gamer-2}) to facilitate GPU acceleration and adaptive mesh
+refinement (AMR). This new code, \textsc{gamer-sr}, yields good weak and strong
+scalings using up to 2048 GPUs on \texttt{Piz-Daint}, the supercomputer at the Swiss
+National Supercomputing Centre (CSCS). Finally, we present two astrophysical applications,
+an asymmetric explosion and self-accelerating jets, to demonstrate the capability of
+this new code in extreme conditions. All simulation data are analysed and visualized
+using the package \texttt{yt} \citep{YT}.
 
-\hline
-                    &  {\small Itti's method}     & {\small Fuzzy growing}    \\
-\hline
-{\small Precision}           &  0.4475    & 0.4506 \\
-{\small Recall}              &  0.5515    & 0.5542 \\
-\hline
+This paper is organized as follows. We introduce the equation of state and our new scheme
+for conversion between primitive and conserved variables in Section
+\ref{Relativistic Hydrodynamic Equations}. In Section \ref{Numerical Method}, we describe
+numerical methods, including the AMR structure, GPU acceleration, flexible time-steps,
+and correction of unphysical results. In Sections \ref{Test Problems} and
+\ref{Performance scaling}, we conduct numerical experiments to demonstrate the accuracy in
+both the non-relativistic (NR) and ultra-relativistic (UR) limits, the performance scalability,
+as well as the limitation of \textsc{gamer-sr}. Finally, we present two astrophysical
+applications in Section \ref{Astrophysical Applications} and draw the
+conclusion in Section \ref{conclusions}.
 
-\end{tabular}
-\caption[Evaluation of FOA sets]{\small Evaluation of FOA sets. } \label{t:FOA}
-\end{center}
-\end{table}
+Note that the speed of light and the Boltzmann constant are hard-coded to
+$1$ in \textsc{gamer-sr}. However, these physical constants are retained in this paper,
+except in Appendices, for dimensional consistency.

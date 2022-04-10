@@ -36,10 +36,10 @@ $(MAIN).pdf: *.tex ntuthesis.cls
 ifdef WATERMARK
 	./download.sh $(NTU_WATERMARK_LINK) watermark.pdf
 endif
-	$(LATEX) $(TEXFLAG) $(MAIN)
+	$(LATEX) -interaction=nonstopmode -shell-escape $(MAIN)
 	$(BIBTEX) $(MAIN)
-	$(LATEX) $(TEXFLAG) $(MAIN)
-	$(LATEX) $(TEXFLAG) $(MAIN)
+	$(LATEX) -interaction=nonstopmode -shell-escape $(MAIN)
+	$(LATEX) -interaction=nonstopmode -shell-escape $(MAIN)
 
 ifdef PASSWORD
 $(MAIN)-with-pass.pdf: $(MAIN).pdf

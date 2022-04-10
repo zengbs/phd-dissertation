@@ -1,5 +1,9 @@
 \documentclass{ntuthesis}
-
+\usepackage{natbib}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{hyperref}
+\usepackage{cleveref}
 \usepackage{times}
 \usepackage{verbatim}
 \usepackage{color}
@@ -7,7 +11,6 @@
 \usepackage{graphicx}
 \usepackage{array}
 \usepackage{wallpaper}
-\usepackage{hyperref}
 \usepackage[printwatermark]{xwatermark}
 \usepackage{graphicx}
 \usepackage{tikz}
@@ -83,18 +86,16 @@
 
 % Your thesis goes here
 \input{introduction}
-%\input{related}
-%\input{photoshoot}
-%\input{modeling}
-%\input{application}
-%\input{conclusion}
+
+\input{part}
+\input{special-relativistic-hydrodynamics}
 
 \appendix
 
 \backmatter
 \phantomsection
 \addcontentsline{toc}{chapter}{\bibname}
-\bibliographystyle{abbrv}
+\bibliographystyle{abbrvnat}
 
 % Your bibliography goes here
 \bibliography{thesis}

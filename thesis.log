@@ -1,9 +1,11 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.11.4)  10 APR 2022 12:35
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.11.4)  10 APR 2022 18:57
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
  %&-line parsing enabled.
-**\def\excludefirstpage{1}  \input{thesis} thesis
- (./thesis.tex (./ntuthesis.cls
+**thesis.tex
+(./thesis.tex
+LaTeX2e <2021-06-01> patch level 1
+L3 programming layer <2021-10-18> (./ntuthesis.cls
 Document Class: ntuthesis 2013/04/23 Thesis template for National Taiwan Univer
 sity
 (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/base/book.cls
@@ -606,41 +608,85 @@ File: ppxetex.def 2021/03/06 v0.5t Pdfpages driver for XeTeX (AM)
 )
 LaTeX Info: Redefining \title on input line 39.
 LaTeX Info: Redefining \author on input line 40.
-) (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/psnfss/times.sty
-Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
+) (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip59
+\bibsep=\skip60
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count315
 )
-(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/tools/verbatim.sty
-Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks35
-\verbatim@line=\toks36
-\verbatim@in@stream=\read3
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2021/04/20 v2.17j AMS math features
+\@mathmargin=\skip61
+
+For additional information on amsmath, use the `?' option.
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks35
+\ex@=\dimen294
+))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen295
 )
-(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip17
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
 )
-(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/tools/array.sty
-Package: array 2021/04/20 v2.5e Tabular extension package (FMi)
-\col@sep=\dimen294
-\ar@mcellbox=\box67
-\extrarowheight=\dimen295
-\NC@list=\toks37
-\extratabsurround=\skip59
-\backup@length=\skip60
-\ar@cellbox=\box68
+\inf@bad=\count316
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count317
+\leftroot@=\count318
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count319
+\DOTSCASE@=\count320
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box67
+\strutbox@=\box68
+\big@size=\dimen296
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count321
+\c@MaxMatrixCols=\count322
+\dotsspace@=\muskip17
+\c@parentequation=\count323
+\dspbrk@lvl=\count324
+\tag@help=\toks36
+\row@=\count325
+\column@=\count326
+\maxfields@=\count327
+\andhelp@=\toks37
+\eqnshift@=\dimen297
+\alignsep@=\dimen298
+\tagshift@=\dimen299
+\tagwidth@=\dimen300
+\totwidth@=\dimen301
+\lineht@=\dimen302
+\@envbody=\toks38
+\multlinegap=\skip62
+\multlinetaggap=\skip63
+\mathdisplay@stack=\toks39
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
 )
-(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/wallpaper/wallpaper.sty
-Package: wallpaper 2005/01/18, v1.01 easy wallpaper formatting (MHFW)
-\wpXoffset=\skip61
-\wpYoffset=\skip62
-\tileXoffset=\skip63
-\tileYoffset=\skip64
-\tilewidth=\skip65
-\tileheight=\skip66
-\tileX=\skip67
-\tileY=\skip68
-) (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/hyperref/hyperref.st
+y
 Package: hyperref 2021-06-07 v7.00m Hypertext links for LaTeX
+
 (/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
@@ -681,9 +727,9 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
-\@linkdim=\dimen296
-\Hy@linkcounter=\count315
-\Hy@pagecounter=\count316
+\@linkdim=\dimen303
+\Hy@linkcounter=\count328
+\Hy@pagecounter=\count329
  (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
 )
@@ -698,7 +744,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 (/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count317
+\Hy@SavedSpaceFactor=\count330
  (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
 )
@@ -709,9 +755,14 @@ Package hyperref Info: Plain pages OFF on input line 4207.
 Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count318
+\c@Hy@tempcnt=\count331
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
 LaTeX Info: Redefining \url on input line 4804.
-\XeTeXLinkMargin=\dimen297
+\XeTeXLinkMargin=\dimen304
 
 (/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -721,9 +772,9 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count319
-\Field@Width=\dimen298
-\Fld@charsize=\dimen299
+\Fld@menulength=\count332
+\Field@Width=\dimen305
+\Fld@charsize=\dimen306
 Package hyperref Info: Hyper figures OFF on input line 6076.
 Package hyperref Info: Link nesting OFF on input line 6081.
 Package hyperref Info: Hyper index ON on input line 6084.
@@ -738,9 +789,9 @@ LaTeX Info: Redefining \pageref on input line 6150.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count320
-\c@Item=\count321
-\c@Hfootnote=\count322
+\Hy@abspage=\count333
+\c@Item=\count334
+\c@Hfootnote=\count335
 )
 Package hyperref Info: Driver (autodetected): hxetex.
 (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/hyperref/hxetex.def
@@ -752,10 +803,10 @@ Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
 \pdfm@box=\box69
-\c@Hy@AnnotLevel=\count323
-\HyField@AnnotCount=\count324
-\Fld@listcount=\count325
-\c@bookmark@seq@number=\count326
+\c@Hy@AnnotLevel=\count336
+\HyField@AnnotCount=\count337
+\Fld@listcount=\count338
+\c@bookmark@seq@number=\count339
 
 (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/rerunfilecheck/rerunfil
 echeck.sty
@@ -773,22 +824,66 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
-\Hy@SectionHShift=\skip69
+\Hy@SectionHShift=\skip64
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/cleveref/cleveref.sty
+Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
+Package cleveref Info: `hyperref' support loaded on input line 2370.
+LaTeX Info: Redefining \cref on input line 2370.
+LaTeX Info: Redefining \Cref on input line 2370.
+LaTeX Info: Redefining \crefrange on input line 2370.
+LaTeX Info: Redefining \Crefrange on input line 2370.
+LaTeX Info: Redefining \cpageref on input line 2370.
+LaTeX Info: Redefining \Cpageref on input line 2370.
+LaTeX Info: Redefining \cpagerefrange on input line 2370.
+LaTeX Info: Redefining \Cpagerefrange on input line 2370.
+LaTeX Info: Redefining \labelcref on input line 2370.
+LaTeX Info: Redefining \labelcpageref on input line 2370.
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/psnfss/times.sty
+Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks40
+\verbatim@line=\toks41
+\verbatim@in@stream=\read3
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/tools/array.sty
+Package: array 2021/04/20 v2.5e Tabular extension package (FMi)
+\col@sep=\dimen307
+\ar@mcellbox=\box70
+\extrarowheight=\dimen308
+\NC@list=\toks42
+\extratabsurround=\skip65
+\backup@length=\skip66
+\ar@cellbox=\box71
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/wallpaper/wallpaper.sty
+Package: wallpaper 2005/01/18, v1.01 easy wallpaper formatting (MHFW)
+\wpXoffset=\skip67
+\wpYoffset=\skip68
+\tileXoffset=\skip69
+\tileYoffset=\skip70
+\tilewidth=\skip71
+\tileheight=\skip72
+\tileX=\skip73
+\tileY=\skip74
 )
 (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/xwatermark/xwatermark.s
 ty
 (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/catoptions/catoptions.s
 ty
-\m@one=\count327
-\z@pt=\dimen300
+\m@one=\count340
+\z@pt=\dimen309
 Package: catoptions 2014/08/29 v0.2.7h Securing catcodes and parsing options (A
 M)
-\cpt@csvdepth=\count328
-\cpt@optdepth=\count329
-\cpt@cnta=\count330
-\indrisdepth=\count331
-\cpt@foreachdepth=\count332
-\cpt@exprcnt=\count333
+\cpt@csvdepth=\count341
+\cpt@optdepth=\count342
+\cpt@cnta=\count343
+\indrisdepth=\count344
+\cpt@foreachdepth=\count345
+\cpt@exprcnt=\count346
 )
 Package: xwatermark 2012/10/23 v1.5.2d A dynamic watermarking scheme (Ahmed Mus
 a)
@@ -806,33 +901,33 @@ Package picture Info: Calculation method: calc.
 (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
 rs
-\f@nch@headwidth=\skip70
-\f@nch@O@elh=\skip71
-\f@nch@O@erh=\skip72
-\f@nch@O@olh=\skip73
-\f@nch@O@orh=\skip74
-\f@nch@O@elf=\skip75
-\f@nch@O@erf=\skip76
-\f@nch@O@olf=\skip77
-\f@nch@O@orf=\skip78
+\f@nch@headwidth=\skip75
+\f@nch@O@elh=\skip76
+\f@nch@O@erh=\skip77
+\f@nch@O@olh=\skip78
+\f@nch@O@orh=\skip79
+\f@nch@O@elf=\skip80
+\f@nch@O@erf=\skip81
+\f@nch@O@olf=\skip82
+\f@nch@O@orf=\skip83
 )
 (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/ltxkeys/ltxkeys.sty
 Package: ltxkeys 2012/11/17 v0.0.3c A robust key-value parser (AM) (Ahmed Musa)
 
-\ltxkeys@csvdepth=\count334
-\ltxkeys@keydepth=\count335
+\ltxkeys@csvdepth=\count347
+\ltxkeys@keydepth=\count348
 )
 (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/framed/framed.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
-\OuterFrameSep=\skip79
-\fb@frw=\dimen301
-\fb@frh=\dimen302
-\FrameRule=\dimen303
-\FrameSep=\dimen304
+\OuterFrameSep=\skip84
+\fb@frw=\dimen310
+\fb@frh=\dimen311
+\FrameRule=\dimen312
+\FrameSep=\dimen313
 )
-\xwm@boxa=\box70
-\xwm@boxb=\box71
-\xwm@cnta=\count336
+\xwm@boxa=\box72
+\xwm@boxb=\box73
+\xwm@cnta=\count349
 \xwm@wrt=\write4
 
 (./thesis.xwm)
@@ -861,8 +956,8 @@ LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
 (Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
-\symbold=\mathgroup4
-\symitalic=\mathgroup5
+\symbold=\mathgroup6
+\symitalic=\mathgroup7
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
@@ -893,16 +988,16 @@ LaTeX Info: Redefining \textsw on input line 47.
 LaTeX Info: Redefining \textssc on input line 48.
 LaTeX Info: Redefining \textulc on input line 49.
 )
-\ntx@fs=\dimen305
+\ntx@fs=\dimen314
 
 (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count337
+\etb@tempcnta=\count350
 )
 (/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/xstring/xstring.sty
 (/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/xstring/xstring.tex
-\integerpart=\count338
-\decimalpart=\count339
+\integerpart=\count351
+\decimalpart=\count352
 )
 Package: xstring 2021/07/21 v1.84 String manipulations (CT)
 ) (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/carlisle/scalefnt.sty
@@ -921,72 +1016,14 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 LaTeX Font Info:    Changing ? sub-encoding to TS1/0 on input line 78.
 )
-\ntxt@cntz=\count340
+\ntxt@cntz=\count353
 LaTeX Font Info:    Redeclaring math symbol \mathsterling on input line 325.
 )
 (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/newtxmath.sty
 Package: newtxmath 2021/10/21 v1.659
 
 `newtxmath' v1.659, 2021/10/21 Math macros based originally on txfonts (msharpe
-) (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2021/04/20 v2.17j AMS math features
-\@mathmargin=\skip80
-
-For additional information on amsmath, use the `?' option.
-(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/amsmath/amstext.sty
-Package: amstext 2000/06/29 v2.01 AMS text
-
-(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/amsmath/amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks38
-\ex@=\dimen306
-))
-(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/amsmath/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen307
-)
-(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 2016/03/08 v2.02 operator names
-)
-\inf@bad=\count341
-LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count342
-\leftroot@=\count343
-LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count344
-\DOTSCASE@=\count345
-LaTeX Info: Redefining \ldots on input line 496.
-LaTeX Info: Redefining \dots on input line 499.
-LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box72
-\strutbox@=\box73
-\big@size=\dimen308
-LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count346
-\c@MaxMatrixCols=\count347
-\dotsspace@=\muskip18
-\c@parentequation=\count348
-\dspbrk@lvl=\count349
-\tag@help=\toks39
-\row@=\count350
-\column@=\count351
-\maxfields@=\count352
-\andhelp@=\toks40
-\eqnshift@=\dimen309
-\alignsep@=\dimen310
-\tagshift@=\dimen311
-\tagwidth@=\dimen312
-\totwidth@=\dimen313
-\lineht@=\dimen314
-\@envbody=\toks41
-\multlinegap=\skip81
-\multlinetaggap=\skip82
-\mathdisplay@stack=\toks42
-LaTeX Info: Redefining \[ on input line 2923.
-LaTeX Info: Redefining \] on input line 2924.
-)
-(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/iftex/ifxetex.sty
+) (/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/iftex/ifxetex.sty
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
 )
 (/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/iftex/ifluatex.sty
@@ -995,10 +1032,10 @@ Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/oberdiek/centernot.sty
 Package: centernot 2016/05/16 v1.4 Centers the not symbol horizontally (HO)
 )
-\tx@cntz=\count353
+\tx@cntz=\count354
 (/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/kastrup/binhex.tex)
-\tx@Isdigit=\count354
-\tx@IsAlNum=\count355
+\tx@Isdigit=\count355
+\tx@IsAlNum=\count356
 \tx@tA=\toks43
 \tx@tB=\toks44
 \tx@su=\read4
@@ -1042,9 +1079,10 @@ LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
 (Font)                  OML/ztmcm/m/it --> OML/ntxmi/m/it on input line 479.
 LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
 (Font)                  OML/ntxmi/m/it --> OML/ntxmi/b/it on input line 480.
-\symlettersA=\mathgroup6
+\symlettersA=\mathgroup8
 LaTeX Font Info:    Overwriting symbol font `lettersA' in version `bold'
 (Font)                  U/ntxmia/m/it --> U/ntxmia/b/it on input line 535.
+LaTeX Font Info:    Redeclaring math alphabet \mathfrak on input line 537.
 LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 556.
 LaTeX Font Info:    Encoding `OMS' has changed to `LMS' for symbol font
 (Font)              `symbols' in the math version `normal' on input line 556.
@@ -1056,10 +1094,10 @@ LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 (Font)                  OMS/ztmcm/m/n --> LMS/ntxsy/m/n on input line 556.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 (Font)                  LMS/ntxsy/m/n --> LMS/ntxsy/b/n on input line 557.
-\symAMSm=\mathgroup7
+\symAMSm=\mathgroup9
 LaTeX Font Info:    Overwriting symbol font `AMSm' in version `bold'
 (Font)                  U/ntxsym/m/n --> U/ntxsym/b/n on input line 582.
-\symsymbolsC=\mathgroup8
+\symsymbolsC=\mathgroup10
 LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `bold'
 (Font)                  U/ntxsyc/m/n --> U/ntxsyc/b/n on input line 603.
 LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 616.
@@ -1075,7 +1113,7 @@ LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/ztmcm/m/n --> LMX/ntxexx/m/n on input line 616.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  LMX/ntxexx/m/n --> LMX/ntxexx/b/n on input line 617.
-\symlargesymbolsTXA=\mathgroup9
+\symlargesymbolsTXA=\mathgroup11
 LaTeX Font Info:    Overwriting symbol font `largesymbolsTXA' in version `bold'
 
 (Font)                  U/ntxexa/m/n --> U/ntxexa/b/n on input line 631.
@@ -1126,59 +1164,61 @@ tex-text;"
 ! Extra \endgroup.
 \document ->\endgroup 
                       \let \BeforeStartOfDocument \@firstofone \cpt@beforest...
-l.53 \begin{document}
+l.56 \begin{document}
                      
-? 
-No file thesis.aux.
+Things are pretty mixed up, but I think the worst is over.
+
+(./thesis.aux)
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 53.
+LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 56.
 LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line
- 53.
+ 56.
+
 (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/omlntxmi.fd
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 56.
 LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 
-53.
+56.
 
 (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 56.
 LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line
- 53.
+ 56.
 
 (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 56.
 LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input lin
-e 53.
+e 56.
 
 (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    ... okay on input line 56.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1223,7 +1263,7 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
 
 )
-Package hyperref Info: Link coloring OFF on input line 53.
+Package hyperref Info: Link coloring OFF on input line 56.
 
 (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -1235,27 +1275,24 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 lestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count356
+\c@section@level=\count357
 )
-LaTeX Info: Redefining \ref on input line 53.
-LaTeX Info: Redefining \pageref on input line 53.
-LaTeX Info: Redefining \nameref on input line 53.
+LaTeX Info: Redefining \ref on input line 56.
+LaTeX Info: Redefining \pageref on input line 56.
+LaTeX Info: Redefining \nameref on input line 56.
+ (./thesis.out) (./thesis.out)
 \@outlinefile=\write5
 \openout5 = `thesis.out'.
 
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
-
-\c@mv@tabular=\count357
-\c@mv@boldtabular=\count358
+\c@mv@tabular=\count358
+\c@mv@boldtabular=\count359
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 18.0pt on input line 57.
+(Font)              scaled to size 18.0pt on input line 60.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 14.0pt on input line 57.
+(Font)              scaled to size 14.0pt on input line 60.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 16.0pt on input line 57.
-[1
+(Font)              scaled to size 16.0pt on input line 60.
+ [1
 
 
 
@@ -1263,55 +1300,55 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 
 ]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 24.0pt on input line 73.
+(Font)              scaled to size 24.0pt on input line 76.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 20.0pt on input line 73.
+(Font)              scaled to size 20.0pt on input line 76.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 15.0pt on input line 73.
-LaTeX Font Info:    Calculating math sizes for size <15> on input line 73.
+(Font)              scaled to size 15.0pt on input line 76.
+LaTeX Font Info:    Calculating math sizes for size <15> on input line 76.
 LaTeX Font Info:    Trying to load font information for OT1+ntxtlf on input lin
-e 73.
+e 76.
 
 (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/ot1ntxtlf.fd
 File: ot1ntxtlf.fd 2021/05/24 v1.0 font definition file for OT1/ntx/tlf
 )
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 15.0pt on input line 73.
+(Font)              scaled to size 15.0pt on input line 76.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.94994pt on input line 73.
+(Font)              scaled to size 10.94994pt on input line 76.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.25005pt on input line 73.
+(Font)              scaled to size 8.25005pt on input line 76.
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 7
-3.
+6.
 
 (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <15> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 73.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 76.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.94994> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 73.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 76.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8.25005> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 73.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 76.
 LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 
-73.
+76.
 
 (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/untxmia.fd
 File: untxmia.fd 2018/04/14 Fontinst v1.933 font definitions for U/ntxmia.
 )
 LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 
-73.
+76.
 
 (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/untxsym.fd
 File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
 )
 LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 
-73.
+76.
 
 (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
-Overfull \hbox (31.11316pt too wide) in paragraph at lines 73--73
+Overfull \hbox (31.11316pt too wide) in paragraph at lines 76--76
  [] 
  []
 
@@ -1370,19 +1407,33 @@ LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
 
 ] [12
 
-]
+] (./thesis.toc)
 \tf@toc=\write6
 \openout6 = `thesis.toc'.
 
  [13] [14
 
-]
+] (./thesis.lof
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 8.8pt on input line 3.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 6.6pt on input line 3.
+
+
+LaTeX Warning: Reference `fig:ErrorAnalysis' on page i undefined on input line 
+4.
+
+
+LaTeX Warning: Reference `Appendix:Numerical error analysis' on page xv undefin
+ed on input line 4.
+
+)
 \tf@lof=\write7
 \openout7 = `thesis.lof'.
 
  [15] [16
 
-]
+] (./thesis.lot)
 \tf@lot=\write8
 \openout8 = `thesis.lot'.
 
@@ -1390,19 +1441,500 @@ LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
 
 ] (./introduction.tex
 Chapter 1.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 12.0pt on input line 5.
 
-LaTeX Warning: Citation `Rowe:2005:ASR' on page 1 undefined on input line 24.
+LaTeX Warning: Reference `Appendix:Numerical error analysis' on page 1 undefine
+d on input line 24.
 
-File: kl.png Graphic file (type bmp)
-<kl.png>
+[1
+
+]
+
+LaTeX Warning: Reference `Relativistic Hydrodynamic Equations' on page 2 undefi
+ned on input line 52.
+
+
+LaTeX Warning: Reference `Numerical Method' on page 2 undefined on input line 5
+2.
+
+
+LaTeX Warning: Reference `Test Problems' on page 2 undefined on input line 54.
+
+
+LaTeX Warning: Reference `Performance scaling' on page 2 undefined on input lin
+e 55.
+
+
+LaTeX Warning: Reference `Astrophysical Applications' on page 2 undefined on in
+put line 58.
+
+
+LaTeX Warning: Reference `conclusions' on page 2 undefined on input line 59.
+
+) (./part.tex [2]) (./special-relativistic-hydrodynamics.tex [3
+
+
+] [4
+
+]
+Chapter 2.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.95pt on input line 38.
-) [1
+(Font)              scaled to size 14.4pt on input line 4.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 14.4pt on input line 4.
 
-] [2]
-No file thesis.bbl.
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 4.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6]
+Underfull \vbox (badness 2158) has occurred while \output is active []
+
+ [7]
+! Undefined control sequence.
+<recently read> \abs 
+                     
+l.96 ...re_eos}, the maximum relative errors $\abs
+                                                  {1-\Gamma_{\text{TM}}/\Gam...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \abs 
+                     
+l.96 ...ext{TM}}/\Gamma_{\text{exact}}}$ and $\abs
+                                                  {1-\tilde{h}_{\text{TM}}/\...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+File: figures/compare_eos.pdf Graphic file (type pdf)
+<use figures/compare_eos.pdf>
+! Undefined control sequence.
+<argument> ...e the maximum relative errors $\abs 
+                                                  {1-\Gamma _{\text {TM}}/\G...
+l.121 ...only 1.9 and 2.0 per cent, respectively.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...\Gamma _{\text {exact}}}$ and $\abs 
+                                                  {1-\tilde {h}_{\text {TM}}...
+l.121 ...only 1.9 and 2.0 per cent, respectively.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \abs 
+                     
+l.121 ...only 1.9 and 2.0 per cent, respectively.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \abs 
+                     
+l.121 ...only 1.9 and 2.0 per cent, respectively.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \abs 
+                     
+l.121 ...only 1.9 and 2.0 per cent, respectively.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \abs 
+                     
+l.121 ...only 1.9 and 2.0 per cent, respectively.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8]
+! Undefined control sequence.
+<argument> \abs 
+                {\mathbf {M}}
+l.133 ...\right)-\left(\frac{\abs{\mathbf{M}}}{Dc}
+                                                  \right)^2
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
+(Font)              scaled to size 12.0pt on input line 133.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
+(Font)              scaled to size 8.8pt on input line 133.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
+(Font)              scaled to size 6.6pt on input line 133.
+! Undefined control sequence.
+<argument> \abs 
+                {\mathbf {M}}c
+l.134 ...eft(\frac{\abs{\mathbf{M}}c}{D}\right)^2}
+                                                  \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[9]
+
+LaTeX Warning: Reference `The choice of initial guesses' on page 10 undefined o
+n input line 150.
+
+! Undefined control sequence.
+<recently read> \abs 
+                     
+l.150 ... We adopt the convergence criterion $\abs
+                                                  {1-\tilde{h}_{i}/\tilde{h}...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[10]
+! Undefined control sequence.
+l.166 ...de{E}/Dc^2\right)\right]$ and $\left(\abs
+                                                  {\mathbf{M}}/Dc\right)^2$ ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (56.92621pt too wide) in paragraph at lines 165--167
+\T1/ntxtlf/m/n/12 Thus, the er-ror of the new con-ver-sion scheme can be es-ti-
+mated by sub-sti-tut-ing $[]$
+ []
+
+! Argument of \ifblank has an extra }.
+<inserted text> 
+                \par 
+l.176 ...istic AGN jets ($\mathscr{M_{\text{jet}}}
+                                                   < 10$), single precision ...
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \ifblank was complete.
+<to be read again> 
+                   \par 
+l.176 ...istic AGN jets ($\mathscr{M_{\text{jet}}}
+                                                   < 10$), single precision ...
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Argument of \ifblank has an extra }.
+<inserted text> 
+                \par 
+l.176 ...istic AGN jets ($\mathscr{M_{\text{jet}}}
+                                                   < 10$), single precision ...
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \ifblank was complete.
+<to be read again> 
+                   \par 
+l.176 ...istic AGN jets ($\mathscr{M_{\text{jet}}}
+                                                   < 10$), single precision ...
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Argument of \ifblank has an extra }.
+<inserted text> 
+                \par 
+l.176 ...istic AGN jets ($\mathscr{M_{\text{jet}}}
+                                                   < 10$), single precision ...
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \ifblank was complete.
+<to be read again> 
+                   \par 
+l.176 ...istic AGN jets ($\mathscr{M_{\text{jet}}}
+                                                   < 10$), single precision ...
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Argument of \ifblank has an extra }.
+<inserted text> 
+                \par 
+l.176 ...istic AGN jets ($\mathscr{M_{\text{jet}}}
+                                                   < 10$), single precision ...
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \ifblank was complete.
+<to be read again> 
+                   \par 
+l.176 ...istic AGN jets ($\mathscr{M_{\text{jet}}}
+                                                   < 10$), single precision ...
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+
+LaTeX Warning: Reference `fig:ErrorAnalysis' on page 1 undefined on input line 
+184.
+
+
+LaTeX Warning: Reference `Appendix:Numerical error analysis' on page 11 undefin
+ed on input line 184.
+
+[11]
+File: figures/ErrorDistributionImproved.png Graphic file (type bmp)
+<figures/ErrorDistributionImproved.png>
+
+
+LaTeX Warning: Reference `fig:ErrorAnalysis' on page 1 undefined on input line 
+189.
+
+
+LaTeX Warning: Reference `Appendix:Numerical error analysis' on page 12 undefin
+ed on input line 189.
+
+
+LaTeX Warning: Reference `fig:ErrorAnalysis' on page 1 undefined on input line 
+189.
+
+
+LaTeX Warning: Reference `Appendix:Numerical error analysis' on page 12 undefin
+ed on input line 189.
+
+! Undefined control sequence.
+<argument> \abs 
+                {\mathbf {M}}
+l.200 ...{\mathbf{M}}}{Dc}\right)^2+f(\tilde{h})}}
+                                                  ,
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \abs 
+                {\mathbf {M}}
+l.200 ...{\mathbf{M}}}{Dc}\right)^2+f(\tilde{h})}}
+                                                  ,
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \abs 
+                     
+l.203 ...transcendental equation} with known $\abs
+                                                  {\mathbf{M}}/Dc$. Note tha...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `fig:flowchart' on page 1 undefined on input line 205.
+
+
+
+LaTeX Warning: Reference `Appendix:Numerical error analysis' on page 12 undefin
+ed on input line 205.
+
+LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input lin
+e 207.
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
+File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
+)
+LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
+(Font)              scaled to size 12.0pt on input line 207.
+
+[12] [13]) [14] (./thesis.bbl
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
+(Font)              scaled to size 12.0pt on input line 11.
+
+! Undefined control sequence.
+<recently read> \apj 
+                     
+l.29 \newblock \emph{\apj}
+                          , 377:\penalty0 462, Aug. 1991.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \apjl 
+                      
+l.54 \newblock \emph{\apjl}
+                           , 883\penalty0 (1):\penalty0 L1, Sept. 2019.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[15
+
+
+]
+! Undefined control sequence.
+<recently read> \apj 
+                     
+l.107 \newblock \emph{\apj}
+                           , 283:\penalty0 694--709, Aug. 1984{\natexlab{a}}.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \apj 
+                     
+l.113 \newblock \emph{\apj}
+                           , 283:\penalty0 710--730, Aug. 1984{\natexlab{b}}.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \apj 
+                     
+l.121 \newblock \emph{\apj}
+                           , 394:\penalty0 459, Aug. 1992.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \apj 
+                     
+l.136 \newblock \emph{\apj}
+                           , 165:\penalty0 147, Apr 1971.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[16]
+! Undefined control sequence.
+<recently read> \nat 
+                     
+l.163 \newblock \emph{\nat}
+                           , 561\penalty0 (7723):\penalty0 355--359, Sept.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \nat 
+                     
+l.179 \newblock \emph{\nat}
+                           , 554\penalty0 (7691):\penalty0 207--210, Feb.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \mnras 
+                       
+l.197 \newblock \emph{\mnras}
+                             , 460\penalty0 (1):\penalty0 535--559, Jul 2016.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[17]
+! Undefined control sequence.
+<recently read> \apj 
+                     
+l.254 \newblock \emph{\apj}
+                           , 405:\penalty0 273, Mar. 1993.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+) [18]
 
 Package catoptions Warning: Undefined options 
 (catoptions)                [Family, Option, Value]: 
@@ -1416,26 +1948,20 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-
-Package rerunfilecheck Warning: File `thesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `thesis.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  02C27F8318FC3AC9C2AF6249A96C8AFD;538.
+Package rerunfilecheck Info: File `thesis.out' has not changed.
+(rerunfilecheck)             Checksum: 78B3947688A803793511987D944D50ED;1636.
  )
 (\end occurred inside a group at level 1)
 
-### semi simple group (level 1) entered at line 53 (\begingroup)
+### semi simple group (level 1) entered at line 56 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 32196 strings out of 476473
- 638296 string characters out of 5812052
- 1007915 words of memory out of 5000000
- 52098 multiletter control sequences out of 15000+600000
- 471609 words of font info for 115 fonts, out of 8000000 for 9000
+ 34437 strings out of 476473
+ 685928 string characters out of 5812052
+ 1064191 words of memory out of 5000000
+ 54298 multiletter control sequences out of 15000+600000
+ 485002 words of font info for 134 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 136i,10n,139p,518b,1666s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 132i,11n,136p,1042b,2507s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.pdf (20 pages).
+Output written on thesis.pdf (36 pages).

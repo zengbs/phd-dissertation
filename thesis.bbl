@@ -1,0 +1,257 @@
+\begin{thebibliography}{27}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Blandford et~al.(2019)Blandford, Meier, and Readhead]{Blandford2018}
+R.~Blandford, D.~Meier, and A.~Readhead.
+\newblock Relativistic jets from active galactic nuclei.
+\newblock \emph{Annual Review of Astronomy and Astrophysics}, 57\penalty0
+  (1):\penalty0 467--509, 2019.
+\newblock \doi{10.1146/annurev-astro-081817-051948}.
+\newblock URL \url{https://doi.org/10.1146/annurev-astro-081817-051948}.
+
+\bibitem[Chiueh(1989)]{Chiue-PhysRevLett.63.113}
+T.~Chiueh.
+\newblock Relativistic solitons and shocks in magnetized
+  ${e}^{\mathrm{\ensuremath{-}}}$-${e}^{+}$-${p}^{+}$ fluids.
+\newblock \emph{Phys. Rev. Lett.}, 63:\penalty0 113--116, Jul 1989.
+\newblock \doi{10.1103/PhysRevLett.63.113}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevLett.63.113}.
+
+\bibitem[{Chiueh} et~al.(1991){Chiueh}, {Li}, and
+  {Begelman}]{Chiueh-1991ApJ...377..462C}
+T.~{Chiueh}, Z.-Y. {Li}, and M.~C. {Begelman}.
+\newblock {Asymptotic Structure of Hydromagnetically Driven Relativistic
+  Winds}.
+\newblock \emph{\apj}, 377:\penalty0 462, Aug. 1991.
+\newblock \doi{10.1086/170375}.
+
+\bibitem[Chiueh et~al.(1998)Chiueh, Li, and Begelman]{Chiueh_1998}
+T.~Chiueh, Z.-Y. Li, and M.~C. Begelman.
+\newblock A critical analysis of ideal magnetohydrodynamic models for crab-like
+  pulsar winds.
+\newblock \emph{The Astrophysical Journal}, 505\penalty0 (2):\penalty0
+  835--843, oct 1998.
+\newblock \doi{10.1086/306209}.
+\newblock URL \url{https://doi.org/10.1086%2F306209}.
+
+\bibitem[{Fong} et~al.(2019){Fong}, {Blanchard}, {Alexander}, {Strader},
+  {Margutti}, {Hajela}, {Villar}, {Wu}, {Ye}, {Berger}, {Chornock},
+  {Coppejans}, {Cowperthwaite}, {Eftekhari}, {Giannios}, {Guidorzi},
+  {Kathirgamaraju}, {Laskar}, {Macfadyen}, {Metzger}, {Nicholl}, {Paterson},
+  {Terreran}, {Sand}, {Sironi}, {Williams}, {Xie}, and {Zrake}]{NM4}
+W.~{Fong}, P.~K. {Blanchard}, K.~D. {Alexander}, J.~{Strader}, R.~{Margutti},
+  A.~{Hajela}, V.~A. {Villar}, Y.~{Wu}, C.~S. {Ye}, E.~{Berger}, R.~{Chornock},
+  D.~{Coppejans}, P.~S. {Cowperthwaite}, T.~{Eftekhari}, D.~{Giannios},
+  C.~{Guidorzi}, A.~{Kathirgamaraju}, T.~{Laskar}, A.~{Macfadyen}, B.~D.
+  {Metzger}, M.~{Nicholl}, K.~{Paterson}, G.~{Terreran}, D.~J. {Sand},
+  L.~{Sironi}, P.~K.~G. {Williams}, X.~{Xie}, and J.~{Zrake}.
+\newblock {The Optical Afterglow of GW170817: An Off-axis Structured Jet and
+  Deep Constraints on a Globular Cluster Origin}.
+\newblock \emph{\apjl}, 883\penalty0 (1):\penalty0 L1, Sept. 2019.
+\newblock \doi{10.3847/2041-8213/ab3d9e}.
+
+\bibitem[Fryxell et~al.(2000)Fryxell, Olson, Ricker, Timmes, Zingale, Lamb,
+  MacNeice, Rosner, Truran, and Tufo]{FLASH}
+B.~Fryxell, K.~Olson, P.~Ricker, F.~X. Timmes, M.~Zingale, D.~Q. Lamb,
+  P.~MacNeice, R.~Rosner, J.~W. Truran, and H.~Tufo.
+\newblock {FLASH}: An adaptive mesh hydrodynamics code for modeling
+  astrophysical thermonuclear flashes.
+\newblock \emph{The Astrophysical Journal Supplement Series}, 131\penalty0
+  (1):\penalty0 273--334, nov 2000.
+\newblock \doi{10.1086/317361}.
+\newblock URL \url{https://doi.org/10.1086%2F317361}.
+
+\bibitem[{Ghirlanda} et~al.(2019){Ghirlanda}, {Salafia}, {Paragi}, {Giroletti},
+  {Yang}, {Marcote}, {Blanchard}, {Agudo}, {An}, {Bernardini}, {Beswick},
+  {Branchesi}, {Campana}, {Casadio}, {Chassand e-Mottin}, {Colpi}, {Covino},
+  {D'Avanzo}, {D'Elia}, {Frey}, {Gawronski}, {Ghisellini}, {Gurvits}, {Jonker},
+  {van Langevelde}, {Melandri}, {Moldon}, {Nava}, {Perego}, {Perez-Torres},
+  {Reynolds}, {Salvaterra}, {Tagliaferri}, {Venturi}, {Vergani}, and
+  {Zhang}]{NM3}
+G.~{Ghirlanda}, O.~S. {Salafia}, Z.~{Paragi}, M.~{Giroletti}, J.~{Yang},
+  B.~{Marcote}, J.~{Blanchard}, I.~{Agudo}, T.~{An}, M.~G. {Bernardini},
+  R.~{Beswick}, M.~{Branchesi}, S.~{Campana}, C.~{Casadio}, E.~{Chassand
+  e-Mottin}, M.~{Colpi}, S.~{Covino}, P.~{D'Avanzo}, V.~{D'Elia}, S.~{Frey},
+  M.~{Gawronski}, G.~{Ghisellini}, L.~I. {Gurvits}, P.~G. {Jonker}, H.~J. {van
+  Langevelde}, A.~{Melandri}, J.~{Moldon}, L.~{Nava}, A.~{Perego}, M.~A.
+  {Perez-Torres}, C.~{Reynolds}, R.~{Salvaterra}, G.~{Tagliaferri},
+  T.~{Venturi}, S.~D. {Vergani}, and M.~{Zhang}.
+\newblock {Compact radio emission indicates a structured jet was produced by a
+  binary neutron star merger}.
+\newblock \emph{Science}, 363\penalty0 (6430):\penalty0 968--971, Mar. 2019.
+\newblock \doi{10.1126/science.aau8815}.
+
+\bibitem[Higham(2002)]{Nicholas}
+N.~J. Higham.
+\newblock \emph{Accuracy and Stability of Numerical Algorithms}.
+\newblock Society for Industrial and Applied Mathematics, USA, 2nd edition,
+  2002.
+\newblock ISBN 0898715210.
+
+\bibitem[Jüttner(1911)]{Juttner}
+F.~Jüttner.
+\newblock Das maxwellsche gesetz der geschwindigkeitsverteilung in der
+  relativtheorie.
+\newblock \emph{Annalen der Physik}, 339\penalty0 (5):\penalty0 856--882, 1911.
+\newblock \doi{10.1002/andp.19113390503}.
+\newblock URL
+  \url{https://onlinelibrary.wiley.com/doi/abs/10.1002/andp.19113390503}.
+
+\bibitem[{Kennel} and {Coroniti}(1984{\natexlab{a}})]{1984ApJ...283..694K}
+C.~F. {Kennel} and F.~V. {Coroniti}.
+\newblock {Confinement of the Crab pulsar's wind by its supernova remnant.}
+\newblock \emph{\apj}, 283:\penalty0 694--709, Aug. 1984{\natexlab{a}}.
+\newblock \doi{10.1086/162356}.
+
+\bibitem[{Kennel} and {Coroniti}(1984{\natexlab{b}})]{1984ApJ...283..710K}
+C.~F. {Kennel} and F.~V. {Coroniti}.
+\newblock {Magnetohydrodynamic model of Crab nebula radiation.}
+\newblock \emph{\apj}, 283:\penalty0 710--730, Aug. 1984{\natexlab{b}}.
+\newblock \doi{10.1086/162357}.
+
+\bibitem[{Li} et~al.(1992){Li}, {Chiueh}, and
+  {Begelman}]{Chiueh-1992ApJ...394..459L}
+Z.-Y. {Li}, T.~{Chiueh}, and M.~C. {Begelman}.
+\newblock {Electromagnetically Driven Relativistic Jets: A Class of
+  Self-similar Solutions}.
+\newblock \emph{\apj}, 394:\penalty0 459, Aug. 1992.
+\newblock \doi{10.1086/171597}.
+
+\bibitem[Lora-Clavijo et~al.(2015)Lora-Clavijo, Cruz-Osorio, and
+  Guzm{\'{a}}n]{CAFE}
+F.~D. Lora-Clavijo, A.~Cruz-Osorio, and F.~S. Guzm{\'{a}}n.
+\newblock {CAFE}: A {NEW} {RELATIVISTIC} {MHD} {CODE}.
+\newblock \emph{The Astrophysical Journal Supplement Series}, 218\penalty0
+  (2):\penalty0 24, jun 2015.
+\newblock \doi{10.1088/0067-0049/218/2/24}.
+\newblock URL \url{https://doi.org/10.1088%2F0067-0049%2F218%2F2%2F24}.
+
+\bibitem[{Mathews}(1971)]{TM_EOS}
+W.~G. {Mathews}.
+\newblock {The Hydromagnetic Free Expansion of a Relativistic Gas}.
+\newblock \emph{\apj}, 165:\penalty0 147, Apr 1971.
+\newblock \doi{10.1086/150883}.
+
+\bibitem[Mignone and McKinney(2007)]{NR_Limit}
+A.~Mignone and J.~C. McKinney.
+\newblock {Equation of state in relativistic magnetohydrodynamics: variable
+  versus constant adiabatic index}.
+\newblock \emph{Monthly Notices of the Royal Astronomical Society},
+  378\penalty0 (3):\penalty0 1118--1130, 06 2007.
+\newblock ISSN 0035-8711.
+\newblock \doi{10.1111/j.1365-2966.2007.11849.x}.
+\newblock URL \url{https://doi.org/10.1111/j.1365-2966.2007.11849.x}.
+
+\bibitem[Mignone et~al.(2005)Mignone, Plewa, and Bodo]{Compare_TM_EOS}
+A.~Mignone, T.~Plewa, and G.~Bodo.
+\newblock The piecewise parabolic method for multidimensional relativistic
+  fluid dynamics.
+\newblock \emph{The Astrophysical Journal Supplement Series}, 160, 09 2005.
+\newblock \doi{10.1086/430905}.
+
+\bibitem[{Mooley} et~al.(2018{\natexlab{a}}){Mooley}, {Deller}, {Gottlieb},
+  {Nakar}, {Hallinan}, {Bourke}, {Frail}, {Horesh}, {Corsi}, and
+  {Hotokezaka}]{NM2}
+K.~P. {Mooley}, A.~T. {Deller}, O.~{Gottlieb}, E.~{Nakar}, G.~{Hallinan},
+  S.~{Bourke}, D.~A. {Frail}, A.~{Horesh}, A.~{Corsi}, and K.~{Hotokezaka}.
+\newblock {Superluminal motion of a relativistic jet in the neutron-star merger
+  GW170817}.
+\newblock \emph{\nat}, 561\penalty0 (7723):\penalty0 355--359, Sept.
+  2018{\natexlab{a}}.
+\newblock \doi{10.1038/s41586-018-0486-3}.
+
+\bibitem[{Mooley} et~al.(2018{\natexlab{b}}){Mooley}, {Nakar}, {Hotokezaka},
+  {Hallinan}, {Corsi}, {Frail}, {Horesh}, {Murphy}, {Lenc}, {Kaplan}, {de},
+  {Dobie}, {Chand ra}, {Deller}, {Gottlieb}, {Kasliwal}, {Kulkarni}, {Myers},
+  {Nissanke}, {Piran}, {Lynch}, {Bhalerao}, {Bourke}, {Bannister}, and
+  {Singer}]{NM1}
+K.~P. {Mooley}, E.~{Nakar}, K.~{Hotokezaka}, G.~{Hallinan}, A.~{Corsi}, D.~A.
+  {Frail}, A.~{Horesh}, T.~{Murphy}, E.~{Lenc}, D.~L. {Kaplan}, K.~{de},
+  D.~{Dobie}, P.~{Chand ra}, A.~{Deller}, O.~{Gottlieb}, M.~M. {Kasliwal},
+  S.~R. {Kulkarni}, S.~T. {Myers}, S.~{Nissanke}, T.~{Piran}, C.~{Lynch},
+  V.~{Bhalerao}, S.~{Bourke}, K.~W. {Bannister}, and L.~P. {Singer}.
+\newblock {A mildly relativistic wide-angle outflow in the neutron-star merger
+  event GW170817}.
+\newblock \emph{\nat}, 554\penalty0 (7691):\penalty0 207--210, Feb.
+  2018{\natexlab{b}}.
+\newblock \doi{10.1038/nature25452}.
+
+\bibitem[Noble et~al.(2006)Noble, Gammie, McKinney, and Zanna]{Noble_2006}
+S.~C. Noble, C.~F. Gammie, J.~C. McKinney, and L.~D. Zanna.
+\newblock Primitive variable solvers for conservative general relativistic
+  magnetohydrodynamics.
+\newblock \emph{The Astrophysical Journal}, 641\penalty0 (1):\penalty0
+  626--637, apr 2006.
+\newblock \doi{10.1086/500349}.
+\newblock URL \url{https://doi.org/10.1086%2F500349}.
+
+\bibitem[{N{\'u}{\~n}ez-de la Rosa} and {Munz}(2016)]{XTROEM}
+J.~{N{\'u}{\~n}ez-de la Rosa} and C.-D. {Munz}.
+\newblock {XTROEM-FV: a new code for computational astrophysics based on very
+  high order finite-volume methods - II. Relativistic hydro- and
+  magnetohydrodynamics}.
+\newblock \emph{\mnras}, 460\penalty0 (1):\penalty0 535--559, Jul 2016.
+\newblock \doi{10.1093/mnras/stw999}.
+
+\bibitem[Ryu et~al.(2006)Ryu, Chattopadhyay, and Choi]{RC_EOS}
+D.~Ryu, I.~Chattopadhyay, and E.~Choi.
+\newblock Equation of state in numerical relativistic hydrodynamics.
+\newblock \emph{The Astrophysical Journal Supplement Series}, 166\penalty0
+  (1):\penalty0 410--420, sep 2006.
+\newblock \doi{10.1086/505937}.
+\newblock URL \url{https://doi.org/10.1086%2F505937}.
+
+\bibitem[Schive et~al.(2010)Schive, Tsai, and Chiueh]{gamer-1}
+H.-Y. Schive, Y.-C. Tsai, and T.~Chiueh.
+\newblock {GAMER}: A {GRAPHIC} {PROCESSING} {UNIT} {ACCELERATED}
+  {ADAPTIVE}-{MESH}-{REFINEMENT} {CODE} {FOR} {ASTROPHYSICS}.
+\newblock \emph{The Astrophysical Journal Supplement Series}, 186\penalty0
+  (2):\penalty0 457--484, feb 2010.
+\newblock \doi{10.1088/0067-0049/186/2/457}.
+\newblock URL \url{https://doi.org/10.1088%2F0067-0049%2F186%2F2%2F457}.
+
+\bibitem[Schive et~al.(2018)Schive, ZuHone, Goldbaum, Turk, Gaspari, and
+  Cheng]{gamer-2}
+H.-Y. Schive, J.~A. ZuHone, N.~J. Goldbaum, M.~J. Turk, M.~Gaspari, and C.-Y.
+  Cheng.
+\newblock {gamer-2: a GPU-accelerated adaptive mesh refinement code –
+  accuracy, performance, and scalability}.
+\newblock \emph{Monthly Notices of the Royal Astronomical Society},
+  481\penalty0 (4):\penalty0 4815--4840, 09 2018.
+\newblock ISSN 0035-8711.
+\newblock \doi{10.1093/mnras/sty2586}.
+\newblock URL \url{https://doi.org/10.1093/mnras/sty2586}.
+
+\bibitem[Synge(1957)]{Synge}
+J.~L. Synge.
+\newblock {The Relativistic Gas}.
+\newblock \emph{North-Holland Pub. Co.; Interscience Publishers}, 1957.
+
+\bibitem[{Taub}(1948)]{Taub}
+A.~H. {Taub}.
+\newblock {Relativistic Rankine-Hugoniot Equations}.
+\newblock \emph{Physical Review}, 74\penalty0 (3):\penalty0 328--334, Aug 1948.
+\newblock \doi{10.1103/PhysRev.74.328}.
+
+\bibitem[{Turk} et~al.(2011){Turk}, {Smith}, {Oishi}, {Skory}, {Skillman},
+  {Abel}, and {Norman}]{YT}
+M.~J. {Turk}, B.~D. {Smith}, J.~S. {Oishi}, S.~{Skory}, S.~W. {Skillman},
+  T.~{Abel}, and M.~L. {Norman}.
+\newblock {yt: A Multi-code Analysis Toolkit for Astrophysical Simulation
+  Data}.
+\newblock \emph{The Astrophysical Journal Supplement Series}, 192:\penalty0 9,
+  Jan. 2011.
+\newblock \doi{10.1088/0067-0049/192/1/9}.
+
+\bibitem[{Woosley}(1993)]{LongGRB}
+S.~E. {Woosley}.
+\newblock {Gamma-Ray Bursts from Stellar Mass Accretion Disks around Black
+  Holes}.
+\newblock \emph{\apj}, 405:\penalty0 273, Mar. 1993.
+\newblock \doi{10.1086/172359}.
+
+\end{thebibliography}
