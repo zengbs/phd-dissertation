@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99d (TeX Live 2021)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: v1.aux
+The style file: mnras.bst
+Database file #1: v1.bib
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+"ArXiv e-prints" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry VL2
+while executing---line 1822 of file mnras.bst
+Warning--empty journal in VL2
+"ArXiv e-prints" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry VL2
+while executing---line 1822 of file mnras.bst
+You've used 48 entries,
+            2881 wiz_defined-function locations,
+            1142 strings with 19520 characters,
+and the built_in function-call counts, 21462 in all, are:
+= -- 1764
+> -- 1481
+< -- 129
++ -- 684
+- -- 186
+* -- 2592
+:= -- 3371
+add.period$ -- 0
+call.type$ -- 48
+change.case$ -- 97
+chr.to.int$ -- 46
+cite$ -- 49
+duplicate$ -- 1080
+empty$ -- 1098
+format.name$ -- 352
+if$ -- 3696
+int.to.chr$ -- 3
+int.to.str$ -- 0
+missing$ -- 51
+newline$ -- 160
+num.names$ -- 324
+pop$ -- 215
+preamble$ -- 1
+purify$ -- 192
+quote$ -- 0
+skip$ -- 670
+stack$ -- 0
+substring$ -- 1187
+swap$ -- 521
+text.length$ -- 193
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 423
+warning$ -- 1
+while$ -- 355
+width$ -- 0
+write$ -- 493
+(There were 2 error messages)

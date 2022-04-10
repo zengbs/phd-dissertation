@@ -1,0 +1,1157 @@
+@ARTICLE{XTROEM,
+       author = {{N{\'u}{\~n}ez-de la Rosa}, Jonatan and {Munz}, Claus-Dieter},
+        title = "{XTROEM-FV: a new code for computational astrophysics based on very high order finite-volume methods - II. Relativistic hydro- and magnetohydrodynamics}",
+      journal = {\mnras},
+     keywords = {hydrodynamics, MHD, relativistic processes, shock waves, methods: numerical},
+         year = "2016",
+        month = "Jul",
+       volume = {460},
+       number = {1},
+        pages = {535-559},
+          doi = {10.1093/mnras/stw999},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2016MNRAS.460..535N},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@article{CAFE,
+	doi = {10.1088/0067-0049/218/2/24},
+	url = {https://doi.org/10.1088%2F0067-0049%2F218%2F2%2F24},
+	year = "2015",
+	month = {jun},
+	publisher = {{IOP} Publishing},
+	volume = {218},
+	number = {2},
+	pages = {24},
+	author = {F. D. Lora-Clavijo and A. Cruz-Osorio and F. S. Guzm{\'{a}}n},
+	title = {{CAFE}: A {NEW} {RELATIVISTIC} {MHD} {CODE}},
+	journal = {The Astrophysical Journal Supplement Series},
+	abstract = {We introduce CAFE, a new independent code designed to solve the equations of relativistic ideal magnetohydrodynamics (RMHD) in three dimensions. We present the standard tests for an RMHD code and for the relativistic hydrodynamics regime because we have not reported them before. The tests include the one-dimensional Riemann problems related to blast waves, head-on collisions of streams, and states with transverse velocities, with and without magnetic field, which is aligned or transverse, constant or discontinuous across the initial discontinuity. Among the two-dimensional (2D) and 3D tests without magnetic field, we include the 2D Riemann problem, a one-dimensional shock tube along a diagonal, the high-speed Emery wind tunnel, the Kelvin–Helmholtz (KH) instability, a set of jets, and a 3D spherical blast wave, whereas in the presence of a magnetic field we show the magnetic rotor, the cylindrical explosion, a case of Kelvin–Helmholtz instability, and a 3D magnetic field advection loop. The code uses high-resolution shock-capturing methods, and we present the error analysis for a combination that uses the Harten, Lax, van Leer, and Einfeldt (HLLE) flux formula combined with a linear, piecewise parabolic method and fifth-order weighted essentially nonoscillatory reconstructors. We use the flux-constrained transport and the divergence cleaning methods to control the divergence-free magnetic field constraint.}
+}
+
+@article{RAMSES,
+	author = {{Lamberts, A.} and {Fromang, S.} and {Dubus, G.} and {Teyssier, R.}},
+	title = {Simulating gamma-ray binaries with a relativistic extension of RAMSES},
+	DOI= "10.1051/0004-6361/201322266",
+	url= "https://doi.org/10.1051/0004-6361/201322266",
+	journal = {A\&A},
+	year = 2013,
+	volume = 560,
+	pages = "A79",
+	month = "",
+}
+@article{ATHENA++,
+	doi = {10.1088/0067-0049/193/1/6},
+	url = {https://doi.org/10.1088%2F0067-0049%2F193%2F1%2F6},
+	year = 2011,
+	month = {jan},
+	publisher = {{IOP} Publishing},
+	volume = {193},
+	number = {1},
+	pages = {6},
+	author = {Kris Beckwith and James M. Stone},
+	title = {A {SECOND}-{ORDER} {GODUNOV} {METHOD} {FOR} {MULTI}-{DIMENSIONAL} {RELATIVISTIC} {MAGNETOHYDRODYNAMICS}},
+	journal = {The Astrophysical Journal Supplement Series},
+	abstract = {We describe a new Godunov algorithm for relativistic magnetohydrodynamics (RMHD) that combines a simple, unsplit second-order accurate integrator with the constrained transport (CT) method for enforcing the solenoidal constraint on the magnetic field. A variety of approximate Riemann solvers are implemented to compute the fluxes of the conserved variables. The methods are tested with a comprehensive suite of multi-dimensional problems. These tests have helped us develop a hierarchy of correction steps that are applied when the integration algorithm predicts unphysical states due to errors in the fluxes, or errors in the inversion between conserved and primitive variables. Although used exceedingly rarely, these corrections dramatically improve the stability of the algorithm. We present preliminary results from the application of these algorithms to two problems in RMHD: the propagation of supersonic magnetized jets and the amplification of magnetic field by turbulence driven by the relativistic Kelvin-Helmholtz instability (KHI). Both of these applications reveal important differences between the results computed with Riemann solvers that adopt different approximations for the fluxes. For example, we show that the use of Riemann solvers that include both contact and rotational discontinuities can increase the strength of the magnetic field within the cocoon by a factor of 10 in simulations of RMHD jets and can increase the spectral resolution of three-dimensional RMHD turbulence driven by the KHI by a factor of two. This increase in accuracy far outweighs the associated increase in computational cost. Our RMHD scheme is publicly available as part of the Athena code.}
+}
+@article{PLUTO,
+	doi = {10.1088/0067-0049/198/1/7},
+	url = {https://doi.org/10.1088%2F0067-0049%2F198%2F1%2F7},
+	year = 2011,
+	month = {dec},
+	publisher = {{IOP} Publishing},
+	volume = {198},
+	number = {1},
+	pages = {7},
+	author = {A. Mignone and C. Zanni and P. Tzeferacos and B. van Straalen and P. Colella and G. Bodo},
+	title = {{THE} {PLUTO} {CODE} {FOR} {ADAPTIVE} {MESH} {COMPUTATIONS} {IN} {ASTROPHYSICAL} {FLUID} {DYNAMICS}},
+	journal = {The Astrophysical Journal Supplement Series},
+	abstract = {We present a description of the adaptive mesh refinement (AMR) implementation of the PLUTO code for solving the equations of classical and special relativistic magnetohydrodynamics (MHD and RMHD). The current release exploits, in addition to the static grid version of the code, the distributed infrastructure of the CHOMBO library for multidimensional parallel computations over block-structured, adaptively refined grids. We employ a conservative finite-volume approach where primary flow quantities are discretized at the cell center in a dimensionally unsplit fashion using the Corner Transport Upwind method. Time stepping relies on a characteristic tracing step where piecewise parabolic method, weighted essentially non-oscillatory, or slope-limited linear interpolation schemes can be handily adopted. A characteristic decomposition-free version of the scheme is also illustrated. The solenoidal condition of the magnetic field is enforced by augmenting the equations with a generalized Lagrange multiplier providing propagation and damping of divergence errors through a mixed hyperbolic/parabolic explicit cleaning step. Among the novel features, we describe an extension of the scheme to include non-ideal dissipative processes, such as viscosity, resistivity, and anisotropic thermal conduction without operator splitting. Finally, we illustrate an efficient treatment of point-local, potentially stiff source terms over hierarchical nested grids by taking advantage of the adaptivity in time. Several multidimensional benchmarks and applications to problems of astrophysical relevance assess the potentiality of the AMR version of PLUTO in resolving flow features separated by large spatial and temporal disparities.}
+}
+@article{Choi_2010,
+	doi = {10.1088/0067-0049/191/1/113},
+	url = {https://doi.org/10.1088%2F0067-0049%2F191%2F1%2F113},
+	year = 2010,
+	month = {oct},
+	publisher = {{IOP} Publishing},
+	volume = {191},
+	number = {1},
+	pages = {113--123},
+	author = {Eunwoo Choi and Paul J. Wiita},
+	title = {A {MULTIDIMENSIONAL} {RELATIVISTIC} {HYDRODYNAMIC} {CODE} {WITH} A {GENERAL} {EQUATION} {OF} {STATE}},
+	journal = {The Astrophysical Journal Supplement Series},
+	abstract = {The ideal gas equation of state with a constant adiabatic index, although commonly used in relativistic hydrodynamics, is a poor approximation for most relativistic astrophysical flows. Here we propose a new general equation of state for a multi-component relativistic gas which is consistent with the Synge equation of state for a relativistic perfect gas and is suitable for numerical (special) relativistic hydrodynamics. We also present a multidimensional relativistic hydrodynamic code incorporating the proposed general equation of state, based on the HLL scheme, which does not make use of a full characteristic decomposition of the relativistic hydrodynamic equations. The accuracy and robustness of this code is demonstrated in multidimensional calculations through several highly relativistic test problems taking into account nonvanishing tangential velocities. Results from three-dimensional simulations of relativistic jets show that the morphology and dynamics of the relativistic jets are significantly influenced by the different equation of state and by different compositions of relativistic perfect gases. Our new numerical code, combined with our proposed equation of state, is very efficient and robust, and unlike previous codes, it gives very accurate results for thermodynamic variables in relativistic astrophysical flows.}
+}
+
+@article{WhiskyMHD,
+	doi = {10.1088/0264-9381/24/12/s16},
+	url = {https://doi.org/10.1088%2F0264-9381%2F24%2F12%2Fs16},
+	year = 2007,
+	month = {jun},
+	publisher = {{IOP} Publishing},
+	volume = {24},
+	number = {12},
+	pages = {S235--S258},
+	author = {Bruno Giacomazzo and Luciano Rezzolla},
+	title = {{WhiskyMHD}: a new numerical code for general relativistic magnetohydrodynamics},
+	journal = {Classical and Quantum Gravity},
+	abstract = {The accurate modelling of astrophysical scenarios involving compact objects and magnetic fields, such as the collapse of rotating magnetized stars to black holes or the phenomenology of γ-ray bursts, requires the solution of the Einstein equations together with those of general-relativistic magnetohydrodynamics. We present a new numerical code developed to solve the full set of general-relativistic magnetohydrodynamics equations in a dynamical and arbitrary spacetime with high-resolution shock-capturing techniques on domains with adaptive mesh refinements. After a discussion of the equations solved and of the techniques employed, we present a series of testbeds carried out to validate the code and assess its accuracy. Such tests range from the solution of relativistic Riemann problems in flat spacetime, over to the stationary accretion onto a Schwarzschild black hole and up to the evolution of oscillating magnetized stars in equilibrium and constructed as consistent solutions of the coupled Einstein–Maxwell equations.}
+}
+@article{FLASH,
+	doi = {10.1086/317361},
+	url = {https://doi.org/10.1086%2F317361},
+	year = 2000,
+	month = {nov},
+	publisher = {{IOP} Publishing},
+	volume = {131},
+	number = {1},
+	pages = {273--334},
+	author = {B. Fryxell and K. Olson and P. Ricker and F. X. Timmes and M. Zingale and D. Q. Lamb and P. MacNeice and R. Rosner and J. W. Truran and H. Tufo},
+	title = {{FLASH}: An Adaptive Mesh Hydrodynamics Code for Modeling Astrophysical Thermonuclear Flashes},
+	journal = {The Astrophysical Journal Supplement Series},
+	abstract = {We report on the completion of the first version of a new-generation simulation code, FLASH. The FLASH code solves the fully compressible, reactive hydrodynamic equations and allows for the use of adaptive mesh refinement. It also contains state-of-the-art modules for the equations of state and thermonuclear reaction networks. The FLASH code was developed to study the problems of nuclear flashes on the surfaces of neutron stars and white dwarfs, as well as in the interior of white dwarfs. We expect, however, that the FLASH code will be useful for solving a wide variety of other problems. This first version of the code has been subjected to a large variety of test cases and is currently being used for production simulations of X-ray bursts, Rayleigh-Taylor and Richtmyer-Meshkov instabilities, and thermonuclear flame fronts. The FLASH code is portable and already runs on a wide variety of massively parallel machines, including some of the largest machines now extant.}
+}
+@article{GENESIS,
+	doi = {10.1086/313214},
+	url = {https://doi.org/10.1086%2F313214},
+	year = 1999,
+	month = {may},
+	publisher = {{IOP} Publishing},
+	volume = {122},
+	number = {1},
+	pages = {151--166},
+	author = {M. A. Aloy and J. M. Ibanez and J. M. Marti and E. Muller},
+	title = {{GENESIS}: A High-Resolution Code for Three-dimensional Relativistic Hydrodynamics},
+	journal = {The Astrophysical Journal Supplement Series},
+	abstract = {The main features of a three-dimensional, high-resolution special relativistic hydro code based on relativistic Riemann solvers are described. The capabilities and performance of the code are discussed. In particular, we present the results of extensive test calculations that demonstrate that the code can accurately and efficiently handle strong shocks in three spatial dimensions. Results of the performance of the code on single and multiprocessor machines are given. Simulations (in double precision) with ≤7×106 computational cells require less than 1 Gbyte of RAM memory and ≈ 7×10-5 CPU s per zone and time step (on a SCI Cray-Origin 2000 with a R10000 processor). Currently, a version of the numerical code is under development, which is suited for massively parallel computers with distributed memory architecture (such as, e.g., Cray T3E).}
+}
+@article{BERNSTEIN20096212,
+title = "Refining a relativistic, hydrodynamic solver: Admitting ultra-relativistic flows",
+journal = "Journal of Computational Physics",
+volume = "228",
+number = "17",
+pages = "6212 - 6230",
+year = "2009",
+issn = "0021-9991",
+doi = "https://doi.org/10.1016/j.jcp.2009.05.012",
+url = "http://www.sciencedirect.com/science/article/pii/S002199910900271X",
+author = "J.P. Bernstein and P.A. Hughes",
+keywords = "Numerical methods, Hydrodynamics, Relativity: special, Pulsars",
+abstract = "We have undertaken the simulation of hydrodynamic flows with bulk Lorentz factors in the range 102–106. We discuss the application of an existing relativistic, hydrodynamic primitive variable recovery algorithm to a study of pulsar winds, and, in particular, the refinement made to admit such ultra-relativistic flows. We show that an iterative quartic root finder breaks down for Lorentz factors above 102 and employ an analytic root finder as a solution. We find that the former, which is known to be robust for Lorentz factors up to at least 50, offers a 24% speed advantage. We demonstrate the existence of a simple diagnostic allowing for a hybrid primitives recovery algorithm that includes an automatic, real-time toggle between the iterative and analytical methods. We further determine the accuracy of the iterative and hybrid algorithms for a comprehensive selection of input parameters and demonstrate the latter’s capability to elucidate the internal structure of ultra-relativistic plasmas. In particular, we discuss simulations showing that the interaction of a light, ultra-relativistic pulsar wind with a slow, dense ambient medium can give rise to asymmetry reminiscent of the Guitar nebula leading to the formation of a relativistic backflow harboring a series of internal shockwaves. The shockwaves provide thermalized energy that is available for the continued inflation of the PWN bubble. In turn, the bubble enhances the asymmetry, thereby providing positive feedback to the backflow."
+}
+
+@article{NR_Limit,
+    author = {Mignone, A. and McKinney, Jonathan C.},
+    title = "{Equation of state in relativistic magnetohydrodynamics: variable versus constant adiabatic index}",
+    journal = {Monthly Notices of the Royal Astronomical Society},
+    volume = {378},
+    number = {3},
+    pages = {1118-1130},
+    year = {2007},
+    month = {06},
+    abstract = "{The role of the equation of state (EoS) for a perfectly conducting, relativistic magnetized fluid is the main subject of this work. The ideal constant Γ-law EoS, commonly adopted in a wide range of astrophysical applications, is compared with a more realistic EoS that better approximates the single-specie relativistic gas. The paper focuses on three different topics. First, the influence of a more realistic EoS on the propagation of fast magnetosonic shocks is investigated. This calls into question the validity of the constant Γ-law EoS in problems where the temperature of the gas substantially changes across hydromagnetic waves. Secondly, we present a new inversion scheme to recover primitive variables (such as rest-mass density and pressure) from conservative ones that allows for a general EoS and avoids catastrophic numerical cancellations in the non-relativistic and ultrarelativistic limits. Finally, selected numerical tests of astrophysical relevance (including magnetized accretion flows around Kerr black holes) are compared using different equations of state. Our main conclusion is that the choice of a realistic EoS can considerably bear upon the solution when transitions from cold to hot gas (or vice versa) are present. Under these circumstances, a polytropic EoS can significantly endanger the solution.}",
+    issn = {0035-8711},
+    doi = {10.1111/j.1365-2966.2007.11849.x},
+    url = {https://doi.org/10.1111/j.1365-2966.2007.11849.x},
+    eprint = {http://oup.prod.sis.lan/mnras/article-pdf/378/3/1118/18672055/mnras0378-1118.pdf},
+}
+
+@ARTICLE{TM_EOS,
+       author = {{Mathews}, William G.},
+        title = "{The Hydromagnetic Free Expansion of a Relativistic Gas}",
+      journal = {\apj},
+         year = "1971",
+        month = "Apr",
+       volume = {165},
+        pages = {147},
+          doi = {10.1086/150883},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/1971ApJ...165..147M},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{Synge,
+       author = {Synge, J L.},
+        title = "{The Relativistic Gas}",
+      journal = {North-Holland Pub. Co.; Interscience Publishers},
+         year = "1957",
+}
+
+@article{Compare_TM_EOS,
+author = {Mignone, A. and Plewa, Tomasz and Bodo, G.},
+year = {2005},
+month = {09},
+pages = {},
+title = {The Piecewise Parabolic Method for Multidimensional Relativistic Fluid Dynamics},
+volume = {160},
+journal = {The Astrophysical Journal Supplement Series},
+doi = {10.1086/430905}
+}
+
+@article{van_Leer_1979,
+	doi = {10.1016/0021-9991(79)90145-1},
+	url = {https://doi.org/10.1016%2F0021-9991%2879%2990145-1},
+	year = 1979,
+	month = {jul},
+	publisher = {Elsevier {BV}},
+	volume = {32},
+	number = {1},
+	pages = {101--136},
+	author = {Bram van Leer},
+	title = {Towards the ultimate conservative difference scheme. V. A second-order sequel to Godunov{\textquotesingle}s method},
+	journal = {Journal of Computational Physics}
+}
+
+
+@ARTICLE{Taub,
+       author = {{Taub}, A.~H.},
+        title = "{Relativistic Rankine-Hugoniot Equations}",
+      journal = {Physical Review},
+         year = "1948",
+        month = "Aug",
+       volume = {74},
+       number = {3},
+        pages = {328-334},
+          doi = {10.1103/PhysRev.74.328},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/1948PhRv...74..328T},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+@article{RC_EOS,
+	doi = {10.1086/505937},
+	url = {https://doi.org/10.1086%2F505937},
+	year = 2006,
+	month = {sep},
+	publisher = {{IOP} Publishing},
+	volume = {166},
+	number = {1},
+	pages = {410--420},
+	author = {Dongsu Ryu and Indranil Chattopadhyay and Eunwoo Choi},
+	title = {Equation of State in Numerical Relativistic Hydrodynamics},
+	journal = {The Astrophysical Journal Supplement Series},
+	abstract = {Relativistic temperature of gas raises the issue of the equation of state (EOS) in relativistic hydrodynamics. We study the EOS for numerical relativistic hydrodynamics, and propose a new EOS that is simple and yet approximates very closely the EOS of the single-component perfect gas in relativistic regime. We also discuss the calculation of primitive variables from conservative ones for the EOSs considered in the paper, and present the eigenstructure of relativistic hydrodynamics for a general EOS, in a way that they can be used to build numerical codes. Tests with a code based on the total variation diminishing (TVD) scheme are presented to highlight the differences induced by different EOSs.}
+}
+
+@book{Nicholas,
+author = {Higham, Nicholas J.},
+title = {Accuracy and Stability of Numerical Algorithms},
+year = {2002},
+isbn = {0898715210},
+publisher = {Society for Industrial and Applied Mathematics},
+address = {USA},
+edition = {2nd}
+}
+
+@article{Bertschinger,
+	url = {http://web.mit.edu/edbert/GR/gr6.pdf},
+	year = 2000,
+	volume = {Physics 8.962},
+	author = {Edmund Bertschinger},
+	title = {Gravitation in the Weak-Field Limit},
+	journal = {(MIT's general relativity course) lecture notes}
+}
+
+@article{gamer-2,
+    author = {Schive, Hsi-Yu and ZuHone, John A and Goldbaum, Nathan J and Turk, Matthew J and Gaspari, Massimo and Cheng, Chin-Yu},
+    title = "{gamer-2: a GPU-accelerated adaptive mesh refinement code – accuracy, performance, and scalability}",
+    journal = {Monthly Notices of the Royal Astronomical Society},
+    volume = {481},
+    number = {4},
+    pages = {4815-4840},
+    year = {2018},
+    month = {09},
+    abstract = "{We present gamer-2, a GPU-accelerated adaptive mesh refinement (AMR) code for astrophysics. It provides a rich set of features, including adaptive time-stepping, several hydrodynamic schemes, magnetohydrodynamics, self-gravity, particles, star formation, chemistry, and radiative processes with grackle, data analysis with yt, and memory pool for efficient object allocation. gamer-2 is fully bitwise reproducible. For the performance optimization, it adopts hybrid OpenMP/MPI/GPU parallelization and utilizes overlapping CPU computation, GPU computation, and CPU–GPU communication. Load balancing is achieved using a Hilbert space-filling curve on a level-by-level basis without the need to duplicate the entire AMR hierarchy on each MPI process. To provide convincing demonstrations of the accuracy and performance of gamer-2, we directly compare with enzo on isolated disc galaxy simulations and with flash on galaxy cluster merger simulations. We show that the physical results obtained by different codes are in very good agreement, and gamer-2 outperforms enzo and flash by nearly one and two orders of magnitude, respectively, on the Blue Waters supercomputers using 1–256 nodes. More importantly, gamer-2 exhibits similar or even better parallel scalability compared to the other two codes. We also demonstrate good weak and strong scaling using up to 4096 GPUs and 65 536 CPU cores, and achieve a uniform resolution as high as \\$10\\, 240^3\\$ cells. Furthermore, gamer-2 can be adopted as an AMR + GPUs framework and has been extensively used for the wave dark matter simulations. gamer-2 is open source (available at https://github.com/gamer-project/gamer) and new contributions are welcome.}",
+    issn = {0035-8711},
+    doi = {10.1093/mnras/sty2586},
+    url = {https://doi.org/10.1093/mnras/sty2586},
+    eprint = {https://academic.oup.com/mnras/article-pdf/481/4/4815/25981903/sty2586.pdf},
+}
+
+
+@article{Lohner,
+author = {L\"{o}hner, Rainald and Morgan, Ken and Peraire, Jaime and Vahdati, Mehdi},
+title = {Finite element flux-corrected transport (FEM–FCT) for the euler and Navier–Stokes equations},
+journal = {International Journal for Numerical Methods in Fluids},
+volume = {7},
+number = {10},
+pages = {1093-1109},
+doi = {10.1002/fld.1650071007},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/fld.1650071007},
+eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/fld.1650071007},
+abstract = {Abstract A high resolution finite element method for the solution of problems involving high speed compressible flows is presented. The method uses the concepts of flux-corrected transport and is presented in a form which is suitable for implementation on completely unstructured triangular or tetrahedral meshes. Transient and steady-state examples are solved to illustrate the performance of the algorithm.},
+year = {1987}
+}
+
+
+@Article{Giovannini2018,
+  author   = {Giovannini, G. and Savolainen, T. and Orienti, M. and Nakamura, M. and Nagai, H. and Kino, M. and Giroletti, M. and Hada, K. and Bruni, G. and Kovalev, Y. Y. and Anderson, J. M. and D’Ammando, F. and Hodgson, J. and Honma, M. and Krichbaum, T. P. and Lee, S.-S. and Lico, R. and Lisakov, M. M. and Lobanov, A. P. and Petrov, L. and Sohn, B. W. and Sokolovsky, K. V. and Voitsik, P. A. and Zensus, J. A. and Tingay, S.},
+  title    = {A wide and collimated radio jet in 3C84 on the scale of a few hundred gravitational radii},
+  journal  = {Nature Astronomy},
+  year     = {2018},
+  volume   = {2},
+  number   = {6},
+  pages    = {472--477},
+  month    = jun,
+  issn     = {2397-3366},
+  abstract = {Understanding the formation of relativistic jets in active galactic nuclei remains an elusive problem1. This is partly because observational tests of jet formation models suffer from the limited angular resolution of ground-based very-long-baseline interferometry that has thus far been able to probe the structure of the jet acceleration and collimation region in only two sources2,3. Here, we report observations of 3C84 (NGC 1275)--the central galaxy of the Perseus cluster--made with an interferometric array including the orbiting radio telescope of the RadioAstron4mission. The data transversely resolve the edge-brightened jet in 3C84 only 30 μas from the core, which is ten times closer to the central engine than was possible in previous ground-based observations5and allows us to measure the jet collimation profile from ~102 to ~104 gravitational radii (rg) from the black hole. The previously found5, almost cylindrical jet profile on scales larger than a few thousand rg is seen to continue at least down to a few hundred rg from the black hole, and we find a broad jet with a transverse radius of ≳250 rg at only 350 rg from the core. This implies that either the bright outer jet layer goes through a very rapid lateral expansion on scales ≲102 rg or it is launched from the accretion disk.},
+  file     = {:/home/tseng/Documents/paper/relativistic jets/2018-a-wide-and-collimated-radio-jet-in-3c84-on-the-scale-of-a-few.pdf:PDF},
+  groups   = {3C84},
+  refid    = {Giovannini2018},
+  url      = {https://doi.org/10.1038/s41550-018-0431-2},
+}
+
+
+@Article{Nagai_2014,
+  author    = {H. Nagai and T. Haga and G. Giovannini and A. Doi and M. Orienti and F. D' Ammando and M. Kino and M. Nakamura and K. Asada and K. Hada and M. Giroletti},
+  journal   = {The Astrophysical Journal},
+  title     = {LIMB-BRIGHTENED JET OF 3C 84 REVEALED BY THE 43 GHz VERY-LONG-BASELINE-ARRAY OBSERVATION},
+  year      = {2014},
+  month     = {mar},
+  number    = {1},
+  pages     = {53},
+  volume    = {785},
+  doi       = {10.1088/0004-637x/785/1/53},
+  file      = {:/home/tseng/Documents/paper/Nagai_2014_ApJ_785_53.pdf:PDF},
+  groups    = {3C84},
+  publisher = {{IOP} Publishing},
+}
+
+
+@Article{Boccardi2015,
+  author    = {B. Boccardi and T. P. Krichbaum and U. Bach and F. Mertens and E. Ros and W. Alef and J. A. Zensus},
+  journal   = {A and A},
+  title     = {The stratified two-sided jet of Cygnus{\hspace{0.167em}}A},
+  year      = {2015},
+  month     = {dec},
+  pages     = {A33},
+  volume    = {585},
+  doi       = {10.1051/0004-6361/201526985},
+  groups    = {propagation},
+  publisher = {{EDP} Sciences},
+}
+
+
+@Article{Kim2018,
+  author  = {Kim, J.-Y. and Krichbaum, T. P. and Lu, R.-S. and Ros, E. and Bach, U. and Bremer, M. and de Vicente, P. and Lindqvist, M. and Zensus, J. A.},
+  title   = {The limb-brightened jet of M87 down to the 7 Schwarzschild radii scale},
+  journal = {A\&A},
+  year    = {2018},
+  volume  = {616},
+  file    = {:/home/tseng/Documents/paper/relativistic jets/2018-The limb-brightened jet of M 87 down to the 7 Schwarzschild.pdf:PDF},
+  groups  = {M87},
+  refid   = {10.105100046361201832921},
+  url     = {https://doi.org/10.1051/0004-6361/201832921},
+}
+
+
+@Article{Asada2012,
+  author    = {Keiichi Asada and Masanori Nakamura},
+  journal   = {The Astrophysical Journal},
+  title     = {{THE} {STRUCTURE} {OF} {THE} M87 {JET}: A {TRANSITION} {FROM} {PARABOLIC} {TO} {CONICAL} {STREAMLINES}},
+  year      = {2012},
+  month     = {jan},
+  number    = {2},
+  pages     = {L28},
+  volume    = {745},
+  doi       = {10.1088/2041-8205/745/2/l28},
+  file      = {:/home/tseng/Documents/paper/Asada_2012_ApJL_745_L28.pdf:PDF},
+  groups    = {M87},
+  publisher = {{IOP} Publishing},
+}
+
+
+@Article{Giroletti2004,
+  author    = {M. Giroletti and G. Giovannini and L. Feretti and W. D. Cotton and P. G. Edwards and L. Lara and A. P. Marscher and J. R. Mattox and B. G. Piner and T. Venturi},
+  journal   = {The Astrophysical Journal},
+  title     = {Parsec-Scale Properties of Markarian 501},
+  year      = {2004},
+  month     = {jan},
+  number    = {1},
+  pages     = {127--140},
+  volume    = {600},
+  doi       = {10.1086/379663},
+  file      = {:/home/tseng/Documents/paper/Giroletti_2004_ApJ_600_127.pdf:PDF},
+  groups    = {Markarian 501},
+  publisher = {{IOP} Publishing},
+}
+
+
+@Article{Stawarz2002,
+  author    = {{\L}. Stawarz and M. Ostrowski},
+  journal   = {The Astrophysical Journal},
+  title     = {Radiation from the Relativistic Jet: A Role of the Shear Boundary Layer},
+  year      = {2002},
+  month     = {oct},
+  number    = {2},
+  pages     = {763--774},
+  volume    = {578},
+  doi       = {10.1086/342649},
+  file      = {:/home/tseng/Documents/paper/Stawarz_2002_ApJ_578_763.pdf:PDF},
+  groups    = {theoretical model},
+  publisher = {{IOP} Publishing},
+}
+
+@article{SOD1978,
+title = "A survey of several finite difference methods for systems of nonlinear hyperbolic conservation laws",
+journal = "Journal of Computational Physics",
+volume = "27",
+number = "1",
+pages = "1 - 31",
+year = "1978",
+issn = "0021-9991",
+doi = "https://doi.org/10.1016/0021-9991(78)90023-2",
+url = "http://www.sciencedirect.com/science/article/pii/0021999178900232",
+author = "Gary A Sod",
+abstract = "The finite difference methods of Godunov, Hyman, Lax and Wendroff (two-step), MacCormack, Rusanov, the upwind scheme, the hybrid scheme of Harten and Zwas, the antidiffusion method of Boris and Book, the artificial compression method of Harten, and Glimm's method, a random choice method, are discussed. The methods are used to integrate the one-dimensional Eulerian form of the equations of gas dynamics in Cartesian coordinates for an inviscid, nonheat-conducting fluid. The test problem was a typical shock tube problem. The results are compared and demonstrate that Glimm's method has several advantages."
+}
+@Article{REZZOLLA2001,
+  author    = {Luciano Rezzolla and Olindo Zanotti and Jose A. Pons},
+  title     = {An improved exact Riemann solver for relativistic hydrodynamics},
+  journal   = {Journal of Fluid Mechanics},
+  year      = {2001},
+  volume    = {449},
+  pages     = {395-411},
+  issn      = {0022-1120},
+  abstract  = {A Riemann problem with prescribed initial conditions will produce one of three possible wave patterns corresponding to the propagation of the different discontinuities that will be produced once the system is allowed to relax. In general, when solving the Riemann problem numerically, the determination of the specific wave pattern produced is obtained through some initial guess which can be successively discarded or improved. We here discuss a new procedure, suitable for implementation in an exact Riemann solver in one dimension, which removes the initial ambiguity in the wave pattern. In particular we focus our attention on the relativistic velocity jump between the two initial states and use this to determine, through some analytic conditions, the wave pattern produced by the decay of the initial discontinuity. The exact Riemann problem is then solved by means of calculating the root of a nonlinear equation. Interestingly, in the case of two rarefaction waves, this root can even be found analytically. Our procedure is straightforward to implement numerically and improves the efficiency of numerical codes based on exact Riemann solvers.},
+  database  = {Cambridge Core},
+  doi       = {10.1017/s0022112001006450},
+  edition   = {2001/12/10},
+  file      = {:/home/tseng/Documents/paper/numerical methods/Riemann solver/2001-An improved exact Riemann solver for relativistic hydrodynamics.pdf:PDF},
+  groups    = {Riemann solver},
+  publisher = {Cambridge University Press},
+  url       = {https://www.cambridge.org/core/article/an-improved-exact-riemann-solver-for-relativistic-hydrodynamics/BC89780EA34DE042D36D673CE85C0666},
+}
+
+@article{Juttner,
+author = {Jüttner, Ferencz},
+title = {Das Maxwellsche Gesetz der Geschwindigkeitsverteilung in der Relativtheorie},
+journal = {Annalen der Physik},
+volume = {339},
+number = {5},
+pages = {856-882},
+doi = {10.1002/andp.19113390503},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/andp.19113390503},
+eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/andp.19113390503},
+year = {1911}
+}
+
+@article{HLLC_srhydro,
+    author = {Mignone, A. and Bodo, G.},
+    title = "{An HLLC Riemann solver for relativistic flows — I. Hydrodynamics}",
+    journal = {Monthly Notices of the Royal Astronomical Society},
+    volume = {364},
+    number = {1},
+    pages = {126-136},
+    year = {2005},
+    month = {11},
+    abstract = "{We present an extension of the HLLC approximate Riemann solver by Toro, Spruce and Speares to the relativistic equations of fluid dynamics. The solver retains the simplicity of the original two-wave formulation proposed by Harten, Lax and van Leer (HLL) but it restores the missing contact wave in the solution of the Riemann problem. The resulting numerical scheme is computationally efficient, robust and positively conservative. The performance of the new solver is evaluated through numerical testing in one and two dimensions.}",
+    issn = {0035-8711},
+    doi = {10.1111/j.1365-2966.2005.09546.x},
+    url = {https://doi.org/10.1111/j.1365-2966.2005.09546.x},
+    eprint = {https://academic.oup.com/mnras/article-pdf/364/1/126/3951607/364-1-126.pdf},
+}
+
+
+@article{HLLC_srmhd,
+    author = {Mignone, A. and Bodo, G.},
+    title = "{An HLLC Riemann solver for relativistic flows – II. Magnetohydrodynamics}",
+    journal = {Monthly Notices of the Royal Astronomical Society},
+    volume = {368},
+    number = {3},
+    pages = {1040-1054},
+    year = {2006},
+    month = {04},
+    abstract = "{An approximate Riemann solver for the equations of relativistic magnetohydrodynamics (RMHD) is derived. The Harten–Lax–van Leer contact wave (HLLC) solver, originally developed by Toro, Spruce and Spears, generalizes the algorithm described in a previous paper to the case where magnetic fields are present. The solution to the Riemann problem is approximated by two constant states bounded by two fast shocks and separated by a tangential wave. The scheme is Jacobian-free, in the sense that it avoids the expensive characteristic decomposition of the RMHD equations and it improves over the HLL scheme by restoring the missing contact wave.Multidimensional integration proceeds via the single step, corner transport upwind (CTU) method of Colella, combined with the constrained transport (CT) algorithm to preserve divergence-free magnetic fields. The resulting numerical scheme is simple to implement, efficient and suitable for a general equation of state. The robustness of the new algorithm is validated against one- and two-dimensional numerical test problems.}",
+    issn = {0035-8711},
+    doi = {10.1111/j.1365-2966.2006.10162.x},
+    url = {https://doi.org/10.1111/j.1365-2966.2006.10162.x},
+    eprint = {https://academic.oup.com/mnras/article-pdf/368/3/1040/18664367/mnras0368-1040.pdf},
+}
+
+
+
+@article{HLL,
+author = {Harten, Amiram and Lax, Peter D. and Leer, Bram van},
+title = {On Upstream Differencing and Godunov-Type Schemes for Hyperbolic Conservation Laws},
+journal = {SIAM Review},
+volume = {25},
+number = {1},
+pages = {35-61},
+year = {1983},
+doi = {10.1137/1025002},
+URL = {https://doi.org/10.1137/1025002},
+eprint = {https://doi.org/10.1137/1025002}
+}
+
+
+
+@Book{Toro,
+  title     = {Riemann solvers and numerical methods for fluid dynamics : a practical introduction},
+  publisher = {Springer},
+  year      = {2011},
+  author    = {Toro, Elewterio F.},
+  address   = {Berlin},
+  database  = {/z-wcorg/},
+  file      = {:/home/tseng/Documents/books and slides/physics/hydrodynamics/computational hydro/Riemann Solvers and Numerical Methods for Fluid Dynamics.pdf:PDF},
+  groups    = {books},
+  issn      = {9783540252023 3540252029 9783540498346 3540498346},
+  language  = {English},
+  refid     = {711807341},
+}
+
+@article{HLLC, 
+title={The development of a Riemann solver for the steady supersonic Euler equations}, 
+volume={98}, 
+DOI={10.1017/S0001924000026890}, 
+number={979}, 
+journal={The Aeronautical Journal (1968)}, 
+publisher={Cambridge University Press}, 
+author={Toro, E. F. and Chakraborty, A.}, 
+year={1994}, 
+pages={325–339}
+}
+
+@Article{Tchekhovskoy2007,
+  author    = {A. Tchekhovskoy and J. C. McKinney and R. Narayan},
+  journal   = {Monthly Notices of the Royal Astronomical Society},
+  title     = {{WHAM}: a {WENO}-based general relativistic numerical scheme - I. Hydrodynamics},
+  year      = {2007},
+  month     = {aug},
+  number    = {2},
+  pages     = {469--497},
+  volume    = {379},
+  doi       = {10.1111/j.1365-2966.2007.11876.x},
+  file      = {:/home/tseng/Documents/paper/mnras0379-0469.pdf:PDF},
+  groups    = {code paper},
+  publisher = {Oxford University Press ({OUP})},
+}
+
+
+@article{PulsarWind,
+author = {Gaensler, Bryan M. and Slane, Patrick O.},
+title = {The Evolution and Structure of Pulsar Wind Nebulae},
+journal = {Annual Review of Astronomy and Astrophysics},
+volume = {44},
+number = {1},
+pages = {17-47},
+year = {2006},
+doi = {10.1146/annurev.astro.44.051905.092528},
+URL = { https://doi.org/10.1146/annurev.astro.44.051905.092528},
+eprint = { https://doi.org/10.1146/annurev.astro.44.051905.092528},
+abstract = { AbstractPulsars steadily dissipate their rotational energy via relativistic winds. Confinement of these outflows generates luminous pulsar wind nebulae, seen across the electromagnetic spectrum in synchrotron and inverse Compton emission and in optical emission lines when they shock the surrounding medium. These sources act as important probes of relativistic shocks, particle acceleration, and interstellar gas. We review the many recent advances in the study of pulsar wind nebulae, with particular focus on the evolutionary stages through which these objects progress as they expand into their surroundings, and on morphological structures within these nebulae that directly trace the physical processes of particle acceleration and outflow. We conclude by considering some exciting new probes of pulsar wind nebulae, including the study of TeV gamma-ray emission from these sources, and observations of pulsar winds in close binary systems. }
+}
+
+@Article{gamer-1,
+  author    = {Hsi-Yu Schive and Yu-Chih Tsai and Tzihong Chiueh},
+  title     = {{GAMER}: A {GRAPHIC} {PROCESSING} {UNIT} {ACCELERATED} {ADAPTIVE}-{MESH}-{REFINEMENT} {CODE} {FOR} {ASTROPHYSICS}},
+  journal   = {The Astrophysical Journal Supplement Series},
+  year      = {2010},
+  volume    = {186},
+  number    = {2},
+  pages     = {457--484},
+  month     = {feb},
+  abstract  = {We present the newly developed code, GPU-accelerated Adaptive-MEsh-Refinement code (GAMER), which adopts a novel approach in improving the performance of adaptive-mesh-refinement (AMR) astrophysical simulations by a large factor with the use of the graphic processing unit (GPU). The AMR implementation is based on a hierarchy of grid patches with an oct-tree data structure. We adopt a three-dimensional relaxing total variation diminishing scheme for the hydrodynamic solver and a multi-level relaxation scheme for the Poisson solver. Both solvers have been implemented in GPU, by which hundreds of patches can be advanced in parallel. The computational overhead associated with the data transfer between the CPU and GPU is carefully reduced by utilizing the capability of asynchronous memory copies in GPU, and the computing time of the ghost-zone values for each patch is diminished by overlapping it with the GPU computations. We demonstrate the accuracy of the code by performing several standard test problems in astrophysics. GAMER is a parallel code that can be run in a multi-GPU cluster system. We measure the performance of the code by performing purely baryonic cosmological simulations in different hardware implementations, in which detailed timing analyses provide comparison between the computations with and without GPU(s) acceleration. Maximum speed-up factors of 12.19 and 10.47 are demonstrated using one GPU with 40963 effective resolution and 16 GPUs with 81923 effective resolution, respectively.},
+  doi       = {10.1088/0067-0049/186/2/457},
+  file      = {:/home/tseng/Documents/paper/numerical methods/code/GAMMER/2010-GAMER-A GRAPHIC PROCESSING UNIT ACCELERATED ADAPTIVE-MESH-REFINEMENT CODE FOR ASTROPHYSICS.pdf:PDF},
+  groups    = {code paper},
+  publisher = {{IOP} Publishing},
+  url       = {https://doi.org/10.1088%2F0067-0049%2F186%2F2%2F457},
+}
+
+@Article{Marti1994,
+  author    = {Martí, José Ma and Müller, Ewald},
+  title     = {The analytical solution of the Riemann problem in relativistic hydrodynamics},
+  journal   = {Journal of Fluid Mechanics},
+  year      = {1994},
+  volume    = {258},
+  pages     = {317-333},
+  issn      = {0022-1120},
+  abstract  = {We consider the decay of an initial discontinuity in a polytropic gas in a Minkowski space-time (the special relativistic Riemann problem). In order to get a general analytical solution for this problem, we analyse the properties of the relativistic flow across shock waves and rarefactions. As in classical hydrodynamics, the solution of the Riemann problem is found by solving an implicit algebraic equation which gives the pressure in the intermediate states. The solution presented here contains as a particular case the special relativistic shock-tube problem in which the gas is initially at rest. Finally, we discuss the impact of this result on the development of high-resolution shock-capturing numerical codes to solve the equations of relativistic hydrodynamics.},
+  database  = {Cambridge Core},
+  doi       = {10.1017/s0022112094003344},
+  edition   = {2006/04/26},
+  file      = {:/home/tseng/Documents/paper/numerical methods/Riemann solver/1993-The analytical solution of the Riemann problem in relativistic hydrodynamics.pdf:PDF},
+  groups    = {Riemann solver},
+  publisher = {Cambridge University Press},
+  url       = {https://www.cambridge.org/core/article/analytical-solution-of-the-riemann-problem-in-relativistic-hydrodynamics/ACFB60CD3557DF2AF8AFF6B72D8B03A4},
+}
+@Book{Rezzolla2018,
+  title     = {Relativistic hydrodynamics},
+  publisher = {Oxford University Press},
+  year      = {2018},
+  author    = {Rezzolla, Luciano and Zanotti, Olindo},
+  database  = {/z-wcorg/},
+  groups    = {books},
+  issn      = {0198807597 9780198807599},
+  language  = {English},
+  refid     = {1040627964},
+}     
+
+@ARTICLE{Chiueh-1991ApJ...377..462C,
+       author = {{Chiueh}, Tzihong and {Li}, Zhi-Yun and {Begelman}, Mitchell C.},
+        title = "{Asymptotic Structure of Hydromagnetically Driven Relativistic Winds}",
+      journal = {\apj},
+     keywords = {Asymptotic Properties, Pulsars, Quasars, Relativistic Plasmas, Stellar Winds, Lorentz Force, Magnetic Flux, Plasma Conductivity, Astrophysics, HYDROMAGNETICS, PLASMAS, PULSARS, QUASARS, STARS: WINDS},
+         year = 1991,
+        month = aug,
+       volume = {377},
+        pages = {462},
+          doi = {10.1086/170375},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/1991ApJ...377..462C},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@article{Chiueh-PhysRevE.49.1269,
+  title = {Constructing the Lagrangian in the Eulerian coordinate for relativistic hydrodynamics},
+  author = {Chiueh, Tzihong},
+  journal = {Phys. Rev. E},
+  volume = {49},
+  issue = {2},
+  pages = {1269--1272},
+  numpages = {0},
+  year = {1994},
+  month = {Feb},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevE.49.1269},
+  url = {https://link.aps.org/doi/10.1103/PhysRevE.49.1269}
+}
+
+@ARTICLE{Chiueh-1992ApJ...394..459L,
+       author = {{Li}, Zhi-Yun and {Chiueh}, Tzihong and {Begelman}, Mitchell C.},
+        title = "{Electromagnetically Driven Relativistic Jets: A Class of Self-similar Solutions}",
+      journal = {\apj},
+     keywords = {Computational Astrophysics, Electromagnetic Fields, Interstellar Magnetic Fields, Jet Flow, Magnetohydrodynamic Flow, Relativistic Particles, Active Galactic Nuclei, Kinetic Energy, Magnetic Field Configurations, Magnetic Flux, Numerical Integration, Astrophysics, GALAXIES: JETS, GALAXIES: QUASARS: GENERAL, MAGNETOHYDRODYNAMICS: MHD, STARS: PULSARS: GENERAL},
+         year = 1992,
+        month = aug,
+       volume = {394},
+        pages = {459},
+          doi = {10.1086/171597},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/1992ApJ...394..459L},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{Chiueh-1992ApJ...384..567L,
+       author = {{Li}, Zhi-Yun and {Begelman}, Mitchell C. and {Chiueh}, Tzihong},
+        title = "{The Effects of Radiation Drag on Radial, Relativistic Hydromagnetic Winds}",
+      journal = {\apj},
+     keywords = {Accretion Disks, Drag Coefficients, Galactic Nuclei, Magnetohydrodynamic Flow, Radiative Transfer, Relativity, Angular Momentum, Energy Dissipation, Magnetic Field Configurations, Magnetosonic Resonance, Astrophysics, ACCRETION, ACCRETION DISKS, GALAXIES: NUCLEI, MAGNETOHYDRODYNAMICS: MHD, RADIATIVE TRANSFER, RELATIVITY},
+         year = 1992,
+        month = jan,
+       volume = {384},
+        pages = {567},
+          doi = {10.1086/170899},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/1992ApJ...384..567L},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@article{Chiueh-PhysRevA.44.6944,
+  title = {Magnetosonic soliton in a relativistically hot plasma},
+  author = {Chiueh, Tzihong and Lai, Tzi-Cheng},
+  journal = {Phys. Rev. A},
+  volume = {44},
+  issue = {10},
+  pages = {6944--6947},
+  numpages = {0},
+  year = {1991},
+  month = {Nov},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevA.44.6944},
+  url = {https://link.aps.org/doi/10.1103/PhysRevA.44.6944}
+}
+
+
+@article{Chiue-PhysRevLett.63.113,
+  title = {Relativistic solitons and shocks in magnetized ${e}^{\mathrm{\ensuremath{-}}}$-${e}^{+}$-${p}^{+}$ fluids},
+  author = {Chiueh, Tzihong},
+  journal = {Phys. Rev. Lett.},
+  volume = {63},
+  issue = {2},
+  pages = {113--116},
+  numpages = {0},
+  year = {1989},
+  month = {Jul},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevLett.63.113},
+  url = {https://link.aps.org/doi/10.1103/PhysRevLett.63.113}
+}
+
+@article{Blandford2018,
+author = {Blandford, Roger and Meier, David and Readhead, Anthony},
+title = {Relativistic Jets from Active Galactic Nuclei},
+journal = {Annual Review of Astronomy and Astrophysics},
+volume = {57},
+number = {1},
+pages = {467-509},
+year = {2019},
+doi = {10.1146/annurev-astro-081817-051948},
+
+URL = { 
+        https://doi.org/10.1146/annurev-astro-081817-051948
+    
+},
+eprint = { 
+        https://doi.org/10.1146/annurev-astro-081817-051948
+    
+}
+,
+    abstract = { The nuclei of most normal galaxies contain supermassive black holes, which can accrete gas through a disk and become active. These active galactic nuclei (AGNs) can form jets that are observed on scales from astronomical units to megaparsecs and from meter wavelengths to TeV energies. High-resolution radio imaging and multiwavelength/messenger campaigns are elucidating the conditions under which this happens. Evidence is presented that: ▪ Relativistic AGN jets are formed when the black hole spins and the the accretion disk is strongly magnetized, perhaps on account of gas accreting at high latitude beyond the black hole sphere of influence. ▪ AGN jets are collimated close to the black hole by magnetic stress associated with a disk wind. ▪ Higher-power jets can emerge from their galactic nuclei in a relativistic, supersonic, and proton-dominated state, and they terminate in strong, hot spot shocks; lower-power jets are degraded to buoyant plumes and bubbles. ▪ Jets may accelerate protons to EeV energies, which contribute to the cosmic ray spectrum and may initiate pair cascades that can efficiently radiate synchrotron γ-rays. ▪ Jets were far more common when the Universe was a few billion years old and black holes and massive galaxies were growing rapidly. ▪ Jets can have a major influence on their environments, stimulating and limiting the growth of galaxies.The observational prospects for securing our understanding of AGN jets are bright. }
+}
+
+@ARTICLE{1984ApJ...283..694K,
+       author = {{Kennel}, C.~F. and {Coroniti}, F.~V.},
+        title = "{Confinement of the Crab pulsar's wind by its supernova remnant.}",
+      journal = {\apj},
+     keywords = {Cosmic Plasma, Crab Nebula, Pulsars, Stellar Winds, Supernova Remnants, Boundary Conditions, Boundary Value Problems, Flow Velocity, Magnetohydrodynamics, Shock Waves, Astrophysics},
+         year = 1984,
+        month = aug,
+       volume = {283},
+        pages = {694-709},
+          doi = {10.1086/162356},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/1984ApJ...283..694K},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+@ARTICLE{1984ApJ...283..710K,
+       author = {{Kennel}, C.~F. and {Coroniti}, F.~V.},
+        title = "{Magnetohydrodynamic model of Crab nebula radiation.}",
+      journal = {\apj},
+     keywords = {Crab Nebula, Magnetohydrodynamics, Stellar Models, Synchrotron Radiation, Spatial Distribution, Spectral Energy Distribution, Astrophysics},
+         year = 1984,
+        month = aug,
+       volume = {283},
+        pages = {710-730},
+          doi = {10.1086/162357},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/1984ApJ...283..710K},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+
+
+
+
+
+
+@article{GRBReview1,
+author = {Berger, Edo},
+title = {Short-Duration Gamma-Ray Bursts},
+journal = {Annual Review of Astronomy and Astrophysics},
+volume = {52},
+number = {1},
+pages = {43-105},
+year = {2014},
+doi = {10.1146/annurev-astro-081913-035926},
+
+URL = { 
+        https://doi.org/10.1146/annurev-astro-081913-035926
+    
+},
+eprint = { 
+        https://doi.org/10.1146/annurev-astro-081913-035926
+    
+}
+,
+    abstract = { Gamma-ray bursts (GRBs) display a bimodal duration distribution with a separation between the short- and long-duration bursts at about 2 s. The progenitors of long GRBs have been identified as massive stars based on their association with Type Ic core-collapse supernovae (SNe), their exclusive location in star-forming galaxies, and their strong correlation with bright UV regions within their host galaxies. Short GRBs have long been suspected on theoretical grounds to arise from compact object binary mergers (neutron star–neutron star or neutron star–black hole). The discovery of short GRB afterglows in 2005 provided the first insight into their energy scale and environments, as well as established a cosmological origin, a mix of host-galaxy types, and an absence of associated SNe. In this review, I summarize nearly a decade of short GRB afterglow and host-galaxy observations and use this information to shed light on the nature and properties of their progenitors, the energy scale and collimation of the relativistic outflow, and the properties of the circumburst environments. The preponderance of the evidence points to compact object binary progenitors, although some open questions remain. On the basis of this association, observations of short GRBs and their afterglows can shed light on the on- and off-axis electromagnetic counterparts of gravitational wave sources from the Advanced LIGO/Virgo experiments. }
+}
+
+@article{GRBReview2,
+title = "Short-hard gamma-ray bursts",
+journal = "Physics Reports",
+volume = "442",
+number = "1",
+pages = "166 - 236",
+year = "2007",
+note = "The Hans Bethe Centennial Volume 1906-2006",
+issn = "0370-1573",
+doi = "https://doi.org/10.1016/j.physrep.2007.02.005",
+url = "http://www.sciencedirect.com/science/article/pii/S0370157307000476",
+author = "Ehud Nakar",
+abstract = "Two types of gamma-ray bursts (GRBs) are observed: short-duration hard spectrum GRBs and long-duration soft spectrum GRBs. For many years long GRBs were the focus of intense research while the lack of observational data limited the study of short-hard GRBs (SHBs). In 2005 a breakthrough occurred following the first detections of SHB afterglows, longer wavelength emission that follows the burst of gamma-rays. Similarly to long GRBs, afterglow detections led to the identification of SHB host galaxies and measurement of their redshifts. These observations established that SHBs are cosmological relativistic sources that, unlike long GRBs, do not originate from the collapse of massive stars, and therefore constitute a distinct physical phenomenon. One viable model for SHB origin is the coalescence of compact binary systems (double neutron stars or a neutron star and a black hole), in which case SHBs are the electromagnetic counterparts of strong gravitational-wave sources. The theoretical and observational study of SHBs following the recent pivotal discoveries is reviewed, along with new theoretical results that are presented here for the first time."
+}
+
+@ARTICLE{NM1,
+       author = {{Mooley}, K.~P. and {Nakar}, E. and {Hotokezaka}, K. and {Hallinan}, G. and
+         {Corsi}, A. and {Frail}, D.~A. and {Horesh}, A. and {Murphy}, T. and
+         {Lenc}, E. and {Kaplan}, D.~L. and {de}, K. and {Dobie}, D. and {Chand
+        ra}, P. and {Deller}, A. and {Gottlieb}, O. and {Kasliwal}, M.~M. and
+         {Kulkarni}, S.~R. and {Myers}, S.~T. and {Nissanke}, S. and
+         {Piran}, T. and {Lynch}, C. and {Bhalerao}, V. and {Bourke}, S. and
+         {Bannister}, K.~W. and {Singer}, L.~P.},
+        title = "{A mildly relativistic wide-angle outflow in the neutron-star merger event GW170817}",
+      journal = {\nat},
+     keywords = {Astrophysics - High Energy Astrophysical Phenomena, Astrophysics - Cosmology and Nongalactic Astrophysics, General Relativity and Quantum Cosmology},
+         year = 2018,
+        month = feb,
+       volume = {554},
+       number = {7691},
+        pages = {207-210},
+          doi = {10.1038/nature25452},
+archivePrefix = {arXiv},
+       eprint = {1711.11573},
+ primaryClass = {astro-ph.HE},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2018Natur.554..207M},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{NM2,
+       author = {{Mooley}, K.~P. and {Deller}, A.~T. and {Gottlieb}, O. and {Nakar}, E. and
+         {Hallinan}, G. and {Bourke}, S. and {Frail}, D.~A. and {Horesh}, A. and
+         {Corsi}, A. and {Hotokezaka}, K.},
+        title = "{Superluminal motion of a relativistic jet in the neutron-star merger GW170817}",
+      journal = {\nat},
+     keywords = {Astrophysics - High Energy Astrophysical Phenomena, Astrophysics - Cosmology and Nongalactic Astrophysics, General Relativity and Quantum Cosmology},
+         year = 2018,
+        month = sep,
+       volume = {561},
+       number = {7723},
+        pages = {355-359},
+          doi = {10.1038/s41586-018-0486-3},
+archivePrefix = {arXiv},
+       eprint = {1806.09693},
+ primaryClass = {astro-ph.HE},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2018Natur.561..355M},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{NM3,
+       author = {{Ghirlanda}, G. and {Salafia}, O.~S. and {Paragi}, Z. and
+         {Giroletti}, M. and {Yang}, J. and {Marcote}, B. and {Blanchard}, J. and
+         {Agudo}, I. and {An}, T. and {Bernardini}, M.~G. and {Beswick}, R. and
+         {Branchesi}, M. and {Campana}, S. and {Casadio}, C. and {Chassand
+        e-Mottin}, E. and {Colpi}, M. and {Covino}, S. and {D'Avanzo}, P. and
+         {D'Elia}, V. and {Frey}, S. and {Gawronski}, M. and {Ghisellini}, G. and
+         {Gurvits}, L.~I. and {Jonker}, P.~G. and {van Langevelde}, H.~J. and
+         {Melandri}, A. and {Moldon}, J. and {Nava}, L. and {Perego}, A. and
+         {Perez-Torres}, M.~A. and {Reynolds}, C. and {Salvaterra}, R. and
+         {Tagliaferri}, G. and {Venturi}, T. and {Vergani}, S.~D. and
+         {Zhang}, M.},
+        title = "{Compact radio emission indicates a structured jet was produced by a binary neutron star merger}",
+      journal = {Science},
+     keywords = {ASTRONOMY, Astrophysics - High Energy Astrophysical Phenomena},
+         year = 2019,
+        month = mar,
+       volume = {363},
+       number = {6430},
+        pages = {968-971},
+          doi = {10.1126/science.aau8815},
+archivePrefix = {arXiv},
+       eprint = {1808.00469},
+ primaryClass = {astro-ph.HE},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2019Sci...363..968G},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{NM4,
+       author = {{Fong}, W. and {Blanchard}, P.~K. and {Alexander}, K.~D. and
+         {Strader}, J. and {Margutti}, R. and {Hajela}, A. and {Villar}, V.~A. and
+         {Wu}, Y. and {Ye}, C.~S. and {Berger}, E. and {Chornock}, R. and
+         {Coppejans}, D. and {Cowperthwaite}, P.~S. and {Eftekhari}, T. and
+         {Giannios}, D. and {Guidorzi}, C. and {Kathirgamaraju}, A. and
+         {Laskar}, T. and {Macfadyen}, A. and {Metzger}, B.~D. and
+         {Nicholl}, M. and {Paterson}, K. and {Terreran}, G. and {Sand}, D.~J. and
+         {Sironi}, L. and {Williams}, P.~K.~G. and {Xie}, X. and {Zrake}, J.},
+        title = "{The Optical Afterglow of GW170817: An Off-axis Structured Jet and Deep Constraints on a Globular Cluster Origin}",
+      journal = {\apjl},
+     keywords = {Neutron stars, Gravitational waves, Gamma-ray bursts, Hubble Space Telescope, Astrophysics - High Energy Astrophysical Phenomena},
+         year = 2019,
+        month = sep,
+       volume = {883},
+       number = {1},
+          eid = {L1},
+        pages = {L1},
+          doi = {10.3847/2041-8213/ab3d9e},
+archivePrefix = {arXiv},
+       eprint = {1908.08046},
+ primaryClass = {astro-ph.HE},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2019ApJ...883L...1F},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@article{Athena++2,
+	doi = {10.3847/1538-4365/ab929b},
+	url = {https://doi.org/10.3847%2F1538-4365%2Fab929b},
+	year = 2020,
+	month = {jun},
+	publisher = {American Astronomical Society},
+	volume = {249},
+	number = {1},
+	pages = {4},
+	author = {James M. Stone and Kengo Tomida and Christopher J. White and Kyle G. Felker},
+	title = {The Athena$\mathplus$$\mathplus$ Adaptive Mesh Refinement Framework: Design and Magnetohydrodynamic Solvers},
+	journal = {The Astrophysical Journal Supplement Series},
+	abstract = {The design and implementation of a new framework for adaptive mesh refinement calculations are described. It is intended primarily for applications in astrophysical fluid dynamics, but its flexible and modular design enables its use for a wide variety of physics. The framework works with both uniform and nonuniform grids in Cartesian and curvilinear coordinate systems. It adopts a dynamic execution model based on a simple design called a “task list” that improves parallel performance by overlapping communication and computation, simplifies the inclusion of a diverse range of physics, and even enables multiphysics models involving different physics in different regions of the calculation. We describe physics modules implemented in this framework for both nonrelativistic and relativistic magnetohydrodynamics (MHD). These modules adopt mature and robust algorithms originally developed for the Athena MHD code and incorporate new extensions: support for curvilinear coordinates, higher-order time integrators, more realistic physics such as a general equation of state, and diffusion terms that can be integrated with super-time-stepping algorithms. The modules show excellent performance and scaling, with well over 80% parallel efficiency on over half a million threads. The source code has been made publicly available.}
+}
+@article{GRAthena++,
+	doi = {10.3847/0067-0049/225/2/22},
+	url = {https://doi.org/10.3847%2F0067-0049%2F225%2F2%2F22},
+	year = 2016,
+	month = {aug},
+	publisher = {American Astronomical Society},
+	volume = {225},
+	number = {2},
+	pages = {22},
+	author = {Christopher J. White and James M. Stone and Charles F. Gammie},
+	title = {{AN} {EXTENSION} {OF} {THE} {ATHENA}$\mathplus$$\mathplus$ {CODE} {FRAMEWORK} {FOR} {GRMHD} {BASED} {ON} {ADVANCED} {RIEMANN} {SOLVERS} {AND} {STAGGERED}-{MESH} {CONSTRAINED} {TRANSPORT}},
+	journal = {The Astrophysical Journal Supplement Series},
+	abstract = {We present a new general relativistic magnetohydrodynamics (GRMHD) code integrated into the Athena++ framework. Improving upon the techniques used in most GRMHD codes, ours allows the use of advanced, less diffusive Riemann solvers, in particular HLLC and HLLD. We also employ a staggered-mesh constrained transport algorithm suited for curvilinear coordinate systems in order to maintain the divergence-free constraint of the magnetic field. Our code is designed to work with arbitrary stationary spacetimes in one, two, or three dimensions, and we demonstrate its reliability through a number of tests. We also report on its promising performance and scalability.}
+}
+
+@article{Noble_2006,
+	doi = {10.1086/500349},
+	url = {https://doi.org/10.1086%2F500349},
+	year = 2006,
+	month = {apr},
+	publisher = {{IOP} Publishing},
+	volume = {641},
+	number = {1},
+	pages = {626--637},
+	author = {Scott C. Noble and Charles F. Gammie and Jonathan C. McKinney and Luca Del Zanna},
+	title = {Primitive Variable Solvers for Conservative General Relativistic Magnetohydrodynamics},
+	journal = {The Astrophysical Journal},
+	abstract = {Conservative numerical schemes for general relativistic magnetohydrodynamics (GRMHD) require a method for transforming between "conserved" variables such as momentum and energy density and "primitive" variables such as rest-mass density, internal energy, and components of the four-velocity. The forward transformation (primitive to conserved) has a closed-form solution, but the inverse transformation (conserved to primitive) requires the solution of a set of five nonlinear equations. Here we discuss the mathematical properties of the inverse transformation and present six numerical methods for performing the inversion. The first method solves the full set of five nonlinear equations directly using a Newton-Raphson scheme and a guess from the previous time step. The other methods reduce the five nonlinear equations to either one or two nonlinear equations that are solved numerically. Comparisons between the methods are made using a survey over phase space, a two-dimensional explosion problem, and a general relativistic MHD accretion disk simulation. The run time of the methods is also examined. Code implementing the schemes is available with the electronic edition of the article.}
+}
+
+@ARTICLE{YT,
+   author = {{Turk}, M.~J. and {Smith}, B.~D. and {Oishi}, J.~S. and {Skory}, S. and
+     {Skillman}, S.~W. and {Abel}, T. and {Norman}, M.~L.},
+    title = "{yt: A Multi-code Analysis Toolkit for Astrophysical Simulation Data}",
+  journal = {The Astrophysical Journal Supplement Series},
+archivePrefix = "arXiv",
+   eprint = {1011.3514},
+ primaryClass = "astro-ph.IM",
+ keywords = {cosmology: theory, methods: data analysis, methods: numerical },
+     year = 2011,
+    month = jan,
+   volume = 192,
+      eid = {9},
+    pages = {9},
+      doi = {10.1088/0067-0049/192/1/9},
+   adsurl = {https://ui.adsabs.harvard.edu/abs/2011ApJS..192....9T},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@article{GamerMHD,
+	doi = {10.3847/1538-4365/aac49e},
+	url = {https://doi.org/10.3847%2F1538-4365%2Faac49e},
+	year = 2018,
+	month = {jun},
+	publisher = {American Astronomical Society},
+	volume = {236},
+	number = {2},
+	pages = {50},
+	author = {Ui-Han Zhang and Hsi-Yu Schive and Tzihong Chiueh},
+	title = {Magnetohydrodynamics with {GAMER}},
+	journal = {The Astrophysical Journal Supplement Series},
+}
+
+@ARTICLE{PsiDM1,
+       author = {{Schive}, Hsi-Yu and {Chiueh}, Tzihong and {Broadhurst}, Tom},
+        title = "{Cosmic structure as the quantum interference of a coherent dark wave}",
+      journal = {Nature Physics},
+     keywords = {Astrophysics - Astrophysics of Galaxies, Astrophysics - Cosmology and Nongalactic Astrophysics},
+         year = 2014,
+        month = jul,
+       volume = {10},
+       number = {7},
+        pages = {496-499},
+          doi = {10.1038/nphys2996},
+archivePrefix = {arXiv},
+       eprint = {1406.6586},
+ primaryClass = {astro-ph.GA},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2014NatPh..10..496S},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@article{PsiDM2,
+  title = {Recognizing Axionic Dark Matter by Compton and de Broglie Scale Modulation of Pulsar Timing},
+  author = {De Martino, Ivan and Broadhurst, Tom and Tye, S.-H. Henry and Chiueh, Tzihong and Schive, Hsi-Yu and Lazkoz, Ruth},
+  journal = {Phys. Rev. Lett.},
+  volume = {119},
+  issue = {22},
+  pages = {221103},
+  numpages = {6},
+  year = {2017},
+  month = {Nov},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevLett.119.221103},
+  url = {https://link.aps.org/doi/10.1103/PhysRevLett.119.221103}
+}
+
+
+@article{PsiDM3,
+  title = {Soliton Random Walk and the Cluster-Stripping Problem in Ultralight Dark Matter},
+  author = {Schive, Hsi-Yu and Chiueh, Tzihong and Broadhurst, Tom},
+  journal = {Phys. Rev. Lett.},
+  volume = {124},
+  issue = {20},
+  pages = {201301},
+  numpages = {6},
+  year = {2020},
+  month = {May},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevLett.124.201301},
+  url = {https://link.aps.org/doi/10.1103/PhysRevLett.124.201301}
+}
+
+@ARTICLE{LongGRB,
+       author = {{Woosley}, S.~E.},
+        title = "{Gamma-Ray Bursts from Stellar Mass Accretion Disks around Black Holes}",
+      journal = {\apj},
+     keywords = {Accretion Disks, Black Holes (Astronomy), Gamma Ray Bursts, Stellar Evolution, Stellar Mass Accretion, Stellar Physics, Astronomical Models, Supernovae, Wolf-Rayet Stars, Space Radiation, ACCRETION, ACCRETION DISKS, BLACK HOLE PHYSICS, GAMMA RAYS: BURSTS, STARS: EVOLUTION, STARS: SUPERNOVAE: GENERAL},
+         year = 1993,
+        month = mar,
+       volume = {405},
+        pages = {273},
+          doi = {10.1086/172359},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/1993ApJ...405..273W},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@article{VL2,
+author = {van Leer, Bram},
+year = {2006},
+month = {04},
+pages = {192-206},
+title = {Upwind and High-Resolution Methods for Compressible Flow: From Donor Cell to Residu
+volume = {1},
+journal = {Communications in Computational Physics}
+}}
+}
+
+@article{VL1,
+    author = {Falle, S. A. E. G.},
+    title = "{Self-similar jets}",
+    journal = {Monthly Notices of the Royal Astronomical Society},
+    volume = {250},
+    number = {3},
+    pages = {581-596},
+    year = {1991},
+    month = {06},
+    issn = {0035-8711},
+    doi = {10.1093/mnras/250.3.581},
+    url = {https://doi.org/10.1093/mnras/250.3.581},
+    eprint = {https://academic.oup.com/mnras/article-pdf/250/3/581/3189879/mnras250-0581.pdf},
+}
+
+@article{Chiueh_1998,    
+    doi = {10.1086/306209},
+    url = {https://doi.org/10.1086%2F306209},
+    year = 1998,
+    month = {oct},
+    publisher = {{IOP} Publishing},
+    volume = {505},
+    number = {2},
+    pages = {835--843},
+    author = {Tzihong Chiueh and Zhi-Yun Li and Mitchell C. Begelman},
+    title = {A Critical Analysis of Ideal Magnetohydrodynamic Models for Crab-like Pulsar Winds},
+    journal = {The Astrophysical Journal},
+}
+
+
+
+@article{Gourgouliatos2017,
+  doi = {10.1038/s41550-017-0338-3},
+  url = {https://doi.org/10.1038/s41550-017-0338-3},
+  year = {2017},
+  month = dec,
+  publisher = {Springer Science and Business Media {LLC}},
+  volume = {2},
+  number = {2},
+  pages = {167--171},
+  author = {Konstantinos N. Gourgouliatos and Serguei S. Komissarov},
+  title = {Reconfinement and loss of stability in jets from active galactic nuclei},
+  journal = {Nature Astronomy}
+}
+
+@article{Blandford1982,
+  doi = {10.1093/mnras/199.4.883},
+  url = {https://doi.org/10.1093/mnras/199.4.883},
+  year = {1982},
+  month = aug,
+  publisher = {Oxford University Press ({OUP})},
+  volume = {199},
+  number = {4},
+  pages = {883--903},
+  author = {R. D. Blandford and D. G. Payne},
+  title = {Hydromagnetic flows from accretion discs and the production of radio jets},
+  journal = {Monthly Notices of the Royal Astronomical Society}
+}
+
+@article{Woodward1984,
+  doi = {10.1016/0021-9991(84)90142-6},
+  url = {https://doi.org/10.1016/0021-9991(84)90142-6},
+  year = {1984},
+  month = apr,
+  publisher = {Elsevier {BV}},
+  volume = {54},
+  number = {1},
+  pages = {115--173},
+  author = {Paul Woodward and Phillip Colella},
+  title = {The numerical simulation of two-dimensional fluid flow with strong shocks},
+  journal = {Journal of Computational Physics}
+}
+
+@article{Stone2020,
+  doi = {10.3847/1538-4365/ab929b},
+  url = {https://doi.org/10.3847/1538-4365/ab929b},
+  year = {2020},
+  month = jun,
+  publisher = {American Astronomical Society},
+  volume = {249},
+  number = {1},
+  pages = {4},
+  author = {James M. Stone and Kengo Tomida and Christopher J. White and Kyle G. Felker},
+  title = {The Athena$\mathplus$$\mathplus$ Adaptive Mesh Refinement Framework: Design and Magnetohydrodynamic Solvers},
+  journal = {The Astrophysical Journal Supplement Series}
+}
+
+@article{Beckwith2011,
+  doi = {10.1088/0067-0049/193/1/6},
+  url = {https://doi.org/10.1088/0067-0049/193/1/6},
+  year = {2011},
+  month = jan,
+  publisher = {American Astronomical Society},
+  volume = {193},
+  number = {1},
+  pages = {6},
+  author = {Kris Beckwith and James M. Stone},
+  title = {A {SECOND}-{ORDER} {GODUNOV} {METHOD} {FOR} {MULTI}-{DIMENSIONAL} {RELATIVISTIC} {MAGNETOHYDRODYNAMICS}},
+  journal = {The Astrophysical Journal Supplement Series}
+}
+
+@article{Yang2017,
+  doi = {10.3847/1538-4357/aa9434},
+  url = {https://doi.org/10.3847/1538-4357/aa9434},
+  year = {2017},
+  month = nov,
+  publisher = {American Astronomical Society},
+  volume = {850},
+  number = {1},
+  pages = {2},
+  author = {H.-Y. K. Yang and M. Ruszkowski},
+  title = {The Spatially Uniform Spectrum of {theFermiBubbles}: The Leptonic Active Galactic Nucleus Jet Scenario},
+  journal = {The Astrophysical Journal}
+}
+
+@article{Yang2013,
+  doi = {10.1093/mnras/stt1772},
+  url = {https://doi.org/10.1093/mnras/stt1772},
+  year = {2013},
+  month = oct,
+  publisher = {Oxford University Press ({OUP})},
+  volume = {436},
+  number = {3},
+  pages = {2734--2746},
+  author = {H.-Y. Karen Yang and M. Ruszkowski and E. Zweibel},
+  title = {The Fermi bubbles: gamma-ray,  microwave and polarization signatures of leptonic {AGN} jets},
+  journal = {Monthly Notices of the Royal Astronomical Society}
+}
+
+@article{Yang2012,
+  doi = {10.1088/0004-637x/761/2/185},
+  url = {https://doi.org/10.1088/0004-637x/761/2/185},
+  year = {2012},
+  month = dec,
+  publisher = {American Astronomical Society},
+  volume = {761},
+  number = {2},
+  pages = {185},
+  author = {H.-Y. K. Yang and M. Ruszkowski and P. M. Ricker and E. Zweibel and D. Lee},
+  title = {{THE} {FERMI} {BUBBLES}: {SUPERSONIC} {ACTIVE} {GALACTIC} {NUCLEUS} {JETS} {WITH} {ANISOTROPIC} {COSMIC}-{RAY} {DIFFUSION}},
+  journal = {The Astrophysical Journal}
+}

@@ -1,0 +1,1927 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021) (preloaded format=pdflatex 2021.11.4)  10 APR 2022 11:45
+entering extended mode
+ \write18 enabled.
+ %&-line parsing enabled.
+**v1.tex
+(./v1.tex
+LaTeX2e <2021-06-01> patch level 1
+L3 programming layer <2021-10-18> (./aastex63.cls
+Document Class: aastex63 2019/06/03 Version 6.3/AAS markup document class
+Class aastex Info: 
+ 
+ Original \LaTeX2.09 style by Chris Biemesderfer (chris@seagoat.com). 
+ Adapted to \LaTeXe by A. Ogawa (ogawa@teleport.com)
+ emulateapj.cls included, Copyright 2000-2015 Alexey Vikhlinin 
+ Rewrite and update of emulateapj.cls, revised and enhanced with table macros, 
+gridlines, draft watermark,
+ track changes, new `modern' style and much more, by Amy Hendrickson,
+ (amyh@texnology.com, http://www.texnology.com) 
+ 
+  on input line 104.
+\bibbaselineskip=\skip47
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/revtex4-1/revtex4-1.cls
+Document Class: revtex4-1 2020/09/30 4.1s (http://publish.aps.org/revtex4/ for 
+documentation)
+ Copyright (c) 2009 The American Physical Society.
+ mailto:revtex@aps.org
+ Licensed under the LPPL:
+http://www.ctan.org/tex-archive/macros/latex/base/lppl.txt
+ Arthur Ogawa <arthur_ogawa at sbcglobal dot net>
+ Based on work by David Carlisle <david at dcarlisle.demon.co.uk>.
+ltxutil[2020/09/30 4.1s utilities package (portions licensed from W. E. Baxter 
+web at superscript.com)]
+LaTeX Info: Redefining \@centercr on input line 346.
+Class revtex4-1 Info: Repairing broken LaTeX eqnarray on input line 396.
+\eqncolsep=\skip48
+Class revtex4-1 Info: Repairing hyperref-unfriendly LaTeX definition of \mpfoot
+note on input line 471.
+Class revtex4-1 Info: Repairing broken LateX \@sect on input line 793.
+\intertabularlinepenalty=\count182
+\@tbpen=\count183
+\@arstrutbox@hline=\box50
+Class revtex4-1 Info: Repairing broken LaTeX \@xbitor on input line 1824.
+Class revtex4-1 Info: Making \typeout \long on input line 2089.
+ltxfront[2020/09/30 4.1s frontmatter package (AO,DPC)]
+\c@affil=\count184
+\c@collab=\count185
+\absbox=\box51
+ltxgrid[2020/09/30 4.1s page grid package (portions licensed from W. E. Baxter 
+web at superscript.com)]
+\c@linecount=\count186
+\output@latex=\toks16
+\box@size@1=\box52
+\box@size@2=\box53
+\@protection@box=\box54
+\@topmark@saved=\toks17
+\footins@saved=\box55
+\footins@recovered=\box56
+\column@recovered=\box57
+\pagesofar=\box58
+\footsofar=\box59
+\pagegrid@col=\count187
+Class revtex4-1 Info: Overriding \@vspace, \@vspacer, \@no@pgbk, \@newline, and
+ \\  on input line 5655.
+\c@part=\count188
+\c@section=\count189
+\c@subsection=\count190
+\c@subsubsection=\count191
+\c@paragraph=\count192
+\c@subparagraph=\count193
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\c@figure=\count194
+\fbox@1=\box60
+\c@table=\count195
+\fbox@2=\box61
+\c@video=\count196
+\fbox@4=\box62
+\@bibdataout=\write3
+\widetext@top=\box63
+\widetext@bot=\box64
+Class revtex4-1 Info: Selecting society aps on input line 7616.
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/revtex4-1/aps4-1.rtx
+File: aps4-1 2020/09/30 4.1s (http://publish.aps.org/revtex4/ for documentation
+)
+Class revtex4-1 Info: RevTeX society APS selected on input line 31.
+)
+Class revtex4-1 Info: Selecting journal pra on input line 7618.
+Class revtex4-1 Info: APS journal PRA selected on input line 7619.
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/revtex4-1/aps10pt4-1.rt
+x
+File: aps10pt4-1 2020/09/30 4.1s (http://publish.aps.org/revtex4/ for documenta
+tion)
+Class revtex4-1 Info: RevTeX pointsize 10pt selected on input line 30.
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/textcase/textcase.sty
+Package: textcase 2019/09/14 v1.00 Text only upper/lower case changing (DPC)
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip51
+\bibsep=\skip52
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count197
+)
+Class revtex4-1 Info: Repairing natbib's \BibitemShut on input line 7623.
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/revtex4-1/revsymb4-1.st
+y
+Package: revsymb4-1 2020/09/30 4.1s (http://publish.aps.org/revtex4/ for docume
+ntation)
+LaTeX Info: Redefining \REV@mathfrak on input line 119.
+)) (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/base/latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2020/12/05 v1.2c Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/graphics-cfg/graphics.c
+fg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen138
+\Gin@req@width=\dimen139
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks19
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+LaTeX Info: Redefining \frak on input line 111.
+LaTeX Info: Redefining \Bbb on input line 113.
+)) (/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/epsf/epsf.sty
+This is `epsf.tex' v2.7.4 <14 February 2011>
+\epsffilein=\read2
+\epsfframemargin=\dimen140
+\epsfframethickness=\dimen141
+\epsfrsize=\dimen142
+\epsftmp=\dimen143
+\epsftsize=\dimen144
+\epsfxsize=\dimen145
+\epsfysize=\dimen146
+\pspoints=\dimen147
+)
+\rptnum=\count198
+\rptloopnum=\count199
+\fncount=\count266
+\endfncount=\count267
+\c@front@matter@foot@note=\count268
+\keys@width=\skip53
+\c@lastfootnote=\count269
+\tempsectnum=\count270
+\ackbox=\box65
+\c@remember@figure@num=\count271
+\c@remember@table@num=\count272
+\bibskip=\skip54
+\bibindent=\dimen148
+\plot@width=\skip55
+\c@table@save=\count273
+\@abovenoteskip=\dimen149
+\table@note@skip=\skip56
+\deluxe@table@width=\skip57
+\@d@t@a=\skip58
+\c@deluxe@table@num=\count274
+\LTcapwidth=\dimen150
+\abovedeluxetableskip=\skip59
+\belowdeluxetableskip=\skip60
+\lastrowheight=\dimen151
+\DT@p@ftn=\toks20
+\pt@column=\count275
+\pt@ncol=\count276
+ (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2021-05-07 v4.16 Multi-page Table package (DPC)
+\LTleft=\skip61
+\LTright=\skip62
+\LTpre=\skip63
+\LTpost=\skip64
+\LTchunksize=\count277
+\LTcapwidth=\dimen152
+\LT@head=\box66
+\LT@firsthead=\box67
+\LT@foot=\box68
+\LT@lastfoot=\box69
+\LT@gbox=\box70
+\LT@cols=\count278
+\LT@rows=\count279
+\c@LT@tables=\count280
+\c@LT@chunks=\count281
+\LT@p@ftn=\toks21
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+) (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2021-06-07 v7.00m Hypertext links for LaTeX
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pdftexcmds/pdftexcmds
+.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/infwarerr/infwarerr.s
+ty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.s
+ty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/kvdefinekeys/kvdefine
+keys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pdfescape/pdfescape.s
+ty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/letltxmacro/letltxmacro
+.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+)
+\@linkdim=\dimen153
+\Hy@linkcounter=\count282
+\Hy@pagecounter=\count283
+ (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/hyperref/hyperref-langp
+atches.def
+File: hyperref-langpatches.def 2021-06-07 v7.00m Hyperref: patches for babel la
+nguages
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count284
+ (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `bookmarks' set `true' on input line 4073.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 4073.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4073.
+Package hyperref Info: Option `final' set `true' on input line 4073.
+Package hyperref Info: Hyper figures OFF on input line 4192.
+Package hyperref Info: Link nesting OFF on input line 4197.
+Package hyperref Info: Hyper index ON on input line 4200.
+Package hyperref Info: Plain pages OFF on input line 4207.
+Package hyperref Info: Backreferencing OFF on input line 4212.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4445.
+LaTeX Info: Redefining \href on input line 4715.
+\c@Hy@tempcnt=\count285
+LaTeX Info: Redefining \url on input line 4804.
+\XeTeXLinkMargin=\dimen154
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/bigintcalc/bigintcalc
+.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count286
+\Field@Width=\dimen155
+\Fld@charsize=\dimen156
+Package hyperref Info: Hyper figures OFF on input line 6076.
+Package hyperref Info: Link nesting OFF on input line 6081.
+Package hyperref Info: Hyper index ON on input line 6084.
+Package hyperref Info: backreferencing OFF on input line 6091.
+Package hyperref Info: Link coloring ON on input line 6094.
+Package hyperref Info: Link coloring with OCG OFF on input line 6101.
+Package hyperref Info: PDF/A mode OFF on input line 6106.
+LaTeX Info: Redefining \ref on input line 6146.
+LaTeX Info: Redefining \pageref on input line 6150.
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count287
+\c@Item=\count288
+\c@Hfootnote=\count289
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2021-06-07 v7.00m Hyperref driver for pdfTeX
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
+e
+with kernel methods
+)
+\Fld@listcount=\count290
+\c@bookmark@seq@number=\count291
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/rerunfilecheck/rerunfil
+echeck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/uniquecounter/uniquec
+ounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip65
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/tools/array.sty
+Package: array 2021/04/20 v2.5e Tabular extension package (FMi)
+\col@sep=\dimen157
+\ar@mcellbox=\box71
+\extrarowheight=\dimen158
+\NC@list=\toks22
+\extratabsurround=\skip66
+\backup@length=\skip67
+\ar@cellbox=\box72
+)
+\colcount=\count292
+\firstcolcount=\count293
+\secondcolcount=\count294
+\thirdcolcount=\count295
+\columncount=\count296
+\howmanyDs=\count297
+\firsthowmanyDs=\count298
+\secondhowmanyDs=\count299
+\PartsOfTable=\count300
+\columnoneandtwo=\count301
+\colnumsused=\count302
+\loopnum=\count303
+\totalcolumncount=\count304
+\totalcolumns=\count305
+\firsttablebox=\box73
+\secondtablebox=\box74
+\thirdtablebox=\box75
+\longtablebox=\box76
+\splitbox=\box77
+\movetabledown=\dimen159
+\maxtablewidth=\dimen160
+\savetabskip=\dimen161
+\tempcounter=\count306
+\colheadcount=\count307
+\rotatetablebox=\box78
+\colorcount=\count308
+\refchangenumber=\count309
+\listchangenum=\count310
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box79
+\UL@hyphenbox=\box80
+\UL@skip=\skip68
+\UL@hook=\toks23
+\UL@height=\dimen162
+\UL@pe=\count311
+\UL@pixel=\dimen163
+\ULC@box=\box81
+Package: ulem 2019/11/18
+\ULdepth=\dimen164
+)
+\entriesinthiscollab=\count312
+\allentries=\count313
+\AuthorCollaborationLimit=\count314
+\largestAffilNum=\count315
+\totalentries=\count316
+\docollabnum=\count317
+\tempauthornumber=\count318
+\countauthors=\count319
+\testnum=\count320
+\tempauthorminusone=\count321
+\affilnum=\count322
+\c@affilcount=\count323
+\numauthors=\count324
+\collabnum=\count325
+\collabnamebox=\box82
+\widetext@top=\box83
+\widetext@bot=\box84
+\movetableright=\dimen165
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2021/04/12 v1.27 mathematical typesetting tools
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count326
+\calc@Bcount=\count327
+\calc@Adimen=\dimen166
+\calc@Bdimen=\dimen167
+\calc@Askip=\skip69
+\calc@Bskip=\skip70
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count328
+\calc@Cskip=\skip71
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2021/04/20 v2.17j AMS math features
+\@mathmargin=\skip72
+
+For additional information on amsmath, use the `?' option.
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks24
+\ex@=\dimen168
+)
+LaTeX Info: Redefining \text on input line 28.
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen169
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count329
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count330
+\leftroot@=\count331
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count332
+\DOTSCASE@=\count333
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box85
+\strutbox@=\box86
+\big@size=\dimen170
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count334
+\c@MaxMatrixCols=\count335
+\dotsspace@=\muskip17
+\c@parentequation=\count336
+\dspbrk@lvl=\count337
+\tag@help=\toks25
+\row@=\count338
+\column@=\count339
+\maxfields@=\count340
+\andhelp@=\toks26
+\eqnshift@=\dimen171
+\alignsep@=\dimen172
+\tagshift@=\dimen173
+\tagwidth@=\dimen174
+\totwidth@=\dimen175
+\lineht@=\dimen176
+\@envbody=\toks27
+\multlinegap=\skip73
+\multlinetaggap=\skip74
+\mathdisplay@stack=\toks28
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
+\g_MT_multlinerow_int=\count341
+\l_MT_multwidth_dim=\dimen177
+\origjot=\skip75
+\l_MT_shortvdotswithinadjustabove_dim=\dimen178
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen179
+\l_MT_above_intertext_sep=\dimen180
+\l_MT_below_intertext_sep=\dimen181
+\l_MT_above_shortintertext_sep=\dimen182
+\l_MT_below_shortintertext_sep=\dimen183
+\xmathstrut@box=\box87
+\xmathstrut@dim=\dimen184
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/txfonts/txfonts.sty
+Package: txfonts 2008/01/22 v3.2.1
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/txr/m/n on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/txr/m/n on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/txr/m/n --> OT1/txr/bx/n on input line 22.
+\symitalic=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `italic' in version `bold'
+(Font)                  OT1/txr/m/it --> OT1/txr/bx/it on input line 26.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/txr/bx/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/txr/bx/n on input line 29.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/txr/m/it on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/txr/m/it on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/txr/m/it --> OT1/txr/bx/it on input line 31.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/txss/m/n on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/txss/m/n on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/txss/m/n --> OT1/txss/b/n on input line 41.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/txtt/m/n on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/txtt/m/n on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/txtt/m/n --> OT1/txtt/b/n on input line 51.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/txmi/m/it on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/txmi/m/it on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/txmi/m/it --> OML/txmi/bx/it on input line 59.
+\symlettersA=\mathgroup8
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `bold'
+(Font)                  U/txmia/m/it --> U/txmia/bx/it on input line 67.
+LaTeX Font Info:    Redeclaring math alphabet \mathfrak on input line 70.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/txsy/m/n on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/txsy/m/n on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/txsy/m/n --> OMS/txsy/bx/n on input line 78.
+LaTeX Font Info:    Redeclaring symbol font `AMSa' on input line 93.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `normal'
+(Font)                  U/msa/m/n --> U/txsya/m/n on input line 93.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
+(Font)                  U/msa/m/n --> U/txsya/m/n on input line 93.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
+(Font)                  U/txsya/m/n --> U/txsya/bx/n on input line 94.
+LaTeX Font Info:    Redeclaring symbol font `AMSb' on input line 102.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `normal'
+(Font)                  U/msb/m/n --> U/txsyb/m/n on input line 102.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
+(Font)                  U/msb/m/n --> U/txsyb/m/n on input line 102.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
+(Font)                  U/txsyb/m/n --> U/txsyb/bx/n on input line 103.
+\symsymbolsC=\mathgroup9
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `bold'
+(Font)                  U/txsyc/m/n --> U/txsyc/bx/n on input line 113.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/txex/m/n on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/txex/m/n on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/txex/m/n --> OMX/txex/bx/n on input line 121.
+\symlargesymbolsA=\mathgroup10
+LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `bold'
+(Font)                  U/txexa/m/n --> U/txexa/bx/n on input line 129.
+LaTeX Font Info:    Redeclaring math symbol \mathsterling on input line 164.
+LaTeX Info: Redefining \not on input line 1043.
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/lipsum/lipsum.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/l3packages/l3keys2e/l3k
+eys2e.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2021-10-18 L3 programming layer (loader) 
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/l3backend/l3backend-pdf
+tex.def
+File: l3backend-pdftex.def 2021-10-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count342
+\l__pdf_internal_box=\box88
+))
+Package: l3keys2e 2021-08-27 LaTeX2e option processing using LaTeX3 keys
+)
+Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
+\g__lipsum_par_int=\count343
+\l__lipsum_a_int=\count344
+\l__lipsum_b_int=\count345
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2021/10/19 3.65 The Babel package
+\babel@savecnt=\count346
+\U@D=\dimen185
+\l@unhyphenated=\language87
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read3
+\bbl@dirlevel=\count347
+Package babel Info: You haven't specified a language. I'll use 'nil'
+(babel)             as the main language. Reported on input line 4301.
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/babel/nil.ldf
+Language: nil 2021/10/19 3.65 Nil language
+\l@nil=\language88
+))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+txr on input line 11
+2.
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/txfonts/t1txr.fd
+File: t1txr.fd 2000/12/15 v3.1
+))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/ae/ae.sty
+Package: ae 2001/02/12 1.3 Almost European Computer Modern
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/ae/aecompl.sty
+Package: aecompl 1998/07/23 0.9 T1 Complements for AE fonts (D. Roegel)
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/pgf/frontendlayer/tikz.
+sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/pgf/utilities/pgfrcs.st
+y
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/utilities/pgfutil
+-common.tex
+\pgfutil@everybye=\toks29
+\pgfutil@tempdima=\dimen186
+\pgfutil@tempdimb=\dimen187
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/utilities/pgfutil
+-common-lists.tex))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/utilities/pgfutil
+-latex.def
+\pgfutil@abb=\box89
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/utilities/pgfrcs.
+code.tex
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
+))
+Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.
+sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.
+sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsy
+s.code.tex
+Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/utilities/pgfkeys
+.code.tex
+\pgfkeys@pathtoks=\toks30
+\pgfkeys@temptoks=\toks31
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/utilities/pgfkeys
+filtered.code.tex
+\pgfkeys@tmptoks=\toks32
+))
+\pgf@x=\dimen188
+\pgf@y=\dimen189
+\pgf@xa=\dimen190
+\pgf@ya=\dimen191
+\pgf@xb=\dimen192
+\pgf@yb=\dimen193
+\pgf@xc=\dimen194
+\pgf@yc=\dimen195
+\pgf@xd=\dimen196
+\pgf@yd=\dimen197
+\w@pgf@writea=\write4
+\r@pgf@reada=\read4
+\c@pgf@counta=\count348
+\c@pgf@countb=\count349
+\c@pgf@countc=\count350
+\c@pgf@countd=\count351
+\t@pgf@toka=\toks33
+\t@pgf@tokb=\toks34
+\t@pgf@tokc=\toks35
+\pgf@sys@id@count=\count352
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/systemlayer/pgf.c
+fg
+File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsy
+s-pdftex.def
+File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsy
+s-common-pdf.def
+File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsy
+ssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfsyssoftpath@smallbuffer@items=\count353
+\pgfsyssoftpath@bigbuffer@items=\count354
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsy
+sprotocol.code.tex
+File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+e.code.tex
+Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfmath.code
+.tex
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfmathcalc.
+code.tex
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfmathutil.
+code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfmathparse
+r.code.tex
+\pgfmath@dimen=\dimen198
+\pgfmath@count=\count355
+\pgfmath@box=\box90
+\pgfmath@toks=\toks36
+\pgfmath@stack@operand=\toks37
+\pgfmath@stack@operation=\toks38
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfmathfunct
+ions.code.tex
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfmathfunct
+ions.basic.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfmathfunct
+ions.trigonometric.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfmathfunct
+ions.random.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfmathfunct
+ions.comparison.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfmathfunct
+ions.base.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfmathfunct
+ions.round.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfmathfunct
+ions.misc.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfmathfunct
+ions.integerarithmetics.code.tex)))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfmathfloat
+.code.tex
+\c@pgfmathroundto@lastzeros=\count356
+))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfint.code.
+tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+epoints.code.tex
+File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@picminx=\dimen199
+\pgf@picmaxx=\dimen256
+\pgf@picminy=\dimen257
+\pgf@picmaxy=\dimen258
+\pgf@pathminx=\dimen259
+\pgf@pathmaxx=\dimen260
+\pgf@pathminy=\dimen261
+\pgf@pathmaxy=\dimen262
+\pgf@xx=\dimen263
+\pgf@xy=\dimen264
+\pgf@yx=\dimen265
+\pgf@yy=\dimen266
+\pgf@zx=\dimen267
+\pgf@zy=\dimen268
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+epathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@path@lastx=\dimen269
+\pgf@path@lasty=\dimen270
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+epathusage.code.tex
+File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@shorten@end@additional=\dimen271
+\pgf@shorten@start@additional=\dimen272
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+escopes.code.tex
+File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfpic=\box91
+\pgf@hbox=\box92
+\pgf@layerbox@main=\box93
+\pgf@picture@serial@count=\count357
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+egraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgflinewidth=\dimen273
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+etransformations.code.tex
+File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@pt@x=\dimen274
+\pgf@pt@y=\dimen275
+\pgf@pt@temp=\dimen276
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+equick.code.tex
+File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+eobjects.code.tex
+File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+epathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+earrows.code.tex
+File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowsep=\dimen277
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+eshade.code.tex
+File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@max=\dimen278
+\pgf@sys@shading@range@num=\count358
+\pgf@shadingcount=\count359
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+eimage.code.tex
+File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+eexternal.code.tex
+File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfexternal@startupbox=\box94
+))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+elayers.code.tex
+File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+etransparency.code.tex
+File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+epatterns.code.tex
+File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+erdf.code.tex
+File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/modules/pgfmodule
+shapes.code.tex
+File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfnodeparttextbox=\box95
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/modules/pgfmodule
+plot.code.tex
+File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/pgf/compatibility/pgfco
+mp-version-0-65.sty
+Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@nodesepstart=\dimen279
+\pgf@nodesepend=\dimen280
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/pgf/compatibility/pgfco
+mp-version-1-18.sty
+Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
+))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/pgf/utilities/pgffor.st
+y
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/pgf/utilities/pgfkeys.s
+ty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/utilities/pgfkeys
+.code.tex))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfmath.code
+.tex))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/utilities/pgffor.
+code.tex
+Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfmath.code
+.tex)
+\pgffor@iter=\dimen281
+\pgffor@skip=\dimen282
+\pgffor@stack=\toks39
+\pgffor@toks=\toks40
+))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/frontendlayer/tik
+z/tikz.code.tex
+Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/libraries/pgflibr
+aryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@plot@mark@count=\count360
+\pgfplotmarksize=\dimen283
+)
+\tikz@lastx=\dimen284
+\tikz@lasty=\dimen285
+\tikz@lastxsaved=\dimen286
+\tikz@lastysaved=\dimen287
+\tikz@lastmovetox=\dimen288
+\tikz@lastmovetoy=\dimen289
+\tikzleveldistance=\dimen290
+\tikzsiblingdistance=\dimen291
+\tikz@figbox=\box96
+\tikz@figbox@bg=\box97
+\tikz@tempbox=\box98
+\tikz@tempbox@bg=\box99
+\tikztreelevel=\count361
+\tikznumberofchildren=\count362
+\tikznumberofcurrentchild=\count363
+\tikz@fig@count=\count364
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/modules/pgfmodule
+matrix.code.tex
+File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfmatrixcurrentrow=\count365
+\pgfmatrixcurrentcolumn=\count366
+\pgf@matrix@numberofcolumns=\count367
+)
+\tikz@expandcount=\count368
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/frontendlayer/tik
+z/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip76
+\subfigcapskip=\skip77
+\subfigcaptopadj=\dimen292
+\subfigbottomskip=\skip78
+\subfigcapmargin=\dimen293
+\subfiglabelskip=\skip79
+\c@subfigure=\count369
+\c@lofdepth=\count370
+\c@subtable=\count371
+\c@lotdepth=\count372
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/subfigure/subfigure.cfg
+)
+\subfig@top=\skip80
+\subfig@bottom=\skip81
+) (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count373
+\float@exts=\toks41
+\float@box=\box100
+\@float@everytoks=\toks42
+\@floatcapt=\box101
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/cleveref/cleveref.sty
+Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
+Package cleveref Info: `hyperref' support loaded on input line 2370.
+LaTeX Info: Redefining \cref on input line 2370.
+LaTeX Info: Redefining \Cref on input line 2370.
+LaTeX Info: Redefining \crefrange on input line 2370.
+LaTeX Info: Redefining \Crefrange on input line 2370.
+LaTeX Info: Redefining \cpageref on input line 2370.
+LaTeX Info: Redefining \Cpageref on input line 2370.
+LaTeX Info: Redefining \cpagerefrange on input line 2370.
+LaTeX Info: Redefining \Cpagerefrange on input line 2370.
+LaTeX Info: Redefining \labelcref on input line 2370.
+LaTeX Info: Redefining \labelcpageref on input line 2370.
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/physics/physics.sty
+Package: physics 
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/l3packages/xparse/xpars
+e.sty
+Package: xparse 2021-08-27 L3 Experimental document command parser
+))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/mathtools/empheq.sty
+Package: empheq 2017/03/31 v2.15 Emphasizing equations
+\l_EQ_equationtype_int=\count374
+\l_EQ_alignmentmode_int=\count375
+\l_EQ_totalwidth_dim=\dimen294
+\l_EQ_displaywidth_dim=\dimen295
+\l_EQ_temp_linewidth_dim=\dimen296
+\l_EQ_linewidth_dim=\dimen297
+\EmphEqdelimitershortfall=\dimen298
+\EmphEqdelimiterfactor=\count376
+\g_EQ_toptag_height_dim=\dimen299
+\g_EQ_bottomtag_depth_dim=\dimen300
+\g_EQ_toprow_height_dim=\dimen301
+\g_EQ_bottomrow_depth_dim=\dimen302
+\g_EQ_widesttag_dim=\dimen303
+\EQ_mathdisplay_box=\box102
+\EQ_tag_box=\box103
+\g_EQ_temprow_int=\count377
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen304
+\lightrulewidth=\dimen305
+\cmidrulewidth=\dimen306
+\belowrulesep=\dimen307
+\belowbottomsep=\dimen308
+\aboverulesep=\dimen309
+\abovetopsep=\dimen310
+\cmidrulesep=\dimen311
+\cmidrulekern=\dimen312
+\defaultaddspace=\dimen313
+\@cmidla=\count378
+\@cmidlb=\count379
+\@aboverulesep=\dimen314
+\@belowrulesep=\dimen315
+\@thisruleclass=\count380
+\@lastruleclass=\count381
+\@thisrulewidth=\dimen316
+)
+
+Package array Warning: Column R is already defined on input line 22.
+
+
+Package array Warning: Column L is already defined on input line 23.
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip82
+\multirow@cntb=\count382
+\multirow@dima=\skip83
+\bigstrutjot=\dimen317
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/threeparttable/threepar
+ttable.sty
+Package: threeparttable 2003/06/13  v 3.0
+\@tempboxb=\box104
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup11
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/soul/soul.sty
+Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+\SOUL@word=\toks43
+\SOUL@lasttoken=\toks44
+\SOUL@cmds=\toks45
+\SOUL@buffer=\toks46
+\SOUL@token=\toks47
+\SOUL@spaceskip=\skip84
+\SOUL@ttwidth=\dimen318
+\SOUL@uldp=\dimen319
+\SOUL@ulht=\dimen320
+)
+Class revtex4-1 Info: Unrecognized array package. Please update this document c
+lass! (Proceeding with fingers crossed.) on input line 89.
+
+
+Class revtex4-1 Warning: Repair the float package.
+
+Class revtex4-1 Info: Patching unrecognized longtable package. (Proceeding with
+ fingers crossed) on input line 89.
+Class revtex4-1 Info: cite was not loaded (OK!) on input line 89.
+Class revtex4-1 Info: mcite was not loaded (OK!) on input line 89.
+Class revtex4-1 Info: multicol was not loaded (OK!) on input line 89.
+LaTeX Font Info:    Trying to load font information for T1+aer on input line 89
+.
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/ae/t1aer.fd
+File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
+) (./v1.aux)
+\openout1 = `v1.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 89.
+LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
+89.
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/txfonts/omltxmi.fd
+File: omltxmi.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 89.
+LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 
+89.
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/txfonts/omstxsy.fd
+File: omstxsy.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 89.
+LaTeX Font Info:    Trying to load font information for OMX+txex on input line 
+89.
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/txfonts/omxtxex.fd
+File: omxtxex.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 89.
+LaTeX Font Info:    Trying to load font information for U+txexa on input line 8
+9.
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/txfonts/utxexa.fd
+File: utxexa.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/context/base/mkii/supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count383
+\scratchdimen=\dimen321
+\scratchbox=\box105
+\nofMPsegments=\count384
+\nofMParguments=\count385
+\everyMPshowfont=\toks48
+\MPscratchCnt=\count386
+\MPscratchDim=\dimen322
+\MPnumerator=\count387
+\makeMPintoPDFobject=\count388
+\everyMPtoPDFconversion=\toks49
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-b
+ase.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/latexconfig/epstopdf-sy
+s.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package hyperref Info: Link coloring ON on input line 89.
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/gettitlestring/gettit
+lestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count389
+)
+LaTeX Info: Redefining \ref on input line 89.
+LaTeX Info: Redefining \pageref on input line 89.
+LaTeX Info: Redefining \nameref on input line 89.
+ (./v1.out) (./v1.out)
+\@outlinefile=\write5
+\openout5 = `v1.out'.
+
+LaTeX Font Info:    Trying to load font information for OT1+txr on input line 1
+08.
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/txfonts/ot1txr.fd
+File: ot1txr.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 10
+8.
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    Trying to load font information for U+txsya on input line 1
+08.
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/txfonts/utxsya.fd
+File: utxsya.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Trying to load font information for U+txsyb on input line 1
+08.
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/txfonts/utxsyb.fd
+File: utxsyb.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Trying to load font information for U+txmia on input line 1
+08.
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/txfonts/utxmia.fd
+File: utxmia.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Trying to load font information for U+txsyc on input line 1
+08.
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/txfonts/utxsyc.fd
+File: utxsyc.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 10
+8.
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+<Orcid-ID.png, id=104, 220.825pt x 220.825pt>
+File: Orcid-ID.png Graphic file (type png)
+<use Orcid-ID.png>
+Package pdftex.def Info: Orcid-ID.png  used on input line 118.
+(pdftex.def)             Requested size: 9.0pt x 8.99997pt.
+File: Orcid-ID.png Graphic file (type png)
+<use Orcid-ID.png>
+Package pdftex.def Info: Orcid-ID.png  used on input line 118.
+(pdftex.def)             Requested size: 9.0pt x 8.99997pt.
+File: Orcid-ID.png Graphic file (type png)
+<use Orcid-ID.png>
+Package pdftex.def Info: Orcid-ID.png  used on input line 118.
+(pdftex.def)             Requested size: 9.0pt x 8.99997pt.
+
+Underfull \hbox (badness 1509) in paragraph at lines 118--118
+ []\T1/aer/m/it/10 Keywords: []\T1/aer/m/n/10 processes---relativistic shocks. 
+galaxies---jets. methods: numerical. software--- 
+ []
+
+
+Underfull \hbox (badness 1735) in paragraph at lines 119--120
+\T1/aer/m/n/10 ([][]Woosley[][] [][]1993[][]), magnetized relativistic winds an
+d
+ []
+
+
+Underfull \hbox (badness 2027) in paragraph at lines 121--122
+\T1/aer/m/n/10 in the non-relativistic limit. However, very few
+ []
+
+[1{/home/tseng/softwares/texlive2021/texmf-var/fonts/map/pdftex/updmap/pdftex.m
+ap} <./Orcid-ID.png>]
+LaTeX Font Info:    Trying to load font information for T1+aett on input line 1
+25.
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/ae/t1aett.fd
+File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
+)
+Underfull \hbox (badness 1521) in paragraph at lines 125--126
+[]\T1/aer/m/n/10 We have integrated this new SRHD solver into
+ []
+
+
+Underfull \hbox (badness 1270) in paragraph at lines 179--181
+\T1/aer/m/n/10 total energy will lead to catastrophic cancellation.
+ []
+
+
+Underfull \hbox (badness 5970) in paragraph at lines 179--181
+\T1/aer/m/n/10 from Equation ([][]4c[][]) so that we can obtain a
+ []
+
+
+Underfull \hbox (badness 1769) in paragraph at lines 179--181
+\T1/aer/m/n/10 new energy equation. However, the new energy
+ []
+
+
+Underfull \hbox (badness 2409) in paragraph at lines 193--194
+\T1/aer/m/n/10 velocity ($\OML/txmi/m/it/10 v \OT1/txr/m/n/10 = []$\T1/aer/m/n/
+10 ) approaches $\OML/txmi/m/it/10 c$ \T1/aer/m/n/10 can seriously
+ []
+
+[2pdfTeX warning (ext4): destination with the same identifier (name{equation.2.
+1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.202 \subsection{Equations of state}
+                                     pdfTeX warning (ext4): destination with th
+e same identifier (name{equation.2.2}) has been already used, duplicate ignored
+
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.202 \subsection{Equations of state}
+                                     pdfTeX warning (ext4): destination with th
+e same identifier (name{equation.2.1}) has been already used, duplicate ignored
+
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.202 \subsection{Equations of state}
+                                     pdfTeX warning (ext4): destination with th
+e same identifier (name{equation.2.2}) has been already used, duplicate ignored
+
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.202 \subsection{Equations of state}
+                                     pdfTeX warning (ext4): destination with th
+e same identifier (name{equation.2.3}) has been already used, duplicate ignored
+
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.202 \subsection{Equations of state}
+                                     pdfTeX warning (ext4): destination with th
+e same identifier (name{equation.2.1}) has been already used, duplicate ignored
+
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.202 \subsection{Equations of state}
+                                     pdfTeX warning (ext4): destination with th
+e same identifier (name{equation.2.2}) has been already used, duplicate ignored
+
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.202 \subsection{Equations of state}
+                                     pdfTeX warning (ext4): destination with th
+e same identifier (name{equation.2.3}) has been already used, duplicate ignored
+
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.202 \subsection{Equations of state}
+                                     ]
+Underfull \hbox (badness 1142) in paragraph at lines 210--212
+\T1/aer/m/n/10 where $\OML/txmi/m/it/10 k[]$ \T1/aer/m/n/10 and $\OML/txmi/m/it
+/10 T$ \T1/aer/m/n/10 are the Boltzmann constant and
+ []
+
+
+Underfull \hbox (badness 2460) in paragraph at lines 210--212
+\T1/aer/m/n/10 temperature, respectively, and $\OML/txmi/m/it/10 K[]$ \T1/aer/m
+/n/10 the $\OML/txmi/m/it/10 n$\T1/aer/m/n/10 -th order
+ []
+
+
+Underfull \hbox (badness 1939) in paragraph at lines 224--226
+\T1/aer/m/n/10 and low-$\OML/txmi/m/it/10 T$ \T1/aer/m/n/10 limits. Detailed co
+mparisons between
+ []
+
+
+Underfull \hbox (badness 1137) in paragraph at lines 227--228
+\T1/aer/m/sc/10 fv \T1/aer/m/n/10 ([][]Núñez-de la Rosa & Munz[][] [][]2016[][]
+). However,
+ []
+
+
+Underfull \hbox (badness 1365) in paragraph at lines 227--228
+\T1/aer/m/n/10 the polytropic EoS cannot handle the case where
+ []
+
+
+Underfull \hbox (badness 1616) in paragraph at lines 227--228
+\T1/aer/m/n/10 relativistic gases and non-relativistic gases coexist,
+ []
+
+<compare_eos.pdf, id=261, 455.50174pt x 327.12212pt>
+File: compare_eos.pdf Graphic file (type pdf)
+<use compare_eos.pdf>
+Package pdftex.def Info: compare_eos.pdf  used on input line 249.
+(pdftex.def)             Requested size: 242.26653pt x 173.98285pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 257--258
+[]\T1/aer/m/n/10 In standard Riemann-type numerical schemes,
+ []
+
+[3pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.260 \begin{equation}
+                       <./compare_eos.pdf>]
+Underfull \hbox (badness 1484) in paragraph at lines 279--280
+\T1/aer/m/n/10 of the iterative procedure. The Newton-Raphson
+ []
+
+
+Underfull \hbox (badness 1472) in paragraph at lines 291--292
+[]\T1/aer/m/n/10 Justifying the superiority of our new conversion
+ []
+
+<ErrorDistributionImproved.png, id=344, 333.8874pt x 387.3672pt>
+File: ErrorDistributionImproved.png Graphic file (type png)
+<use ErrorDistributionImproved.png>
+Package pdftex.def Info: ErrorDistributionImproved.png  used on input line 317.
+
+(pdftex.def)             Requested size: 242.26653pt x 281.07932pt.
+
+Underfull \hbox (badness 2564) in paragraph at lines 318--318
+\T1/aer/m/n/9 respectively. The bottom panel shows the ratio of
+ []
+
+
+Underfull \hbox (badness 2111) in paragraph at lines 318--318
+[][]\T1/aer/m/n/9 B[][] provides numerical evidences showing a remarkable
+ []
+
+[4]
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 331.
+
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 331.
+
+
+Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
+
+
+Underfull \hbox (badness 1142) in paragraph at lines 331--333
+\T1/aer/m/n/10 subtraction to avoid catastrophic cancellation. In
+ []
+
+LaTeX Font Info:    Trying to load font information for TS1+aer on input line 3
+36.
+LaTeX Font Info:    No file TS1aer.fd. on input line 336.
+
+LaTeX Font Warning: Font shape `TS1/aer/m/n' undefined
+(Font)              using `TS1/cmr/m/n' instead
+(Font)              for symbol `textbullet' on input line 336.
+
+
+Underfull \hbox (badness 3029) in paragraph at lines 349--350
+\T1/aer/m/n/10 module directly inherits the AMR structure and
+ []
+
+
+Underfull \hbox (badness 2781) in paragraph at lines 349--350
+\T1/aer/m/n/10 hydrodynamics, and therefore we only provide a
+ []
+
+
+Underfull \hbox (badness 1342) in paragraph at lines 351--352
+\T1/aer/m/n/10 refinement criteria for SRHD: the gradient of the
+ []
+
+
+Underfull \hbox (badness 1412) in paragraph at lines 355--356
+\T1/aer/m/n/10 be shared by both CPU and GPU computations.
+ []
+
+
+Underfull \hbox (badness 2359) in paragraph at lines 355--356
+\T1/aer/m/n/10 Specifically, in the CPU-only mode, we compute
+ []
+
+
+Underfull \hbox (badness 2245) in paragraph at lines 355--356
+\T1/aer/m/n/10 programming. We have utilized this CPU/GPU
+ []
+
+[5pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.356 
+       <./ErrorDistributionImproved.png>]
+Underfull \hbox (badness 3690) in paragraph at lines 357--358
+[]\T1/aer/m/sc/10 gamer-sr \T1/aer/m/n/10 supports the MUSCL-Hancock ([][]Toro[
+][]
+ []
+
+
+Underfull \hbox (badness 4108) in paragraph at lines 361--362
+[]\T1/aer/m/sc/10 gamer-sr \T1/aer/m/n/10 provides two Courant-Friedrichs-Lewy
+ []
+
+
+Underfull \hbox (badness 4927) in paragraph at lines 387--388
+[]\T1/aer/m/n/10 and substituting Equation ([][]27[][]) into the CFL
+ []
+
+
+Underfull \hbox (badness 2326) in paragraph at lines 406--408
+\T1/aer/m/n/10 where the left-hand side involves the numerically
+ []
+
+[6]
+Underfull \hbox (badness 2875) in paragraph at lines 434--435
+\T1/aer/m/n/10 cubic box with the periodic boundary condition.
+ []
+
+
+Underfull \hbox (badness 3417) in paragraph at lines 434--435
+\T1/aer/m/n/10 Thus, the analytical solution is $\OML/txmi/m/it/10 ^^Z\OT1/txr/
+m/n/10 (\OT1/txr/bx/n/10 x\OML/txmi/m/it/10 ; t\OT1/txr/m/n/10 ) = \OML/txmi/m/
+it/10 ^^Z[] \OT1/txr/m/n/10 +
+ []
+
+<fig__convergence.pdf, id=457, 370.63156pt x 278.48479pt>
+File: fig__convergence.pdf Graphic file (type pdf)
+<use fig__convergence.pdf>
+Package pdftex.def Info: fig__convergence.pdf  used on input line 455.
+(pdftex.def)             Requested size: 242.26653pt x 182.03279pt.
+
+Underfull \hbox (badness 1092) in paragraph at lines 463--464
+\T1/aer/m/n/10 this subsection, we directly compare the new and
+ []
+
+
+Underfull \hbox (badness 1325) in paragraph at lines 463--464
+\T1/aer/m/n/10 contrast, the original scheme severely suffers from
+ []
+
+
+Underfull \hbox (badness 1132) in paragraph at lines 463--464
+\T1/aer/m/n/10 numerical errors in the NR limit. Both schemes
+ []
+
+[7]
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 464.
+
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 464.
+
+
+Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
+
+<HeadCollision.pdf, id=477, 807.46823pt x 715.18315pt>
+File: HeadCollision.pdf Graphic file (type pdf)
+<use HeadCollision.pdf>
+Package pdftex.def Info: HeadCollision.pdf  used on input line 487.
+(pdftex.def)             Requested size: 513.11743pt x 454.48547pt.
+
+Underfull \hbox (badness 1152) in paragraph at lines 500--501
+\T1/aer/m/n/10 by a contact discontinuity to match an extremely
+ []
+
+[8pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.503 
+       <./fig__convergence.pdf>]
+<RiemannProbs.png, id=552, 824.6007pt x 508.0581pt>
+File: RiemannProbs.png Graphic file (type png)
+<use RiemannProbs.png>
+Package pdftex.def Info: RiemannProbs.png  used on input line 505.
+(pdftex.def)             Requested size: 513.11743pt x 316.15561pt.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 511.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 511.
+
+
+Underfull \hbox (badness 1460) in paragraph at lines 513--514
+\T1/aer/m/n/10 two identical three-dimensional mono-direction flow
+ []
+
+
+Underfull \hbox (badness 1852) in paragraph at lines 532--533
+[]\T1/aer/m/n/10 An example of this boundary instability is the
+ []
+
+<fig__HorizontalFlowLow.png, id=568, 348.97375pt x 305.06973pt>
+File: fig__HorizontalFlowLow.png Graphic file (type png)
+<use fig__HorizontalFlowLow.png>
+Package pdftex.def Info: fig__HorizontalFlowLow.png  used on input line 540.
+(pdftex.def)             Requested size: 230.90128pt x 201.85402pt.
+<fig__DiagonalFlowLow.png, id=569, 348.97375pt x 305.06973pt>
+File: fig__DiagonalFlowLow.png Graphic file (type png)
+<use fig__DiagonalFlowLow.png>
+Package pdftex.def Info: fig__DiagonalFlowLow.png  used on input line 545.
+(pdftex.def)             Requested size: 230.90128pt x 201.85402pt.
+<fig__HorizontalFlowHig.png, id=570, 348.97375pt x 305.06973pt>
+File: fig__HorizontalFlowHig.png Graphic file (type png)
+<use fig__HorizontalFlowHig.png>
+Package pdftex.def Info: fig__HorizontalFlowHig.png  used on input line 550.
+(pdftex.def)             Requested size: 230.90128pt x 201.85402pt.
+<fig__DiagonalFlowHig.png, id=571, 348.97375pt x 305.06973pt>
+File: fig__DiagonalFlowHig.png Graphic file (type png)
+<use fig__DiagonalFlowHig.png>
+Package pdftex.def Info: fig__DiagonalFlowHig.png  used on input line 555.
+(pdftex.def)             Requested size: 230.90128pt x 201.85402pt.
+<fig__HorizontalFlowHigZoomIn.png, id=572, 629.02002pt x 347.167pt>
+File: fig__HorizontalFlowHigZoomIn.png Graphic file (type png)
+<use fig__HorizontalFlowHigZoomIn.png>
+Package pdftex.def Info: fig__HorizontalFlowHigZoomIn.png  used on input line 5
+67.
+(pdftex.def)             Requested size: 242.26653pt x 133.71002pt.
+
+Underfull \hbox (badness 2435) in paragraph at lines 575--577
+[]\T1/aer/m/n/10 We measure both strong and weak scalings of
+ []
+
+[9pdfTeX warning (ext4): destination with the same identifier (name{table.1}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.577 
+      ]
+Underfull \hbox (badness 2080) in paragraph at lines 578--579
+[]\T1/aer/m/n/10 We divide this section into two parts. First,
+ []
+
+
+Underfull \hbox (badness 1953) in paragraph at lines 581--583
+\T1/aer/m/n/10 Figure [][]9[][] shows the strong scaling results. The
+ []
+
+
+Underfull \hbox (badness 1721) in paragraph at lines 581--583
+\T1/aer/m/n/10 parallel efficiency for strong scaling is defined by
+ []
+
+
+Underfull \hbox (badness 1112) in paragraph at lines 581--583
+\T1/aer/m/n/10 number of nodes for reference and is fixed to 16
+ []
+
+[10pdfTeX warning (ext4): destination with the same identifier (name{figure.4})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.583 
+       <./HeadCollision.pdf>]
+<fig__weak_scaling.pdf, id=671, 437.635pt x 361.35pt>
+File: fig__weak_scaling.pdf Graphic file (type pdf)
+<use fig__weak_scaling.pdf>
+Package pdftex.def Info: fig__weak_scaling.pdf  used on input line 585.
+(pdftex.def)             Requested size: 242.26653pt x 200.03885pt.
+<fig__benchmark_strongscaling.pdf, id=672, 767.37pt x 357.6424pt>
+File: fig__benchmark_strongscaling.pdf Graphic file (type pdf)
+<use fig__benchmark_strongscaling.pdf>
+Package pdftex.def Info: fig__benchmark_strongscaling.pdf  used on input line 5
+92.
+(pdftex.def)             Requested size: 242.26653pt x 112.90897pt.
+ [11pdfTeX warning (ext4): destination with the same identifier (name{figure.5}
+) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.601 
+       <./RiemannProbs.png>]
+Underfull \hbox (badness 3354) in paragraph at lines 602--603
+\T1/aer/m/n/10 respectively, with 1024 nodes on the \T1/aett/m/n/10 Piz-Daint
+ []
+
+
+Underfull \hbox (badness 1062) in paragraph at lines 602--603
+\T1/aer/m/n/10 per second, which is about one-third of the peak
+ []
+
+<fig__benchmark_weakscaling.pdf, id=684, 767.37pt x 348.10677pt>
+File: fig__benchmark_weakscaling.pdf Graphic file (type pdf)
+<use fig__benchmark_weakscaling.pdf>
+Package pdftex.def Info: fig__benchmark_weakscaling.pdf  used on input line 606
+.
+(pdftex.def)             Requested size: 242.26653pt x 109.89853pt.
+[12pdfTeX warning (ext4): destination with the same identifier (name{figure.6})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.618 \section{Astrophysical Applications}
+                                           <./fig__HorizontalFlowLow.png> <./fi
+g__DiagonalFlowLow.png> <./fig__HorizontalFlowHig.png> <./fig__DiagonalFlowHig.
+png>]
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 618.
+
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 618.
+
+
+Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
+
+[13pdfTeX warning (ext4): destination with the same identifier (name{figure.7})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.626 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+8}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.626 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+9}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.626 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+10}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.626 
+       <./fig__HorizontalFlowHigZoomIn.png> <./fig__weak_scaling.pdf> <./fig__b
+enchmark_strongscaling.pdf
+
+pdfTeX warning: pdflatex (file ./fig__benchmark_strongscaling.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+> <./fig__benchmark_weakscaling.pdf
+
+pdfTeX warning: pdflatex (file ./fig__benchmark_weakscaling.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+>]
+<ProfileSliceLowRes.png, id=826, 1887.30093pt x 1505.625pt>
+File: ProfileSliceLowRes.png Graphic file (type png)
+<use ProfileSliceLowRes.png>
+Package pdftex.def Info: ProfileSliceLowRes.png  used on input line 640.
+(pdftex.def)             Requested size: 513.11743pt x 409.34998pt.
+<fig__AxesRatio.pdf, id=827, 421.97021pt x 218.3514pt>
+File: fig__AxesRatio.pdf Graphic file (type pdf)
+<use fig__AxesRatio.pdf>
+Package pdftex.def Info: fig__AxesRatio.pdf  used on input line 647.
+(pdftex.def)             Requested size: 242.26653pt x 125.36115pt.
+
+Underfull \hbox (badness 1052) in paragraph at lines 654--655
+[]\T1/aer/m/n/10 Most active galactic nuclei (AGN) jets in VLBI
+ []
+
+
+Underfull \hbox (badness 5091) in paragraph at lines 654--655
+\T1/aer/m/n/10 observations appear ridge-brightened, while limb-
+ []
+
+
+Underfull \hbox (badness 1221) in paragraph at lines 656--657
+\T1/aer/m/n/10 and the magnitude of $[]\OML/txmi/m/it/10 =D$ \T1/aer/m/n/10 as 
+the two inclusive
+ []
+
+
+Underfull \hbox (badness 5563) in paragraph at lines 660--661
+[]\T1/aer/m/n/10 Figure [][]13[][] shows the simulation results. It
+ []
+
+[14]
+<JetAccLowRes.png, id=859, 243.64024pt x 180.675pt>
+File: JetAccLowRes.png Graphic file (type png)
+<use JetAccLowRes.png>
+Package pdftex.def Info: JetAccLowRes.png  used on input line 672.
+(pdftex.def)             Requested size: 513.11743pt x 380.53142pt.
+
+Underfull \hbox (badness 2073) in paragraph at lines 681--682
+\T1/aer/m/n/10 relativistic hydrodynamics code, \T1/aer/m/sc/10 gamer-sr\T1/aer
+/m/n/10 , which
+ []
+
+[15pdfTeX warning (ext4): destination with the same identifier (name{figure.11}
+) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.682 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+12}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.682 
+       <./ProfileSliceLowRes.png> <./fig__AxesRatio.pdf>]
+Underfull \hbox (badness 4634) in paragraph at lines 689--690
+[]\T1/aer/m/n/10 We have examined two astrophysical problems
+ []
+
+[16pdfTeX warning (ext4): destination with the same identifier (name{figure.13}
+) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.690 
+       <./JetAccLowRes.png>]
+Underfull \hbox (badness 1062) in paragraph at lines 691--692
+\T1/aer/m/n/10 find that the jet, from its head to its source, is
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 693--694
+[]\T1/aer/m/sc/10 gamer-sr \T1/aer/m/n/10 does not implement explicit grid
+ []
+
+
+Underfull \hbox (badness 4441) in paragraph at lines 693--694
+\T1/aer/m/n/10 derefinement criteria, dual-energy formalism, and
+ []
+
+
+Underfull \hbox (badness 2941) in paragraph at lines 693--694
+\T1/aer/m/n/10 magnetic fields (e.g., [][]Stone et al.[][] [][]2020[][]). The
+ []
+
+
+Underfull \hbox (badness 1596) in paragraph at lines 693--694
+\T1/aer/m/n/10 magnetic fields play a critical role in many high
+ []
+
+(./v1.bbl [17]) [18]
+<FunHTilde.pdf, id=1023, 407.80919pt x 322.94507pt>
+File: FunHTilde.pdf Graphic file (type pdf)
+<use FunHTilde.pdf>
+Package pdftex.def Info: FunHTilde.pdf  used on input line 780.
+(pdftex.def)             Requested size: 285.46448pt x 226.06pt.
+<screenshot.png, id=1026, 703.87968pt x 495.35063pt>
+File: screenshot.png Graphic file (type png)
+<use screenshot.png>
+Package pdftex.def Info: screenshot.png  used on input line 787.
+(pdftex.def)             Requested size: 513.11743pt x 361.1041pt.
+ [19]
+<ErrorMap3.pdf, id=1046, 373.23529pt x 327.84044pt>
+File: ErrorMap3.pdf Graphic file (type pdf)
+<use ErrorMap3.pdf>
+Package pdftex.def Info: ErrorMap3.pdf  used on input line 804.
+(pdftex.def)             Requested size: 298.58864pt x 262.27269pt.
+ [20pdfTeX warning (ext4): destination with the same identifier (name{figure.14
+}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.823           \begin{enumerate}
+                                  <./FunHTilde.pdf>] [21pdfTeX warning (ext4): 
+destination with the same identifier (name{figure.15}) has been already used, d
+uplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.837           \begin{equation}
+                                 <./screenshot.png (PNG copy)>] [22pdfTeX warni
+ng (ext4): destination with the same identifier (name{figure.16}) has been alre
+ady used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.859     \end{enumerate}
+                          <./ErrorMap3.pdf>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 864.
+
+[23pdfTeX warning (ext4): destination with the same identifier (name{table.2}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.894 \end{document}
+                    ] (./v1.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package rerunfilecheck Info: File `v1.out' has not changed.
+(rerunfilecheck)             Checksum: D5F256E141E78BD3A4CF8BC2DECD442F;4573.
+ ) 
+Here is how much of TeX's memory you used:
+ 29191 strings out of 478579
+ 516503 string characters out of 5848447
+ 976197 words of memory out of 5000000
+ 46304 multiletter control sequences out of 15000+600000
+ 494428 words of font info for 207 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 84i,14n,83p,1947b,808s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/home/tseng/softwares/texlive2021/texmf-dist/fonts/enc/dvips/cm-super/cm-sup
+er-ts1.enc}{/home/tseng/softwares/texlive2021/texmf-dist/fonts/enc/dvips/base/8
+r.enc}</home/tseng/softwares/texlive2021/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmb10.pfb></home/tseng/softwares/texlive2021/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmcsc10.pfb></home/tseng/softwares/texlive2021/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr10.pfb></home/tseng/softwares/texlive2021/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr6.pfb></home/tseng/softwares/texlive2021/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></home/tseng/softwares/texlive202
+1/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></home/tseng/softwares/tex
+live2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></home/tseng/softwa
+res/texlive2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></home/tse
+ng/softwares/texlive2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></
+home/tseng/softwares/texlive2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti
+9.pfb></home/tseng/softwares/texlive2021/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmtt10.pfb></home/tseng/softwares/texlive2021/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmtt9.pfb></home/tseng/softwares/texlive2021/texmf-dist/fonts/type
+1/public/rsfs/rsfs10.pfb></home/tseng/softwares/texlive2021/texmf-dist/fonts/ty
+pe1/public/rsfs/rsfs7.pfb></home/tseng/softwares/texlive2021/texmf-dist/fonts/t
+ype1/public/txfonts/rtxmi.pfb></home/tseng/softwares/texlive2021/texmf-dist/fon
+ts/type1/public/txfonts/rtxr.pfb></home/tseng/softwares/texlive2021/texmf-dist/
+fonts/type1/public/cm-super/sfrm1000.pfb></home/tseng/softwares/texlive2021/tex
+mf-dist/fonts/type1/public/txfonts/txex.pfb></home/tseng/softwares/texlive2021/
+texmf-dist/fonts/type1/public/txfonts/txsy.pfb></home/tseng/softwares/texlive20
+21/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb></home/tseng/softwares/texli
+ve2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></home/tseng/softwares/texli
+ve2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></home/tseng/softwares/texli
+ve2021/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on v1.pdf (23 pages, 8906705 bytes).
+PDF statistics:
+ 1336 PDF objects out of 1440 (max. 8388607)
+ 914 compressed objects within 10 object streams
+ 176 named destinations out of 1000 (max. 500000)
+ 297 words of extra memory for PDF output out of 10000 (max. 10000000)
+
