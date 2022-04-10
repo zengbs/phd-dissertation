@@ -112,7 +112,20 @@
 \keywords{processes---relativistic shocks. galaxies---jets. methods: numerical. software---development, simulations.}
 
 \begin{abstract}
-We present a new special relativistic hydrodynamics (SRHD) code capable of handling coexisting ultra-relativistically hot and non-relativistically cold gases. We achieve this by designing a new algorithm for conversion between primitive and conserved variables in the SRHD solver, which incorporates a realistic ideal-gas equation of state covering both the relativistic and non-relativistic regimes. The code can handle problems involving a Lorentz factor as high as $10^6$ and optimally avoid the catastrophic cancellation. In addition, we have integrated this new SRHD solver into the code \textsc{gamer} (\url{https://github.com/gamer-project/gamer}) to support adaptive mesh refinement and hybrid OpenMP/MPI/GPU parallelization. It achieves a peak performance of $7\times 10^{7}$ cell updates per second on a single Tesla P100 GPU and scales well to 2048 GPUs. We apply this code to two interesting astrophysical applications: (a) an asymmetric explosion source on the relativistic blast wave and (b) the flow acceleration and limb-brightening of relativistic jets.
+We present a new special relativistic hydrodynamics (SRHD) code capable of handling coexisting
+ultra-relativistically hot and non-relativistically cold gases.
+We achieve this by designing a new algorithm for conversion between primitive and
+conserved variables in the SRHD solver, which incorporates a realistic ideal-gas
+equation of state covering both the relativistic and non-relativistic regimes.
+The code can handle problems involving a Lorentz factor as high as $10^6$ and optimally
+avoid the catastrophic cancellation. In addition, we have integrated this new SRHD solver
+into the code \textsc{gamer} (\url{https://github.com/gamer-project/gamer}) to support
+adaptive mesh refinement and hybrid OpenMP/MPI/GPU parallelization.
+It achieves a peak performance of $7\times 10^{7}$ cell updates per second on a
+single Tesla P100 GPU and scales well to 2048 GPUs. We apply this code
+to two interesting astrophysical applications: (a) an asymmetric explosion source
+on the relativistic blast wave and (b) the flow acceleration and limb-brightening of
+relativistic jets.
 \end{abstract}
 
 \section{Introduction}

@@ -12,8 +12,8 @@
 \ProvidesClass{ntuthesis}[2013/04/23 Thesis template for National Taiwan University]
 
 % Derived from book class
-\DeclareRobustCommand{\@typeen}{Master}
-\DeclareRobustCommand{\@typezh}{碩士}
+\DeclareRobustCommand{\@typeen}{Doctoral}
+\DeclareRobustCommand{\@typezh}{博士}
 \DeclareRobustCommand{\@classen}{Thesis}
 \DeclareRobustCommand{\@classzh}{論文}
 \DeclareOption{phd}{\gdef\@typeen{Doctoral}\gdef\@typezh{博士}\gdef\@classen{Dissertation}}
