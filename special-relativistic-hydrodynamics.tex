@@ -1,7 +1,7 @@
 \chapter{Special relativistic hydrodynamics}
 \label{c:special-relativistic-hydrodynamics}
 %\label{Relativistic Hydrodynamic Equations}
-\subsection{Relativistic hydrodynamics}
+\section{Relativistic hydrodynamics}
 \label{Relativistic Hydrodynamics}
 Mass and energy-momentum conservation laws of a special relativistic ideal fluid follow
 \begin{subequations}
@@ -70,7 +70,7 @@ by which significant digits in $\gamma$ can be kept when $\gamma \gg 1$.
 
 In addition, unlike the three-velocity bounded by $c$, four-velocity $U^i$ has no upper limit and therefore can greatly reduce the risk of having $v>c$ due to numerical errors.
 
-\subsection{Equations of state}
+\section{Equations of state}
 \label{EoS}
 \textsc{gamer-sr} supports two kinds of EoS, the Taub-Mathews EoS (TM; \citealt{Taub}, \citealt{TM_EOS}, \citealt{Compare_TM_EOS}) and the polytropic EoS with a constant ratio of specific heats $\Gamma$. Assuming an ideal fluid in local thermal equilibrium and obeying the non-degenerate Maxwell-J\"{u}ttner statistics \citep{Juttner}, the exact EoS \citep{Synge} derived from the kinetic theory of relativistic gases is given by
 \begin{equation}
@@ -123,7 +123,7 @@ for the TM EoS, where $U_{s}=c_{s}/\sqrt{1-\left(c_{s}/c\right)^2}$. The sound s
 \end{figure}
 
 
-\subsection{Conversion between primitive and conserved variables}
+\section{Conversion between primitive and conserved variables}
 \label{section: Conversion between primitive variables and conserved ones}
 In standard Riemann-type numerical schemes, conversion between conserved and primitive variables is a common procedure for data reconstructions and flux computations. For non-relativistic hydrodynamics, this conversion can be carried out in a straightforward and analytical manner. However, designing an accurate and efficient conversion algorithm for a relativistic problem in the presence of NR gases, which involves root-finding, is challenging. This is because catastrophic cancellations may arise in the non-relativistic gas.
 

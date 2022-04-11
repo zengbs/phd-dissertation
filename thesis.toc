@@ -6,7 +6,17 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {chapter}{Part I}{3}{chapter*.8}%
 \contentsline {chapter}{\numberline {2}Special relativistic hydrodynamics}{5}{chapter.2}%
-\contentsline {subsection}{\numberline {2.0.1}Relativistic hydrodynamics}{5}{subsection.2.0.1}%
-\contentsline {subsection}{\numberline {2.0.2}Equations of state}{7}{subsection.2.0.2}%
-\contentsline {subsection}{\numberline {2.0.3}Conversion between primitive and conserved variables}{9}{subsection.2.0.3}%
-\contentsline {chapter}{Bibliography}{15}{section*.9}%
+\contentsline {section}{\numberline {2.1}Relativistic hydrodynamics}{5}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Equations of state}{7}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Conversion between primitive and conserved variables}{9}{section.2.3}%
+\contentsline {chapter}{\numberline {3}Numerical methods}{15}{chapter.3}%
+\contentsline {section}{\numberline {3.1}A GAMER Primer}{15}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Flexible Time-step}{16}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Handling unphysical results}{18}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Test problems}{21}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Convergence test for sinusoidal waves}{21}{section.4.1}%
+\contentsline {section}{\numberline {4.2}1-D relativistic Riemann problems}{22}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Ultra-relativistic limit}{23}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Mixed limits}{25}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Multi-dimensional grid effects for high-$\mathslscr {M}$ flows}{27}{section.4.5}%
+\contentsline {chapter}{Bibliography}{31}{section*.9}%

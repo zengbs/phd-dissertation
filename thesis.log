@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.11.4)  10 APR 2022 18:58
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.11.4)  11 APR 2022 15:36
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1134,6 +1134,54 @@ LaTeX Font Info:    Redeclaring math accent \vec on input line 2008.
 LaTeX Info: Redefining \Bbbk on input line 2798.
 LaTeX Info: Redefining \not on input line 2947.
 )
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip85
+\subfigcapskip=\skip86
+\subfigcaptopadj=\dimen315
+\subfigbottomskip=\skip87
+\subfigcapmargin=\dimen316
+\subfiglabelskip=\skip88
+\c@subfigure=\count357
+\c@lofdepth=\count358
+\c@subtable=\count359
+\c@lotdepth=\count360
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/subfigure/subfigure.cfg
+)
+\subfig@top=\skip89
+\subfig@bottom=\skip90
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen317
+\lightrulewidth=\dimen318
+\cmidrulewidth=\dimen319
+\belowrulesep=\dimen320
+\belowbottomsep=\dimen321
+\aboverulesep=\dimen322
+\abovetopsep=\dimen323
+\cmidrulesep=\dimen324
+\cmidrulekern=\dimen325
+\defaultaddspace=\dimen326
+\@cmidla=\count361
+\@cmidlb=\count362
+\@aboverulesep=\dimen327
+\@belowrulesep=\dimen328
+\@thisruleclass=\count363
+\@lastruleclass=\count364
+\@thisrulewidth=\dimen329
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip91
+\multirow@cntb=\count365
+\multirow@dima=\skip92
+\bigstrutjot=\dimen330
+)
 
 Package fontspec Info: Font family '標楷體(0)' created for font '標楷體' with
 (fontspec)             options
@@ -1164,61 +1212,61 @@ tex-text;"
 ! Extra \endgroup.
 \document ->\endgroup 
                       \let \BeforeStartOfDocument \@firstofone \cpt@beforest...
-l.56 \begin{document}
+l.58 \begin{document}
                      
 Things are pretty mixed up, but I think the worst is over.
 
 (./thesis.aux)
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 56.
+LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 58.
 LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line
- 56.
+ 58.
 
 (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/omlntxmi.fd
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 58.
 LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 
-56.
+58.
 
 (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 58.
 LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line
- 56.
+ 58.
 
 (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 58.
 LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input lin
-e 56.
+e 58.
 
 (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    ... okay on input line 58.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1263,7 +1311,7 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
 
 )
-Package hyperref Info: Link coloring OFF on input line 56.
+Package hyperref Info: Link coloring OFF on input line 58.
 
 (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -1275,23 +1323,23 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 lestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count357
+\c@section@level=\count366
 )
-LaTeX Info: Redefining \ref on input line 56.
-LaTeX Info: Redefining \pageref on input line 56.
-LaTeX Info: Redefining \nameref on input line 56.
+LaTeX Info: Redefining \ref on input line 58.
+LaTeX Info: Redefining \pageref on input line 58.
+LaTeX Info: Redefining \nameref on input line 58.
  (./thesis.out) (./thesis.out)
 \@outlinefile=\write5
 \openout5 = `thesis.out'.
 
-\c@mv@tabular=\count358
-\c@mv@boldtabular=\count359
+\c@mv@tabular=\count367
+\c@mv@boldtabular=\count368
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 18.0pt on input line 60.
+(Font)              scaled to size 18.0pt on input line 62.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 14.0pt on input line 60.
+(Font)              scaled to size 14.0pt on input line 62.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 16.0pt on input line 60.
+(Font)              scaled to size 16.0pt on input line 62.
  [1
 
 
@@ -1300,55 +1348,55 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 
 ]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 24.0pt on input line 76.
+(Font)              scaled to size 24.0pt on input line 78.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 20.0pt on input line 76.
+(Font)              scaled to size 20.0pt on input line 78.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 15.0pt on input line 76.
-LaTeX Font Info:    Calculating math sizes for size <15> on input line 76.
+(Font)              scaled to size 15.0pt on input line 78.
+LaTeX Font Info:    Calculating math sizes for size <15> on input line 78.
 LaTeX Font Info:    Trying to load font information for OT1+ntxtlf on input lin
-e 76.
+e 78.
 
 (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/ot1ntxtlf.fd
 File: ot1ntxtlf.fd 2021/05/24 v1.0 font definition file for OT1/ntx/tlf
 )
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 15.0pt on input line 76.
+(Font)              scaled to size 15.0pt on input line 78.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.94994pt on input line 76.
+(Font)              scaled to size 10.94994pt on input line 78.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.25005pt on input line 76.
+(Font)              scaled to size 8.25005pt on input line 78.
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 7
-6.
+8.
 
 (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <15> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 76.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 78.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.94994> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 76.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 78.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8.25005> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 76.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 78.
 LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 
-76.
+78.
 
 (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/untxmia.fd
 File: untxmia.fd 2018/04/14 Fontinst v1.933 font definitions for U/ntxmia.
 )
 LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 
-76.
+78.
 
 (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/untxsym.fd
 File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
 )
 LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 
-76.
+78.
 
 (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
-Overfull \hbox (31.11316pt too wide) in paragraph at lines 76--76
+Overfull \hbox (31.11316pt too wide) in paragraph at lines 78--78
  [] 
  []
 
@@ -1407,13 +1455,11 @@ LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
 
 ] [12
 
-] (./thesis.toc)
+] (./thesis.toc [13])
 \tf@toc=\write6
 \openout6 = `thesis.toc'.
 
- [13] [14
-
-] (./thesis.lof
+ [14] (./thesis.lof
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 8.8pt on input line 3.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
@@ -1427,17 +1473,26 @@ LaTeX Warning: Reference `fig:ErrorAnalysis' on page i undefined on input line
 LaTeX Warning: Reference `Appendix:Numerical error analysis' on page xv undefin
 ed on input line 4.
 
-)
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16])
 \tf@lof=\write7
 \openout7 = `thesis.lof'.
 
- [15] [16
+
+[17] [18
 
 ] (./thesis.lot)
 \tf@lot=\write8
 \openout8 = `thesis.lot'.
 
- [17] [18
+ [19] [20
 
 ] (./introduction.tex
 Chapter 1.
@@ -1478,13 +1533,9 @@ LaTeX Warning: Reference `conclusions' on page 2 undefined on input line 59.
 ]
 Chapter 2.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 14.4pt on input line 4.
+(Font)              scaled to size 17.28pt on input line 4.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 14.4pt on input line 4.
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 4.
-
+(Font)              scaled to size 17.28pt on input line 4.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1492,9 +1543,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6]
-Underfull \vbox (badness 2158) has occurred while \output is active []
-
- [7]
+[7]
 ! Undefined control sequence.
 <recently read> \abs 
                      
@@ -1589,6 +1638,7 @@ and I'll forget about whatever was undefined.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [8]
+[9]
 ! Undefined control sequence.
 <argument> \abs 
                 {\mathbf {M}}
@@ -1617,7 +1667,6 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[9]
 
 LaTeX Warning: Reference `The choice of initial guesses' on page 10 undefined o
 n input line 150.
@@ -1633,7 +1682,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[10]
+
+Underfull \vbox (badness 7649) has occurred while \output is active []
+
+ [10]
 ! Undefined control sequence.
 l.166 ...de{E}/Dc^2\right)\right]$ and $\left(\abs
                                                   {\mathbf{M}}/Dc\right)^2$ ...
@@ -1745,7 +1797,10 @@ LaTeX Warning: Reference `fig:ErrorAnalysis' on page 1 undefined on input line
 LaTeX Warning: Reference `Appendix:Numerical error analysis' on page 11 undefin
 ed on input line 184.
 
-[11]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11]
 File: figures/ErrorDistributionImproved.png Graphic file (type bmp)
 <figures/ErrorDistributionImproved.png>
 
@@ -1814,10 +1869,290 @@ File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
 (Font)              scaled to size 12.0pt on input line 207.
 
-[12] [13]) [14] (./thesis.bbl
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 12.0pt on input line 11.
+[12] [13]) (./numerical-methods.tex [14]
+Chapter 3.
 
+LaTeX Warning: Reference `fig:Limb_brightened_jet' on page 1 undefined on input
+ line 7.
+
+[15
+
+] [16]
+! Undefined control sequence.
+<recently read> \abs 
+                     
+l.29 ...\Cref{time_step_x}, we simply choose $\abs
+                                                  {U^{i}}\gamma_s+\gamma U_s...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \abs 
+                     
+l.29 ... each spatial component and sum over $\abs
+                                                  {U^{i}}\gamma_s+\gamma U_s...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.32 =\gamma_{s}\left(\abs
+                          {U_{x}}+\abs{U_{z}}+\abs{U_{z}}\right)+3\gamma U_s,
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.32 =\gamma_{s}\left(\abs{U_{x}}+\abs
+                                      {U_{z}}+\abs{U_{z}}\right)+3\gamma U_s,
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.32 =\gamma_{s}\left(\abs{U_{x}}+\abs{U_{z}}+\abs
+                                                  {U_{z}}\right)+3\gamma U_s,
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17]
+! Undefined control sequence.
+<argument> \abs 
+                {v_x}+\abs {v_y}+\abs {v_z}+3c_s
+l.52 ...lta h}{\abs{v_x}+\abs{v_y}+\abs{v_z}+3c_s}
+                                                  \right),
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \abs {v_x}+\abs 
+                           {v_y}+\abs {v_z}+3c_s
+l.52 ...lta h}{\abs{v_x}+\abs{v_y}+\abs{v_z}+3c_s}
+                                                  \right),
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \abs {v_x}+\abs {v_y}+\abs 
+                                      {v_z}+3c_s
+l.52 ...lta h}{\abs{v_x}+\abs{v_y}+\abs{v_z}+3c_s}
+                                                  \right),
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \abs 
+                {\mathbf {M}}
+l.60 ...}\right)-\left(\frac{\abs{\mathbf{M}}}{Dc}
+                                                  \right)^2>\epsilon_{\text{...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
+(Font)              scaled to size 12.0pt on input line 65.
+[18]) (./test-problems.tex [19] [20
+
+]
+Chapter 4.
+! Undefined control sequence.
+l.80 L1(Q)=\frac{1}{N}\sum^{N}_{i=1}\abs
+                                        {1-\frac{Q_{\text{numerical}}\left(\...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[21]
+
+LaTeX Warning: Reference `fig:convergence test' on page 1 undefined on input li
+ne 85.
+
+! Undefined control sequence.
+l.92 ...cellation between $(E/Dc^2)^2$ and $[(\abs
+                                                  {\mathbf{M}}/Dc)^2+1]$ lea...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.92 ...^2+2\left(\tilde{E}/Dc^2\right)-\left(\abs
+                                                  {\mathbf{M}}/Dc\right)^2$,...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `Appendix:Numerical error analysis' on page 22 undefin
+ed on input line 92.
+
+
+LaTeX Warning: Reference `appendix:exact solution' on page 22 undefined on inpu
+t line 98.
+
+[22]
+Overfull \hbox (11.27263pt too wide) in paragraph at lines 104--110
+[][] 
+ []
+
+File: figures/HeadCollision.pdf Graphic file (type pdf)
+<use figures/HeadCollision.pdf>
+
+LaTeX Warning: Reference `appendix:exact solution' on page 23 undefined on inpu
+t line 135.
+
+[23] [24]
+
+LaTeX Warning: Reference `tb:exact solution' on page 25 undefined on input line
+ 137.
+
+
+LaTeX Warning: Reference `appendix:exact solution' on page 25 undefined on inpu
+t line 137.
+
+
+LaTeX Warning: Reference `tb:exact solution' on page 1 undefined on input line 
+137.
+
+
+LaTeX Warning: Reference `appendix:exact solution' on page 25 undefined on inpu
+t line 137.
+
+File: figures/RiemannProbs.png Graphic file (type bmp)
+<figures/RiemannProbs.png>
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 17.28pt on input line 146.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 12.5pt on input line 146.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 9.4pt on input line 146.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
+(Font)              scaled to size 17.28pt on input line 146.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
+(Font)              scaled to size 12.5pt on input line 146.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
+(Font)              scaled to size 9.4pt on input line 146.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 146.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12.5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 146.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 146.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 146.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\tx@ScrM' on input line 146.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 146.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [25]
+[26]
+! Undefined control sequence.
+<recently read> \abs 
+                     
+l.150 ...r mass density and the magnitude of $\abs
+                                                  {\mathbf{M}}/D$ as the two...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.154 \abs
+          {\frac{\partial Q}{\partial x}}+
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.155 \abs
+          {\frac{\partial Q}{\partial y}}+
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.156 \abs
+          {\frac{\partial Q}{\partial z}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \abs 
+                     
+l.161 ... be refined when any cell satisfies $\abs
+                                                  {\mathbf{M}}/D>10^{4}$ so ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \vbox (badness 4673) has occurred while \output is active []
+
+ [27]
+File: figures/fig__HorizontalFlowLow.png Graphic file (type bmp)
+<figures/fig__HorizontalFlowLow.png>
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 10.0pt on input line 175.
+File: figures/fig__DiagonalFlowLow.png Graphic file (type bmp)
+<figures/fig__DiagonalFlowLow.png>
+File: figures/fig__HorizontalFlowHig.png Graphic file (type bmp)
+<figures/fig__HorizontalFlowHig.png>
+File: figures/fig__DiagonalFlowHig.png Graphic file (type bmp)
+<figures/fig__DiagonalFlowHig.png>
+File: figures/fig__HorizontalFlowHigZoomIn.png Graphic file (type bmp)
+<figures/fig__HorizontalFlowHigZoomIn.png>
+)
+[28] [29] [30] (./thesis.bbl
 ! Undefined control sequence.
 <recently read> \apj 
                      
@@ -1832,7 +2167,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \apjl 
                       
-l.54 \newblock \emph{\apjl}
+l.63 \newblock \emph{\apjl}
                            , 883\penalty0 (1):\penalty0 L1, Sept. 2019.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1840,14 +2175,14 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[15
+[31
 
 
 ]
 ! Undefined control sequence.
 <recently read> \apj 
                      
-l.107 \newblock \emph{\apj}
+l.125 \newblock \emph{\apj}
                            , 283:\penalty0 694--709, Aug. 1984{\natexlab{a}}.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1858,7 +2193,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \apj 
                      
-l.113 \newblock \emph{\apj}
+l.131 \newblock \emph{\apj}
                            , 283:\penalty0 710--730, Aug. 1984{\natexlab{b}}.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1869,7 +2204,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \apj 
                      
-l.121 \newblock \emph{\apj}
+l.139 \newblock \emph{\apj}
                            , 394:\penalty0 459, Aug. 1992.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1877,10 +2212,11 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+[32]
 ! Undefined control sequence.
 <recently read> \apj 
                      
-l.136 \newblock \emph{\apj}
+l.154 \newblock \emph{\apj}
                            , 165:\penalty0 147, Apr 1971.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1888,11 +2224,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[16]
 ! Undefined control sequence.
 <recently read> \nat 
                      
-l.163 \newblock \emph{\nat}
+l.200 \newblock \emph{\nat}
                            , 561\penalty0 (7723):\penalty0 355--359, Sept.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1903,7 +2238,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \nat 
                      
-l.179 \newblock \emph{\nat}
+l.216 \newblock \emph{\nat}
                            , 554\penalty0 (7691):\penalty0 207--210, Feb.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1911,10 +2246,11 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+[33]
 ! Undefined control sequence.
 <recently read> \mnras 
                        
-l.197 \newblock \emph{\mnras}
+l.234 \newblock \emph{\mnras}
                              , 460\penalty0 (1):\penalty0 535--559, Jul 2016.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1922,11 +2258,11 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[17]
+[34]
 ! Undefined control sequence.
 <recently read> \apj 
                      
-l.254 \newblock \emph{\apj}
+l.333 \newblock \emph{\apj}
                            , 405:\penalty0 273, Mar. 1993.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1934,7 +2270,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-) [18]
+) [35]
 
 Package catoptions Warning: Undefined options 
 (catoptions)                [Family, Option, Value]: 
@@ -1949,19 +2285,19 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 78B3947688A803793511987D944D50ED;1636.
+(rerunfilecheck)             Checksum: 6E06C51FC25229D88ED77EEA26B3104F;3411.
  )
 (\end occurred inside a group at level 1)
 
-### semi simple group (level 1) entered at line 56 (\begingroup)
+### semi simple group (level 1) entered at line 58 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 34437 strings out of 476473
- 685928 string characters out of 5812052
- 1064191 words of memory out of 5000000
- 54298 multiletter control sequences out of 15000+600000
- 485002 words of font info for 134 fonts, out of 8000000 for 9000
+ 35096 strings out of 476473
+ 700593 string characters out of 5812052
+ 1092339 words of memory out of 5000000
+ 54931 multiletter control sequences out of 15000+600000
+ 506497 words of font info for 174 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 132i,11n,136p,1042b,2507s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 132i,11n,136p,1973b,2580s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.pdf (36 pages).
+Output written on thesis.pdf (55 pages).

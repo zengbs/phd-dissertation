@@ -1,0 +1,2985 @@
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex)
+ \write18 enabled.
+entering extended mode
+(./thesis.tex
+LaTeX2e <2021-06-01> patch level 1
+L3 programming layer <2021-10-18> (./ntuthesis.cls
+Document Class: ntuthesis 2013/04/23 Thesis template for National Taiwan Univer
+sity
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2021/02/12 v1.4n Standard LaTeX document class
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/base/bk12.clo))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/geometry/geometry.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/graphics/keyval.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/iftex/ifvtex.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/l3backend/l3backend-xet
+ex.def (|extractbb --version)))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/ctex/ctexhook.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/l3packages/l3keys2e/l3k
+eys2e.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/l3packages/xtemplate/xt
+emplate.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/l3packages/xparse/xpars
+e.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/fontspec/fontspec-xetex
+.sty (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/base/fontenc.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/fontspec/fontspec.cfg))
+) (/home/tseng/softwares/texlive2021/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/setspace/setspace.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/background/background.s
+ty (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/xkeyval/xkvutils.tex)
+))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/pgf/frontendlayer/tikz.
+sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/pgf/utilities/pgfrcs.st
+y
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/utilities/pgfutil
+-common.tex
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/utilities/pgfutil
+-common-lists.tex))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/utilities/pgfutil
+-latex.def)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/utilities/pgfrcs.
+code.tex
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.
+sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/graphics/graphicx.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/graphics/graphics.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/graphics/trig.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/graphics-cfg/graphics.c
+fg)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/graphics-def/xetex.def)
+))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.
+sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsy
+s.code.tex
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/utilities/pgfkeys
+.code.tex
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/utilities/pgfkeys
+filtered.code.tex))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/systemlayer/pgf.c
+fg)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsy
+s-xetex.def
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsy
+s-dvipdfmx.def
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsy
+s-common-pdf.def))))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsy
+ssoftpath.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsy
+sprotocol.code.tex))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+e.code.tex
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfmath.code
+.tex
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfmathcalc.
+code.tex
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfmathutil.
+code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfmathparse
+r.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfmathfunct
+ions.code.tex
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfmathfunct
+ions.basic.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfmathfunct
+ions.trigonometric.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfmathfunct
+ions.random.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfmathfunct
+ions.comparison.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfmathfunct
+ions.base.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfmathfunct
+ions.round.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfmathfunct
+ions.misc.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfmathfunct
+ions.integerarithmetics.code.tex)))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfmathfloat
+.code.tex))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfint.code.
+tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+epoints.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+epathconstruct.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+epathusage.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+escopes.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+egraphicstate.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+etransformations.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+equick.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+eobjects.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+epathprocessing.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+earrows.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+eshade.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+eimage.code.tex
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+eexternal.code.tex))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+elayers.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+etransparency.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+epatterns.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+erdf.code.tex)))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/modules/pgfmodule
+shapes.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/modules/pgfmodule
+plot.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/pgf/compatibility/pgfco
+mp-version-0-65.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/pgf/compatibility/pgfco
+mp-version-1-18.sty))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/pgf/utilities/pgffor.st
+y
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/pgf/utilities/pgfkeys.s
+ty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/utilities/pgfkeys
+.code.tex))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfmath.code
+.tex))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/utilities/pgffor.
+code.tex
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfmath.code
+.tex)))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/frontendlayer/tik
+z/tikz.code.tex
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/libraries/pgflibr
+aryplothandlers.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/modules/pgfmodule
+matrix.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/frontendlayer/tik
+z/libraries/tikzlibrarytopaths.code.tex)))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/everypage/everypage.sty
+
+Package everypage Warning: Functionality similar to this package has recently
+(everypage)                been implemented in LaTeX. This package is now in
+(everypage)                legacy status.
+(everypage)                Please, don't use it in new documents and packages.
+
+
+Package everypage Warning: You appear to be running a version of LaTeX
+(everypage)                providing the new functionality.
+(everypage)                Doing the best to deliver the original `everypage`
+(everypage)                interface on top of it. Strict equivalence is
+(everypage)                not possible, breakage may occur.
+(everypage)                If truly needed, Use `everypage-1x` to force the
+(everypage)                loading of an older code base.
+
+) (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/tools/afterpage.sty))
+ (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/base/ifthen.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/tools/calc.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/eso-pic/eso-pic.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/pdfpages/ppxetex.def)))
+ (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/natbib/natbib.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/amsmath/amstext.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+ (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pdftexcmds/pdftexcmds
+.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/infwarerr/infwarerr.s
+ty))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.s
+ty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/kvdefinekeys/kvdefine
+keys.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pdfescape/pdfescape.s
+ty) (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/hycolor/hycolor.sty
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/letltxmacro/letltxmacro
+.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/auxhook/auxhook.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+) (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/hyperref/hyperref-langp
+atches.def)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+) (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/hyperref/puenc.def)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/url/url.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/bitset/bitset.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/bigintcalc/bigintcalc
+.sty))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/hyperref/hxetex.def
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/stringenc/stringenc.s
+ty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/rerunfilecheck/rerunfil
+echeck.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/uniquecounter/uniquec
+ounter.sty)))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/cleveref/cleveref.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/psnfss/times.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/tools/verbatim.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/tools/array.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/wallpaper/wallpaper.sty
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/xwatermark/xwatermark.s
+ty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/catoptions/catoptions.s
+ty) (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/base/fix-cm.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/base/ts1enc.def))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/picture/picture.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/ltxkeys/ltxkeys.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/framed/framed.sty))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/psnfss/mathptmx.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/newtxtext.sty
+`newtxtext' v1.658, 2021/10/13 Text macros taking advantage of TeX-Gyre Termes 
+fonts (msharpe)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/fontaxes/fontaxes.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/xstring/xstring.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/xstring/xstring.tex))
+ (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/carlisle/scalefnt.sty)
+ (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/base/fontenc.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/t1ntxtlf.fd))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/base/textcomp.sty))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/newtxmath.sty
+`newtxmath' v1.659, 2021/10/21 Math macros based originally on txfonts (msharpe
+) (/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/iftex/ifxetex.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/iftex/ifluatex.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/oberdiek/centernot.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/kastrup/binhex.tex))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/subfigure/subfigure.sty
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/subfigure/subfigure.cfg
+))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/multirow/multirow.sty)
+(./ntuvars.tex)
+! Extra \endgroup.
+\document ->\endgroup 
+                      \let \BeforeStartOfDocument \@firstofone \cpt@beforest...
+l.58 \begin{document}
+                     
+No file thesis.aux.
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/omlntxmi.fd)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/untxexa.fd)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/lmsntxsy.fd)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/lmxntxexx.fd)
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/graphics/lscape.sty))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/hyperref/nameref.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/refcount/refcount.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/gettitlestring/gettit
+lestring.sty))
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+[1] [2]
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/ot1ntxtlf.fd)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/psnfss/ot1ptm.fd)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/untxmia.fd)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/untxsym.fd)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/untxsyc.fd)
+Overfull \hbox (31.11316pt too wide) in paragraph at lines 78--78
+ [] 
+(./acknowledgements.tex [3] [4] [5] [6]) (./abstract.tex [7] [8] [9] [10]
+
+Package xeCJK Warning: Unknown CJK family `\CJKttdefault' is being ignored.
+(xeCJK)                
+(xeCJK)                Try to use `\setCJKmonofont[...]{...}' to define it.
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/t1ntxtt.fd))
+[11] [12]
+
+Package hyperref Warning: old toc file detected, not used; run LaTeX again.
+
+[13] [14] [15] [16] [17] [18] (./introduction.tex
+Chapter 1.
+
+Package natbib Warning: Citation `Chiueh-1991ApJ...377..462C' on page 1 undefin
+ed on input line 6.
+
+
+Package natbib Warning: Citation `Chiueh-1992ApJ...394..459L' on page 1 undefin
+ed on input line 7.
+
+
+Package natbib Warning: Citation `Blandford2018' on page 1 undefined on input l
+ine 8.
+
+
+Package natbib Warning: Citation `LongGRB' on page 1 undefined on input line 9.
+
+
+
+Package natbib Warning: Citation `1984ApJ...283..694K' on page 1 undefined on i
+nput line 11.
+
+
+Package natbib Warning: Citation `1984ApJ...283..710K' on page 1 undefined on i
+nput line 11.
+
+
+Package natbib Warning: Citation `Chiue-PhysRevLett.63.113' on page 1 undefined
+ on input line 12.
+
+
+Package natbib Warning: Citation `Chiueh_1998' on page 1 undefined on input lin
+e 12.
+
+
+Package natbib Warning: Citation `NM2' on page 1 undefined on input line 14.
+
+
+Package natbib Warning: Citation `NM1' on page 1 undefined on input line 14.
+
+
+Package natbib Warning: Citation `NM3' on page 1 undefined on input line 14.
+
+
+Package natbib Warning: Citation `NM4' on page 1 undefined on input line 14.
+
+
+Package natbib Warning: Citation `Taub' on page 1 undefined on input line 17.
+
+
+Package natbib Warning: Citation `TM_EOS' on page 1 undefined on input line 17.
+
+
+
+Package natbib Warning: Citation `Compare_TM_EOS' on page 1 undefined on input 
+line 17.
+
+
+Package natbib Warning: Citation `Synge' on page 1 undefined on input line 18.
+
+
+Package natbib Warning: Citation `Noble_2006' on page 1 undefined on input line
+ 22.
+
+
+LaTeX Warning: Reference `Appendix:Numerical error analysis' on page 1 undefine
+d on input line 24.
+
+
+Package natbib Warning: Citation `NR_Limit' on page 1 undefined on input line 2
+5.
+
+[1]
+
+Package natbib Warning: Citation `gamer-1' on page 2 undefined on input line 42
+.
+
+
+Package natbib Warning: Citation `gamer-2' on page 2 undefined on input line 42
+.
+
+
+Package natbib Warning: Citation `YT' on page 2 undefined on input line 48.
+
+
+LaTeX Warning: Reference `Relativistic Hydrodynamic Equations' on page 2 undefi
+ned on input line 52.
+
+
+LaTeX Warning: Reference `Numerical Method' on page 2 undefined on input line 5
+2.
+
+
+LaTeX Warning: Reference `Test Problems' on page 2 undefined on input line 54.
+
+
+LaTeX Warning: Reference `Performance scaling' on page 2 undefined on input lin
+e 55.
+
+
+LaTeX Warning: Reference `Astrophysical Applications' on page 2 undefined on in
+put line 58.
+
+
+LaTeX Warning: Reference `conclusions' on page 2 undefined on input line 59.
+
+) (./part.tex [2]) (./special-relativistic-hydrodynamics.tex [3] [4]
+Chapter 2.
+
+LaTeX Warning: Reference `eq:conservation laws' on page 1 undefined on input li
+ne 24.
+
+
+LaTeX Warning: Reference `EoS' on page 5 undefined on input line 24.
+
+
+LaTeX Warning: Reference `eq:conservation laws' on page 1 undefined on input li
+ne 27.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [5]
+
+Package natbib Warning: Citation `NR_Limit' on page 6 undefined on input line 4
+7.
+
+
+LaTeX Warning: Reference `D evolution' on page 1 undefined on input line 51.
+
+
+LaTeX Warning: Reference `E evoltion' on page 1 undefined on input line 51.
+
+
+LaTeX Warning: Reference `E evoltion' on page 1 undefined on input line 56.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [6]
+
+Package natbib Warning: Citation `Taub' on page 7 undefined on input line 75.
+
+
+Package natbib Warning: Citation `TM_EOS' on page 7 undefined on input line 75.
+
+
+
+Package natbib Warning: Citation `Compare_TM_EOS' on page 7 undefined on input 
+line 75.
+
+
+Package natbib Warning: Citation `Juttner' on page 7 undefined on input line 75
+.
+
+
+Package natbib Warning: Citation `Synge' on page 7 undefined on input line 75.
+
+
+LaTeX Warning: Reference `EXACT_EOS' on page 1 undefined on input line 82.
+
+
+LaTeX Warning: Reference `EXACT_EOS' on page 1 undefined on input line 84.
+
+
+LaTeX Warning: Reference `EXACT_EOS' on page 1 undefined on input line 91.
+
+
+LaTeX Warning: Reference `TM EOS' on page 1 undefined on input line 91.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [7]
+
+LaTeX Warning: Reference `fig:compare_eos' on page 1 undefined on input line 96
+.
+
+! Undefined control sequence.
+<recently read> \abs 
+                     
+l.96 ...re_eos}, the maximum relative errors $\abs
+                                                  {1-\Gamma_{\text{TM}}/\Gam...
+
+! Undefined control sequence.
+<recently read> \abs 
+                     
+l.96 ...ext{TM}}/\Gamma_{\text{exact}}}$ and $\abs
+                                                  {1-\tilde{h}_{\text{TM}}/\...
+
+
+LaTeX Warning: Reference `TM EOS' on page 1 undefined on input line 96.
+
+
+LaTeX Warning: Reference `EXACT_EOS' on page 1 undefined on input line 96.
+
+
+LaTeX Warning: Reference `EXACT_EOS' on page 1 undefined on input line 96.
+
+
+LaTeX Warning: Reference `TM EOS' on page 1 undefined on input line 96.
+
+
+Package natbib Warning: Citation `Compare_TM_EOS' on page 8 undefined on input 
+line 96.
+
+
+Package natbib Warning: Citation `RC_EOS' on page 8 undefined on input line 96.
+
+
+
+Package natbib Warning: Citation `NR_Limit' on page 8 undefined on input line 9
+6.
+
+
+Package natbib Warning: Citation `FLASH' on page 8 undefined on input line 98.
+
+
+Package natbib Warning: Citation `CAFE' on page 8 undefined on input line 98.
+
+
+Package natbib Warning: Citation `XTROEM' on page 8 undefined on input line 98.
+
+
+
+LaTeX Warning: Reference `fig:compare_eos' on page 1 undefined on input line 98
+.
+
+
+Package natbib Warning: Citation `Taub' on page 8 undefined on input line 98.
+
+! Undefined control sequence.
+<argument> ...e the maximum relative errors $\abs 
+                                                  {1-\Gamma _{\text {TM}}/\G...
+l.121 ...only 1.9 and 2.0 per cent, respectively.}
+                                                  
+! Undefined control sequence.
+<argument> ...\Gamma _{\text {exact}}}$ and $\abs 
+                                                  {1-\tilde {h}_{\text {TM}}...
+l.121 ...only 1.9 and 2.0 per cent, respectively.}
+                                                  
+
+LaTeX Warning: Reference `TM EOS' on page 1 undefined on input line 121.
+
+
+LaTeX Warning: Reference `EXACT_EOS' on page 1 undefined on input line 121.
+
+! Undefined control sequence.
+<recently read> \abs 
+                     
+l.121 ...only 1.9 and 2.0 per cent, respectively.}
+                                                  
+! Undefined control sequence.
+<recently read> \abs 
+                     
+l.121 ...only 1.9 and 2.0 per cent, respectively.}
+                                                  
+
+LaTeX Warning: Reference `TM EOS' on page 1 undefined on input line 121.
+
+
+LaTeX Warning: Reference `EXACT_EOS' on page 1 undefined on input line 121.
+
+! Undefined control sequence.
+<recently read> \abs 
+                     
+l.121 ...only 1.9 and 2.0 per cent, respectively.}
+                                                  
+! Undefined control sequence.
+<recently read> \abs 
+                     
+l.121 ...only 1.9 and 2.0 per cent, respectively.}
+                                                  
+
+Underfull \vbox (badness 3635) has occurred while \output is active [8]
+[9]
+
+LaTeX Warning: Reference `ETilde' on page 10 undefined on input line 130.
+
+
+LaTeX Warning: Reference `momentum' on page 10 undefined on input line 130.
+
+! Undefined control sequence.
+<argument> \abs 
+                {\mathbf {M}}
+l.133 ...\right)-\left(\frac{\abs{\mathbf{M}}}{Dc}
+                                                  \right)^2
+! Undefined control sequence.
+<argument> \abs 
+                {\mathbf {M}}c
+l.134 ...eft(\frac{\abs{\mathbf{M}}c}{D}\right)^2}
+                                                  \\
+
+LaTeX Warning: Reference `TM EOS' on page 1 undefined on input line 139.
+
+
+LaTeX Warning: Reference `transcendental equation' on page 1 undefined on input
+ line 150.
+
+
+LaTeX Warning: Reference `transcendental equation' on page 1 undefined on input
+ line 150.
+
+
+LaTeX Warning: Reference `transcendental equation' on page 1 undefined on input
+ line 150.
+
+
+LaTeX Warning: Reference `The choice of initial guesses' on page 10 undefined o
+n input line 150.
+
+! Undefined control sequence.
+<recently read> \abs 
+                     
+l.150 ... We adopt the convergence criterion $\abs
+                                                  {1-\tilde{h}_{i}/\tilde{h}...
+
+
+Underfull \vbox (badness 5504) has occurred while \output is active [10]
+
+LaTeX Warning: Reference `momentum' on page 11 undefined on input line 152.
+
+
+LaTeX Warning: Reference `eq:new expression of Lorentz factor' on page 11 undef
+ined on input line 156.
+
+
+LaTeX Warning: Reference `density' on page 11 undefined on input line 156.
+
+
+LaTeX Warning: Reference `T of h' on page 11 undefined on input line 156.
+
+
+Package natbib Warning: Citation `Nicholas' on page 11 undefined on input line 
+162.
+
+! Undefined control sequence.
+l.166 ...de{E}/Dc^2\right)\right]$ and $\left(\abs
+                                                  {\mathbf{M}}/Dc\right)^2$ ...
+
+
+LaTeX Warning: Reference `error bound of subtraction' on page 1 undefined on in
+put line 166.
+
+
+Overfull \hbox (56.92621pt too wide) in paragraph at lines 165--167
+\T1/ntxtlf/m/n/12 Thus, the er-ror of the new con-ver-sion scheme can be es-ti-
+mated by sub-sti-tut-ing $[]$
+
+LaTeX Warning: Reference `eq:ImprovedRelativeError' on page 1 undefined on inpu
+t line 174.
+
+
+LaTeX Warning: Reference `eq:MachNumber' on page 1 undefined on input line 176.
+
+
+
+LaTeX Warning: Reference `eq:ImprovedRelativeError' on page 1 undefined on inpu
+t line 176.
+
+! Argument of \ifblank has an extra }.
+<inserted text> 
+                \par 
+l.176 ...istic AGN jets ($\mathscr{M_{\text{jet}}}
+                                                   < 10$), single precision ...
+
+Runaway argument?
+! Paragraph ended before \ifblank was complete.
+<to be read again> 
+                   \par 
+l.176 ...istic AGN jets ($\mathscr{M_{\text{jet}}}
+                                                   < 10$), single precision ...
+
+! Argument of \ifblank has an extra }.
+<inserted text> 
+                \par 
+l.176 ...istic AGN jets ($\mathscr{M_{\text{jet}}}
+                                                   < 10$), single precision ...
+
+Runaway argument?
+! Paragraph ended before \ifblank was complete.
+<to be read again> 
+                   \par 
+l.176 ...istic AGN jets ($\mathscr{M_{\text{jet}}}
+                                                   < 10$), single precision ...
+
+! Argument of \ifblank has an extra }.
+<inserted text> 
+                \par 
+l.176 ...istic AGN jets ($\mathscr{M_{\text{jet}}}
+                                                   < 10$), single precision ...
+
+Runaway argument?
+! Paragraph ended before \ifblank was complete.
+<to be read again> 
+                   \par 
+l.176 ...istic AGN jets ($\mathscr{M_{\text{jet}}}
+                                                   < 10$), single precision ...
+
+! Argument of \ifblank has an extra }.
+<inserted text> 
+                \par 
+l.176 ...istic AGN jets ($\mathscr{M_{\text{jet}}}
+                                                   < 10$), single precision ...
+
+Runaway argument?
+! Paragraph ended before \ifblank was complete.
+<to be read again> 
+                   \par 
+l.176 ...istic AGN jets ($\mathscr{M_{\text{jet}}}
+                                                   < 10$), single precision ...
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [11]
+
+LaTeX Warning: Reference `transcendental equation' on page 1 undefined on input
+ line 178.
+
+
+LaTeX Warning: Reference `fig:ErrorDistribution' on page 1 undefined on input l
+ine 184.
+
+
+LaTeX Warning: Reference `eq:ImprovedRelativeError' on page 1 undefined on inpu
+t line 184.
+
+
+LaTeX Warning: Reference `eq:OriRelativeError' on page 1 undefined on input lin
+e 184.
+
+
+LaTeX Warning: Reference `eq:OriRelativeError' on page 1 undefined on input lin
+e 184.
+
+
+LaTeX Warning: Reference `eq:ImprovedRelativeError' on page 1 undefined on inpu
+t line 184.
+
+
+LaTeX Warning: Reference `fig:ErrorAnalysis' on page 1 undefined on input line 
+184.
+
+
+LaTeX Warning: Reference `Appendix:Numerical error analysis' on page 12 undefin
+ed on input line 184.
+
+
+LaTeX Warning: Reference `eq:ImprovedRelativeError' on page 1 undefined on inpu
+t line 189.
+
+
+LaTeX Warning: Reference `eq:OriRelativeError' on page 1 undefined on input lin
+e 189.
+
+
+LaTeX Warning: Reference `eq:OriRelativeError' on page 1 undefined on input lin
+e 189.
+
+
+LaTeX Warning: Reference `eq:ImprovedRelativeError' on page 1 undefined on inpu
+t line 189.
+
+
+LaTeX Warning: Reference `fig:ErrorAnalysis' on page 1 undefined on input line 
+189.
+
+
+LaTeX Warning: Reference `Appendix:Numerical error analysis' on page 12 undefin
+ed on input line 189.
+
+
+LaTeX Warning: Reference `eq:ImprovedRelativeError' on page 1 undefined on inpu
+t line 189.
+
+
+LaTeX Warning: Reference `eq:OriRelativeError' on page 1 undefined on input lin
+e 189.
+
+
+LaTeX Warning: Reference `eq:OriRelativeError' on page 1 undefined on input lin
+e 189.
+
+
+LaTeX Warning: Reference `eq:ImprovedRelativeError' on page 1 undefined on inpu
+t line 189.
+
+
+LaTeX Warning: Reference `fig:ErrorAnalysis' on page 1 undefined on input line 
+189.
+
+
+LaTeX Warning: Reference `Appendix:Numerical error analysis' on page 12 undefin
+ed on input line 189.
+
+! Undefined control sequence.
+<argument> \abs 
+                {\mathbf {M}}
+l.200 ...{\mathbf{M}}}{Dc}\right)^2+f(\tilde{h})}}
+                                                  ,
+! Undefined control sequence.
+<argument> \abs 
+                {\mathbf {M}}
+l.200 ...{\mathbf{M}}}{Dc}\right)^2+f(\tilde{h})}}
+                                                  ,
+
+LaTeX Warning: Reference `transcendental equation' on page 1 undefined on input
+ line 203.
+
+! Undefined control sequence.
+<recently read> \abs 
+                     
+l.203 ...transcendental equation} with known $\abs
+                                                  {\mathbf{M}}/Dc$. Note tha...
+
+
+LaTeX Warning: Reference `eq:T_to_HTilde' on page 1 undefined on input line 203
+.
+
+
+LaTeX Warning: Reference `eq:E_D' on page 1 undefined on input line 203.
+
+
+LaTeX Warning: Reference `TM EOS' on page 1 undefined on input line 203.
+
+
+LaTeX Warning: Reference `transcendental equation' on page 1 undefined on input
+ line 203.
+
+
+LaTeX Warning: Reference `definition of reduced energy' on page 1 undefined on 
+input line 203.
+
+
+LaTeX Warning: Reference `ETilde' on page 1 undefined on input line 203.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [12]
+[13]
+
+LaTeX Warning: Reference `fig:flowchart' on page 1 undefined on input line 205.
+
+
+
+LaTeX Warning: Reference `Appendix:Numerical error analysis' on page 14 undefin
+ed on input line 205.
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd)
+
+LaTeX Warning: Reference `D evolution' on page 14 undefined on input line 207.
+
+
+LaTeX Warning: Reference `M evolution' on page 14 undefined on input line 207.
+
+
+LaTeX Warning: Reference `ETilde evolution' on page 14 undefined on input line 
+207.
+
+
+LaTeX Warning: Reference `eq:new expression of Lorentz factor' on page 1 undefi
+ned on input line 209.
+
+
+LaTeX Warning: Reference `eq:four-velocity' on page 1 undefined on input line 2
+10.
+
+
+LaTeX Warning: Reference `T of h' on page 1 undefined on input line 211.
+
+
+LaTeX Warning: Reference `eq:p=rhoT' on page 1 undefined on input line 212.
+
+
+LaTeX Warning: Reference `eq:T_to_HTilde' on page 1 undefined on input line 213
+.
+
+
+LaTeX Warning: Reference `eq:E_D' on page 1 undefined on input line 214.
+
+) (./numerical-methods.tex [14]
+Chapter 3.
+
+Package natbib Warning: Citation `gamer-1' on page 15 undefined on input line 5
+.
+
+
+Package natbib Warning: Citation `gamer-2' on page 15 undefined on input line 5
+.
+
+
+LaTeX Warning: Reference `fig:Limb_brightened_jet' on page 1 undefined on input
+ line 7.
+
+[15]
+
+Package natbib Warning: Citation `Toro' on page 16 undefined on input line 13.
+
+
+Package natbib Warning: Citation `VL1' on page 16 undefined on input line 13.
+
+
+Package natbib Warning: Citation `VL2' on page 16 undefined on input line 13.
+
+
+Package natbib Warning: Citation `van_Leer_1979' on page 16 undefined on input 
+line 13.
+
+
+Package natbib Warning: Citation `Woodward1984' on page 16 undefined on input l
+ine 13.
+
+
+Package natbib Warning: Citation `HLLC_srhydro' on page 16 undefined on input l
+ine 13.
+
+
+Package natbib Warning: Citation `HLLC_srmhd' on page 16 undefined on input lin
+e 13.
+
+
+LaTeX Warning: Reference `sound_speed' on page 1 undefined on input line 13.
+
+[16]
+
+LaTeX Warning: Reference `time_step_propagation of information' on page 1 undef
+ined on input line 24.
+
+
+LaTeX Warning: Reference `time_step_x' on page 1 undefined on input line 29.
+
+! Undefined control sequence.
+<recently read> \abs 
+                     
+l.29 ...\Cref{time_step_x}, we simply choose $\abs
+                                                  {U^{i}}\gamma_s+\gamma U_s...
+
+! Undefined control sequence.
+<recently read> \abs 
+                     
+l.29 ... each spatial component and sum over $\abs
+                                                  {U^{i}}\gamma_s+\gamma U_s...
+
+! Undefined control sequence.
+l.32 =\gamma_{s}\left(\abs
+                          {U_{x}}+\abs{U_{z}}+\abs{U_{z}}\right)+3\gamma U_s,
+! Undefined control sequence.
+l.32 =\gamma_{s}\left(\abs{U_{x}}+\abs
+                                      {U_{z}}+\abs{U_{z}}\right)+3\gamma U_s,
+! Undefined control sequence.
+l.32 =\gamma_{s}\left(\abs{U_{x}}+\abs{U_{z}}+\abs
+                                                  {U_{z}}\right)+3\gamma U_s,
+
+LaTeX Warning: Reference `time_step_U_max' on page 1 undefined on input line 37
+.
+
+
+LaTeX Warning: Reference `time_step_U_max' on page 1 undefined on input line 37
+.
+
+
+LaTeX Warning: Reference `SMax' on page 1 undefined on input line 43.
+
+
+LaTeX Warning: Reference `time_step_sound_speed' on page 1 undefined on input l
+ine 50.
+
+! Undefined control sequence.
+<argument> \abs 
+                {v_x}+\abs {v_y}+\abs {v_z}+3c_s
+l.52 ...lta h}{\abs{v_x}+\abs{v_y}+\abs{v_z}+3c_s}
+                                                  \right),
+! Undefined control sequence.
+<argument> \abs {v_x}+\abs 
+                           {v_y}+\abs {v_z}+3c_s
+l.52 ...lta h}{\abs{v_x}+\abs{v_y}+\abs{v_z}+3c_s}
+                                                  \right),
+! Undefined control sequence.
+<argument> \abs {v_x}+\abs {v_y}+\abs 
+                                      {v_z}+3c_s
+l.52 ...lta h}{\abs{v_x}+\abs{v_y}+\abs{v_z}+3c_s}
+                                                  \right),
+
+Underfull \vbox (badness 10000) has occurred while \output is active [17]
+! Undefined control sequence.
+<argument> \abs 
+                {\mathbf {M}}
+l.60 ...}\right)-\left(\frac{\abs{\mathbf{M}}}{Dc}
+                                                  \right)^2>\epsilon_{\text{...
+
+
+LaTeX Warning: Reference `Unphysical result' on page 1 undefined on input line 
+66.
+
+
+LaTeX Warning: Reference `Unphysical result' on page 1 undefined on input line 
+69.
+
+
+LaTeX Warning: Reference `Unphysical result' on page 1 undefined on input line 
+72.
+
+[18]) (./test-problems.tex [19] [20]
+Chapter 4.
+
+LaTeX Warning: Reference `sound_speed' on page 21 undefined on input line 76.
+
+! Undefined control sequence.
+l.80 L1(Q)=\frac{1}{N}\sum^{N}_{i=1}\abs
+                                        {1-\frac{Q_{\text{numerical}}\left(\...
+
+[21]
+
+LaTeX Warning: Reference `fig:convergence test' on page 1 undefined on input li
+ne 85.
+
+
+LaTeX Warning: Reference `eq:OriRelativeError' on page 1 undefined on input lin
+e 85.
+
+! Undefined control sequence.
+l.92 ...cellation between $(E/Dc^2)^2$ and $[(\abs
+                                                  {\mathbf{M}}/Dc)^2+1]$ lea...
+
+
+LaTeX Warning: Reference `eq:OriRelativeError' on page 1 undefined on input lin
+e 92.
+
+! Undefined control sequence.
+l.92 ...^2+2\left(\tilde{E}/Dc^2\right)-\left(\abs
+                                                  {\mathbf{M}}/Dc\right)^2$,...
+
+
+LaTeX Warning: Reference `transcendental equation' on page 1 undefined on input
+ line 92.
+
+
+LaTeX Warning: Reference `section: Conversion between primitive variables and c
+onserved ones' on page 22 undefined on input line 92.
+
+
+LaTeX Warning: Reference `Appendix:Numerical error analysis' on page 22 undefin
+ed on input line 92.
+
+
+LaTeX Warning: Reference `eq:error in the NR limit' on page 1 undefined on inpu
+t line 98.
+
+
+LaTeX Warning: Reference `eq:OriRelativeError' on page 1 undefined on input lin
+e 98.
+
+
+LaTeX Warning: Reference `eq:error in the NR limit' on page 1 undefined on inpu
+t line 98.
+
+
+LaTeX Warning: Reference `eq:OriRelativeError' on page 1 undefined on input lin
+e 98.
+
+
+Package natbib Warning: Citation `SOD1978' on page 22 undefined on input line 1
+05.
+
+
+LaTeX Warning: Reference `appendix:exact solution' on page 22 undefined on inpu
+t line 105.
+
+[22] [23]
+
+LaTeX Warning: Reference `subsec:1-DReletivisticRiemann problems' on page 24 un
+defined on input line 109.
+
+
+LaTeX Warning: Reference `subsec:1-DReletivisticRiemann problems' on page 24 un
+defined on input line 109.
+
+
+Overfull \hbox (11.27263pt too wide) in paragraph at lines 111--117
+[][] 
+
+LaTeX Warning: Reference `tb:IC_RiemannProblems' on page 24 undefined on input 
+line 125.
+
+
+LaTeX Warning: Reference `fig:head-on collision shock tube' on page 1 undefined
+ on input line 125.
+
+
+LaTeX Warning: Reference `appendix:exact solution' on page 24 undefined on inpu
+t line 142.
+
+
+LaTeX Warning: Reference `tb:IC_RiemannProblems' on page 1 undefined on input l
+ine 142.
+
+[24] [25]
+
+LaTeX Warning: Reference `fig:non-relativistic shock tube' on page 1 undefined 
+on input line 144.
+
+
+LaTeX Warning: Reference `relative L1 error' on page 1 undefined on input line 
+144.
+
+
+LaTeX Warning: Reference `tb:exact solution' on page 26 undefined on input line
+ 144.
+
+
+LaTeX Warning: Reference `appendix:exact solution' on page 26 undefined on inpu
+t line 144.
+
+
+LaTeX Warning: Reference `eq:error in the NR limit' on page 1 undefined on inpu
+t line 144.
+
+
+LaTeX Warning: Reference `tb:exact solution' on page 1 undefined on input line 
+144.
+
+
+LaTeX Warning: Reference `appendix:exact solution' on page 26 undefined on inpu
+t line 144.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 153.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\tx@ScrM' on input line 153.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 153.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [26]
+! Undefined control sequence.
+<recently read> \abs 
+                     
+l.157 ...r mass density and the magnitude of $\abs
+                                                  {\mathbf{M}}/D$ as the two...
+
+! Undefined control sequence.
+l.161 \abs
+          {\frac{\partial Q}{\partial x}}+
+! Undefined control sequence.
+l.162 \abs
+          {\frac{\partial Q}{\partial y}}+
+! Undefined control sequence.
+l.163 \abs
+          {\frac{\partial Q}{\partial z}}
+
+Underfull \vbox (badness 10000) has occurred while \output is active [27]
+! Undefined control sequence.
+<recently read> \abs 
+                     
+l.168 ... be refined when any cell satisfies $\abs
+                                                  {\mathbf{M}}/D>10^{4}$ so ...
+
+
+LaTeX Warning: Reference `fig:GridEffect' on page 1 undefined on input line 170
+.
+
+
+LaTeX Warning: Reference `fig:AAXX' on page 28 undefined on input line 170.
+
+
+LaTeX Warning: Reference `fig:DiagonalFlowLow' on page 28 undefined on input li
+ne 170.
+
+
+LaTeX Warning: Reference `fig:DiagonalFlowLow' on page 1 undefined on input lin
+e 170.
+
+
+LaTeX Warning: Reference `fig:DiagonalFlowHig' on page 1 undefined on input lin
+e 172.
+
+
+LaTeX Warning: Reference `fig:HorizontalFlowHig' on page 1 undefined on input l
+ine 172.
+
+
+LaTeX Warning: Reference `fig:AAXX' on page 1 undefined on input line 174.
+
+
+LaTeX Warning: Reference `fig:HorizontalFlowHigZoomIn' on page 1 undefined on i
+nput line 174.
+
+
+LaTeX Warning: Reference `fig:HorizontalFlowHig' on page 1 undefined on input l
+ine 174.
+
+
+Package natbib Warning: Citation `Gourgouliatos2017' on page 28 undefined on in
+put line 174.
+
+[28]
+
+LaTeX Warning: Reference `fig:HorizontalFlowHig' on page 1 undefined on input l
+ine 211.
+
+
+LaTeX Warning: Reference `fig:HorizontalFlowHig' on page 1 undefined on input l
+ine 211.
+
+
+LaTeX Warning: Reference `fig:HorizontalFlowHig' on page 1 undefined on input l
+ine 211.
+
+
+LaTeX Warning: Reference `fig:HorizontalFlowHig' on page 1 undefined on input l
+ine 211.
+
+) [29] [30] [31] [32]
+No file thesis.bbl.
+
+Package natbib Warning: There were undefined citations.
+
+
+Package catoptions Warning: Undefined options 
+(catoptions)                [Family, Option, Value]: 
+(catoptions)                fontenc.sty,T1,. 
+(catoptions)                Default action already taken in each case .
+
+(./thesis.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `thesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+ )
+(\end occurred inside a group at level 1)
+
+### semi simple group (level 1) entered at line 58 (\begingroup)
+### bottom level
+(see the transcript file for additional information)
+Output written on thesis.pdf (50 pages).
+Transcript written on thesis.log.
+This is BibTeX, Version 0.99d (TeX Live 2021)
+The top-level auxiliary file: thesis.aux
+The style file: abbrvnat.bst
+Database file #1: thesis.bib
+Warning--empty journal in VL2
+(There was 1 warning)
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex)
+ \write18 enabled.
+entering extended mode
+(./thesis.tex
+LaTeX2e <2021-06-01> patch level 1
+L3 programming layer <2021-10-18> (./ntuthesis.cls
+Document Class: ntuthesis 2013/04/23 Thesis template for National Taiwan Univer
+sity
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2021/02/12 v1.4n Standard LaTeX document class
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/base/bk12.clo))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/geometry/geometry.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/graphics/keyval.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/iftex/ifvtex.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/l3backend/l3backend-xet
+ex.def (|extractbb --version)))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/ctex/ctexhook.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/l3packages/l3keys2e/l3k
+eys2e.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/l3packages/xtemplate/xt
+emplate.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/l3packages/xparse/xpars
+e.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/fontspec/fontspec-xetex
+.sty (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/base/fontenc.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/fontspec/fontspec.cfg))
+) (/home/tseng/softwares/texlive2021/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/setspace/setspace.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/background/background.s
+ty (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/xkeyval/xkvutils.tex)
+))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/pgf/frontendlayer/tikz.
+sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/pgf/utilities/pgfrcs.st
+y
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/utilities/pgfutil
+-common.tex
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/utilities/pgfutil
+-common-lists.tex))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/utilities/pgfutil
+-latex.def)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/utilities/pgfrcs.
+code.tex
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.
+sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/graphics/graphicx.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/graphics/graphics.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/graphics/trig.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/graphics-cfg/graphics.c
+fg)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/graphics-def/xetex.def)
+))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.
+sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsy
+s.code.tex
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/utilities/pgfkeys
+.code.tex
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/utilities/pgfkeys
+filtered.code.tex))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/systemlayer/pgf.c
+fg)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsy
+s-xetex.def
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsy
+s-dvipdfmx.def
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsy
+s-common-pdf.def))))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsy
+ssoftpath.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsy
+sprotocol.code.tex))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+e.code.tex
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfmath.code
+.tex
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfmathcalc.
+code.tex
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfmathutil.
+code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfmathparse
+r.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfmathfunct
+ions.code.tex
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfmathfunct
+ions.basic.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfmathfunct
+ions.trigonometric.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfmathfunct
+ions.random.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfmathfunct
+ions.comparison.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfmathfunct
+ions.base.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfmathfunct
+ions.round.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfmathfunct
+ions.misc.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfmathfunct
+ions.integerarithmetics.code.tex)))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfmathfloat
+.code.tex))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfint.code.
+tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+epoints.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+epathconstruct.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+epathusage.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+escopes.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+egraphicstate.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+etransformations.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+equick.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+eobjects.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+epathprocessing.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+earrows.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+eshade.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+eimage.code.tex
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+eexternal.code.tex))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+elayers.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+etransparency.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+epatterns.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+erdf.code.tex)))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/modules/pgfmodule
+shapes.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/modules/pgfmodule
+plot.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/pgf/compatibility/pgfco
+mp-version-0-65.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/pgf/compatibility/pgfco
+mp-version-1-18.sty))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/pgf/utilities/pgffor.st
+y
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/pgf/utilities/pgfkeys.s
+ty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/utilities/pgfkeys
+.code.tex))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfmath.code
+.tex))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/utilities/pgffor.
+code.tex
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfmath.code
+.tex)))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/frontendlayer/tik
+z/tikz.code.tex
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/libraries/pgflibr
+aryplothandlers.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/modules/pgfmodule
+matrix.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/frontendlayer/tik
+z/libraries/tikzlibrarytopaths.code.tex)))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/everypage/everypage.sty
+
+Package everypage Warning: Functionality similar to this package has recently
+(everypage)                been implemented in LaTeX. This package is now in
+(everypage)                legacy status.
+(everypage)                Please, don't use it in new documents and packages.
+
+
+Package everypage Warning: You appear to be running a version of LaTeX
+(everypage)                providing the new functionality.
+(everypage)                Doing the best to deliver the original `everypage`
+(everypage)                interface on top of it. Strict equivalence is
+(everypage)                not possible, breakage may occur.
+(everypage)                If truly needed, Use `everypage-1x` to force the
+(everypage)                loading of an older code base.
+
+) (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/tools/afterpage.sty))
+ (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/base/ifthen.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/tools/calc.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/eso-pic/eso-pic.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/pdfpages/ppxetex.def)))
+ (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/natbib/natbib.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/amsmath/amstext.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+ (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pdftexcmds/pdftexcmds
+.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/infwarerr/infwarerr.s
+ty))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.s
+ty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/kvdefinekeys/kvdefine
+keys.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pdfescape/pdfescape.s
+ty) (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/hycolor/hycolor.sty
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/letltxmacro/letltxmacro
+.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/auxhook/auxhook.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+) (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/hyperref/hyperref-langp
+atches.def)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+) (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/hyperref/puenc.def)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/url/url.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/bitset/bitset.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/bigintcalc/bigintcalc
+.sty))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/hyperref/hxetex.def
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/stringenc/stringenc.s
+ty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/rerunfilecheck/rerunfil
+echeck.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/uniquecounter/uniquec
+ounter.sty)))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/cleveref/cleveref.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/psnfss/times.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/tools/verbatim.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/tools/array.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/wallpaper/wallpaper.sty
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/xwatermark/xwatermark.s
+ty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/catoptions/catoptions.s
+ty) (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/base/fix-cm.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/base/ts1enc.def))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/picture/picture.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/ltxkeys/ltxkeys.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/framed/framed.sty)
+(./thesis.xwm))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/psnfss/mathptmx.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/newtxtext.sty
+`newtxtext' v1.658, 2021/10/13 Text macros taking advantage of TeX-Gyre Termes 
+fonts (msharpe)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/fontaxes/fontaxes.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/xstring/xstring.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/xstring/xstring.tex))
+ (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/carlisle/scalefnt.sty)
+ (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/base/fontenc.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/t1ntxtlf.fd))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/base/textcomp.sty))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/newtxmath.sty
+`newtxmath' v1.659, 2021/10/21 Math macros based originally on txfonts (msharpe
+) (/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/iftex/ifxetex.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/iftex/ifluatex.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/oberdiek/centernot.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/kastrup/binhex.tex))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/subfigure/subfigure.sty
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/subfigure/subfigure.cfg
+))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/multirow/multirow.sty)
+(./ntuvars.tex)
+! Extra \endgroup.
+\document ->\endgroup 
+                      \let \BeforeStartOfDocument \@firstofone \cpt@beforest...
+l.58 \begin{document}
+                     
+(./thesis.aux)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/omlntxmi.fd)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/untxexa.fd)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/lmsntxsy.fd)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/lmxntxexx.fd)
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/graphics/lscape.sty))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/hyperref/nameref.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/refcount/refcount.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/gettitlestring/gettit
+lestring.sty)) (./thesis.out) (./thesis.out) [1] [2]
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/ot1ntxtlf.fd)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/psnfss/ot1ptm.fd)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/untxmia.fd)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/untxsym.fd)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/untxsyc.fd)
+Overfull \hbox (31.11316pt too wide) in paragraph at lines 78--78
+ [] 
+(./acknowledgements.tex [3] [4] [5] [6]) (./abstract.tex [7] [8] [9] [10]
+
+Package xeCJK Warning: Unknown CJK family `\CJKttdefault' is being ignored.
+(xeCJK)                
+(xeCJK)                Try to use `\setCJKmonofont[...]{...}' to define it.
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/t1ntxtt.fd))
+[11] [12] (./thesis.toc [13]) [14] (./thesis.lof
+
+LaTeX Warning: Reference `fig:ErrorAnalysis' on page i undefined on input line 
+4.
+
+
+LaTeX Warning: Reference `Appendix:Numerical error analysis' on page xv undefin
+ed on input line 4.
+
+
+Underfull \vbox (badness 2351) has occurred while \output is active [15])
+[16] (./thesis.lot) [17] [18] (./introduction.tex
+Chapter 1.
+
+Package natbib Warning: Citation `Chiueh-1991ApJ...377..462C' on page 1 undefin
+ed on input line 6.
+
+
+Package natbib Warning: Citation `Chiueh-1992ApJ...394..459L' on page 1 undefin
+ed on input line 7.
+
+
+Package natbib Warning: Citation `Blandford2018' on page 1 undefined on input l
+ine 8.
+
+
+Package natbib Warning: Citation `LongGRB' on page 1 undefined on input line 9.
+
+
+
+Package natbib Warning: Citation `1984ApJ...283..694K' on page 1 undefined on i
+nput line 11.
+
+
+Package natbib Warning: Citation `1984ApJ...283..710K' on page 1 undefined on i
+nput line 11.
+
+
+Package natbib Warning: Citation `Chiue-PhysRevLett.63.113' on page 1 undefined
+ on input line 12.
+
+
+Package natbib Warning: Citation `Chiueh_1998' on page 1 undefined on input lin
+e 12.
+
+
+Package natbib Warning: Citation `NM2' on page 1 undefined on input line 14.
+
+
+Package natbib Warning: Citation `NM1' on page 1 undefined on input line 14.
+
+
+Package natbib Warning: Citation `NM3' on page 1 undefined on input line 14.
+
+
+Package natbib Warning: Citation `NM4' on page 1 undefined on input line 14.
+
+
+Package natbib Warning: Citation `Taub' on page 1 undefined on input line 17.
+
+
+Package natbib Warning: Citation `TM_EOS' on page 1 undefined on input line 17.
+
+
+
+Package natbib Warning: Citation `Compare_TM_EOS' on page 1 undefined on input 
+line 17.
+
+
+Package natbib Warning: Citation `Synge' on page 1 undefined on input line 18.
+
+
+Package natbib Warning: Citation `Noble_2006' on page 1 undefined on input line
+ 22.
+
+
+LaTeX Warning: Reference `Appendix:Numerical error analysis' on page 1 undefine
+d on input line 24.
+
+
+Package natbib Warning: Citation `NR_Limit' on page 1 undefined on input line 2
+5.
+
+[1]
+
+Package natbib Warning: Citation `gamer-1' on page 2 undefined on input line 42
+.
+
+
+Package natbib Warning: Citation `gamer-2' on page 2 undefined on input line 42
+.
+
+
+Package natbib Warning: Citation `YT' on page 2 undefined on input line 48.
+
+
+LaTeX Warning: Reference `Relativistic Hydrodynamic Equations' on page 2 undefi
+ned on input line 52.
+
+
+LaTeX Warning: Reference `Numerical Method' on page 2 undefined on input line 5
+2.
+
+
+LaTeX Warning: Reference `Test Problems' on page 2 undefined on input line 54.
+
+
+LaTeX Warning: Reference `Performance scaling' on page 2 undefined on input lin
+e 55.
+
+
+LaTeX Warning: Reference `Astrophysical Applications' on page 2 undefined on in
+put line 58.
+
+
+LaTeX Warning: Reference `conclusions' on page 2 undefined on input line 59.
+
+) (./part.tex [2]) (./special-relativistic-hydrodynamics.tex [3] [4]
+Chapter 2.
+
+Underfull \vbox (badness 10000) has occurred while \output is active [5]
+
+Package natbib Warning: Citation `NR_Limit' on page 6 undefined on input line 4
+7.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [6]
+
+Package natbib Warning: Citation `Taub' on page 7 undefined on input line 75.
+
+
+Package natbib Warning: Citation `TM_EOS' on page 7 undefined on input line 75.
+
+
+
+Package natbib Warning: Citation `Compare_TM_EOS' on page 7 undefined on input 
+line 75.
+
+
+Package natbib Warning: Citation `Juttner' on page 7 undefined on input line 75
+.
+
+
+Package natbib Warning: Citation `Synge' on page 7 undefined on input line 75.
+
+
+Underfull \vbox (badness 5504) has occurred while \output is active [7]
+! Undefined control sequence.
+<recently read> \abs 
+                     
+l.96 ...re_eos}, the maximum relative errors $\abs
+                                                  {1-\Gamma_{\text{TM}}/\Gam...
+
+! Undefined control sequence.
+<recently read> \abs 
+                     
+l.96 ...ext{TM}}/\Gamma_{\text{exact}}}$ and $\abs
+                                                  {1-\tilde{h}_{\text{TM}}/\...
+
+
+Package natbib Warning: Citation `Compare_TM_EOS' on page 8 undefined on input 
+line 96.
+
+
+Package natbib Warning: Citation `RC_EOS' on page 8 undefined on input line 96.
+
+
+
+Package natbib Warning: Citation `NR_Limit' on page 8 undefined on input line 9
+6.
+
+
+Package natbib Warning: Citation `FLASH' on page 8 undefined on input line 98.
+
+
+Package natbib Warning: Citation `CAFE' on page 8 undefined on input line 98.
+
+
+Package natbib Warning: Citation `XTROEM' on page 8 undefined on input line 98.
+
+
+
+Package natbib Warning: Citation `Taub' on page 8 undefined on input line 98.
+
+! Undefined control sequence.
+<argument> ...e the maximum relative errors $\abs 
+                                                  {1-\Gamma _{\text {TM}}/\G...
+l.121 ...only 1.9 and 2.0 per cent, respectively.}
+                                                  
+! Undefined control sequence.
+<argument> ...\Gamma _{\text {exact}}}$ and $\abs 
+                                                  {1-\tilde {h}_{\text {TM}}...
+l.121 ...only 1.9 and 2.0 per cent, respectively.}
+                                                  
+! Undefined control sequence.
+<recently read> \abs 
+                     
+l.121 ...only 1.9 and 2.0 per cent, respectively.}
+                                                  
+! Undefined control sequence.
+<recently read> \abs 
+                     
+l.121 ...only 1.9 and 2.0 per cent, respectively.}
+                                                  
+! Undefined control sequence.
+<recently read> \abs 
+                     
+l.121 ...only 1.9 and 2.0 per cent, respectively.}
+                                                  
+! Undefined control sequence.
+<recently read> \abs 
+                     
+l.121 ...only 1.9 and 2.0 per cent, respectively.}
+                                                  
+
+Underfull \vbox (badness 10000) has occurred while \output is active [8]
+[9]
+! Undefined control sequence.
+<argument> \abs 
+                {\mathbf {M}}
+l.133 ...\right)-\left(\frac{\abs{\mathbf{M}}}{Dc}
+                                                  \right)^2
+! Undefined control sequence.
+<argument> \abs 
+                {\mathbf {M}}c
+l.134 ...eft(\frac{\abs{\mathbf{M}}c}{D}\right)^2}
+                                                  \\
+
+LaTeX Warning: Reference `The choice of initial guesses' on page 10 undefined o
+n input line 150.
+
+! Undefined control sequence.
+<recently read> \abs 
+                     
+l.150 ... We adopt the convergence criterion $\abs
+                                                  {1-\tilde{h}_{i}/\tilde{h}...
+
+
+Underfull \vbox (badness 5504) has occurred while \output is active [10]
+
+Package natbib Warning: Citation `Nicholas' on page 11 undefined on input line 
+162.
+
+! Undefined control sequence.
+l.166 ...de{E}/Dc^2\right)\right]$ and $\left(\abs
+                                                  {\mathbf{M}}/Dc\right)^2$ ...
+
+
+Overfull \hbox (56.92621pt too wide) in paragraph at lines 165--167
+\T1/ntxtlf/m/n/12 Thus, the er-ror of the new con-ver-sion scheme can be es-ti-
+mated by sub-sti-tut-ing $[]$
+! Argument of \ifblank has an extra }.
+<inserted text> 
+                \par 
+l.176 ...istic AGN jets ($\mathscr{M_{\text{jet}}}
+                                                   < 10$), single precision ...
+
+Runaway argument?
+! Paragraph ended before \ifblank was complete.
+<to be read again> 
+                   \par 
+l.176 ...istic AGN jets ($\mathscr{M_{\text{jet}}}
+                                                   < 10$), single precision ...
+
+! Argument of \ifblank has an extra }.
+<inserted text> 
+                \par 
+l.176 ...istic AGN jets ($\mathscr{M_{\text{jet}}}
+                                                   < 10$), single precision ...
+
+Runaway argument?
+! Paragraph ended before \ifblank was complete.
+<to be read again> 
+                   \par 
+l.176 ...istic AGN jets ($\mathscr{M_{\text{jet}}}
+                                                   < 10$), single precision ...
+
+! Argument of \ifblank has an extra }.
+<inserted text> 
+                \par 
+l.176 ...istic AGN jets ($\mathscr{M_{\text{jet}}}
+                                                   < 10$), single precision ...
+
+Runaway argument?
+! Paragraph ended before \ifblank was complete.
+<to be read again> 
+                   \par 
+l.176 ...istic AGN jets ($\mathscr{M_{\text{jet}}}
+                                                   < 10$), single precision ...
+
+! Argument of \ifblank has an extra }.
+<inserted text> 
+                \par 
+l.176 ...istic AGN jets ($\mathscr{M_{\text{jet}}}
+                                                   < 10$), single precision ...
+
+Runaway argument?
+! Paragraph ended before \ifblank was complete.
+<to be read again> 
+                   \par 
+l.176 ...istic AGN jets ($\mathscr{M_{\text{jet}}}
+                                                   < 10$), single precision ...
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [11]
+
+LaTeX Warning: Reference `fig:ErrorAnalysis' on page 1 undefined on input line 
+184.
+
+
+LaTeX Warning: Reference `Appendix:Numerical error analysis' on page 12 undefin
+ed on input line 184.
+
+
+LaTeX Warning: Reference `fig:ErrorAnalysis' on page 1 undefined on input line 
+189.
+
+
+LaTeX Warning: Reference `Appendix:Numerical error analysis' on page 12 undefin
+ed on input line 189.
+
+
+LaTeX Warning: Reference `fig:ErrorAnalysis' on page 1 undefined on input line 
+189.
+
+
+LaTeX Warning: Reference `Appendix:Numerical error analysis' on page 12 undefin
+ed on input line 189.
+
+! Undefined control sequence.
+<argument> \abs 
+                {\mathbf {M}}
+l.200 ...{\mathbf{M}}}{Dc}\right)^2+f(\tilde{h})}}
+                                                  ,
+! Undefined control sequence.
+<argument> \abs 
+                {\mathbf {M}}
+l.200 ...{\mathbf{M}}}{Dc}\right)^2+f(\tilde{h})}}
+                                                  ,
+! Undefined control sequence.
+<recently read> \abs 
+                     
+l.203 ...transcendental equation} with known $\abs
+                                                  {\mathbf{M}}/Dc$. Note tha...
+
+
+Underfull \vbox (badness 8132) has occurred while \output is active [12]
+[13]
+
+LaTeX Warning: Reference `fig:flowchart' on page 1 undefined on input line 205.
+
+
+
+LaTeX Warning: Reference `Appendix:Numerical error analysis' on page 14 undefin
+ed on input line 205.
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd))
+(./numerical-methods.tex [14]
+Chapter 3.
+
+Package natbib Warning: Citation `gamer-1' on page 15 undefined on input line 5
+.
+
+
+Package natbib Warning: Citation `gamer-2' on page 15 undefined on input line 5
+.
+
+
+LaTeX Warning: Reference `fig:Limb_brightened_jet' on page 1 undefined on input
+ line 7.
+
+[15]
+
+Package natbib Warning: Citation `Toro' on page 16 undefined on input line 13.
+
+
+Package natbib Warning: Citation `VL1' on page 16 undefined on input line 13.
+
+
+Package natbib Warning: Citation `VL2' on page 16 undefined on input line 13.
+
+
+Package natbib Warning: Citation `van_Leer_1979' on page 16 undefined on input 
+line 13.
+
+
+Package natbib Warning: Citation `Woodward1984' on page 16 undefined on input l
+ine 13.
+
+
+Package natbib Warning: Citation `HLLC_srhydro' on page 16 undefined on input l
+ine 13.
+
+
+Package natbib Warning: Citation `HLLC_srmhd' on page 16 undefined on input lin
+e 13.
+
+[16]
+! Undefined control sequence.
+<recently read> \abs 
+                     
+l.29 ...\Cref{time_step_x}, we simply choose $\abs
+                                                  {U^{i}}\gamma_s+\gamma U_s...
+
+! Undefined control sequence.
+<recently read> \abs 
+                     
+l.29 ... each spatial component and sum over $\abs
+                                                  {U^{i}}\gamma_s+\gamma U_s...
+
+! Undefined control sequence.
+l.32 =\gamma_{s}\left(\abs
+                          {U_{x}}+\abs{U_{z}}+\abs{U_{z}}\right)+3\gamma U_s,
+! Undefined control sequence.
+l.32 =\gamma_{s}\left(\abs{U_{x}}+\abs
+                                      {U_{z}}+\abs{U_{z}}\right)+3\gamma U_s,
+! Undefined control sequence.
+l.32 =\gamma_{s}\left(\abs{U_{x}}+\abs{U_{z}}+\abs
+                                                  {U_{z}}\right)+3\gamma U_s,
+! Undefined control sequence.
+<argument> \abs 
+                {v_x}+\abs {v_y}+\abs {v_z}+3c_s
+l.52 ...lta h}{\abs{v_x}+\abs{v_y}+\abs{v_z}+3c_s}
+                                                  \right),
+! Undefined control sequence.
+<argument> \abs {v_x}+\abs 
+                           {v_y}+\abs {v_z}+3c_s
+l.52 ...lta h}{\abs{v_x}+\abs{v_y}+\abs{v_z}+3c_s}
+                                                  \right),
+! Undefined control sequence.
+<argument> \abs {v_x}+\abs {v_y}+\abs 
+                                      {v_z}+3c_s
+l.52 ...lta h}{\abs{v_x}+\abs{v_y}+\abs{v_z}+3c_s}
+                                                  \right),
+
+Underfull \vbox (badness 10000) has occurred while \output is active [17]
+! Undefined control sequence.
+<argument> \abs 
+                {\mathbf {M}}
+l.60 ...}\right)-\left(\frac{\abs{\mathbf{M}}}{Dc}
+                                                  \right)^2>\epsilon_{\text{...
+
+[18]) (./test-problems.tex [19] [20]
+Chapter 4.
+! Undefined control sequence.
+l.80 L1(Q)=\frac{1}{N}\sum^{N}_{i=1}\abs
+                                        {1-\frac{Q_{\text{numerical}}\left(\...
+
+[21]
+! Undefined control sequence.
+l.92 ...cellation between $(E/Dc^2)^2$ and $[(\abs
+                                                  {\mathbf{M}}/Dc)^2+1]$ lea...
+
+! Undefined control sequence.
+l.92 ...^2+2\left(\tilde{E}/Dc^2\right)-\left(\abs
+                                                  {\mathbf{M}}/Dc\right)^2$,...
+
+
+LaTeX Warning: Reference `Appendix:Numerical error analysis' on page 22 undefin
+ed on input line 92.
+
+
+Package natbib Warning: Citation `SOD1978' on page 22 undefined on input line 1
+05.
+
+
+LaTeX Warning: Reference `appendix:exact solution' on page 22 undefined on inpu
+t line 105.
+
+[22] [23]
+Overfull \hbox (11.27263pt too wide) in paragraph at lines 111--117
+[][] 
+
+LaTeX Warning: Reference `appendix:exact solution' on page 24 undefined on inpu
+t line 142.
+
+[24] [25]
+
+LaTeX Warning: Reference `tb:exact solution' on page 26 undefined on input line
+ 144.
+
+
+LaTeX Warning: Reference `appendix:exact solution' on page 26 undefined on inpu
+t line 144.
+
+
+LaTeX Warning: Reference `tb:exact solution' on page 1 undefined on input line 
+144.
+
+
+LaTeX Warning: Reference `appendix:exact solution' on page 26 undefined on inpu
+t line 144.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 153.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\tx@ScrM' on input line 153.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 153.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [26]
+! Undefined control sequence.
+<recently read> \abs 
+                     
+l.157 ...r mass density and the magnitude of $\abs
+                                                  {\mathbf{M}}/D$ as the two...
+
+! Undefined control sequence.
+l.161 \abs
+          {\frac{\partial Q}{\partial x}}+
+! Undefined control sequence.
+l.162 \abs
+          {\frac{\partial Q}{\partial y}}+
+! Undefined control sequence.
+l.163 \abs
+          {\frac{\partial Q}{\partial z}}
+
+Underfull \vbox (badness 10000) has occurred while \output is active [27]
+! Undefined control sequence.
+<recently read> \abs 
+                     
+l.168 ... be refined when any cell satisfies $\abs
+                                                  {\mathbf{M}}/D>10^{4}$ so ...
+
+
+Package natbib Warning: Citation `Gourgouliatos2017' on page 28 undefined on in
+put line 174.
+
+[28]) [29] [30] [31] [32] (./thesis.bbl
+! Undefined control sequence.
+<recently read> \apj 
+                     
+l.29 \newblock \emph{\apj}
+                          , 377:\penalty0 462, Aug. 1991.
+! Undefined control sequence.
+<recently read> \apjl 
+                      
+l.63 \newblock \emph{\apjl}
+                           , 883\penalty0 (1):\penalty0 L1, Sept. 2019.
+[33]
+! Undefined control sequence.
+<recently read> \apj 
+                     
+l.125 \newblock \emph{\apj}
+                           , 283:\penalty0 694--709, Aug. 1984{\natexlab{a}}.
+! Undefined control sequence.
+<recently read> \apj 
+                     
+l.131 \newblock \emph{\apj}
+                           , 283:\penalty0 710--730, Aug. 1984{\natexlab{b}}.
+! Undefined control sequence.
+<recently read> \apj 
+                     
+l.139 \newblock \emph{\apj}
+                           , 394:\penalty0 459, Aug. 1992.
+[34]
+! Undefined control sequence.
+<recently read> \apj 
+                     
+l.154 \newblock \emph{\apj}
+                           , 165:\penalty0 147, Apr 1971.
+! Undefined control sequence.
+<recently read> \nat 
+                     
+l.200 \newblock \emph{\nat}
+                           , 561\penalty0 (7723):\penalty0 355--359, Sept.
+! Undefined control sequence.
+<recently read> \nat 
+                     
+l.216 \newblock \emph{\nat}
+                           , 554\penalty0 (7691):\penalty0 207--210, Feb.
+[35]
+! Undefined control sequence.
+<recently read> \mnras 
+                       
+l.234 \newblock \emph{\mnras}
+                             , 460\penalty0 (1):\penalty0 535--559, Jul 2016.
+[36]
+! Undefined control sequence.
+<recently read> \apj 
+                     
+l.333 \newblock \emph{\apj}
+                           , 405:\penalty0 273, Mar. 1993.
+) [37]
+
+Package natbib Warning: There were undefined citations.
+
+
+Package catoptions Warning: Undefined options 
+(catoptions)                [Family, Option, Value]: 
+(catoptions)                fontenc.sty,T1,. 
+(catoptions)                Default action already taken in each case .
+
+(./thesis.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `thesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+ )
+(\end occurred inside a group at level 1)
+
+### semi simple group (level 1) entered at line 58 (\begingroup)
+### bottom level
+(see the transcript file for additional information)
+Output written on thesis.pdf (55 pages).
+Transcript written on thesis.log.
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex)
+ \write18 enabled.
+entering extended mode
+(./thesis.tex
+LaTeX2e <2021-06-01> patch level 1
+L3 programming layer <2021-10-18> (./ntuthesis.cls
+Document Class: ntuthesis 2013/04/23 Thesis template for National Taiwan Univer
+sity
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2021/02/12 v1.4n Standard LaTeX document class
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/base/bk12.clo))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/geometry/geometry.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/graphics/keyval.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/iftex/ifvtex.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/l3backend/l3backend-xet
+ex.def (|extractbb --version)))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/ctex/ctexhook.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/l3packages/l3keys2e/l3k
+eys2e.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/l3packages/xtemplate/xt
+emplate.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/l3packages/xparse/xpars
+e.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/fontspec/fontspec-xetex
+.sty (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/base/fontenc.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/fontspec/fontspec.cfg))
+) (/home/tseng/softwares/texlive2021/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/setspace/setspace.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/background/background.s
+ty (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/xkeyval/xkvutils.tex)
+))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/pgf/frontendlayer/tikz.
+sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/pgf/utilities/pgfrcs.st
+y
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/utilities/pgfutil
+-common.tex
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/utilities/pgfutil
+-common-lists.tex))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/utilities/pgfutil
+-latex.def)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/utilities/pgfrcs.
+code.tex
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.
+sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/graphics/graphicx.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/graphics/graphics.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/graphics/trig.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/graphics-cfg/graphics.c
+fg)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/graphics-def/xetex.def)
+))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.
+sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsy
+s.code.tex
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/utilities/pgfkeys
+.code.tex
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/utilities/pgfkeys
+filtered.code.tex))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/systemlayer/pgf.c
+fg)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsy
+s-xetex.def
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsy
+s-dvipdfmx.def
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsy
+s-common-pdf.def))))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsy
+ssoftpath.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsy
+sprotocol.code.tex))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+e.code.tex
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfmath.code
+.tex
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfmathcalc.
+code.tex
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfmathutil.
+code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfmathparse
+r.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfmathfunct
+ions.code.tex
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfmathfunct
+ions.basic.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfmathfunct
+ions.trigonometric.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfmathfunct
+ions.random.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfmathfunct
+ions.comparison.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfmathfunct
+ions.base.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfmathfunct
+ions.round.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfmathfunct
+ions.misc.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfmathfunct
+ions.integerarithmetics.code.tex)))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfmathfloat
+.code.tex))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfint.code.
+tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+epoints.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+epathconstruct.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+epathusage.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+escopes.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+egraphicstate.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+etransformations.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+equick.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+eobjects.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+epathprocessing.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+earrows.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+eshade.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+eimage.code.tex
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+eexternal.code.tex))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+elayers.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+etransparency.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+epatterns.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+erdf.code.tex)))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/modules/pgfmodule
+shapes.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/modules/pgfmodule
+plot.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/pgf/compatibility/pgfco
+mp-version-0-65.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/pgf/compatibility/pgfco
+mp-version-1-18.sty))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/pgf/utilities/pgffor.st
+y
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/pgf/utilities/pgfkeys.s
+ty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/utilities/pgfkeys
+.code.tex))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfmath.code
+.tex))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/utilities/pgffor.
+code.tex
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/math/pgfmath.code
+.tex)))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/frontendlayer/tik
+z/tikz.code.tex
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/libraries/pgflibr
+aryplothandlers.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/modules/pgfmodule
+matrix.code.tex)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pgf/frontendlayer/tik
+z/libraries/tikzlibrarytopaths.code.tex)))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/everypage/everypage.sty
+
+Package everypage Warning: Functionality similar to this package has recently
+(everypage)                been implemented in LaTeX. This package is now in
+(everypage)                legacy status.
+(everypage)                Please, don't use it in new documents and packages.
+
+
+Package everypage Warning: You appear to be running a version of LaTeX
+(everypage)                providing the new functionality.
+(everypage)                Doing the best to deliver the original `everypage`
+(everypage)                interface on top of it. Strict equivalence is
+(everypage)                not possible, breakage may occur.
+(everypage)                If truly needed, Use `everypage-1x` to force the
+(everypage)                loading of an older code base.
+
+) (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/tools/afterpage.sty))
+ (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/base/ifthen.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/tools/calc.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/eso-pic/eso-pic.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/pdfpages/ppxetex.def)))
+ (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/natbib/natbib.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/amsmath/amstext.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+ (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pdftexcmds/pdftexcmds
+.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/infwarerr/infwarerr.s
+ty))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.s
+ty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/kvdefinekeys/kvdefine
+keys.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/pdfescape/pdfescape.s
+ty) (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/hycolor/hycolor.sty
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/letltxmacro/letltxmacro
+.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/auxhook/auxhook.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+) (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/hyperref/hyperref-langp
+atches.def)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+) (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/hyperref/puenc.def)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/url/url.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/bitset/bitset.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/bigintcalc/bigintcalc
+.sty))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/hyperref/hxetex.def
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/stringenc/stringenc.s
+ty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/rerunfilecheck/rerunfil
+echeck.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/uniquecounter/uniquec
+ounter.sty)))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/cleveref/cleveref.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/psnfss/times.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/tools/verbatim.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/tools/array.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/wallpaper/wallpaper.sty
+)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/xwatermark/xwatermark.s
+ty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/catoptions/catoptions.s
+ty) (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/base/fix-cm.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/base/ts1enc.def))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/picture/picture.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/ltxkeys/ltxkeys.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/framed/framed.sty)
+(./thesis.xwm))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/psnfss/mathptmx.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/newtxtext.sty
+`newtxtext' v1.658, 2021/10/13 Text macros taking advantage of TeX-Gyre Termes 
+fonts (msharpe)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/fontaxes/fontaxes.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/xstring/xstring.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/xstring/xstring.tex))
+ (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/carlisle/scalefnt.sty)
+ (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/base/fontenc.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/t1ntxtlf.fd))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/base/textcomp.sty))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/newtxmath.sty
+`newtxmath' v1.659, 2021/10/21 Math macros based originally on txfonts (msharpe
+) (/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/iftex/ifxetex.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/iftex/ifluatex.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/oberdiek/centernot.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/kastrup/binhex.tex))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/subfigure/subfigure.sty
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/subfigure/subfigure.cfg
+))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/multirow/multirow.sty)
+(./ntuvars.tex)
+! Extra \endgroup.
+\document ->\endgroup 
+                      \let \BeforeStartOfDocument \@firstofone \cpt@beforest...
+l.58 \begin{document}
+                     
+(./thesis.aux)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/omlntxmi.fd)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/untxexa.fd)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/lmsntxsy.fd)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/lmxntxexx.fd)
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/graphics/lscape.sty))
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/hyperref/nameref.sty
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/refcount/refcount.sty)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/generic/gettitlestring/gettit
+lestring.sty)) (./thesis.out) (./thesis.out) [1] [2]
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/ot1ntxtlf.fd)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/psnfss/ot1ptm.fd)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/untxmia.fd)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/untxsym.fd)
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/untxsyc.fd)
+Overfull \hbox (31.11316pt too wide) in paragraph at lines 78--78
+ [] 
+(./acknowledgements.tex [3] [4] [5] [6]) (./abstract.tex [7] [8] [9] [10]
+
+Package xeCJK Warning: Unknown CJK family `\CJKttdefault' is being ignored.
+(xeCJK)                
+(xeCJK)                Try to use `\setCJKmonofont[...]{...}' to define it.
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/t1ntxtt.fd))
+[11] [12] (./thesis.toc [13]) [14] (./thesis.lof
+
+LaTeX Warning: Reference `fig:ErrorAnalysis' on page i undefined on input line 
+4.
+
+
+LaTeX Warning: Reference `Appendix:Numerical error analysis' on page xv undefin
+ed on input line 4.
+
+
+Underfull \vbox (badness 2351) has occurred while \output is active [15])
+[16] (./thesis.lot) [17] [18] (./introduction.tex
+Chapter 1.
+
+LaTeX Warning: Reference `Appendix:Numerical error analysis' on page 1 undefine
+d on input line 24.
+
+[1]
+
+LaTeX Warning: Reference `Relativistic Hydrodynamic Equations' on page 2 undefi
+ned on input line 52.
+
+
+LaTeX Warning: Reference `Numerical Method' on page 2 undefined on input line 5
+2.
+
+
+LaTeX Warning: Reference `Test Problems' on page 2 undefined on input line 54.
+
+
+LaTeX Warning: Reference `Performance scaling' on page 2 undefined on input lin
+e 55.
+
+
+LaTeX Warning: Reference `Astrophysical Applications' on page 2 undefined on in
+put line 58.
+
+
+LaTeX Warning: Reference `conclusions' on page 2 undefined on input line 59.
+
+) (./part.tex [2]) (./special-relativistic-hydrodynamics.tex [3] [4]
+Chapter 2.
+
+Underfull \vbox (badness 10000) has occurred while \output is active [5]
+Underfull \vbox (badness 10000) has occurred while \output is active [6]
+[7]
+! Undefined control sequence.
+<recently read> \abs 
+                     
+l.96 ...re_eos}, the maximum relative errors $\abs
+                                                  {1-\Gamma_{\text{TM}}/\Gam...
+
+! Undefined control sequence.
+<recently read> \abs 
+                     
+l.96 ...ext{TM}}/\Gamma_{\text{exact}}}$ and $\abs
+                                                  {1-\tilde{h}_{\text{TM}}/\...
+
+! Undefined control sequence.
+<argument> ...e the maximum relative errors $\abs 
+                                                  {1-\Gamma _{\text {TM}}/\G...
+l.121 ...only 1.9 and 2.0 per cent, respectively.}
+                                                  
+! Undefined control sequence.
+<argument> ...\Gamma _{\text {exact}}}$ and $\abs 
+                                                  {1-\tilde {h}_{\text {TM}}...
+l.121 ...only 1.9 and 2.0 per cent, respectively.}
+                                                  
+! Undefined control sequence.
+<recently read> \abs 
+                     
+l.121 ...only 1.9 and 2.0 per cent, respectively.}
+                                                  
+! Undefined control sequence.
+<recently read> \abs 
+                     
+l.121 ...only 1.9 and 2.0 per cent, respectively.}
+                                                  
+! Undefined control sequence.
+<recently read> \abs 
+                     
+l.121 ...only 1.9 and 2.0 per cent, respectively.}
+                                                  
+! Undefined control sequence.
+<recently read> \abs 
+                     
+l.121 ...only 1.9 and 2.0 per cent, respectively.}
+                                                  
+
+Underfull \vbox (badness 10000) has occurred while \output is active [8]
+[9]
+! Undefined control sequence.
+<argument> \abs 
+                {\mathbf {M}}
+l.133 ...\right)-\left(\frac{\abs{\mathbf{M}}}{Dc}
+                                                  \right)^2
+! Undefined control sequence.
+<argument> \abs 
+                {\mathbf {M}}c
+l.134 ...eft(\frac{\abs{\mathbf{M}}c}{D}\right)^2}
+                                                  \\
+
+LaTeX Warning: Reference `The choice of initial guesses' on page 10 undefined o
+n input line 150.
+
+! Undefined control sequence.
+<recently read> \abs 
+                     
+l.150 ... We adopt the convergence criterion $\abs
+                                                  {1-\tilde{h}_{i}/\tilde{h}...
+
+
+Underfull \vbox (badness 7649) has occurred while \output is active [10]
+! Undefined control sequence.
+l.166 ...de{E}/Dc^2\right)\right]$ and $\left(\abs
+                                                  {\mathbf{M}}/Dc\right)^2$ ...
+
+
+Overfull \hbox (56.92621pt too wide) in paragraph at lines 165--167
+\T1/ntxtlf/m/n/12 Thus, the er-ror of the new con-ver-sion scheme can be es-ti-
+mated by sub-sti-tut-ing $[]$
+! Argument of \ifblank has an extra }.
+<inserted text> 
+                \par 
+l.176 ...istic AGN jets ($\mathscr{M_{\text{jet}}}
+                                                   < 10$), single precision ...
+
+Runaway argument?
+! Paragraph ended before \ifblank was complete.
+<to be read again> 
+                   \par 
+l.176 ...istic AGN jets ($\mathscr{M_{\text{jet}}}
+                                                   < 10$), single precision ...
+
+! Argument of \ifblank has an extra }.
+<inserted text> 
+                \par 
+l.176 ...istic AGN jets ($\mathscr{M_{\text{jet}}}
+                                                   < 10$), single precision ...
+
+Runaway argument?
+! Paragraph ended before \ifblank was complete.
+<to be read again> 
+                   \par 
+l.176 ...istic AGN jets ($\mathscr{M_{\text{jet}}}
+                                                   < 10$), single precision ...
+
+! Argument of \ifblank has an extra }.
+<inserted text> 
+                \par 
+l.176 ...istic AGN jets ($\mathscr{M_{\text{jet}}}
+                                                   < 10$), single precision ...
+
+Runaway argument?
+! Paragraph ended before \ifblank was complete.
+<to be read again> 
+                   \par 
+l.176 ...istic AGN jets ($\mathscr{M_{\text{jet}}}
+                                                   < 10$), single precision ...
+
+! Argument of \ifblank has an extra }.
+<inserted text> 
+                \par 
+l.176 ...istic AGN jets ($\mathscr{M_{\text{jet}}}
+                                                   < 10$), single precision ...
+
+Runaway argument?
+! Paragraph ended before \ifblank was complete.
+<to be read again> 
+                   \par 
+l.176 ...istic AGN jets ($\mathscr{M_{\text{jet}}}
+                                                   < 10$), single precision ...
+
+
+LaTeX Warning: Reference `fig:ErrorAnalysis' on page 1 undefined on input line 
+184.
+
+
+LaTeX Warning: Reference `Appendix:Numerical error analysis' on page 11 undefin
+ed on input line 184.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [11]
+
+LaTeX Warning: Reference `fig:ErrorAnalysis' on page 1 undefined on input line 
+189.
+
+
+LaTeX Warning: Reference `Appendix:Numerical error analysis' on page 12 undefin
+ed on input line 189.
+
+
+LaTeX Warning: Reference `fig:ErrorAnalysis' on page 1 undefined on input line 
+189.
+
+
+LaTeX Warning: Reference `Appendix:Numerical error analysis' on page 12 undefin
+ed on input line 189.
+
+! Undefined control sequence.
+<argument> \abs 
+                {\mathbf {M}}
+l.200 ...{\mathbf{M}}}{Dc}\right)^2+f(\tilde{h})}}
+                                                  ,
+! Undefined control sequence.
+<argument> \abs 
+                {\mathbf {M}}
+l.200 ...{\mathbf{M}}}{Dc}\right)^2+f(\tilde{h})}}
+                                                  ,
+! Undefined control sequence.
+<recently read> \abs 
+                     
+l.203 ...transcendental equation} with known $\abs
+                                                  {\mathbf{M}}/Dc$. Note tha...
+
+
+LaTeX Warning: Reference `fig:flowchart' on page 1 undefined on input line 205.
+
+
+
+LaTeX Warning: Reference `Appendix:Numerical error analysis' on page 12 undefin
+ed on input line 205.
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd)
+[12] [13]) (./numerical-methods.tex [14]
+Chapter 3.
+
+LaTeX Warning: Reference `fig:Limb_brightened_jet' on page 1 undefined on input
+ line 7.
+
+[15] [16]
+! Undefined control sequence.
+<recently read> \abs 
+                     
+l.29 ...\Cref{time_step_x}, we simply choose $\abs
+                                                  {U^{i}}\gamma_s+\gamma U_s...
+
+! Undefined control sequence.
+<recently read> \abs 
+                     
+l.29 ... each spatial component and sum over $\abs
+                                                  {U^{i}}\gamma_s+\gamma U_s...
+
+! Undefined control sequence.
+l.32 =\gamma_{s}\left(\abs
+                          {U_{x}}+\abs{U_{z}}+\abs{U_{z}}\right)+3\gamma U_s,
+! Undefined control sequence.
+l.32 =\gamma_{s}\left(\abs{U_{x}}+\abs
+                                      {U_{z}}+\abs{U_{z}}\right)+3\gamma U_s,
+! Undefined control sequence.
+l.32 =\gamma_{s}\left(\abs{U_{x}}+\abs{U_{z}}+\abs
+                                                  {U_{z}}\right)+3\gamma U_s,
+
+Underfull \vbox (badness 10000) has occurred while \output is active [17]
+! Undefined control sequence.
+<argument> \abs 
+                {v_x}+\abs {v_y}+\abs {v_z}+3c_s
+l.52 ...lta h}{\abs{v_x}+\abs{v_y}+\abs{v_z}+3c_s}
+                                                  \right),
+! Undefined control sequence.
+<argument> \abs {v_x}+\abs 
+                           {v_y}+\abs {v_z}+3c_s
+l.52 ...lta h}{\abs{v_x}+\abs{v_y}+\abs{v_z}+3c_s}
+                                                  \right),
+! Undefined control sequence.
+<argument> \abs {v_x}+\abs {v_y}+\abs 
+                                      {v_z}+3c_s
+l.52 ...lta h}{\abs{v_x}+\abs{v_y}+\abs{v_z}+3c_s}
+                                                  \right),
+! Undefined control sequence.
+<argument> \abs 
+                {\mathbf {M}}
+l.60 ...}\right)-\left(\frac{\abs{\mathbf{M}}}{Dc}
+                                                  \right)^2>\epsilon_{\text{...
+
+[18]) (./test-problems.tex [19] [20]
+Chapter 4.
+! Undefined control sequence.
+l.80 L1(Q)=\frac{1}{N}\sum^{N}_{i=1}\abs
+                                        {1-\frac{Q_{\text{numerical}}\left(\...
+
+[21]
+! Undefined control sequence.
+l.92 ...cellation between $(E/Dc^2)^2$ and $[(\abs
+                                                  {\mathbf{M}}/Dc)^2+1]$ lea...
+
+! Undefined control sequence.
+l.92 ...^2+2\left(\tilde{E}/Dc^2\right)-\left(\abs
+                                                  {\mathbf{M}}/Dc\right)^2$,...
+
+
+LaTeX Warning: Reference `Appendix:Numerical error analysis' on page 22 undefin
+ed on input line 92.
+
+
+LaTeX Warning: Reference `appendix:exact solution' on page 22 undefined on inpu
+t line 105.
+
+[22] [23]
+Overfull \hbox (11.27263pt too wide) in paragraph at lines 111--117
+[][] 
+
+LaTeX Warning: Reference `appendix:exact solution' on page 24 undefined on inpu
+t line 142.
+
+[24] [25]
+
+LaTeX Warning: Reference `tb:exact solution' on page 26 undefined on input line
+ 144.
+
+
+LaTeX Warning: Reference `appendix:exact solution' on page 26 undefined on inpu
+t line 144.
+
+
+LaTeX Warning: Reference `tb:exact solution' on page 1 undefined on input line 
+144.
+
+
+LaTeX Warning: Reference `appendix:exact solution' on page 26 undefined on inpu
+t line 144.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 153.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\tx@ScrM' on input line 153.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 153.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [26]
+! Undefined control sequence.
+<recently read> \abs 
+                     
+l.157 ...r mass density and the magnitude of $\abs
+                                                  {\mathbf{M}}/D$ as the two...
+
+! Undefined control sequence.
+l.161 \abs
+          {\frac{\partial Q}{\partial x}}+
+! Undefined control sequence.
+l.162 \abs
+          {\frac{\partial Q}{\partial y}}+
+! Undefined control sequence.
+l.163 \abs
+          {\frac{\partial Q}{\partial z}}
+
+Underfull \vbox (badness 10000) has occurred while \output is active [27]
+! Undefined control sequence.
+<recently read> \abs 
+                     
+l.168 ... be refined when any cell satisfies $\abs
+                                                  {\mathbf{M}}/D>10^{4}$ so ...
+
+[28]) [29] [30] [31] [32] (./thesis.bbl
+! Undefined control sequence.
+<recently read> \apj 
+                     
+l.29 \newblock \emph{\apj}
+                          , 377:\penalty0 462, Aug. 1991.
+! Undefined control sequence.
+<recently read> \apjl 
+                      
+l.63 \newblock \emph{\apjl}
+                           , 883\penalty0 (1):\penalty0 L1, Sept. 2019.
+[33]
+! Undefined control sequence.
+<recently read> \apj 
+                     
+l.125 \newblock \emph{\apj}
+                           , 283:\penalty0 694--709, Aug. 1984{\natexlab{a}}.
+! Undefined control sequence.
+<recently read> \apj 
+                     
+l.131 \newblock \emph{\apj}
+                           , 283:\penalty0 710--730, Aug. 1984{\natexlab{b}}.
+! Undefined control sequence.
+<recently read> \apj 
+                     
+l.139 \newblock \emph{\apj}
+                           , 394:\penalty0 459, Aug. 1992.
+[34]
+! Undefined control sequence.
+<recently read> \apj 
+                     
+l.154 \newblock \emph{\apj}
+                           , 165:\penalty0 147, Apr 1971.
+! Undefined control sequence.
+<recently read> \nat 
+                     
+l.200 \newblock \emph{\nat}
+                           , 561\penalty0 (7723):\penalty0 355--359, Sept.
+! Undefined control sequence.
+<recently read> \nat 
+                     
+l.216 \newblock \emph{\nat}
+                           , 554\penalty0 (7691):\penalty0 207--210, Feb.
+[35]
+! Undefined control sequence.
+<recently read> \mnras 
+                       
+l.234 \newblock \emph{\mnras}
+                             , 460\penalty0 (1):\penalty0 535--559, Jul 2016.
+[36]
+! Undefined control sequence.
+<recently read> \apj 
+                     
+l.333 \newblock \emph{\apj}
+                           , 405:\penalty0 273, Mar. 1993.
+) [37]
+
+Package catoptions Warning: Undefined options 
+(catoptions)                [Family, Option, Value]: 
+(catoptions)                fontenc.sty,T1,. 
+(catoptions)                Default action already taken in each case .
+
+(./thesis.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ )
+(\end occurred inside a group at level 1)
+
+### semi simple group (level 1) entered at line 58 (\begingroup)
+### bottom level
+(see the transcript file for additional information)
+Output written on thesis.pdf (55 pages).
+Transcript written on thesis.log.

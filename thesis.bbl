@@ -1,4 +1,4 @@
-\begin{thebibliography}{27}
+\begin{thebibliography}{36}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -37,6 +37,15 @@ T.~Chiueh, Z.-Y. Li, and M.~C. Begelman.
   835--843, oct 1998.
 \newblock \doi{10.1086/306209}.
 \newblock URL \url{https://doi.org/10.1086%2F306209}.
+
+\bibitem[Falle(1991)]{VL1}
+S.~A. E.~G. Falle.
+\newblock {Self-similar jets}.
+\newblock \emph{Monthly Notices of the Royal Astronomical Society},
+  250\penalty0 (3):\penalty0 581--596, 06 1991.
+\newblock ISSN 0035-8711.
+\newblock \doi{10.1093/mnras/250.3.581}.
+\newblock URL \url{https://doi.org/10.1093/mnras/250.3.581}.
 
 \bibitem[{Fong} et~al.(2019){Fong}, {Blanchard}, {Alexander}, {Strader},
   {Margutti}, {Hajela}, {Villar}, {Wu}, {Ye}, {Berger}, {Chornock},
@@ -84,6 +93,15 @@ G.~{Ghirlanda}, O.~S. {Salafia}, Z.~{Paragi}, M.~{Giroletti}, J.~{Yang},
   binary neutron star merger}.
 \newblock \emph{Science}, 363\penalty0 (6430):\penalty0 968--971, Mar. 2019.
 \newblock \doi{10.1126/science.aau8815}.
+
+\bibitem[Gourgouliatos and Komissarov(2017)]{Gourgouliatos2017}
+K.~N. Gourgouliatos and S.~S. Komissarov.
+\newblock Reconfinement and loss of stability in jets from active galactic
+  nuclei.
+\newblock \emph{Nature Astronomy}, 2\penalty0 (2):\penalty0 167--171, Dec.
+  2017.
+\newblock \doi{10.1038/s41550-017-0338-3}.
+\newblock URL \url{https://doi.org/10.1038/s41550-017-0338-3}.
 
 \bibitem[Higham(2002)]{Nicholas}
 N.~J. Higham.
@@ -135,6 +153,25 @@ W.~G. {Mathews}.
 \newblock {The Hydromagnetic Free Expansion of a Relativistic Gas}.
 \newblock \emph{\apj}, 165:\penalty0 147, Apr 1971.
 \newblock \doi{10.1086/150883}.
+
+\bibitem[Mignone and Bodo(2005)]{HLLC_srhydro}
+A.~Mignone and G.~Bodo.
+\newblock {An HLLC Riemann solver for relativistic flows — I. Hydrodynamics}.
+\newblock \emph{Monthly Notices of the Royal Astronomical Society},
+  364\penalty0 (1):\penalty0 126--136, 11 2005.
+\newblock ISSN 0035-8711.
+\newblock \doi{10.1111/j.1365-2966.2005.09546.x}.
+\newblock URL \url{https://doi.org/10.1111/j.1365-2966.2005.09546.x}.
+
+\bibitem[Mignone and Bodo(2006)]{HLLC_srmhd}
+A.~Mignone and G.~Bodo.
+\newblock {An HLLC Riemann solver for relativistic flows – II.
+  Magnetohydrodynamics}.
+\newblock \emph{Monthly Notices of the Royal Astronomical Society},
+  368\penalty0 (3):\penalty0 1040--1054, 04 2006.
+\newblock ISSN 0035-8711.
+\newblock \doi{10.1111/j.1365-2966.2006.10162.x}.
+\newblock URL \url{https://doi.org/10.1111/j.1365-2966.2006.10162.x}.
 
 \bibitem[Mignone and McKinney(2007)]{NR_Limit}
 A.~Mignone and J.~C. McKinney.
@@ -226,6 +263,17 @@ H.-Y. Schive, J.~A. ZuHone, N.~J. Goldbaum, M.~J. Turk, M.~Gaspari, and C.-Y.
 \newblock \doi{10.1093/mnras/sty2586}.
 \newblock URL \url{https://doi.org/10.1093/mnras/sty2586}.
 
+\bibitem[Sod(1978)]{SOD1978}
+G.~A. Sod.
+\newblock A survey of several finite difference methods for systems of
+  nonlinear hyperbolic conservation laws.
+\newblock \emph{Journal of Computational Physics}, 27\penalty0 (1):\penalty0 1
+  -- 31, 1978.
+\newblock ISSN 0021-9991.
+\newblock \doi{https://doi.org/10.1016/0021-9991(78)90023-2}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/0021999178900232}.
+
 \bibitem[Synge(1957)]{Synge}
 J.~L. Synge.
 \newblock {The Relativistic Gas}.
@@ -237,6 +285,12 @@ A.~H. {Taub}.
 \newblock \emph{Physical Review}, 74\penalty0 (3):\penalty0 328--334, Aug 1948.
 \newblock \doi{10.1103/PhysRev.74.328}.
 
+\bibitem[Toro(2011)]{Toro}
+E.~F. Toro.
+\newblock \emph{Riemann solvers and numerical methods for fluid dynamics : a
+  practical introduction}.
+\newblock Springer, Berlin, 2011.
+
 \bibitem[{Turk} et~al.(2011){Turk}, {Smith}, {Oishi}, {Skory}, {Skillman},
   {Abel}, and {Norman}]{YT}
 M.~J. {Turk}, B.~D. {Smith}, J.~S. {Oishi}, S.~{Skory}, S.~W. {Skillman},
@@ -246,6 +300,31 @@ M.~J. {Turk}, B.~D. {Smith}, J.~S. {Oishi}, S.~{Skory}, S.~W. {Skillman},
 \newblock \emph{The Astrophysical Journal Supplement Series}, 192:\penalty0 9,
   Jan. 2011.
 \newblock \doi{10.1088/0067-0049/192/1/9}.
+
+\bibitem[van Leer(1979)]{van_Leer_1979}
+B.~van Leer.
+\newblock Towards the ultimate conservative difference scheme. v. a
+  second-order sequel to godunov{\textquotesingle}s method.
+\newblock \emph{Journal of Computational Physics}, 32\penalty0 (1):\penalty0
+  101--136, jul 1979.
+\newblock \doi{10.1016/0021-9991(79)90145-1}.
+\newblock URL \url{https://doi.org/10.1016%2F0021-9991%2879%2990145-1}.
+
+\bibitem[van Leer(2006)]{VL2}
+B.~van Leer.
+\newblock Upwind and high-resolution methods for compressible flow: From donor
+  cell to residu volume = {1}, journal = {Communications in Computational
+  Physics}.
+\newblock pages 192--206, 04 2006.
+
+\bibitem[Woodward and Colella(1984)]{Woodward1984}
+P.~Woodward and P.~Colella.
+\newblock The numerical simulation of two-dimensional fluid flow with strong
+  shocks.
+\newblock \emph{Journal of Computational Physics}, 54\penalty0 (1):\penalty0
+  115--173, Apr. 1984.
+\newblock \doi{10.1016/0021-9991(84)90142-6}.
+\newblock URL \url{https://doi.org/10.1016/0021-9991(84)90142-6}.
 
 \bibitem[{Woosley}(1993)]{LongGRB}
 S.~E. {Woosley}.
