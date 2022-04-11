@@ -1,9 +1,17 @@
-\begin{thebibliography}{36}
+\begin{thebibliography}{48}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Asada and Nakamura(2012)]{Asada2012}
+K.~Asada and M.~Nakamura.
+\newblock {THE} {STRUCTURE} {OF} {THE} m87 {JET}: A {TRANSITION} {FROM}
+  {PARABOLIC} {TO} {CONICAL} {STREAMLINES}.
+\newblock \emph{The Astrophysical Journal}, 745\penalty0 (2):\penalty0 L28, jan
+  2012.
+\newblock \doi{10.1088/2041-8205/745/2/l28}.
 
 \bibitem[Blandford et~al.(2019)Blandford, Meier, and Readhead]{Blandford2018}
 R.~Blandford, D.~Meier, and A.~Readhead.
@@ -12,6 +20,23 @@ R.~Blandford, D.~Meier, and A.~Readhead.
   (1):\penalty0 467--509, 2019.
 \newblock \doi{10.1146/annurev-astro-081817-051948}.
 \newblock URL \url{https://doi.org/10.1146/annurev-astro-081817-051948}.
+
+\bibitem[Blandford and Payne(1982)]{Blandford1982}
+R.~D. Blandford and D.~G. Payne.
+\newblock Hydromagnetic flows from accretion discs and the production of radio
+  jets.
+\newblock \emph{Monthly Notices of the Royal Astronomical Society},
+  199\penalty0 (4):\penalty0 883--903, Aug. 1982.
+\newblock \doi{10.1093/mnras/199.4.883}.
+\newblock URL \url{https://doi.org/10.1093/mnras/199.4.883}.
+
+\bibitem[Boccardi et~al.(2015)Boccardi, Krichbaum, Bach, Mertens, Ros, Alef,
+  and Zensus]{Boccardi2015}
+B.~Boccardi, T.~P. Krichbaum, U.~Bach, F.~Mertens, E.~Ros, W.~Alef, and J.~A.
+  Zensus.
+\newblock The stratified two-sided jet of cygnus{\hspace{0.167em}}a.
+\newblock \emph{A and A}, 585:\penalty0 A33, dec 2015.
+\newblock \doi{10.1051/0004-6361/201526985}.
 
 \bibitem[Chiueh(1989)]{Chiue-PhysRevLett.63.113}
 T.~Chiueh.
@@ -94,6 +119,31 @@ G.~{Ghirlanda}, O.~S. {Salafia}, Z.~{Paragi}, M.~{Giroletti}, J.~{Yang},
 \newblock \emph{Science}, 363\penalty0 (6430):\penalty0 968--971, Mar. 2019.
 \newblock \doi{10.1126/science.aau8815}.
 
+\bibitem[Giovannini et~al.(2018)Giovannini, Savolainen, Orienti, Nakamura,
+  Nagai, Kino, Giroletti, Hada, Bruni, Kovalev, Anderson, D’Ammando, Hodgson,
+  Honma, Krichbaum, Lee, Lico, Lisakov, Lobanov, Petrov, Sohn, Sokolovsky,
+  Voitsik, Zensus, and Tingay]{Giovannini2018}
+G.~Giovannini, T.~Savolainen, M.~Orienti, M.~Nakamura, H.~Nagai, M.~Kino,
+  M.~Giroletti, K.~Hada, G.~Bruni, Y.~Y. Kovalev, J.~M. Anderson,
+  F.~D’Ammando, J.~Hodgson, M.~Honma, T.~P. Krichbaum, S.-S. Lee, R.~Lico,
+  M.~M. Lisakov, A.~P. Lobanov, L.~Petrov, B.~W. Sohn, K.~V. Sokolovsky, P.~A.
+  Voitsik, J.~A. Zensus, and S.~Tingay.
+\newblock A wide and collimated radio jet in 3c84 on the scale of a few hundred
+  gravitational radii.
+\newblock \emph{Nature Astronomy}, 2\penalty0 (6):\penalty0 472--477, June
+  2018.
+\newblock ISSN 2397-3366.
+\newblock URL \url{https://doi.org/10.1038/s41550-018-0431-2}.
+
+\bibitem[Giroletti et~al.(2004)Giroletti, Giovannini, Feretti, Cotton, Edwards,
+  Lara, Marscher, Mattox, Piner, and Venturi]{Giroletti2004}
+M.~Giroletti, G.~Giovannini, L.~Feretti, W.~D. Cotton, P.~G. Edwards, L.~Lara,
+  A.~P. Marscher, J.~R. Mattox, B.~G. Piner, and T.~Venturi.
+\newblock Parsec-scale properties of markarian 501.
+\newblock \emph{The Astrophysical Journal}, 600\penalty0 (1):\penalty0
+  127--140, jan 2004.
+\newblock \doi{10.1086/379663}.
+
 \bibitem[Gourgouliatos and Komissarov(2017)]{Gourgouliatos2017}
 K.~N. Gourgouliatos and S.~S. Komissarov.
 \newblock Reconfinement and loss of stability in jets from active galactic
@@ -131,6 +181,15 @@ C.~F. {Kennel} and F.~V. {Coroniti}.
 \newblock \emph{\apj}, 283:\penalty0 710--730, Aug. 1984{\natexlab{b}}.
 \newblock \doi{10.1086/162357}.
 
+\bibitem[Kim et~al.(2018)Kim, Krichbaum, Lu, Ros, Bach, Bremer, de~Vicente,
+  Lindqvist, and Zensus]{Kim2018}
+J.-Y. Kim, T.~P. Krichbaum, R.-S. Lu, E.~Ros, U.~Bach, M.~Bremer,
+  P.~de~Vicente, M.~Lindqvist, and J.~A. Zensus.
+\newblock The limb-brightened jet of m87 down to the 7 schwarzschild radii
+  scale.
+\newblock \emph{A\&A}, 616, 2018.
+\newblock URL \url{https://doi.org/10.1051/0004-6361/201832921}.
+
 \bibitem[{Li} et~al.(1992){Li}, {Chiueh}, and
   {Begelman}]{Chiueh-1992ApJ...394..459L}
 Z.-Y. {Li}, T.~{Chiueh}, and M.~C. {Begelman}.
@@ -147,6 +206,16 @@ F.~D. Lora-Clavijo, A.~Cruz-Osorio, and F.~S. Guzm{\'{a}}n.
   (2):\penalty0 24, jun 2015.
 \newblock \doi{10.1088/0067-0049/218/2/24}.
 \newblock URL \url{https://doi.org/10.1088%2F0067-0049%2F218%2F2%2F24}.
+
+\bibitem[Martí and Müller(1994)]{Marti1994}
+J.~M. Martí and E.~Müller.
+\newblock The analytical solution of the riemann problem in relativistic
+  hydrodynamics.
+\newblock \emph{Journal of Fluid Mechanics}, 258:\penalty0 317--333, 1994.
+\newblock ISSN 0022-1120.
+\newblock \doi{10.1017/s0022112094003344}.
+\newblock URL
+  \url{https://www.cambridge.org/core/article/analytical-solution-of-the-riemann-problem-in-relativistic-hydrodynamics/ACFB60CD3557DF2AF8AFF6B72D8B03A4}.
 
 \bibitem[{Mathews}(1971)]{TM_EOS}
 W.~G. {Mathews}.
@@ -217,6 +286,16 @@ K.~P. {Mooley}, E.~{Nakar}, K.~{Hotokezaka}, G.~{Hallinan}, A.~{Corsi}, D.~A.
   2018{\natexlab{b}}.
 \newblock \doi{10.1038/nature25452}.
 
+\bibitem[Nagai et~al.(2014)Nagai, Haga, Giovannini, Doi, Orienti, Ammando,
+  Kino, Nakamura, Asada, Hada, and Giroletti]{Nagai_2014}
+H.~Nagai, T.~Haga, G.~Giovannini, A.~Doi, M.~Orienti, F.~D. Ammando, M.~Kino,
+  M.~Nakamura, K.~Asada, K.~Hada, and M.~Giroletti.
+\newblock Limb-brightened jet of 3c 84 revealed by the 43 ghz
+  very-long-baseline-array observation.
+\newblock \emph{The Astrophysical Journal}, 785\penalty0 (1):\penalty0 53, mar
+  2014.
+\newblock \doi{10.1088/0004-637x/785/1/53}.
+
 \bibitem[Noble et~al.(2006)Noble, Gammie, McKinney, and Zanna]{Noble_2006}
 S.~C. Noble, C.~F. Gammie, J.~C. McKinney, and L.~D. Zanna.
 \newblock Primitive variable solvers for conservative general relativistic
@@ -233,6 +312,20 @@ J.~{N{\'u}{\~n}ez-de la Rosa} and C.-D. {Munz}.
   magnetohydrodynamics}.
 \newblock \emph{\mnras}, 460\penalty0 (1):\penalty0 535--559, Jul 2016.
 \newblock \doi{10.1093/mnras/stw999}.
+
+\bibitem[Rezzolla and Zanotti(2018)]{Rezzolla2018}
+L.~Rezzolla and O.~Zanotti.
+\newblock \emph{Relativistic hydrodynamics}.
+\newblock Oxford University Press, 2018.
+
+\bibitem[Rezzolla et~al.(2001)Rezzolla, Zanotti, and Pons]{REZZOLLA2001}
+L.~Rezzolla, O.~Zanotti, and J.~A. Pons.
+\newblock An improved exact riemann solver for relativistic hydrodynamics.
+\newblock \emph{Journal of Fluid Mechanics}, 449:\penalty0 395--411, 2001.
+\newblock ISSN 0022-1120.
+\newblock \doi{10.1017/s0022112001006450}.
+\newblock URL
+  \url{https://www.cambridge.org/core/article/an-improved-exact-riemann-solver-for-relativistic-hydrodynamics/BC89780EA34DE042D36D673CE85C0666}.
 
 \bibitem[Ryu et~al.(2006)Ryu, Chattopadhyay, and Choi]{RC_EOS}
 D.~Ryu, I.~Chattopadhyay, and E.~Choi.
@@ -273,6 +366,15 @@ G.~A. Sod.
 \newblock \doi{https://doi.org/10.1016/0021-9991(78)90023-2}.
 \newblock URL
   \url{http://www.sciencedirect.com/science/article/pii/0021999178900232}.
+
+\bibitem[Stone et~al.(2020)Stone, Tomida, White, and Felker]{Stone2020}
+J.~M. Stone, K.~Tomida, C.~J. White, and K.~G. Felker.
+\newblock The athena$\mathplus$$\mathplus$ adaptive mesh refinement framework:
+  Design and magnetohydrodynamic solvers.
+\newblock \emph{The Astrophysical Journal Supplement Series}, 249\penalty0
+  (1):\penalty0 4, June 2020.
+\newblock \doi{10.3847/1538-4365/ab929b}.
+\newblock URL \url{https://doi.org/10.3847/1538-4365/ab929b}.
 
 \bibitem[Synge(1957)]{Synge}
 J.~L. Synge.
@@ -332,5 +434,14 @@ S.~E. {Woosley}.
   Holes}.
 \newblock \emph{\apj}, 405:\penalty0 273, Mar. 1993.
 \newblock \doi{10.1086/172359}.
+
+\bibitem[Yang and Ruszkowski(2017)]{Yang2017}
+H.-Y.~K. Yang and M.~Ruszkowski.
+\newblock The spatially uniform spectrum of {theFermiBubbles}: The leptonic
+  active galactic nucleus jet scenario.
+\newblock \emph{The Astrophysical Journal}, 850\penalty0 (1):\penalty0 2, Nov.
+  2017.
+\newblock \doi{10.3847/1538-4357/aa9434}.
+\newblock URL \url{https://doi.org/10.3847/1538-4357/aa9434}.
 
 \end{thebibliography}

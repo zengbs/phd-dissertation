@@ -16,7 +16,16 @@
 \contentsline {chapter}{\numberline {4}Test problems}{21}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Convergence test for sinusoidal waves}{21}{section.4.1}%
 \contentsline {section}{\numberline {4.2}1-D relativistic Riemann problems}{22}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Ultra-relativistic limit}{23}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Mixed limits}{25}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Multi-dimensional grid effects for high-$\mathslscr {M}$ flows}{27}{section.4.5}%
-\contentsline {chapter}{Bibliography}{31}{section*.9}%
+\contentsline {section}{\numberline {4.3}Ultra-relativistic limit}{24}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Mixed limits}{26}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Multi-dimensional grid effects for high-$\mathslscr {M}$ flows}{28}{section.4.5}%
+\contentsline {chapter}{\numberline {5}Performance scaling}{33}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Astrophysical applications}{37}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Triaxial blast wave}{37}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Limb-brightened jet}{38}{section.6.2}%
+\contentsline {chapter}{\numberline {7}Conclusions for part 1}{43}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Appendix}{45}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Initial guess for Newton-Raphson iteration}{45}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Numerical error analysis for root-finding}{46}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Exact solutions of relativistic Riemann problems with the TM equation of state}{49}{section.8.3}%
+\contentsline {chapter}{Bibliography}{53}{section*.9}%

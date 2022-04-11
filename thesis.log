@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.11.4)  11 APR 2022 15:36
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.11.4)  11 APR 2022 16:49
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1465,15 +1465,6 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 6.6pt on input line 3.
 
-
-LaTeX Warning: Reference `fig:ErrorAnalysis' on page i undefined on input line 
-4.
-
-
-LaTeX Warning: Reference `Appendix:Numerical error analysis' on page xv undefin
-ed on input line 4.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [15
@@ -1481,51 +1472,37 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [16])
+ [16]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18]
+LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
+(Font)              scaled to size 12.0pt on input line 26.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
+(Font)              scaled to size 8.8pt on input line 26.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
+(Font)              scaled to size 6.6pt on input line 26.
+)
 \tf@lof=\write7
 \openout7 = `thesis.lof'.
 
 
-[17] [18
+[19] [20
 
 ] (./thesis.lot)
 \tf@lot=\write8
 \openout8 = `thesis.lot'.
 
- [19] [20
+ [21] [22
 
 ] (./introduction.tex
 Chapter 1.
-
-LaTeX Warning: Reference `Appendix:Numerical error analysis' on page 1 undefine
-d on input line 24.
-
 [1
 
-]
-
-LaTeX Warning: Reference `Relativistic Hydrodynamic Equations' on page 2 undefi
-ned on input line 52.
-
-
-LaTeX Warning: Reference `Numerical Method' on page 2 undefined on input line 5
-2.
-
-
-LaTeX Warning: Reference `Test Problems' on page 2 undefined on input line 54.
-
-
-LaTeX Warning: Reference `Performance scaling' on page 2 undefined on input lin
-e 55.
-
-
-LaTeX Warning: Reference `Astrophysical Applications' on page 2 undefined on in
-put line 58.
-
-
-LaTeX Warning: Reference `conclusions' on page 2 undefined on input line 59.
-
-) (./part.tex [2]) (./special-relativistic-hydrodynamics.tex [3
+]) (./part.tex [2]) (./special-relativistic-hydrodynamics.tex [3
 
 
 ] [4
@@ -1650,12 +1627,6 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 12.0pt on input line 133.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 8.8pt on input line 133.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 6.6pt on input line 133.
 ! Undefined control sequence.
 <argument> \abs 
                 {\mathbf {M}}c
@@ -1666,10 +1637,6 @@ of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `The choice of initial guesses' on page 10 undefined o
-n input line 150.
 
 ! Undefined control sequence.
 <recently read> \abs 
@@ -1687,7 +1654,7 @@ Underfull \vbox (badness 7649) has occurred while \output is active []
 
  [10]
 ! Undefined control sequence.
-l.166 ...de{E}/Dc^2\right)\right]$ and $\left(\abs
+l.167 ...de{E}/Dc^2\right)\right]$ and $\left(\abs
                                                   {\mathbf{M}}/Dc\right)^2$ ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1695,16 +1662,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-
-Overfull \hbox (56.92621pt too wide) in paragraph at lines 165--167
-\T1/ntxtlf/m/n/12 Thus, the er-ror of the new con-ver-sion scheme can be es-ti-
-mated by sub-sti-tut-ing $[]$
- []
-
 ! Argument of \ifblank has an extra }.
 <inserted text> 
                 \par 
-l.176 ...istic AGN jets ($\mathscr{M_{\text{jet}}}
+l.177 ...istic AGN jets ($\mathscr{M_{\text{jet}}}
                                                    < 10$), single precision ...
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -1717,7 +1678,7 @@ Runaway argument?
 ! Paragraph ended before \ifblank was complete.
 <to be read again> 
                    \par 
-l.176 ...istic AGN jets ($\mathscr{M_{\text{jet}}}
+l.177 ...istic AGN jets ($\mathscr{M_{\text{jet}}}
                                                    < 10$), single precision ...
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -1726,7 +1687,7 @@ My plan is to forget the whole thing and hope for the best.
 ! Argument of \ifblank has an extra }.
 <inserted text> 
                 \par 
-l.176 ...istic AGN jets ($\mathscr{M_{\text{jet}}}
+l.177 ...istic AGN jets ($\mathscr{M_{\text{jet}}}
                                                    < 10$), single precision ...
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -1739,7 +1700,7 @@ Runaway argument?
 ! Paragraph ended before \ifblank was complete.
 <to be read again> 
                    \par 
-l.176 ...istic AGN jets ($\mathscr{M_{\text{jet}}}
+l.177 ...istic AGN jets ($\mathscr{M_{\text{jet}}}
                                                    < 10$), single precision ...
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -1748,7 +1709,7 @@ My plan is to forget the whole thing and hope for the best.
 ! Argument of \ifblank has an extra }.
 <inserted text> 
                 \par 
-l.176 ...istic AGN jets ($\mathscr{M_{\text{jet}}}
+l.177 ...istic AGN jets ($\mathscr{M_{\text{jet}}}
                                                    < 10$), single precision ...
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -1761,7 +1722,7 @@ Runaway argument?
 ! Paragraph ended before \ifblank was complete.
 <to be read again> 
                    \par 
-l.176 ...istic AGN jets ($\mathscr{M_{\text{jet}}}
+l.177 ...istic AGN jets ($\mathscr{M_{\text{jet}}}
                                                    < 10$), single precision ...
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -1770,7 +1731,7 @@ My plan is to forget the whole thing and hope for the best.
 ! Argument of \ifblank has an extra }.
 <inserted text> 
                 \par 
-l.176 ...istic AGN jets ($\mathscr{M_{\text{jet}}}
+l.177 ...istic AGN jets ($\mathscr{M_{\text{jet}}}
                                                    < 10$), single precision ...
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -1783,19 +1744,11 @@ Runaway argument?
 ! Paragraph ended before \ifblank was complete.
 <to be read again> 
                    \par 
-l.176 ...istic AGN jets ($\mathscr{M_{\text{jet}}}
+l.177 ...istic AGN jets ($\mathscr{M_{\text{jet}}}
                                                    < 10$), single precision ...
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
 My plan is to forget the whole thing and hope for the best.
-
-
-LaTeX Warning: Reference `fig:ErrorAnalysis' on page 1 undefined on input line 
-184.
-
-
-LaTeX Warning: Reference `Appendix:Numerical error analysis' on page 11 undefin
-ed on input line 184.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1804,26 +1757,10 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: figures/ErrorDistributionImproved.png Graphic file (type bmp)
 <figures/ErrorDistributionImproved.png>
 
-
-LaTeX Warning: Reference `fig:ErrorAnalysis' on page 1 undefined on input line 
-189.
-
-
-LaTeX Warning: Reference `Appendix:Numerical error analysis' on page 12 undefin
-ed on input line 189.
-
-
-LaTeX Warning: Reference `fig:ErrorAnalysis' on page 1 undefined on input line 
-189.
-
-
-LaTeX Warning: Reference `Appendix:Numerical error analysis' on page 12 undefin
-ed on input line 189.
-
 ! Undefined control sequence.
 <argument> \abs 
                 {\mathbf {M}}
-l.200 ...{\mathbf{M}}}{Dc}\right)^2+f(\tilde{h})}}
+l.201 ...{\mathbf{M}}}{Dc}\right)^2+f(\tilde{h})}}
                                                   ,
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1834,7 +1771,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \abs 
                 {\mathbf {M}}
-l.200 ...{\mathbf{M}}}{Dc}\right)^2+f(\tilde{h})}}
+l.201 ...{\mathbf{M}}}{Dc}\right)^2+f(\tilde{h})}}
                                                   ,
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1845,7 +1782,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \abs 
                      
-l.203 ...transcendental equation} with known $\abs
+l.204 ...transcendental equation} with known $\abs
                                                   {\mathbf{M}}/Dc$. Note tha...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1853,28 +1790,16 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-
-LaTeX Warning: Reference `fig:flowchart' on page 1 undefined on input line 205.
-
-
-
-LaTeX Warning: Reference `Appendix:Numerical error analysis' on page 12 undefin
-ed on input line 205.
-
 LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input lin
-e 207.
+e 208.
 (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
 File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 207.
+(Font)              scaled to size 12.0pt on input line 208.
 
 [12] [13]) (./numerical-methods.tex [14]
 Chapter 3.
-
-LaTeX Warning: Reference `fig:Limb_brightened_jet' on page 1 undefined on input
- line 7.
-
 [15
 
 ] [16]
@@ -1991,10 +1916,6 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [21]
-
-LaTeX Warning: Reference `fig:convergence test' on page 1 undefined on input li
-ne 85.
-
 ! Undefined control sequence.
 l.92 ...cellation between $(E/Dc^2)^2$ and $[(\abs
                                                   {\mathbf{M}}/Dc)^2+1]$ lea...
@@ -2013,83 +1934,58 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-
-LaTeX Warning: Reference `Appendix:Numerical error analysis' on page 22 undefin
-ed on input line 92.
-
-
-LaTeX Warning: Reference `appendix:exact solution' on page 22 undefined on inpu
-t line 98.
-
-[22]
-Overfull \hbox (11.27263pt too wide) in paragraph at lines 104--110
+File: figures/fig__convergence.pdf Graphic file (type pdf)
+<use figures/fig__convergence.pdf>
+[22] [23]
+Overfull \hbox (11.27263pt too wide) in paragraph at lines 110--116
 [][] 
  []
 
 File: figures/HeadCollision.pdf Graphic file (type pdf)
 <use figures/HeadCollision.pdf>
-
-LaTeX Warning: Reference `appendix:exact solution' on page 23 undefined on inpu
-t line 135.
-
-[23] [24]
-
-LaTeX Warning: Reference `tb:exact solution' on page 25 undefined on input line
- 137.
-
-
-LaTeX Warning: Reference `appendix:exact solution' on page 25 undefined on inpu
-t line 137.
-
-
-LaTeX Warning: Reference `tb:exact solution' on page 1 undefined on input line 
-137.
-
-
-LaTeX Warning: Reference `appendix:exact solution' on page 25 undefined on inpu
-t line 137.
-
+[24] [25]
 File: figures/RiemannProbs.png Graphic file (type bmp)
 <figures/RiemannProbs.png>
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 17.28pt on input line 146.
+(Font)              scaled to size 17.28pt on input line 152.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.5pt on input line 146.
+(Font)              scaled to size 12.5pt on input line 152.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 9.4pt on input line 146.
+(Font)              scaled to size 9.4pt on input line 152.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 17.28pt on input line 146.
+(Font)              scaled to size 17.28pt on input line 152.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 12.5pt on input line 146.
+(Font)              scaled to size 12.5pt on input line 152.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 9.4pt on input line 146.
+(Font)              scaled to size 9.4pt on input line 152.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 146.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 152.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12.5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 146.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 152.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 146.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 146.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 152.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\tx@ScrM' on input line 146.
+(hyperref)                removing `math shift' on input line 152.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 146.
+(hyperref)                removing `\tx@ScrM' on input line 152.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 152.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [25]
-[26]
+ [26]
+[27]
 ! Undefined control sequence.
 <recently read> \abs 
                      
-l.150 ...r mass density and the magnitude of $\abs
+l.156 ...r mass density and the magnitude of $\abs
                                                   {\mathbf{M}}/D$ as the two...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2098,7 +1994,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.154 \abs
+l.160 \abs
           {\frac{\partial Q}{\partial x}}+
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2107,7 +2003,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.155 \abs
+l.161 \abs
           {\frac{\partial Q}{\partial y}}+
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2116,7 +2012,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.156 \abs
+l.162 \abs
           {\frac{\partial Q}{\partial z}}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2127,7 +2023,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \abs 
                      
-l.161 ... be refined when any cell satisfies $\abs
+l.167 ... be refined when any cell satisfies $\abs
                                                   {\mathbf{M}}/D>10^{4}$ so ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2138,11 +2034,11 @@ and I'll forget about whatever was undefined.
 
 Underfull \vbox (badness 4673) has occurred while \output is active []
 
- [27]
+ [28]
 File: figures/fig__HorizontalFlowLow.png Graphic file (type bmp)
 <figures/fig__HorizontalFlowLow.png>
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 175.
+(Font)              scaled to size 10.0pt on input line 181.
 File: figures/fig__DiagonalFlowLow.png Graphic file (type bmp)
 <figures/fig__DiagonalFlowLow.png>
 File: figures/fig__HorizontalFlowHig.png Graphic file (type bmp)
@@ -2152,11 +2048,488 @@ File: figures/fig__DiagonalFlowHig.png Graphic file (type bmp)
 File: figures/fig__HorizontalFlowHigZoomIn.png Graphic file (type bmp)
 <figures/fig__HorizontalFlowHigZoomIn.png>
 )
-[28] [29] [30] (./thesis.bbl
+(./performance-scaling.tex [29] [30] [31] [32
+
+]
+Chapter 5.
+
+Overfull \hbox (35.15826pt too wide) in paragraph at lines 3--5
+\T1/ntxtlf/m/n/12 We mea-sure both strong and weak scal-ings of $[]$ with AMR a
+nd hy-brid MPI/OpenMP/GPU
+ []
+
+[33]
+File: figures/fig__weak_scaling.pdf Graphic file (type pdf)
+<use figures/fig__weak_scaling.pdf>
+File: figures/fig__benchmark_strongscaling.pdf Graphic file (type pdf)
+<use figures/fig__benchmark_strongscaling.pdf>
+
+Underfull \vbox (badness 7777) has occurred while \output is active []
+
+ [34]
+File: figures/fig__benchmark_weakscaling.pdf Graphic file (type pdf)
+<use figures/fig__benchmark_weakscaling.pdf>
+)
+(./astrophysical-applications.tex [35] [36]
+Chapter 6.
+[37
+
+]
+File: figures/ProfileSliceLowRes.png Graphic file (type bmp)
+<figures/ProfileSliceLowRes.png>
+File: figures/fig__AxesRatio.pdf Graphic file (type pdf)
+<use figures/fig__AxesRatio.pdf>
+ [38] [39]
+! Undefined control sequence.
+<recently read> \abs 
+                     
+l.39 ... energy density and the magnitude of $\abs
+                                                  {\mathbf{M}}/D$ as the two...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \abs 
+                     
+l.39 ...ith $Q=\tilde{E}$ and $C_{Q}=0.1$ or $\abs
+                                                  {\mathbf{M}}/D>20$. The fi...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \vbox (badness 1496) has occurred while \output is active []
+
+ [40]
+File: figures/JetAccLowRes.png Graphic file (type bmp)
+<figures/JetAccLowRes.png>
+)
+(./conclusion-part-1.tex [41] [42]
+Chapter 7.
+[43
+
+]) (./appendix.tex [44]
+Chapter 8.
+! Undefined control sequence.
+<argument> \abs 
+                {\mathbf {M}}
+l.13 ...ac{\abs{\mathbf{M}}}{D}\right)^2\right]^2}
+                                                  ,
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \abs 
+                {\mathbf {M}}
+l.13 ...ac{\abs{\mathbf{M}}}{D}\right)^2\right]^2}
+                                                  ,
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \abs 
+                {\mathbf {M}}
+l.25 ...D}\right)-\left(\frac{\abs{\mathbf{M}}}{D}
+                                                  \right)^2
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \abs 
+                {\mathbf {M}}
+l.26 ...frac{\abs{\mathbf{M}}}{D}\right)^2\right]}
+                                                  \right\}\tilde{h}^2.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [45
+
+]
+! Undefined control sequence.
+<argument> \abs 
+                {\mathbf {M}}
+l.35 ...mathbf{M}}}{D}\right)^2\right]^2}\right\}}
+                                                  .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \abs 
+                {\mathbf {M}}
+l.35 ...mathbf{M}}}{D}\right)^2\right]^2}\right\}}
+                                                  .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \abs 
+                {\mathbf {M}}
+l.35 ...mathbf{M}}}{D}\right)^2\right]^2}\right\}}
+                                                  .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \abs 
+                {\mathbf {M}}
+l.35 ...mathbf{M}}}{D}\right)^2\right]^2}\right\}}
+                                                  .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \abs 
+                {\mathbf {M}}
+l.35 ...mathbf{M}}}{D}\right)^2\right]^2}\right\}}
+                                                  .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \abs 
+                {\mathbf {M}}
+l.35 ...mathbf{M}}}{D}\right)^2\right]^2}\right\}}
+                                                  .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \abs 
+                {\mathbf {M}}
+l.35 ...mathbf{M}}}{D}\right)^2\right]^2}\right\}}
+                                                  .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \abs 
+                {\mathbf {M}}
+l.35 ...mathbf{M}}}{D}\right)^2\right]^2}\right\}}
+                                                  .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \abs 
+                {\mathbf {M}}
+l.35 ...mathbf{M}}}{D}\right)^2\right]^2}\right\}}
+                                                  .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \abs 
+                {\mathbf {M}}
+l.40 ...D}\right)-\left(\frac{\abs{\mathbf{M}}}{D}
+                                                  \right)^2
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \abs 
+                {\mathbf {M}}
+l.47 ...D}\right)-\left(\frac{\abs{\mathbf{M}}}{D}
+                                                  \right)^2}.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \abs 
+                {\mathbf {M}}
+l.52 ...t(\frac{\abs{\mathbf{M}}}{D}\right)^2+117}
+                                                  \right\}^2,
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \abs 
+                {\mathbf {M}}
+l.52 ...t(\frac{\abs{\mathbf{M}}}{D}\right)^2+117}
+                                                  \right\}^2,
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.55 ...$(\tilde{E}/D)^2+2(\tilde{E}/D)-\left(\abs
+                                                  {\mathbf{M}}/D\right)^2$ i...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+File: figures/FunHTilde.pdf Graphic file (type pdf)
+<use figures/FunHTilde.pdf>
+! Undefined control sequence.
+<argument> ... }{\ignorespaces $f(\tilde {h};\abs 
+                                                  {\mathbf {M}}/D=1)$ (brown...
+l.58 ...ilde{h}$ in the Newton-Raphson iteration.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...tHref }{\relax }}$f(\tilde {h};\abs 
+                                                  {\mathbf {M}}/D=1)$ (brown...
+l.58 ...ilde{h}$ in the Newton-Raphson iteration.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...tHref }{\relax }}$f(\tilde {h};\abs 
+                                                  {\mathbf {M}}/D=1)$ (brown...
+l.58 ...ilde{h}$ in the Newton-Raphson iteration.}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+File: figures/screenshot.png Graphic file (type bmp)
+<figures/screenshot.png>
+! Undefined control sequence.
+<recently read> \abs 
+                     
+l.75 ... low-$T$ limit, we measure the error $\abs
+                                                  {1-\tilde{h}_{0}/\tilde{h}...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.75 ...llel to the line $x=y=z$ (i.e. $U^i_0=\abs
+                                                  {\mathbf{U}_0}/\sqrt{3}$ f...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.75 ...ht)^2+2\left(\tilde{E}/D\right)-\left(\abs
+                                                  {\mathbf{M}}/D\right)^2$ a...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.75 ...ght)^2$ and $\left(E/D\right)^2-\left(\abs
+                                                  {\mathbf{M}}/D\right)^2-1$...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[46] [47]
+File: figures/ErrorMap3.pdf Graphic file (type pdf)
+<use figures/ErrorMap3.pdf>
+
+! Undefined control sequence.
+<argument> .... It shows the relative error $\abs 
+                                                  {1-\tilde {h}_{0}/\tilde {...
+l.82 ...{eq:OriRelativeError}(brown dashed line).}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...t (\tilde {E}/D\right )-\left (\abs 
+                                                  {\mathbf {M}}/D\right )^2$...
+l.82 ...{eq:OriRelativeError}(brown dashed line).}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...d $\left (E/D\right )^2-\left (\abs 
+                                                  {\mathbf {M}}/D\right )^2-...
+l.82 ...{eq:OriRelativeError}(brown dashed line).}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \abs 
+                     
+l.82 ...{eq:OriRelativeError}(brown dashed line).}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...t (\tilde {E}/D\right )-\left (\abs 
+                                                  {\mathbf {M}}/D\right )^2$...
+l.82 ...{eq:OriRelativeError}(brown dashed line).}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...d $\left (E/D\right )^2-\left (\abs 
+                                                  {\mathbf {M}}/D\right )^2-...
+l.82 ...{eq:OriRelativeError}(brown dashed line).}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \abs 
+                     
+l.82 ...{eq:OriRelativeError}(brown dashed line).}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...t (\tilde {E}/D\right )-\left (\abs 
+                                                  {\mathbf {M}}/D\right )^2$...
+l.82 ...{eq:OriRelativeError}(brown dashed line).}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...d $\left (E/D\right )^2-\left (\abs 
+                                                  {\mathbf {M}}/D\right )^2-...
+l.82 ...{eq:OriRelativeError}(brown dashed line).}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[48] [49]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [50]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 142.
+
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 8.0pt on input line 143.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 8.0pt on input line 147.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 6.2pt on input line 147.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 5.5pt on input line 147.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
+(Font)              scaled to size 8.0pt on input line 147.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
+(Font)              scaled to size 6.2pt on input line 147.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
+(Font)              scaled to size 5.5pt on input line 147.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 147.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6.2> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 147.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5.5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 147.
+LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
+(Font)              scaled to size 8.0pt on input line 150.
+) [51] [52] (./thesis.bbl
 ! Undefined control sequence.
 <recently read> \apj 
                      
-l.29 \newblock \emph{\apj}
+l.54 \newblock \emph{\apj}
                           , 377:\penalty0 462, Aug. 1991.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2164,10 +2537,14 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+[53
+
+
+]
 ! Undefined control sequence.
 <recently read> \apjl 
                       
-l.63 \newblock \emph{\apjl}
+l.88 \newblock \emph{\apjl}
                            , 883\penalty0 (1):\penalty0 L1, Sept. 2019.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2175,14 +2552,11 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[31
-
-
-]
+[54]
 ! Undefined control sequence.
 <recently read> \apj 
                      
-l.125 \newblock \emph{\apj}
+l.175 \newblock \emph{\apj}
                            , 283:\penalty0 694--709, Aug. 1984{\natexlab{a}}.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2193,7 +2567,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \apj 
                      
-l.131 \newblock \emph{\apj}
+l.181 \newblock \emph{\apj}
                            , 283:\penalty0 710--730, Aug. 1984{\natexlab{b}}.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2204,7 +2578,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \apj 
                      
-l.139 \newblock \emph{\apj}
+l.198 \newblock \emph{\apj}
                            , 394:\penalty0 459, Aug. 1992.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2212,11 +2586,23 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[32]
+
+Underfull \hbox (badness 1859) in paragraph at lines 211--219
+\T1/ntxtlf/m/n/12 ISSN 0022-1120.  .  URL []$\T1/ntxtt/m/n/12 https : / / www .
+ cambridge . org / core / article /
+ []
+
+
+Overfull \hbox (49.10776pt too wide) in paragraph at lines 211--219
+\T1/ntxtt/m/n/12 analytical-[]solution-[]of-[]the-[]riemann-[]problem-[]in-[]re
+lativistic-[]hydrodynamics /
+ []
+
+[55]
 ! Undefined control sequence.
 <recently read> \apj 
                      
-l.154 \newblock \emph{\apj}
+l.223 \newblock \emph{\apj}
                            , 165:\penalty0 147, Apr 1971.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2227,7 +2613,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \nat 
                      
-l.200 \newblock \emph{\nat}
+l.269 \newblock \emph{\nat}
                            , 561\penalty0 (7723):\penalty0 355--359, Sept.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2238,7 +2624,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \nat 
                      
-l.216 \newblock \emph{\nat}
+l.285 \newblock \emph{\nat}
                            , 554\penalty0 (7691):\penalty0 207--210, Feb.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2246,11 +2632,11 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[33]
+[56]
 ! Undefined control sequence.
 <recently read> \mnras 
                        
-l.234 \newblock \emph{\mnras}
+l.313 \newblock \emph{\mnras}
                              , 460\penalty0 (1):\penalty0 535--559, Jul 2016.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2258,11 +2644,46 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[34]
+
+Underfull \hbox (badness 1859) in paragraph at lines 322--329
+\T1/ntxtlf/m/n/12 ISSN 0022-1120.  .  URL []$\T1/ntxtt/m/n/12 https : / / www .
+ cambridge . org / core / article /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 322--329
+\T1/ntxtt/m/n/12 an-[]improved-[]exact-[]riemann-[]solver-[]for-[]relativistic-
+[]hydrodynamics /
+ []
+
+[57]
+! Undefined control sequence.
+<recently read> \mathplus 
+                          
+l.372 \newblock The athena$\mathplus
+                                    $$\mathplus$ adaptive mesh refinement fr...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \mathplus 
+                          
+l.372 \newblock The athena$\mathplus$$\mathplus
+                                               $ adaptive mesh refinement fr...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[58]
 ! Undefined control sequence.
 <recently read> \apj 
                      
-l.333 \newblock \emph{\apj}
+l.435 \newblock \emph{\apj}
                            , 405:\penalty0 273, Mar. 1993.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2270,7 +2691,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-) [35]
+) [59]
 
 Package catoptions Warning: Undefined options 
 (catoptions)                [Family, Option, Value]: 
@@ -2279,25 +2700,22 @@ Package catoptions Warning: Undefined options
 
 (./thesis.aux)
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 6E06C51FC25229D88ED77EEA26B3104F;3411.
+(rerunfilecheck)             Checksum: A5272BCD6DF1B7B7CC0F6C11B50F74A6;5313.
  )
 (\end occurred inside a group at level 1)
 
 ### semi simple group (level 1) entered at line 58 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 35096 strings out of 476473
- 700593 string characters out of 5812052
- 1092339 words of memory out of 5000000
- 54931 multiletter control sequences out of 15000+600000
- 506497 words of font info for 174 fonts, out of 8000000 for 9000
+ 35435 strings out of 476473
+ 708780 string characters out of 5812052
+ 1106176 words of memory out of 5000000
+ 55247 multiletter control sequences out of 15000+600000
+ 534393 words of font info for 219 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 132i,11n,136p,1973b,2580s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 132i,12n,136p,1973b,2713s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.pdf (55 pages).
+Output written on thesis.pdf (81 pages).

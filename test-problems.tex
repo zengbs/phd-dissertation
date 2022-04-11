@@ -92,6 +92,12 @@ where $k_{B}T/mc^2=10^{-10}$ and $\epsilon_{\text{machine}}\sim 10^{-16}$ for do
 We thus conclude that for the original scheme in the NR limit, the cancellation between $(E/Dc^2)^2$ and $[(\abs{\mathbf{M}}/Dc)^2+1]$ leads to an error of $\sim 10^{-6}$ when computing primitive variables, roughly consistent with the L1 error (\tikz\draw[black,fill=OriCold] (0,0) circle (.5ex);). For the opposite high-$T$ limit ($\MyDiamond[draw=black,fill=OriHot]$), the discretization error, however, completely overwhelms the error ($\sim 4\epsilon_{\text{machine}}\sim4\times 10^{-16}$) estimated from \Cref{eq:OriRelativeError} in the high-$T$ limit, thus dominating the L1 error. The error arising from the cancellation in the new scheme, $\left(\tilde{E}/Dc^2\right)^2+2\left(\tilde{E}/Dc^2\right)-\left(\abs{\mathbf{M}}/Dc\right)^2$, on the left side of \Cref{transcendental equation}, is close to $\epsilon_{\text{machine}}$ in both the high- and low-$T$ limits when $\mathscr{M}<1$ (see Section \ref{section: Conversion between primitive variables and conserved ones} and Appendix \ref{Appendix:Numerical error analysis} for details).
 
 
+\begin{figure}
+\includegraphics[width=\columnwidth]{figures/fig__convergence.pdf}
+\caption{Convergence test for sinusoidal waves. The L1 errors of the new scheme in both the high-$T$ limit (yellow squares) and low-$T$ limit (blue pluses) decrease as $N^{-2}$, consistent with the second-order accuracy of the MUSCL-Hancock scheme with PLM data reconstruction. However, the L1 error of the original scheme in the low-$T$ limit (brown circles) is much larger and roughly equal to a constant of $2\times 10^{-6}$. This is expected because the error in the original scheme can be estimated from \Cref{eq:error in the NR limit}. For the original scheme in the opposite high-$T$ limit (darkred diamond), the discretization error, however, completely overwhelms the error ($\sim 4\times10^{-16}$) estimated from \Cref{eq:OriRelativeError} in the high-$T$ limit when $\gamma \sim 1$, thus dominating the L1 error.}
+\label{fig:convergence test}
+\end{figure}
+
 
 \section{1-D relativistic Riemann problems}
 \label{subsec:1-DReletivisticRiemann problems}

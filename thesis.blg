@@ -4,45 +4,45 @@ The top-level auxiliary file: thesis.aux
 The style file: abbrvnat.bst
 Database file #1: thesis.bib
 Warning--empty journal in VL2
-You've used 36 entries,
+You've used 48 entries,
             2773 wiz_defined-function locations,
-            906 strings with 13718 characters,
-and the built_in function-call counts, 21585 in all, are:
-= -- 1875
-> -- 1686
-< -- 21
-+ -- 572
-- -- 534
-* -- 2070
-:= -- 3495
-add.period$ -- 165
-call.type$ -- 36
-change.case$ -- 285
-chr.to.int$ -- 34
-cite$ -- 73
-duplicate$ -- 743
-empty$ -- 1386
-format.name$ -- 586
-if$ -- 4373
+            1009 strings with 17155 characters,
+and the built_in function-call counts, 29573 in all, are:
+= -- 2540
+> -- 2433
+< -- 26
++ -- 821
+- -- 771
+* -- 2862
+:= -- 4811
+add.period$ -- 220
+call.type$ -- 48
+change.case$ -- 399
+chr.to.int$ -- 46
+cite$ -- 97
+duplicate$ -- 989
+empty$ -- 1827
+format.name$ -- 845
+if$ -- 5967
 int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 38
-newline$ -- 245
-num.names$ -- 144
-pop$ -- 468
+missing$ -- 51
+newline$ -- 324
+num.names$ -- 192
+pop$ -- 660
 preamble$ -- 1
-purify$ -- 250
+purify$ -- 353
 quote$ -- 0
-skip$ -- 602
+skip$ -- 827
 stack$ -- 0
-substring$ -- 697
-swap$ -- 78
+substring$ -- 868
+swap$ -- 98
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 386
+type$ -- 513
 warning$ -- 1
-while$ -- 148
+while$ -- 197
 width$ -- 0
-write$ -- 588
+write$ -- 781
 (There was 1 warning)
