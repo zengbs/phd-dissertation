@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.11.4)  11 APR 2022 16:49
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.11.4)  11 APR 2022 16:55
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2527,10 +2527,21 @@ LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
 (Font)              scaled to size 8.0pt on input line 150.
 ) [51] [52] (./thesis.bbl
 ! Undefined control sequence.
-<recently read> \apj 
-                     
-l.54 \newblock \emph{\apj}
-                          , 377:\penalty0 462, Aug. 1991.
+<argument> \apj 
+                
+l.48   {10.1086/170375}
+                       , \href
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \apjl 
+                 
+l.61 ...\mn@doi [\apjl] {10.3847/2041-8213/ab3d9e}
+                                                  , \href
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2542,10 +2553,76 @@ and I'll forget about whatever was undefined.
 
 ]
 ! Undefined control sequence.
-<recently read> \apjl 
-                      
-l.88 \newblock \emph{\apjl}
-                           , 883\penalty0 (1):\penalty0 L1, Sept. 2019.
+<argument> \apj 
+                
+l.97 ....,  1984a, \mn@doi [\apj] {10.1086/162356}
+                                                  ,
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \apj 
+                
+l.102 ...,  1984b, \mn@doi [\apj] {10.1086/162357}
+                                                  ,
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \apj 
+                
+l.111   {10.1086/171597}
+                        , \href
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \apj 
+                
+l.126 ....,  1971, \mn@doi [\apj] {10.1086/150883}
+                                                  , \href
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \nat 
+                
+l.151 ...18a, \mn@doi [\nat] {10.1038/nature25452}
+                                                  , \href
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \nat 
+                
+l.156 ...mn@doi [\nat] {10.1038/s41586-018-0486-3}
+                                                  ,
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \mnras 
+                  
+l.172   {10.1093/mnras/stw999}
+                              , \href
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2554,144 +2631,17 @@ and I'll forget about whatever was undefined.
 
 [54]
 ! Undefined control sequence.
-<recently read> \apj 
-                     
-l.175 \newblock \emph{\apj}
-                           , 283:\penalty0 694--709, Aug. 1984{\natexlab{a}}.
+<argument> \apj 
+                
+l.235 ....,  1993, \mn@doi [\apj] {10.1086/172359}
+                                                  , \href
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-<recently read> \apj 
-                     
-l.181 \newblock \emph{\apj}
-                           , 283:\penalty0 710--730, Aug. 1984{\natexlab{b}}.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \apj 
-                     
-l.198 \newblock \emph{\apj}
-                           , 394:\penalty0 459, Aug. 1992.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 1859) in paragraph at lines 211--219
-\T1/ntxtlf/m/n/12 ISSN 0022-1120.  .  URL []$\T1/ntxtt/m/n/12 https : / / www .
- cambridge . org / core / article /
- []
-
-
-Overfull \hbox (49.10776pt too wide) in paragraph at lines 211--219
-\T1/ntxtt/m/n/12 analytical-[]solution-[]of-[]the-[]riemann-[]problem-[]in-[]re
-lativistic-[]hydrodynamics /
- []
-
-[55]
-! Undefined control sequence.
-<recently read> \apj 
-                     
-l.223 \newblock \emph{\apj}
-                           , 165:\penalty0 147, Apr 1971.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \nat 
-                     
-l.269 \newblock \emph{\nat}
-                           , 561\penalty0 (7723):\penalty0 355--359, Sept.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \nat 
-                     
-l.285 \newblock \emph{\nat}
-                           , 554\penalty0 (7691):\penalty0 207--210, Feb.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[56]
-! Undefined control sequence.
-<recently read> \mnras 
-                       
-l.313 \newblock \emph{\mnras}
-                             , 460\penalty0 (1):\penalty0 535--559, Jul 2016.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 1859) in paragraph at lines 322--329
-\T1/ntxtlf/m/n/12 ISSN 0022-1120.  .  URL []$\T1/ntxtt/m/n/12 https : / / www .
- cambridge . org / core / article /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 322--329
-\T1/ntxtt/m/n/12 an-[]improved-[]exact-[]riemann-[]solver-[]for-[]relativistic-
-[]hydrodynamics /
- []
-
-[57]
-! Undefined control sequence.
-<recently read> \mathplus 
-                          
-l.372 \newblock The athena$\mathplus
-                                    $$\mathplus$ adaptive mesh refinement fr...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \mathplus 
-                          
-l.372 \newblock The athena$\mathplus$$\mathplus
-                                               $ adaptive mesh refinement fr...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[58]
-! Undefined control sequence.
-<recently read> \apj 
-                     
-l.435 \newblock \emph{\apj}
-                           , 405:\penalty0 273, Mar. 1993.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-) [59]
+) [55]
 
 Package catoptions Warning: Undefined options 
 (catoptions)                [Family, Option, Value]: 
@@ -2710,12 +2660,12 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 ### semi simple group (level 1) entered at line 58 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 35435 strings out of 476473
- 708780 string characters out of 5812052
- 1106176 words of memory out of 5000000
- 55247 multiletter control sequences out of 15000+600000
+ 35391 strings out of 476473
+ 706229 string characters out of 5812052
+ 1104727 words of memory out of 5000000
+ 55203 multiletter control sequences out of 15000+600000
  534393 words of font info for 219 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 132i,12n,136p,1973b,2713s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 132i,12n,136p,1973b,2712s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.pdf (81 pages).
+Output written on thesis.pdf (77 pages).

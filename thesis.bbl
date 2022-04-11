@@ -1,447 +1,251 @@
-\begin{thebibliography}{48}
-\providecommand{\natexlab}[1]{#1}
-\providecommand{\url}[1]{\texttt{#1}}
-\expandafter\ifx\csname urlstyle\endcsname\relax
-  \providecommand{\doi}[1]{doi: #1}\else
-  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+\begin{thebibliography}{}
+\makeatletter
+\relax
+\def\mn@urlcharsother{\let\do\@makeother \do\$\do\&\do\#\do\^\do\_\do\%\do\~}
+\def\mn@doi{\begingroup\mn@urlcharsother \@ifnextchar [ {\mn@doi@}
+  {\mn@doi@[]}}
+\def\mn@doi@[#1]#2{\def\@tempa{#1}\ifx\@tempa\@empty \href
+  {http://dx.doi.org/#2} {doi:#2}\else \href {http://dx.doi.org/#2} {#1}\fi
+  \endgroup}
+\def\mn@eprint#1#2{\mn@eprint@#1:#2::\@nil}
+\def\mn@eprint@arXiv#1{\href {http://arxiv.org/abs/#1} {{\tt arXiv:#1}}}
+\def\mn@eprint@dblp#1{\href {http://dblp.uni-trier.de/rec/bibtex/#1.xml}
+  {dblp:#1}}
+\def\mn@eprint@#1:#2:#3:#4\@nil{\def\@tempa {#1}\def\@tempb {#2}\def\@tempc
+  {#3}\ifx \@tempc \@empty \let \@tempc \@tempb \let \@tempb \@tempa \fi \ifx
+  \@tempb \@empty \def\@tempb {arXiv}\fi \@ifundefined
+  {mn@eprint@\@tempb}{\@tempb:\@tempc}{\expandafter \expandafter \csname
+  mn@eprint@\@tempb\endcsname \expandafter{\@tempc}}}
 
-\bibitem[Asada and Nakamura(2012)]{Asada2012}
-K.~Asada and M.~Nakamura.
-\newblock {THE} {STRUCTURE} {OF} {THE} m87 {JET}: A {TRANSITION} {FROM}
-  {PARABOLIC} {TO} {CONICAL} {STREAMLINES}.
-\newblock \emph{The Astrophysical Journal}, 745\penalty0 (2):\penalty0 L28, jan
-  2012.
-\newblock \doi{10.1088/2041-8205/745/2/l28}.
+\bibitem[\protect\citeauthoryear{Asada \& Nakamura}{Asada \&
+  Nakamura}{2012}]{Asada2012}
+Asada K.,  Nakamura M.,  2012, \mn@doi [The Astrophysical Journal]
+  {10.1088/2041-8205/745/2/l28}, 745, L28
 
-\bibitem[Blandford et~al.(2019)Blandford, Meier, and Readhead]{Blandford2018}
-R.~Blandford, D.~Meier, and A.~Readhead.
-\newblock Relativistic jets from active galactic nuclei.
-\newblock \emph{Annual Review of Astronomy and Astrophysics}, 57\penalty0
-  (1):\penalty0 467--509, 2019.
-\newblock \doi{10.1146/annurev-astro-081817-051948}.
-\newblock URL \url{https://doi.org/10.1146/annurev-astro-081817-051948}.
+\bibitem[\protect\citeauthoryear{Blandford \& Payne}{Blandford \&
+  Payne}{1982}]{Blandford1982}
+Blandford R.~D.,  Payne D.~G.,  1982, \mn@doi [Monthly Notices of the Royal
+  Astronomical Society] {10.1093/mnras/199.4.883}, 199, 883
 
-\bibitem[Blandford and Payne(1982)]{Blandford1982}
-R.~D. Blandford and D.~G. Payne.
-\newblock Hydromagnetic flows from accretion discs and the production of radio
-  jets.
-\newblock \emph{Monthly Notices of the Royal Astronomical Society},
-  199\penalty0 (4):\penalty0 883--903, Aug. 1982.
-\newblock \doi{10.1093/mnras/199.4.883}.
-\newblock URL \url{https://doi.org/10.1093/mnras/199.4.883}.
+\bibitem[\protect\citeauthoryear{Blandford, Meier  \& Readhead}{Blandford
+  et~al.}{2019}]{Blandford2018}
+Blandford R.,  Meier D.,   Readhead A.,  2019, \mn@doi [Annual Review of
+  Astronomy and Astrophysics] {10.1146/annurev-astro-081817-051948}, 57, 467
 
-\bibitem[Boccardi et~al.(2015)Boccardi, Krichbaum, Bach, Mertens, Ros, Alef,
-  and Zensus]{Boccardi2015}
-B.~Boccardi, T.~P. Krichbaum, U.~Bach, F.~Mertens, E.~Ros, W.~Alef, and J.~A.
-  Zensus.
-\newblock The stratified two-sided jet of cygnus{\hspace{0.167em}}a.
-\newblock \emph{A and A}, 585:\penalty0 A33, dec 2015.
-\newblock \doi{10.1051/0004-6361/201526985}.
+\bibitem[\protect\citeauthoryear{Boccardi, Krichbaum, Bach, Mertens, Ros, Alef
+  \& Zensus}{Boccardi et~al.}{2015}]{Boccardi2015}
+Boccardi B.,  Krichbaum T.~P.,  Bach U.,  Mertens F.,  Ros E.,  Alef W.,
+  Zensus J.~A.,  2015, \mn@doi [A and A] {10.1051/0004-6361/201526985}, 585,
+  A33
 
-\bibitem[Chiueh(1989)]{Chiue-PhysRevLett.63.113}
-T.~Chiueh.
-\newblock Relativistic solitons and shocks in magnetized
-  ${e}^{\mathrm{\ensuremath{-}}}$-${e}^{+}$-${p}^{+}$ fluids.
-\newblock \emph{Phys. Rev. Lett.}, 63:\penalty0 113--116, Jul 1989.
-\newblock \doi{10.1103/PhysRevLett.63.113}.
-\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRevLett.63.113}.
+\bibitem[\protect\citeauthoryear{Chiueh}{Chiueh}{1989}]{Chiue-PhysRevLett.63.113}
+Chiueh T.,  1989, \mn@doi [Phys. Rev. Lett.] {10.1103/PhysRevLett.63.113}, 63,
+  113
 
-\bibitem[{Chiueh} et~al.(1991){Chiueh}, {Li}, and
-  {Begelman}]{Chiueh-1991ApJ...377..462C}
-T.~{Chiueh}, Z.-Y. {Li}, and M.~C. {Begelman}.
-\newblock {Asymptotic Structure of Hydromagnetically Driven Relativistic
-  Winds}.
-\newblock \emph{\apj}, 377:\penalty0 462, Aug. 1991.
-\newblock \doi{10.1086/170375}.
+\bibitem[\protect\citeauthoryear{{Chiueh}, {Li}  \& {Begelman}}{{Chiueh}
+  et~al.}{1991}]{Chiueh-1991ApJ...377..462C}
+{Chiueh} T.,  {Li} Z.-Y.,   {Begelman} M.~C.,  1991, \mn@doi [\apj]
+  {10.1086/170375}, \href
+  {https://ui.adsabs.harvard.edu/abs/1991ApJ...377..462C} {377, 462}
 
-\bibitem[Chiueh et~al.(1998)Chiueh, Li, and Begelman]{Chiueh_1998}
-T.~Chiueh, Z.-Y. Li, and M.~C. Begelman.
-\newblock A critical analysis of ideal magnetohydrodynamic models for crab-like
-  pulsar winds.
-\newblock \emph{The Astrophysical Journal}, 505\penalty0 (2):\penalty0
-  835--843, oct 1998.
-\newblock \doi{10.1086/306209}.
-\newblock URL \url{https://doi.org/10.1086%2F306209}.
+\bibitem[\protect\citeauthoryear{Chiueh, Li  \& Begelman}{Chiueh
+  et~al.}{1998}]{Chiueh_1998}
+Chiueh T.,  Li Z.-Y.,   Begelman M.~C.,  1998, \mn@doi [The Astrophysical
+  Journal] {10.1086/306209}, 505, 835
 
-\bibitem[Falle(1991)]{VL1}
-S.~A. E.~G. Falle.
-\newblock {Self-similar jets}.
-\newblock \emph{Monthly Notices of the Royal Astronomical Society},
-  250\penalty0 (3):\penalty0 581--596, 06 1991.
-\newblock ISSN 0035-8711.
-\newblock \doi{10.1093/mnras/250.3.581}.
-\newblock URL \url{https://doi.org/10.1093/mnras/250.3.581}.
+\bibitem[\protect\citeauthoryear{Falle}{Falle}{1991}]{VL1}
+Falle S. A. E.~G.,  1991, \mn@doi [Monthly Notices of the Royal Astronomical
+  Society] {10.1093/mnras/250.3.581}, 250, 581
 
-\bibitem[{Fong} et~al.(2019){Fong}, {Blanchard}, {Alexander}, {Strader},
-  {Margutti}, {Hajela}, {Villar}, {Wu}, {Ye}, {Berger}, {Chornock},
-  {Coppejans}, {Cowperthwaite}, {Eftekhari}, {Giannios}, {Guidorzi},
-  {Kathirgamaraju}, {Laskar}, {Macfadyen}, {Metzger}, {Nicholl}, {Paterson},
-  {Terreran}, {Sand}, {Sironi}, {Williams}, {Xie}, and {Zrake}]{NM4}
-W.~{Fong}, P.~K. {Blanchard}, K.~D. {Alexander}, J.~{Strader}, R.~{Margutti},
-  A.~{Hajela}, V.~A. {Villar}, Y.~{Wu}, C.~S. {Ye}, E.~{Berger}, R.~{Chornock},
-  D.~{Coppejans}, P.~S. {Cowperthwaite}, T.~{Eftekhari}, D.~{Giannios},
-  C.~{Guidorzi}, A.~{Kathirgamaraju}, T.~{Laskar}, A.~{Macfadyen}, B.~D.
-  {Metzger}, M.~{Nicholl}, K.~{Paterson}, G.~{Terreran}, D.~J. {Sand},
-  L.~{Sironi}, P.~K.~G. {Williams}, X.~{Xie}, and J.~{Zrake}.
-\newblock {The Optical Afterglow of GW170817: An Off-axis Structured Jet and
-  Deep Constraints on a Globular Cluster Origin}.
-\newblock \emph{\apjl}, 883\penalty0 (1):\penalty0 L1, Sept. 2019.
-\newblock \doi{10.3847/2041-8213/ab3d9e}.
+\bibitem[\protect\citeauthoryear{{Fong} et~al.,}{{Fong} et~al.}{2019}]{NM4}
+{Fong} W.,  et~al., 2019, \mn@doi [\apjl] {10.3847/2041-8213/ab3d9e}, \href
+  {https://ui.adsabs.harvard.edu/abs/2019ApJ...883L...1F} {883, L1}
 
-\bibitem[Fryxell et~al.(2000)Fryxell, Olson, Ricker, Timmes, Zingale, Lamb,
-  MacNeice, Rosner, Truran, and Tufo]{FLASH}
-B.~Fryxell, K.~Olson, P.~Ricker, F.~X. Timmes, M.~Zingale, D.~Q. Lamb,
-  P.~MacNeice, R.~Rosner, J.~W. Truran, and H.~Tufo.
-\newblock {FLASH}: An adaptive mesh hydrodynamics code for modeling
-  astrophysical thermonuclear flashes.
-\newblock \emph{The Astrophysical Journal Supplement Series}, 131\penalty0
-  (1):\penalty0 273--334, nov 2000.
-\newblock \doi{10.1086/317361}.
-\newblock URL \url{https://doi.org/10.1086%2F317361}.
+\bibitem[\protect\citeauthoryear{Fryxell et~al.,}{Fryxell et~al.}{2000}]{FLASH}
+Fryxell B.,  et~al., 2000, \mn@doi [The Astrophysical Journal Supplement
+  Series] {10.1086/317361}, 131, 273
 
-\bibitem[{Ghirlanda} et~al.(2019){Ghirlanda}, {Salafia}, {Paragi}, {Giroletti},
-  {Yang}, {Marcote}, {Blanchard}, {Agudo}, {An}, {Bernardini}, {Beswick},
-  {Branchesi}, {Campana}, {Casadio}, {Chassand e-Mottin}, {Colpi}, {Covino},
-  {D'Avanzo}, {D'Elia}, {Frey}, {Gawronski}, {Ghisellini}, {Gurvits}, {Jonker},
-  {van Langevelde}, {Melandri}, {Moldon}, {Nava}, {Perego}, {Perez-Torres},
-  {Reynolds}, {Salvaterra}, {Tagliaferri}, {Venturi}, {Vergani}, and
-  {Zhang}]{NM3}
-G.~{Ghirlanda}, O.~S. {Salafia}, Z.~{Paragi}, M.~{Giroletti}, J.~{Yang},
-  B.~{Marcote}, J.~{Blanchard}, I.~{Agudo}, T.~{An}, M.~G. {Bernardini},
-  R.~{Beswick}, M.~{Branchesi}, S.~{Campana}, C.~{Casadio}, E.~{Chassand
-  e-Mottin}, M.~{Colpi}, S.~{Covino}, P.~{D'Avanzo}, V.~{D'Elia}, S.~{Frey},
-  M.~{Gawronski}, G.~{Ghisellini}, L.~I. {Gurvits}, P.~G. {Jonker}, H.~J. {van
-  Langevelde}, A.~{Melandri}, J.~{Moldon}, L.~{Nava}, A.~{Perego}, M.~A.
-  {Perez-Torres}, C.~{Reynolds}, R.~{Salvaterra}, G.~{Tagliaferri},
-  T.~{Venturi}, S.~D. {Vergani}, and M.~{Zhang}.
-\newblock {Compact radio emission indicates a structured jet was produced by a
-  binary neutron star merger}.
-\newblock \emph{Science}, 363\penalty0 (6430):\penalty0 968--971, Mar. 2019.
-\newblock \doi{10.1126/science.aau8815}.
+\bibitem[\protect\citeauthoryear{{Ghirlanda} et~al.,}{{Ghirlanda}
+  et~al.}{2019}]{NM3}
+{Ghirlanda} G.,  et~al., 2019, \mn@doi [Science] {10.1126/science.aau8815},
+  \href {https://ui.adsabs.harvard.edu/abs/2019Sci...363..968G} {363, 968}
 
-\bibitem[Giovannini et~al.(2018)Giovannini, Savolainen, Orienti, Nakamura,
-  Nagai, Kino, Giroletti, Hada, Bruni, Kovalev, Anderson, D’Ammando, Hodgson,
-  Honma, Krichbaum, Lee, Lico, Lisakov, Lobanov, Petrov, Sohn, Sokolovsky,
-  Voitsik, Zensus, and Tingay]{Giovannini2018}
-G.~Giovannini, T.~Savolainen, M.~Orienti, M.~Nakamura, H.~Nagai, M.~Kino,
-  M.~Giroletti, K.~Hada, G.~Bruni, Y.~Y. Kovalev, J.~M. Anderson,
-  F.~D’Ammando, J.~Hodgson, M.~Honma, T.~P. Krichbaum, S.-S. Lee, R.~Lico,
-  M.~M. Lisakov, A.~P. Lobanov, L.~Petrov, B.~W. Sohn, K.~V. Sokolovsky, P.~A.
-  Voitsik, J.~A. Zensus, and S.~Tingay.
-\newblock A wide and collimated radio jet in 3c84 on the scale of a few hundred
-  gravitational radii.
-\newblock \emph{Nature Astronomy}, 2\penalty0 (6):\penalty0 472--477, June
-  2018.
-\newblock ISSN 2397-3366.
-\newblock URL \url{https://doi.org/10.1038/s41550-018-0431-2}.
+\bibitem[\protect\citeauthoryear{Giovannini et~al.,}{Giovannini
+  et~al.}{2018}]{Giovannini2018}
+Giovannini G.,  et~al., 2018, Nature Astronomy, 2, 472
 
-\bibitem[Giroletti et~al.(2004)Giroletti, Giovannini, Feretti, Cotton, Edwards,
-  Lara, Marscher, Mattox, Piner, and Venturi]{Giroletti2004}
-M.~Giroletti, G.~Giovannini, L.~Feretti, W.~D. Cotton, P.~G. Edwards, L.~Lara,
-  A.~P. Marscher, J.~R. Mattox, B.~G. Piner, and T.~Venturi.
-\newblock Parsec-scale properties of markarian 501.
-\newblock \emph{The Astrophysical Journal}, 600\penalty0 (1):\penalty0
-  127--140, jan 2004.
-\newblock \doi{10.1086/379663}.
+\bibitem[\protect\citeauthoryear{Giroletti et~al.,}{Giroletti
+  et~al.}{2004}]{Giroletti2004}
+Giroletti M.,  et~al., 2004, \mn@doi [The Astrophysical Journal]
+  {10.1086/379663}, 600, 127
 
-\bibitem[Gourgouliatos and Komissarov(2017)]{Gourgouliatos2017}
-K.~N. Gourgouliatos and S.~S. Komissarov.
-\newblock Reconfinement and loss of stability in jets from active galactic
-  nuclei.
-\newblock \emph{Nature Astronomy}, 2\penalty0 (2):\penalty0 167--171, Dec.
-  2017.
-\newblock \doi{10.1038/s41550-017-0338-3}.
-\newblock URL \url{https://doi.org/10.1038/s41550-017-0338-3}.
+\bibitem[\protect\citeauthoryear{Gourgouliatos \& Komissarov}{Gourgouliatos \&
+  Komissarov}{2017}]{Gourgouliatos2017}
+Gourgouliatos K.~N.,  Komissarov S.~S.,  2017, \mn@doi [Nature Astronomy]
+  {10.1038/s41550-017-0338-3}, 2, 167
 
-\bibitem[Higham(2002)]{Nicholas}
-N.~J. Higham.
-\newblock \emph{Accuracy and Stability of Numerical Algorithms}.
-\newblock Society for Industrial and Applied Mathematics, USA, 2nd edition,
-  2002.
-\newblock ISBN 0898715210.
+\bibitem[\protect\citeauthoryear{Higham}{Higham}{2002}]{Nicholas}
+Higham N.~J.,  2002, Accuracy and Stability of Numerical Algorithms, 2nd edn.
+Society for Industrial and Applied Mathematics, USA
 
-\bibitem[Jüttner(1911)]{Juttner}
-F.~Jüttner.
-\newblock Das maxwellsche gesetz der geschwindigkeitsverteilung in der
-  relativtheorie.
-\newblock \emph{Annalen der Physik}, 339\penalty0 (5):\penalty0 856--882, 1911.
-\newblock \doi{10.1002/andp.19113390503}.
-\newblock URL
-  \url{https://onlinelibrary.wiley.com/doi/abs/10.1002/andp.19113390503}.
+\bibitem[\protect\citeauthoryear{Jüttner}{Jüttner}{1911}]{Juttner}
+Jüttner F.,  1911, \mn@doi [Annalen der Physik] {10.1002/andp.19113390503},
+  339, 856
 
-\bibitem[{Kennel} and {Coroniti}(1984{\natexlab{a}})]{1984ApJ...283..694K}
-C.~F. {Kennel} and F.~V. {Coroniti}.
-\newblock {Confinement of the Crab pulsar's wind by its supernova remnant.}
-\newblock \emph{\apj}, 283:\penalty0 694--709, Aug. 1984{\natexlab{a}}.
-\newblock \doi{10.1086/162356}.
+\bibitem[\protect\citeauthoryear{{Kennel} \& {Coroniti}}{{Kennel} \&
+  {Coroniti}}{1984a}]{1984ApJ...283..694K}
+{Kennel} C.~F.,  {Coroniti} F.~V.,  1984a, \mn@doi [\apj] {10.1086/162356},
+  \href {https://ui.adsabs.harvard.edu/abs/1984ApJ...283..694K} {283, 694}
 
-\bibitem[{Kennel} and {Coroniti}(1984{\natexlab{b}})]{1984ApJ...283..710K}
-C.~F. {Kennel} and F.~V. {Coroniti}.
-\newblock {Magnetohydrodynamic model of Crab nebula radiation.}
-\newblock \emph{\apj}, 283:\penalty0 710--730, Aug. 1984{\natexlab{b}}.
-\newblock \doi{10.1086/162357}.
+\bibitem[\protect\citeauthoryear{{Kennel} \& {Coroniti}}{{Kennel} \&
+  {Coroniti}}{1984b}]{1984ApJ...283..710K}
+{Kennel} C.~F.,  {Coroniti} F.~V.,  1984b, \mn@doi [\apj] {10.1086/162357},
+  \href {https://ui.adsabs.harvard.edu/abs/1984ApJ...283..710K} {283, 710}
 
-\bibitem[Kim et~al.(2018)Kim, Krichbaum, Lu, Ros, Bach, Bremer, de~Vicente,
-  Lindqvist, and Zensus]{Kim2018}
-J.-Y. Kim, T.~P. Krichbaum, R.-S. Lu, E.~Ros, U.~Bach, M.~Bremer,
-  P.~de~Vicente, M.~Lindqvist, and J.~A. Zensus.
-\newblock The limb-brightened jet of m87 down to the 7 schwarzschild radii
-  scale.
-\newblock \emph{A\&A}, 616, 2018.
-\newblock URL \url{https://doi.org/10.1051/0004-6361/201832921}.
+\bibitem[\protect\citeauthoryear{Kim et~al.,}{Kim et~al.}{2018}]{Kim2018}
+Kim J.-Y.,  et~al., 2018, A\&A, 616
 
-\bibitem[{Li} et~al.(1992){Li}, {Chiueh}, and
-  {Begelman}]{Chiueh-1992ApJ...394..459L}
-Z.-Y. {Li}, T.~{Chiueh}, and M.~C. {Begelman}.
-\newblock {Electromagnetically Driven Relativistic Jets: A Class of
-  Self-similar Solutions}.
-\newblock \emph{\apj}, 394:\penalty0 459, Aug. 1992.
-\newblock \doi{10.1086/171597}.
+\bibitem[\protect\citeauthoryear{{Li}, {Chiueh}  \& {Begelman}}{{Li}
+  et~al.}{1992}]{Chiueh-1992ApJ...394..459L}
+{Li} Z.-Y.,  {Chiueh} T.,   {Begelman} M.~C.,  1992, \mn@doi [\apj]
+  {10.1086/171597}, \href
+  {https://ui.adsabs.harvard.edu/abs/1992ApJ...394..459L} {394, 459}
 
-\bibitem[Lora-Clavijo et~al.(2015)Lora-Clavijo, Cruz-Osorio, and
-  Guzm{\'{a}}n]{CAFE}
-F.~D. Lora-Clavijo, A.~Cruz-Osorio, and F.~S. Guzm{\'{a}}n.
-\newblock {CAFE}: A {NEW} {RELATIVISTIC} {MHD} {CODE}.
-\newblock \emph{The Astrophysical Journal Supplement Series}, 218\penalty0
-  (2):\penalty0 24, jun 2015.
-\newblock \doi{10.1088/0067-0049/218/2/24}.
-\newblock URL \url{https://doi.org/10.1088%2F0067-0049%2F218%2F2%2F24}.
+\bibitem[\protect\citeauthoryear{Lora-Clavijo, Cruz-Osorio  \&
+  Guzm{\'{a}}n}{Lora-Clavijo et~al.}{2015}]{CAFE}
+Lora-Clavijo F.~D.,  Cruz-Osorio A.,   Guzm{\'{a}}n F.~S.,  2015, \mn@doi [The
+  Astrophysical Journal Supplement Series] {10.1088/0067-0049/218/2/24}, 218,
+  24
 
-\bibitem[Martí and Müller(1994)]{Marti1994}
-J.~M. Martí and E.~Müller.
-\newblock The analytical solution of the riemann problem in relativistic
-  hydrodynamics.
-\newblock \emph{Journal of Fluid Mechanics}, 258:\penalty0 317--333, 1994.
-\newblock ISSN 0022-1120.
-\newblock \doi{10.1017/s0022112094003344}.
-\newblock URL
-  \url{https://www.cambridge.org/core/article/analytical-solution-of-the-riemann-problem-in-relativistic-hydrodynamics/ACFB60CD3557DF2AF8AFF6B72D8B03A4}.
+\bibitem[\protect\citeauthoryear{Martí \& Müller}{Martí \&
+  Müller}{1994}]{Marti1994}
+Martí J.~M.,  Müller E.,  1994, \mn@doi [Journal of Fluid Mechanics]
+  {10.1017/s0022112094003344}, 258, 317
 
-\bibitem[{Mathews}(1971)]{TM_EOS}
-W.~G. {Mathews}.
-\newblock {The Hydromagnetic Free Expansion of a Relativistic Gas}.
-\newblock \emph{\apj}, 165:\penalty0 147, Apr 1971.
-\newblock \doi{10.1086/150883}.
+\bibitem[\protect\citeauthoryear{{Mathews}}{{Mathews}}{1971}]{TM_EOS}
+{Mathews} W.~G.,  1971, \mn@doi [\apj] {10.1086/150883}, \href
+  {https://ui.adsabs.harvard.edu/abs/1971ApJ...165..147M} {165, 147}
 
-\bibitem[Mignone and Bodo(2005)]{HLLC_srhydro}
-A.~Mignone and G.~Bodo.
-\newblock {An HLLC Riemann solver for relativistic flows — I. Hydrodynamics}.
-\newblock \emph{Monthly Notices of the Royal Astronomical Society},
-  364\penalty0 (1):\penalty0 126--136, 11 2005.
-\newblock ISSN 0035-8711.
-\newblock \doi{10.1111/j.1365-2966.2005.09546.x}.
-\newblock URL \url{https://doi.org/10.1111/j.1365-2966.2005.09546.x}.
+\bibitem[\protect\citeauthoryear{Mignone \& Bodo}{Mignone \&
+  Bodo}{2005}]{HLLC_srhydro}
+Mignone A.,  Bodo G.,  2005, \mn@doi [Monthly Notices of the Royal Astronomical
+  Society] {10.1111/j.1365-2966.2005.09546.x}, 364, 126
 
-\bibitem[Mignone and Bodo(2006)]{HLLC_srmhd}
-A.~Mignone and G.~Bodo.
-\newblock {An HLLC Riemann solver for relativistic flows – II.
-  Magnetohydrodynamics}.
-\newblock \emph{Monthly Notices of the Royal Astronomical Society},
-  368\penalty0 (3):\penalty0 1040--1054, 04 2006.
-\newblock ISSN 0035-8711.
-\newblock \doi{10.1111/j.1365-2966.2006.10162.x}.
-\newblock URL \url{https://doi.org/10.1111/j.1365-2966.2006.10162.x}.
+\bibitem[\protect\citeauthoryear{Mignone \& Bodo}{Mignone \&
+  Bodo}{2006}]{HLLC_srmhd}
+Mignone A.,  Bodo G.,  2006, \mn@doi [Monthly Notices of the Royal Astronomical
+  Society] {10.1111/j.1365-2966.2006.10162.x}, 368, 1040
 
-\bibitem[Mignone and McKinney(2007)]{NR_Limit}
-A.~Mignone and J.~C. McKinney.
-\newblock {Equation of state in relativistic magnetohydrodynamics: variable
-  versus constant adiabatic index}.
-\newblock \emph{Monthly Notices of the Royal Astronomical Society},
-  378\penalty0 (3):\penalty0 1118--1130, 06 2007.
-\newblock ISSN 0035-8711.
-\newblock \doi{10.1111/j.1365-2966.2007.11849.x}.
-\newblock URL \url{https://doi.org/10.1111/j.1365-2966.2007.11849.x}.
+\bibitem[\protect\citeauthoryear{Mignone \& McKinney}{Mignone \&
+  McKinney}{2007}]{NR_Limit}
+Mignone A.,  McKinney J.~C.,  2007, \mn@doi [Monthly Notices of the Royal
+  Astronomical Society] {10.1111/j.1365-2966.2007.11849.x}, 378, 1118
 
-\bibitem[Mignone et~al.(2005)Mignone, Plewa, and Bodo]{Compare_TM_EOS}
-A.~Mignone, T.~Plewa, and G.~Bodo.
-\newblock The piecewise parabolic method for multidimensional relativistic
-  fluid dynamics.
-\newblock \emph{The Astrophysical Journal Supplement Series}, 160, 09 2005.
-\newblock \doi{10.1086/430905}.
+\bibitem[\protect\citeauthoryear{Mignone, Plewa  \& Bodo}{Mignone
+  et~al.}{2005}]{Compare_TM_EOS}
+Mignone A.,  Plewa T.,   Bodo G.,  2005, \mn@doi [The Astrophysical Journal
+  Supplement Series] {10.1086/430905}, 160
 
-\bibitem[{Mooley} et~al.(2018{\natexlab{a}}){Mooley}, {Deller}, {Gottlieb},
-  {Nakar}, {Hallinan}, {Bourke}, {Frail}, {Horesh}, {Corsi}, and
-  {Hotokezaka}]{NM2}
-K.~P. {Mooley}, A.~T. {Deller}, O.~{Gottlieb}, E.~{Nakar}, G.~{Hallinan},
-  S.~{Bourke}, D.~A. {Frail}, A.~{Horesh}, A.~{Corsi}, and K.~{Hotokezaka}.
-\newblock {Superluminal motion of a relativistic jet in the neutron-star merger
-  GW170817}.
-\newblock \emph{\nat}, 561\penalty0 (7723):\penalty0 355--359, Sept.
-  2018{\natexlab{a}}.
-\newblock \doi{10.1038/s41586-018-0486-3}.
+\bibitem[\protect\citeauthoryear{{Mooley} et~al.,}{{Mooley}
+  et~al.}{2018a}]{NM1}
+{Mooley} K.~P.,  et~al., 2018a, \mn@doi [\nat] {10.1038/nature25452}, \href
+  {https://ui.adsabs.harvard.edu/abs/2018Natur.554..207M} {554, 207}
 
-\bibitem[{Mooley} et~al.(2018{\natexlab{b}}){Mooley}, {Nakar}, {Hotokezaka},
-  {Hallinan}, {Corsi}, {Frail}, {Horesh}, {Murphy}, {Lenc}, {Kaplan}, {de},
-  {Dobie}, {Chand ra}, {Deller}, {Gottlieb}, {Kasliwal}, {Kulkarni}, {Myers},
-  {Nissanke}, {Piran}, {Lynch}, {Bhalerao}, {Bourke}, {Bannister}, and
-  {Singer}]{NM1}
-K.~P. {Mooley}, E.~{Nakar}, K.~{Hotokezaka}, G.~{Hallinan}, A.~{Corsi}, D.~A.
-  {Frail}, A.~{Horesh}, T.~{Murphy}, E.~{Lenc}, D.~L. {Kaplan}, K.~{de},
-  D.~{Dobie}, P.~{Chand ra}, A.~{Deller}, O.~{Gottlieb}, M.~M. {Kasliwal},
-  S.~R. {Kulkarni}, S.~T. {Myers}, S.~{Nissanke}, T.~{Piran}, C.~{Lynch},
-  V.~{Bhalerao}, S.~{Bourke}, K.~W. {Bannister}, and L.~P. {Singer}.
-\newblock {A mildly relativistic wide-angle outflow in the neutron-star merger
-  event GW170817}.
-\newblock \emph{\nat}, 554\penalty0 (7691):\penalty0 207--210, Feb.
-  2018{\natexlab{b}}.
-\newblock \doi{10.1038/nature25452}.
+\bibitem[\protect\citeauthoryear{{Mooley} et~al.,}{{Mooley}
+  et~al.}{2018b}]{NM2}
+{Mooley} K.~P.,  et~al., 2018b, \mn@doi [\nat] {10.1038/s41586-018-0486-3},
+  \href {https://ui.adsabs.harvard.edu/abs/2018Natur.561..355M} {561, 355}
 
-\bibitem[Nagai et~al.(2014)Nagai, Haga, Giovannini, Doi, Orienti, Ammando,
-  Kino, Nakamura, Asada, Hada, and Giroletti]{Nagai_2014}
-H.~Nagai, T.~Haga, G.~Giovannini, A.~Doi, M.~Orienti, F.~D. Ammando, M.~Kino,
-  M.~Nakamura, K.~Asada, K.~Hada, and M.~Giroletti.
-\newblock Limb-brightened jet of 3c 84 revealed by the 43 ghz
-  very-long-baseline-array observation.
-\newblock \emph{The Astrophysical Journal}, 785\penalty0 (1):\penalty0 53, mar
-  2014.
-\newblock \doi{10.1088/0004-637x/785/1/53}.
+\bibitem[\protect\citeauthoryear{Nagai et~al.,}{Nagai
+  et~al.}{2014}]{Nagai_2014}
+Nagai H.,  et~al., 2014, \mn@doi [The Astrophysical Journal]
+  {10.1088/0004-637x/785/1/53}, 785, 53
 
-\bibitem[Noble et~al.(2006)Noble, Gammie, McKinney, and Zanna]{Noble_2006}
-S.~C. Noble, C.~F. Gammie, J.~C. McKinney, and L.~D. Zanna.
-\newblock Primitive variable solvers for conservative general relativistic
-  magnetohydrodynamics.
-\newblock \emph{The Astrophysical Journal}, 641\penalty0 (1):\penalty0
-  626--637, apr 2006.
-\newblock \doi{10.1086/500349}.
-\newblock URL \url{https://doi.org/10.1086%2F500349}.
+\bibitem[\protect\citeauthoryear{Noble, Gammie, McKinney  \& Zanna}{Noble
+  et~al.}{2006}]{Noble_2006}
+Noble S.~C.,  Gammie C.~F.,  McKinney J.~C.,   Zanna L.~D.,  2006, \mn@doi [The
+  Astrophysical Journal] {10.1086/500349}, 641, 626
 
-\bibitem[{N{\'u}{\~n}ez-de la Rosa} and {Munz}(2016)]{XTROEM}
-J.~{N{\'u}{\~n}ez-de la Rosa} and C.-D. {Munz}.
-\newblock {XTROEM-FV: a new code for computational astrophysics based on very
-  high order finite-volume methods - II. Relativistic hydro- and
-  magnetohydrodynamics}.
-\newblock \emph{\mnras}, 460\penalty0 (1):\penalty0 535--559, Jul 2016.
-\newblock \doi{10.1093/mnras/stw999}.
+\bibitem[\protect\citeauthoryear{{N{\'u}{\~n}ez-de la Rosa} \&
+  {Munz}}{{N{\'u}{\~n}ez-de la Rosa} \& {Munz}}{2016}]{XTROEM}
+{N{\'u}{\~n}ez-de la Rosa} J.,  {Munz} C.-D.,  2016, \mn@doi [\mnras]
+  {10.1093/mnras/stw999}, \href
+  {https://ui.adsabs.harvard.edu/abs/2016MNRAS.460..535N} {460, 535}
 
-\bibitem[Rezzolla and Zanotti(2018)]{Rezzolla2018}
-L.~Rezzolla and O.~Zanotti.
-\newblock \emph{Relativistic hydrodynamics}.
-\newblock Oxford University Press, 2018.
+\bibitem[\protect\citeauthoryear{Rezzolla \& Zanotti}{Rezzolla \&
+  Zanotti}{2018}]{Rezzolla2018}
+Rezzolla L.,  Zanotti O.,  2018, Relativistic hydrodynamics.
+Oxford University Press
 
-\bibitem[Rezzolla et~al.(2001)Rezzolla, Zanotti, and Pons]{REZZOLLA2001}
-L.~Rezzolla, O.~Zanotti, and J.~A. Pons.
-\newblock An improved exact riemann solver for relativistic hydrodynamics.
-\newblock \emph{Journal of Fluid Mechanics}, 449:\penalty0 395--411, 2001.
-\newblock ISSN 0022-1120.
-\newblock \doi{10.1017/s0022112001006450}.
-\newblock URL
-  \url{https://www.cambridge.org/core/article/an-improved-exact-riemann-solver-for-relativistic-hydrodynamics/BC89780EA34DE042D36D673CE85C0666}.
+\bibitem[\protect\citeauthoryear{Rezzolla, Zanotti  \& Pons}{Rezzolla
+  et~al.}{2001}]{REZZOLLA2001}
+Rezzolla L.,  Zanotti O.,   Pons J.~A.,  2001, \mn@doi [Journal of Fluid
+  Mechanics] {10.1017/s0022112001006450}, 449, 395
 
-\bibitem[Ryu et~al.(2006)Ryu, Chattopadhyay, and Choi]{RC_EOS}
-D.~Ryu, I.~Chattopadhyay, and E.~Choi.
-\newblock Equation of state in numerical relativistic hydrodynamics.
-\newblock \emph{The Astrophysical Journal Supplement Series}, 166\penalty0
-  (1):\penalty0 410--420, sep 2006.
-\newblock \doi{10.1086/505937}.
-\newblock URL \url{https://doi.org/10.1086%2F505937}.
+\bibitem[\protect\citeauthoryear{Ryu, Chattopadhyay  \& Choi}{Ryu
+  et~al.}{2006}]{RC_EOS}
+Ryu D.,  Chattopadhyay I.,   Choi E.,  2006, \mn@doi [The Astrophysical Journal
+  Supplement Series] {10.1086/505937}, 166, 410
 
-\bibitem[Schive et~al.(2010)Schive, Tsai, and Chiueh]{gamer-1}
-H.-Y. Schive, Y.-C. Tsai, and T.~Chiueh.
-\newblock {GAMER}: A {GRAPHIC} {PROCESSING} {UNIT} {ACCELERATED}
-  {ADAPTIVE}-{MESH}-{REFINEMENT} {CODE} {FOR} {ASTROPHYSICS}.
-\newblock \emph{The Astrophysical Journal Supplement Series}, 186\penalty0
-  (2):\penalty0 457--484, feb 2010.
-\newblock \doi{10.1088/0067-0049/186/2/457}.
-\newblock URL \url{https://doi.org/10.1088%2F0067-0049%2F186%2F2%2F457}.
+\bibitem[\protect\citeauthoryear{Schive, Tsai  \& Chiueh}{Schive
+  et~al.}{2010}]{gamer-1}
+Schive H.-Y.,  Tsai Y.-C.,   Chiueh T.,  2010, \mn@doi [The Astrophysical
+  Journal Supplement Series] {10.1088/0067-0049/186/2/457}, 186, 457
 
-\bibitem[Schive et~al.(2018)Schive, ZuHone, Goldbaum, Turk, Gaspari, and
-  Cheng]{gamer-2}
-H.-Y. Schive, J.~A. ZuHone, N.~J. Goldbaum, M.~J. Turk, M.~Gaspari, and C.-Y.
-  Cheng.
-\newblock {gamer-2: a GPU-accelerated adaptive mesh refinement code –
-  accuracy, performance, and scalability}.
-\newblock \emph{Monthly Notices of the Royal Astronomical Society},
-  481\penalty0 (4):\penalty0 4815--4840, 09 2018.
-\newblock ISSN 0035-8711.
-\newblock \doi{10.1093/mnras/sty2586}.
-\newblock URL \url{https://doi.org/10.1093/mnras/sty2586}.
+\bibitem[\protect\citeauthoryear{Schive, ZuHone, Goldbaum, Turk, Gaspari  \&
+  Cheng}{Schive et~al.}{2018}]{gamer-2}
+Schive H.-Y.,  ZuHone J.~A.,  Goldbaum N.~J.,  Turk M.~J.,  Gaspari M.,   Cheng
+  C.-Y.,  2018, \mn@doi [Monthly Notices of the Royal Astronomical Society]
+  {10.1093/mnras/sty2586}, 481, 4815
 
-\bibitem[Sod(1978)]{SOD1978}
-G.~A. Sod.
-\newblock A survey of several finite difference methods for systems of
-  nonlinear hyperbolic conservation laws.
-\newblock \emph{Journal of Computational Physics}, 27\penalty0 (1):\penalty0 1
-  -- 31, 1978.
-\newblock ISSN 0021-9991.
-\newblock \doi{https://doi.org/10.1016/0021-9991(78)90023-2}.
-\newblock URL
-  \url{http://www.sciencedirect.com/science/article/pii/0021999178900232}.
+\bibitem[\protect\citeauthoryear{Sod}{Sod}{1978}]{SOD1978}
+Sod G.~A.,  1978, \mn@doi [Journal of Computational Physics]
+  {https://doi.org/10.1016/0021-9991(78)90023-2}, 27, 1
 
-\bibitem[Stone et~al.(2020)Stone, Tomida, White, and Felker]{Stone2020}
-J.~M. Stone, K.~Tomida, C.~J. White, and K.~G. Felker.
-\newblock The athena$\mathplus$$\mathplus$ adaptive mesh refinement framework:
-  Design and magnetohydrodynamic solvers.
-\newblock \emph{The Astrophysical Journal Supplement Series}, 249\penalty0
-  (1):\penalty0 4, June 2020.
-\newblock \doi{10.3847/1538-4365/ab929b}.
-\newblock URL \url{https://doi.org/10.3847/1538-4365/ab929b}.
+\bibitem[\protect\citeauthoryear{Stone, Tomida, White  \& Felker}{Stone
+  et~al.}{2020}]{Stone2020}
+Stone J.~M.,  Tomida K.,  White C.~J.,   Felker K.~G.,  2020, \mn@doi [The
+  Astrophysical Journal Supplement Series] {10.3847/1538-4365/ab929b}, 249, 4
 
-\bibitem[Synge(1957)]{Synge}
-J.~L. Synge.
-\newblock {The Relativistic Gas}.
-\newblock \emph{North-Holland Pub. Co.; Interscience Publishers}, 1957.
+\bibitem[\protect\citeauthoryear{Synge}{Synge}{1957}]{Synge}
+Synge J.~L.,  1957, North-Holland Pub. Co.; Interscience Publishers
 
-\bibitem[{Taub}(1948)]{Taub}
-A.~H. {Taub}.
-\newblock {Relativistic Rankine-Hugoniot Equations}.
-\newblock \emph{Physical Review}, 74\penalty0 (3):\penalty0 328--334, Aug 1948.
-\newblock \doi{10.1103/PhysRev.74.328}.
+\bibitem[\protect\citeauthoryear{{Taub}}{{Taub}}{1948}]{Taub}
+{Taub} A.~H.,  1948, \mn@doi [Physical Review] {10.1103/PhysRev.74.328}, \href
+  {https://ui.adsabs.harvard.edu/abs/1948PhRv...74..328T} {74, 328}
 
-\bibitem[Toro(2011)]{Toro}
-E.~F. Toro.
-\newblock \emph{Riemann solvers and numerical methods for fluid dynamics : a
-  practical introduction}.
-\newblock Springer, Berlin, 2011.
+\bibitem[\protect\citeauthoryear{Toro}{Toro}{2011}]{Toro}
+Toro E.~F.,  2011, Riemann solvers and numerical methods for fluid dynamics : a
+  practical introduction.
+Springer, Berlin
 
-\bibitem[{Turk} et~al.(2011){Turk}, {Smith}, {Oishi}, {Skory}, {Skillman},
-  {Abel}, and {Norman}]{YT}
-M.~J. {Turk}, B.~D. {Smith}, J.~S. {Oishi}, S.~{Skory}, S.~W. {Skillman},
-  T.~{Abel}, and M.~L. {Norman}.
-\newblock {yt: A Multi-code Analysis Toolkit for Astrophysical Simulation
-  Data}.
-\newblock \emph{The Astrophysical Journal Supplement Series}, 192:\penalty0 9,
-  Jan. 2011.
-\newblock \doi{10.1088/0067-0049/192/1/9}.
+\bibitem[\protect\citeauthoryear{{Turk}, {Smith}, {Oishi}, {Skory}, {Skillman},
+  {Abel}  \& {Norman}}{{Turk} et~al.}{2011}]{YT}
+{Turk} M.~J.,  {Smith} B.~D.,  {Oishi} J.~S.,  {Skory} S.,  {Skillman} S.~W.,
+  {Abel} T.,   {Norman} M.~L.,  2011, \mn@doi [The Astrophysical Journal
+  Supplement Series] {10.1088/0067-0049/192/1/9}, \href
+  {https://ui.adsabs.harvard.edu/abs/2011ApJS..192....9T} {192, 9}
 
-\bibitem[van Leer(1979)]{van_Leer_1979}
-B.~van Leer.
-\newblock Towards the ultimate conservative difference scheme. v. a
-  second-order sequel to godunov{\textquotesingle}s method.
-\newblock \emph{Journal of Computational Physics}, 32\penalty0 (1):\penalty0
-  101--136, jul 1979.
-\newblock \doi{10.1016/0021-9991(79)90145-1}.
-\newblock URL \url{https://doi.org/10.1016%2F0021-9991%2879%2990145-1}.
+\bibitem[\protect\citeauthoryear{Woodward \& Colella}{Woodward \&
+  Colella}{1984}]{Woodward1984}
+Woodward P.,  Colella P.,  1984, \mn@doi [Journal of Computational Physics]
+  {10.1016/0021-9991(84)90142-6}, 54, 115
 
-\bibitem[van Leer(2006)]{VL2}
-B.~van Leer.
-\newblock Upwind and high-resolution methods for compressible flow: From donor
-  cell to residu volume = {1}, journal = {Communications in Computational
-  Physics}.
-\newblock pages 192--206, 04 2006.
+\bibitem[\protect\citeauthoryear{{Woosley}}{{Woosley}}{1993}]{LongGRB}
+{Woosley} S.~E.,  1993, \mn@doi [\apj] {10.1086/172359}, \href
+  {https://ui.adsabs.harvard.edu/abs/1993ApJ...405..273W} {405, 273}
 
-\bibitem[Woodward and Colella(1984)]{Woodward1984}
-P.~Woodward and P.~Colella.
-\newblock The numerical simulation of two-dimensional fluid flow with strong
-  shocks.
-\newblock \emph{Journal of Computational Physics}, 54\penalty0 (1):\penalty0
-  115--173, Apr. 1984.
-\newblock \doi{10.1016/0021-9991(84)90142-6}.
-\newblock URL \url{https://doi.org/10.1016/0021-9991(84)90142-6}.
+\bibitem[\protect\citeauthoryear{Yang \& Ruszkowski}{Yang \&
+  Ruszkowski}{2017}]{Yang2017}
+Yang H.-Y.~K.,  Ruszkowski M.,  2017, \mn@doi [The Astrophysical Journal]
+  {10.3847/1538-4357/aa9434}, 850, 2
 
-\bibitem[{Woosley}(1993)]{LongGRB}
-S.~E. {Woosley}.
-\newblock {Gamma-Ray Bursts from Stellar Mass Accretion Disks around Black
-  Holes}.
-\newblock \emph{\apj}, 405:\penalty0 273, Mar. 1993.
-\newblock \doi{10.1086/172359}.
+\bibitem[\protect\citeauthoryear{van Leer}{van Leer}{1979}]{van_Leer_1979}
+van Leer B.,  1979, \mn@doi [Journal of Computational Physics]
+  {10.1016/0021-9991(79)90145-1}, 32, 101
 
-\bibitem[Yang and Ruszkowski(2017)]{Yang2017}
-H.-Y.~K. Yang and M.~Ruszkowski.
-\newblock The spatially uniform spectrum of {theFermiBubbles}: The leptonic
-  active galactic nucleus jet scenario.
-\newblock \emph{The Astrophysical Journal}, 850\penalty0 (1):\penalty0 2, Nov.
-  2017.
-\newblock \doi{10.3847/1538-4357/aa9434}.
-\newblock URL \url{https://doi.org/10.3847/1538-4357/aa9434}.
+\bibitem[\protect\citeauthoryear{van Leer}{van Leer}{2006}]{VL2}
+van Leer B.,  2006, pp 192--206
 
+\makeatother
 \end{thebibliography}
