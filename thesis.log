@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.11.4)  17 MAY 2022 22:08
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.11.4)  17 MAY 2022 22:39
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1358,7 +1358,50 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 14.0pt on input line 62.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 16.0pt on input line 62.
- [1
+LaTeX Font Info:    Calculating math sizes for size <18> on input line 62.
+LaTeX Font Info:    Trying to load font information for OT1+ntxtlf on input lin
+e 62.
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/ot1ntxtlf.fd
+File: ot1ntxtlf.fd 2021/05/24 v1.0 font definition file for OT1/ntx/tlf
+)
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 18.0pt on input line 62.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 13.13992pt on input line 62.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 9.90005pt on input line 62.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 6
+2.
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <18> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 62.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <13.13992> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 62.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9.90005> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 62.
+LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 
+62.
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/untxmia.fd
+File: untxmia.fd 2018/04/14 Fontinst v1.933 font definitions for U/ntxmia.
+)
+LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 
+62.
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/untxsym.fd
+File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
+)
+LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 
+62.
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/untxsyc.fd
+File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
+)
+[1
 
 
 
@@ -1372,60 +1415,30 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 15.0pt on input line 78.
 LaTeX Font Info:    Calculating math sizes for size <15> on input line 78.
-LaTeX Font Info:    Trying to load font information for OT1+ntxtlf on input lin
-e 78.
-
-(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/ot1ntxtlf.fd
-File: ot1ntxtlf.fd 2021/05/24 v1.0 font definition file for OT1/ntx/tlf
-)
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
 (Font)              scaled to size 15.0pt on input line 78.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
 (Font)              scaled to size 10.94994pt on input line 78.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
 (Font)              scaled to size 8.25005pt on input line 78.
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 7
-8.
-
-(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/psnfss/ot1ptm.fd
-File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-)
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <15> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 78.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.94994> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 78.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8.25005> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 78.
-LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 
-78.
 
-(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/untxmia.fd
-File: untxmia.fd 2018/04/14 Fontinst v1.933 font definitions for U/ntxmia.
-)
-LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 
-78.
-
-(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/untxsym.fd
-File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
-)
-LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 
-78.
-
-(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/untxsyc.fd
-File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
-)
 Overfull \hbox (31.11316pt too wide) in paragraph at lines 78--78
  [] 
  []
 
-(./acknowledgements.tex [3] [4
-
-]
+[3] (./acknowledgements.tex [4]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 24.88pt on input line 1.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 24.88pt on input line 1.
  [5
+
 
 ] [6
 
@@ -1535,11 +1548,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Chapter 1.
 [1
 
-]
-
-LaTeX Warning: Reference `c:conclusions' on page 2 undefined on input line 59.
-
-) (./part-1.tex [2]) (./srhd-special-relativistic-hydrodynamics.tex [3
+]) (./part-1.tex [2]) (./srhd-special-relativistic-hydrodynamics.tex [3
 
 
 ]
@@ -3219,9 +3228,6 @@ Package catoptions Warning: Undefined options
 
 (./thesis.aux)
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `thesis.out' has not changed.
@@ -3232,12 +3238,12 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 ### semi simple group (level 1) entered at line 58 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 36125 strings out of 476473
- 725811 string characters out of 5812052
- 1119777 words of memory out of 5000000
- 55889 multiletter control sequences out of 15000+600000
- 581366 words of font info for 303 fonts, out of 8000000 for 9000
+ 36164 strings out of 476473
+ 726531 string characters out of 5812052
+ 1119778 words of memory out of 5000000
+ 55928 multiletter control sequences out of 15000+600000
+ 597896 words of font info for 339 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 132i,15n,136p,1978b,2781s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 132i,15n,136p,1978b,2780s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on thesis.pdf (119 pages).
