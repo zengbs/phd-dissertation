@@ -1,0 +1,445 @@
+\chapter{Results}
+\label{c:results}
+
+%\section{Results}
+\label{Results}
+
+\section{Morphology and properties of Galactic bubbles}
+
+ Fig. \ref{fig__jetI5+ismSeed3-45deg} shows\
+ the slices of pressure (top), temperature (middle), number density (bottom)\
+ at the end of simulation $t=12.39$ Myr.\
+ The slices pass through the bipolar jet source injecting along $z=-y$ direction.
+
+ The fiducial run (Fig. \ref{fig__jetI5+ismSeed3-45deg-a})\
+ with the initial condition specified in Section \ref{Methodology}\
+ shows that the edge of the outermost bubbles is a forward shock,\
+ expanding to 12.5 kpc above and below the Galactic plane,\
+ with a semiminor axis about 6.8 kpc on the plane.\
+ The overall extent of the outermost bubbles is comparable to\
+ the two spherical objects of a radius of 6-7 kpc estimated by \citet{Predehl2020}\
+ for modeling the eROSITA bubbles.\
+ The temperature profile (left middle panel in Fig. \ref{fig__profile}) along the positive $z$-axis in\
+ Fig. \ref{fig__jetI5+ismSeed3-45deg} indicates that\
+ the temperature of the smooth region (purple band in Fig. \ref{fig__profile})\ %emitting X-ray\
+ is around 0.3-0.5 keV, similar to 0.3 keV observed by \citet{Miller2016} and \citet{Kataoka2018}. %{\color{red} (KY: What did these observations constrain exactly? PH: It is 0.3 keV. I have added this number in the context. See: ``...follows from the Rankine-Hugoniot condition for the temperature increase from about 0.2 keV outside the bubbles to around 0.3 keV inside$^{7,19}$" in \citealt{Predehl2020})}
+
+ Followed by the forward shock is a turbulent and hot plasma extending to a height of $\sim 8$ kpc (Fig. \ref{fig__profile}).\
+ The extent of the turbulent plasma approximately agrees with\
+ that of the observed \textit{Fermi} bubbles \citep{Su2010}.
+ Also, the temperature of the plasma is around 2 keV,\
+ comparable to few keV inside the \textit{Fermi} bubbles\
+ estimated by observing X-ray absorption lines through the hot\
+ gaseous halo along many different sight lines in the sky \citep{Miller_2013}.\
+ We also note that the turbulent, hot plasma is in pressure balance with the external medium,\
+ suggesting the outer edge of the \textit{Fermi} bubbles\
+ is a contact discontinuity rather than a shock \citep{Zhang2020}.
+
+
+ An interesting feature found in our simulations is that there are a pair of innermost bubbles\
+ (dashed box in the top panel of Fig. \ref{fig__jetI5+ismSeed3-45deg-a})\
+ extending out from the GC on either side of the thin disk.\
+ The innermost bubbles are cold (1-10 eV), dense ($10^{-4}$--$10^{-2}$ cm$^{-3}$),\
+ and underpressured with respect to the turbulent plasma\
+ but probably not related to the X-ray chimneys \citep{Ponti2019}\
+ and radio bubbles \citep{Heywood2019}\
+ due to their enormous difference in length (the total major-axis length of the X-ray chimneys
+ and radio bubbles is 320 pc and 430 pc, respectively; however, the innermost bubbles
+ is up to 4 kpc in length).
+ The close-up view (right column in Fig. \ref{fig__profile}) of the vertical profiles\
+ and slices (Fig. \ref{fig__innerbubbles})\
+ demonstrate that there is a sharp pressure jump at the edge of the innermost bubbles at $z=3.62$ kpc,\
+ indicating that the innermost bubbles are an expanding reverse shock.\ %{\color{red} KY: Is it verified that the reverse shock is expanding outward? PH: Yes. I have checked that with multiple slices in different time. The reverse shock is expanding outward.}
+ The high-density upstream of the reverse shock requires\
+ an even higher density downstream.\
+ Continuing outward, there exists a dense shell before the gas density drops to values further downstream.
+ %Continuing outward, the higher density must match with low density further downstream;\
+ %thus there exists a dense shell.\
+ The turbulent plasma is therefore bracketed between the downstream of reverse shock\
+ and of the outermost forward shock, thus heating the turbulent plasma up considerably.
+
+ We stress that either the outermost shock, turbulent plasma, or innermost bubbles\
+ are symmetric about the Galactic plane despite that the jets are tilted to the disk normal\
+ at an angle of $45^{\circ}$.
+
+ In addition to the fiducial run, in Fig. \ref{fig__jetI5+ismSeed3-45deg} we also show the slices of various gas properties at $t=12.39$ Myr in different Galactic environments. We compare the clumpy disk (Fig. \ref{fig__jetI5+ismSeed3-45deg-a})\
+ with the smooth disk in a stratified atmosphere (Fig. \ref{fig__jetI5+ismSeed3-45deg-b}; the initial density profile is shown in Fig. \ref{fig__initial-density-profile}). \
+ The results show that the clumpiness of\
+ the dense disk has an insignificant effect\
+ on the overall dynamics of bubbles. However, the outermost bubbles arising from the smooth disk\
+ in a uniform atmosphere (Fig. \ref{fig__jetI5+ismSeed3-45deg-c}) is quasi-spherical,\
+ suggesting that the stratification facilitates the elongation of the outermost bubbles significantly. Fig. \ref{fig__jetI5+ismSeed3-45deg-c} and \ref{fig__jetI5+ismSeed3-45deg-d}\
+ reveal that the development of the innermost bubbles\
+ is always associated with the disk. Also, without the disk (Fig. \ref{fig__jetI5+ismSeed3-45deg-d}),\
+ the outermost bubbles and the turbulent plasma would be oblique,\
+ indicating that the dense disk is crucial for the production of symmetric Galactic bubbles.\
+
+
+ \begin{figure}%
+      \captionsetup[subfigure]{labelformat=simple}
+      \begin{subfigure}[b]{0.2\linewidth}%
+         \includegraphics[height=10cm]{bble-figures/fig__jetI5+ismSeed3-45deg-a}%
+         \caption{}%
+         \label{fig__jetI5+ismSeed3-45deg-a}%
+      \end{subfigure}%
+      \hspace{10pt}%
+      \begin{subfigure}[b]{0.2\linewidth}%
+         \includegraphics[height=10cm]{bble-figures/fig__jetI5+ismSeed3-45deg-b}%
+         \caption{}%
+         \label{fig__jetI5+ismSeed3-45deg-b}%
+      \end{subfigure}%
+      \hspace{-2pt}%
+      \begin{subfigure}[b]{0.2\linewidth}%
+         \includegraphics[height=10cm]{bble-figures/fig__jetI5+ismSeed3-45deg-c}%
+         \caption{}%
+         \label{fig__jetI5+ismSeed3-45deg-c}%
+      \end{subfigure}%
+      \hspace{-2pt}%
+      \begin{subfigure}[b]{0.2\linewidth}%
+         \includegraphics[height=10cm]{bble-figures/fig__jetI5+ismSeed3-45deg-d}%
+         \caption{}%
+         \label{fig__jetI5+ismSeed3-45deg-d}%
+     \end{subfigure}%
+      \caption{
+             The slices of pressure (top), temperature (middle), and number density (bottom)\
+             at the end of simulation $t=12.39$ Myr.\
+             The slices pass through a bipolar jet source injecting along $z=-y$ direction\
+             for a duration $t=0$--$1.2$ Myr.\
+             Comparison between the clumpy (Fig. \ref{fig__jetI5+ismSeed3-45deg-a})\
+             and the smooth disks (Fig. \ref{fig__jetI5+ismSeed3-45deg-b}) in a stratified atmosphere\
+             shows that the initial density distribution of the dense disk has an insignificant effect\
+             on the overall dynamics of bubbles. However, the outermost bubbles arising from the smooth disk\
+             in an uniform atmosphere (Fig. \ref{fig__jetI5+ismSeed3-45deg-c}) is nearly spherical,\
+             suggesting that the stratification facilitates the elongation of the outermost bubbles significantly.\
+             Fig. \ref{fig__jetI5+ismSeed3-45deg-c} and \ref{fig__jetI5+ismSeed3-45deg-d}\
+             reveal that the development of the innermost bubbles\
+             is always associated with the disk. Also, without the disk (Fig. \ref{fig__jetI5+ismSeed3-45deg-d}),\
+             the outermost bubbles and the turbulent plasma would be oblique,
+             indicating that the dense disk is crucial for the production of symmetric Galactic bubbles.\ %{\color{red} KY: Consider reducing the caption as it is essentially the same as the text. PH: Thanks! I would say bble-figures and captions must be self-explanatory i.e. always summarize the key conclusions of this figure instead of just describing how this figure is plotted. This is the reason why the caption is a little long... \textasciicircum\textasciicircum"}
+      }
+      \label{fig__jetI5+ismSeed3-45deg}
+ \end{figure}%
+
+
+ \begin{figure}%
+      \begin{subfigure}[t]{0.5\linewidth}%
+         \includegraphics[height=8cm]{bble-figures/fig__profile-1.png}%
+         \label{fig__profile-1}%
+      \end{subfigure}%
+      \hspace{4pt}
+      \begin{subfigure}[t]{0.5\linewidth}%
+         \includegraphics[height=8cm]{bble-figures/fig__profile-2.png}%
+         \label{fig__profile-2}%
+      \end{subfigure}%
+      \caption{
+             Left: the profiles of pressure (top), temperature (middle),\
+             and number density (bottom)\
+             along the positive $z$-axis in Fig. \ref{fig__jetI5+ismSeed3-45deg}.
+             Right: the close-up view of the profiles in the yellow band.\
+             The sharp pressure jump at $z=3.62$ kpc\
+             indicates that the innermost bubbles\
+             (dashed box in the top panel in Fig. \ref{fig__jetI5+ismSeed3-45deg-a})\
+             are an expanding reverse shock.
+      }%
+      \label{fig__profile}%
+ \end{figure}%
+
+
+  \begin{figure}
+    \includegraphics[width=\columnwidth]{bble-figures/fig__innerbubbles.png}
+    \caption{
+       Zoom-in images of the density (left) and pressure (right) slices of the innermost bubbles.\
+       The high density upstream of the reverse shock requires\
+       an even higher density downstream.\
+       Continuing outward, the higher density must match with low density further downstream;\
+       thus there exists a dense shell\
+       (the turbulent region outside the black dashed line in the left panel).
+     }
+    \label{fig__innerbubbles}
+  \end{figure}
+
+  \section{Morphology and Profiles in X-ray}
+  \label{X-ray}
+  The X-ray emissivity is computed\
+  for each computational cell
+  using the MEKAL model \citep{Xray-1,Xray-2,Xray-3}\
+  implemented in the utility XSPEC \citep{XSPEC}, assuming solar metallicity.\
+  The X-ray intensity map is then generated by projecting the emissivities\
+  along lines of sight\
+  pointing away from the solar position at $(R_{\odot},0,0)=(8,0,0)$ kpc\
+  with angular resolutions of 0.5 degrees, where $R_{\odot}$ is the Sun-GC distance.
+
+  We point out that the projections used throughout this paper are \lq perspective\rq,\
+  which has the effect of making a distant object appear smaller than the same object in a closer distance,\
+  in order to facilitate a reliable interpretation of simulated all-sky map.\
+  Also, the observed X-ray emission is contributed by all the gas in the Milky Way halo,\
+  which likely extends to a radius of $\sim$250 kpc \citep{halo-radius-1,halo-radius-2},\
+  much bigger than our simulation box. Therefore, we first compute the X-ray emissivity\
+  from the simulated gas within a radius of 25 kpc away from the GC.
+  Then, beyond 25 kpc the gas is assumed to be isothermal with $T=10^6$ K and\
+  follows the observed density profile of \citep{temperature-MW} out to a radius of 250 kpc.
+
+  Fig. \ref{fig__xray_0.8keV_angle_000} shows\
+  the comparison between the simulated (top) and observed (bottom) all-sky map\
+  in the range 0.6--1.0 keV.\
+  In the simulated map, the red arrow at the center represents the direction of the bipolar jets,\
+  constantly ejecting at an angle of $45^{\circ}$ to the disk normal between 0--1.2 Myr. Fig. \ref{fig__x-ray-profile-0.8keV-000} displays the simulated X-ray photon count rates as a function of Galactic longitudes (red)\
+  in the same energy band as in Fig. \ref{fig__xray_0.8keV_angle_000}\
+  cut at various Galactic latitudes (as labelled), compared with the observed profiles (black).
+
+%  {\color{red} KY: Please rewrite the following two paragraphs so that (1) the overall agreement between the simulated and observed bubble morphology and profiles are emphasized before discussing about discrepancies, and (2) some of the disagreement for the northern bubble could be due to the North Polar Spur. PH: done!}
+
+  First, as shown in Fig. \ref{fig__jetI5+ismSeed3-45deg-a},\
+  the half-width of the outermost bubbles is around 7 kpc,\
+  corresponding to an half angular width $\sin^{-1}(7 \text{ kpc}/R_{\odot})\sim122^{\circ}$,\
+  which is as wide as the eROSITA bubbles in the simulated X-ray map\
+  (top panel in Fig. \ref{fig__xray_0.8keV_angle_000}).\
+  We therefore suggest that the eROSITA bubble shells are a signature of compressed forward shocks\
+  that have been driven into the northern and the southern Galactic halo,
+  as previously proposed by \citet{Predehl2020} and \citet{Yang2022}. The broad agreement between simulated and observed X-ray maps hints that the full vertical extent of the eROSITA bubbles can be properly formed by an oblique jet within a thin disk of dense ISM.
+
+  Second, we observe that\
+  the simulated eROSITA bubbles are not as limb-brightened as the observation.\
+  A possibility to enhance the X-ray emission is to include shock-accelerated CRs near the shock,\
+  in which CRs could increase the compressibility of the fluid,\
+  resulting in the enhanced thermal Bremsstrahlung emissivity that is proportional to density squared. Also, the disagreement of the northeastern bubble is expected as the North Polar Spur, which is a giant ridge of bright X-ray emission that rises roughly perpendicularly out of the plane of the galaxy, might be a superposition of the GC structure and a remnant of the local supernova \citep{berkhuijsen1971galactic,Das2020,Panopoulou2021}, which is not included in our simulations, whereas analyses based on X-ray data tend to suggest a GC origin \citep{kataoka2018x,sofue2000bipolar,larocca2020analysis}.
+
+
+% 2. North Polar Spur is not shown as it is a supernova remanent near us.
+  Third, the innermost bubbles\
+  shown in Fig. \ref{fig__jetI5+ismSeed3-45deg},\
+  even though with high column density, are invisible in the simulated X-ray map as\
+  the temperature of the innermost bubbles is around $1$--$10$ eV\
+  (see the temperature profile in Fig. \ref{fig__profile}).\
+  Consequently, the X-ray emission within the innermost bubbles
+  is severely suppressed by the cutoff $\exp\left[-h\nu/k_{B}T\right]$ in the thermal Bremsstrahlung emissivity.\
+  This is the reason why the innermost bubbles are unseen in the X-ray observation.
+
+
+
+ \begin{figure*}%
+      \begin{subfigure}[t]{\textwidth}%
+         \centering%
+         \includegraphics[width=0.85\textwidth]{bble-figures/fig__xraymap.png}%
+         \caption{
+               Simulated (top) and observed (bottom; \citealt{Predehl2020}) count rate\
+               (photons s$^{-1}$ deg$^{-2}$) in the 0.6--1.0 keV range.\
+               Throughout this paper we show sky maps\
+               in Galactic coordinates centered on the Galactic center using a Hammer-Aitoff projection.\
+               %and observed from the solar system.\
+               The red arrow at the center of the\
+               top panel depicts the direction of the bipolar jets, constantly ejecting at an angle of $45^{\circ}$\
+               to the disk normal for the first 1.2 Myr.
+         }%
+         \label{fig__xray_0.8keV_angle_000}%
+         \end{subfigure}%
+         \hspace{4pt}%
+      \begin{subfigure}[t]{\textwidth}%
+         \centering%
+         \includegraphics[width=0.85\textwidth]{bble-figures/fig__xray-profile-0.8keV-000.png}%
+         \caption{
+               Comparison of the simulated (red) and observed (black; \citealt{Predehl2020}) one-dimensional photon\
+               count-rate profiles in the same energy band as in Fig. \ref{fig__xray_0.8keV_angle_000},\
+               cut at various Galactic latitudes (as labelled).
+         }%
+         \label{fig__x-ray-profile-0.8keV-000}%
+      \end{subfigure}%
+      \caption{}%
+      \label{fig_xray-map}
+ \end{figure*}%
+
+
+
+\section{Gamma-ray and microwave spectra: constraint on the CRe spectral index}
+\label{sec:gamma-ray-microwave}
+In this section, we obtain the constraint on the CRe spectral index by\
+comparing the simulated gamma-ray and microwave spectra\
+with the observed spectra of the Fermi bubbles \citep{Ackermann2014}\
+and the microwave haze \citep{Dobler_2008}, respectively.\
+
+We assume the leptonic model for the gamma-ray and microwave emission as previous studies have shown that the bubble and haze spectra can be simulataneously produced by the same population of CRe \citep{Su2010, Ackermann2014, Yang2022}. In the leptonic scenario, the gamma-ray and microwave emission come from IC scattering of the ISRF and synchrotron radiation, respectively.\
+Because the evolution of CR spectrum is not modelled in the simulations, we assume that the CRe spectrum is spatially uniform and follows a power-law distribution ranging from\
+$0.5$ MeV ($\sim m_{\text{e}}c^2$) to $562.1$ GeV. The choice of $562.1$ GeV is motivated by\
+the observed cutoff gamma-ray energy shown in Fig. \ref{fig__gammaRaySynchtronSpectrum}\
+as most of the CRe energy is carried away by the up-scattered photons in the Klein-Nishina limit.
+
+
+The IC emissivity of the upscattered photons at the energy $\epsilon_{1}$ is computed for\
+each computational cell in our simulations\
+using the Klein-Nishina IC cross-section \citep{Jones1968,BLUMENTHAL1970}\
+to handle the scattering between ultra-relativistic CRe and photons in the ISRF:
+
+\begin{subequations}
+  \begin{align}
+  &\frac{dE}{dtd\epsilon_{1}dV} =\nonumber\\
+               &\frac{3}{4}\sigma_{T}c\mathbb{C}\epsilon_{1}\int^{\epsilon_{\text{max}}}_{\epsilon_{\text{min}}}
+               \frac{n(\epsilon)}{\epsilon}d\epsilon\int^{\gamma_{\text{e,max}}}_{\gamma_{\text{e,min}}\left(\epsilon\right)}
+               \gamma_{\text{e}}^{-(p+2)}f(q, \Gamma)d\gamma_{\text{e}},\\
+  \nonumber\\
+  &f(q, \Gamma) =\nonumber\\
+               &2q\ln q+(1+2q)(1-q)+0.5(1-q)\frac{\left(\Gamma q\right)^2}{1+\Gamma q},\\
+  &q=\frac{\epsilon_{1}/\gamma_{\text{e}}\
+               m_{\text{e}}c^{2}}{\Gamma\left(1-\epsilon_{1}/\gamma_{\text{e}} m_{\text{e}}c^{2}\right)},\\
+  &\Gamma=\frac{4\epsilon \gamma_{\text{e}}}{m_{\text{e}}c^2},\\
+  &\gamma_{\text{e,min}}(\epsilon)=\
+   0.5\left(\frac{\epsilon_{1}}{m_{\text{e}}c^2}+\sqrt{\left(\frac{\epsilon_{1}}{m_{\text{e}}c^2}\right)^2+\
+   \frac{\epsilon_{1}}{\epsilon}}\right) \label{gamma-min},
+  \end{align}
+\label{gammaray-emissivity}
+\end{subequations}
+
+where $\sigma_{T}$ is the Thomson cross section, $c$ is the speed of light,\
+$m_{\text{e}}$ is the electron mass,\
+$n(\epsilon)$ is the energy distribution of the photon number density in the ISRF given by \citet{Porter2017},\
+$\gamma_{\text{e}}$ is the Lorentz factor of CRe, and\
+$\mathbb{C}$ and $p$ are the normalization constant and spectral index of the CRe power-law spectrum.
+$\gamma_{\text{e,min}}(\epsilon)$ is the minimum Lorentz factor of CRe\
+that allows the incident photons to be scattered from energy $\epsilon$ to $\epsilon_{1}$, and\
+$\gamma_{\text{e,max}}$ is the maximum CRe Lorentz factor in the spectrum. To obtain the simulated IC emissivities, we perform the double integration in Eq. \ref{gammaray-emissivity} on each cell\
+over the range of the CRe Lorentz factor and\
+the range of incident photon energy between\
+$\epsilon_{\text{min}}=1.13\times10^{-4}$ eV (cosmic microwave background) and\
+$\epsilon_{\text{max}}=13.59$ eV (optical starlight).\
+
+
+The synchrotron emissivity with an isotropic electron pitch angle distribution\
+is given by \citet{BLUMENTHAL1970}:
+
+\begin{subequations}
+   \begin{align}
+      &\frac{dE}{dtd\nu dV} =\nonumber\\
+      &\frac{4\pi\mathbb{C}e^{3}B^{0.5(p+1)}}{m_{\text{e}}c^{2}}\
+      \left(\frac{3e}{4\pi m_{\text{e}}c}\right)^{0.5(p-1)}\
+      a(p)\nu^{-0.5(p-1)},\\
+      &a(p)=\nonumber\\
+           &\frac{2^{0.5(p-1)}\sqrt{3}\Gamma\left[\left(3p-1\right)/12\right]\
+                                      \Gamma\left[\left(3p+9\right)/12\right]\
+                                      \Gamma\left[\left(p+5\right)/4\right]}
+      {8\sqrt{\pi}(p+1)\Gamma\left[\left(p+7\right)/4\right]},
+   \end{align}
+   \label{synchrotron-emissivity}
+\end{subequations}
+
+where $\Gamma$ is the gamma function, and $B$ is the magnetic field strength defined in\
+Eq. \ref{magnetic-field}. For a given longitude and latitude range, the simulated spectra are\
+computed by projecting emissivities\
+as we project X-ray emissivities in Section \ref{X-ray},\
+and then we average the spectra over all the sight lines within the region on the sky.
+
+
+Fig. \ref{fig__gammaRaySynchtronSpectrum} shows the simulated microwave (left)\
+and gamma-ray (right) spectra averaged over the different patches (shown in the legends) of the sky.\
+The rows from top to bottom show the spectra with different assumptions of the CRe spectral index, $2.2, 2.4$ and $2.6$.\
+We highlight our findings as follows.\
+
+First, we find that, among the three values of the CR spectral indices assumed, a CRe spectral index of 2.4 (the middle row) provides the best fits for both the the simulated gamma-ray spectra as well as the microwave spectra. This value is slightly steeper than the best-fit spectral index of $\sim 2.17$ found by \cite{Ackermann2014}. However, we note that our calculation takes into account the 3D variations of the ISRF, whereas the previous constraint was based on the ISRF at a fixed height of 5 kpc away from the Galactic plane.
+
+Second, the simulated gamma-ray spectra are\
+nearly latitude independent. Note that we have assumed spatially uniform spectrum for the underlying CRe, and hence the simulated gamma-ray spectra at different latitudes mainly reflect how the 3D distribution of the simulated CR number density (see Fig. \ref{fig__jetI5+ismSeed3-45deg-CR})  is projected into different latitude bins. Overall we find good agreement between the simulated and observed spectra \citep{Ackermann2014}; only the simulated spectrum at high latitudes tends to be slightly dimmer than the lower-latitude spectrum because the optical intensity in the ISRF decays with increasing latitudes.
+
+Third, our assumed range for the CRe spectrum (0.5 MeV to 562.1 GeV) produces gamma-ray spectra with a high-energy cutoff around energies 400--500 GeV,\
+consistent with the observed cutoff energy.\
+This is expected since\
+the upscattered high-energy photons ($\epsilon_{1}\sim450$ GeV) mainly arise from\
+the scattering between the relativistic CRe ($\gtrapprox 408$ GeV)\
+and optical starlight ($\epsilon \sim 10$ eV).\
+Thus, Eq. \ref{gamma-min} can be reduced to $\epsilon_{1}\sim\gamma m_{\text{e}}c^2$\
+in the Klein--Nishina limit\
+$\left(\text{i.e. }\epsilon_{1}\epsilon \gg \left(m_{\text{e}}c^2\right)^2\right)$,\
+implying most of the CRe energy is carried away by the upscattered photons.
+
+Finally, the good agreement between the simulated and observed gamma-ray/microwave spectra\
+implies that, in the presence of ISRF and magnetic fields, the emission of the Fermi bubbles and\
+the microwave haze can be produced by the same high-energy electrons\
+via IC scattering and synchrotron radiation, respectively. Our results thus provide further support for the leptonic model as previously suggested \citep{Su2010, Ackermann2014, Yang2013, Yang2022}.
+
+\begin{figure*}
+  \includegraphics[width=\linewidth]{bble-figures/fig__spectrum.png}
+  \caption{
+      Simulated microwave spectra (colored lines in left) averaged over $20^{\circ}<|b|<30^{\circ}$, $|l|<10^{\circ}$.\
+      The data point represents the \textit{WMAP} data in the 23 GHz K band and\
+      the shaded bow-tie area indicates the range\
+      of synchrotron spectral indices allowed for the \textit{WMAP} haze \citep{Dobler_2008}.\
+      Simulated gamma-ray spectra (colored lines in right column)\
+      of the \textit{Fermi} bubbles calculated for a longitude range of\
+      $|l|<10^{\circ}$ for different latitude bins.\
+      The gray band represents the observational data of \citet{Ackermann2014}.\
+      The row from top to bottom shows the microwave (left) and gamma-ray (right) spectra\
+      with CRe spectral index $2.2, 2.4$ and $2.6$, respectively.\
+      The CRe cutoff energy is 562.1 GeV in all cases.
+  }
+  \label{fig__gammaRaySynchtronSpectrum}
+\end{figure*}
+
+ Fig. \ref{fig__gammaRay-map} shows the simulated gamma-ray photon flux with a CRe power-law index 2.4\
+ compared with the observed one\
+ in the energy bin $76.8-153.6$ GeV.\
+ As the eROSITA bubbles,\
+ one can see that the symmetric \textit{Fermi} bubbles\
+ can also be realized by oblique jets. The extent of the simulated gamma-ray bubbles is also comparable to the observed ones.\
+ However, we find that the simulated bubble surface is not as smooth
+ as the observed bubbles. The instabilities at the bubble
+ surface may be suppressed by the magnetic draping
+ effect \citep{Lyutikov2006,Yang2012} if magnetic fields were
+ included in the simulations. With magnetic draping, the sharp edges of the observed bubbles \citep{Su2010, Ackermann2014} could also be explained by anisotropic CR diffusion along field lines \citep{Yang2013}.
+
+ The simulated gamma-ray intensity
+ distribution is shown in Fig. \ref{fig__gammaRay-map}. Though the overall size of the simulated gamma-ray bubbles is comparable to that of the observed ones, the gamma-ray intensity does not appear to be
+ as uniform as originally found in \citet{Su2012}.
+ As discussed above, the gamma-ray intensity is slightly
+ higher close to the Galactic plane due to the stronger
+ radiation field at lower latitudes. However, this level
+ of brightness variations appears to be consistent with the later
+ observational data of \citet{Ackermann2014} and \citet{Selig2015}, which shows that there are some substructures in the gamma-ray intensity distribution within the bubbles.
+
+ For completeness, we show the simulated CR energy density at 12.39 Myr in Fig. \ref{fig__jetI5+ismSeed3-45deg-CR}. The comparison between\
+ Fig. \ref{fig__jetI5+ismSeed3-45deg}\
+ and\
+ Fig. \ref{fig__jetI5+ismSeed3-45deg-CR}\
+ shows that the CR pressure\
+ is around 5$\times10^{-15}$--8$\times10^{-15}$ erg cm$^{-3}$,\
+ bringing the CR-to-gas pressure ratio is 0.1--0.2,
+ similar to 0.18 at the beginning of the simulation.
+ We therefore stress that\
+ ignoring the contribution of CR pressure gradient to the momentum of the gas\
+ in Eq. \ref{governing-eq} is reasonable.
+
+
+
+
+\begin{figure*}
+  \includegraphics[width=\linewidth]{bble-figures/fig__GammaRay_100e9_1e6_angle_000.png}
+  \caption{The observed (left; \citealt{Selig2015}) and simulated (right) photon flux\
+           in the energy bin $76.8-153.6$ GeV.\
+           Note that the left panel is the\
+           photon flux of the diffuse component reconstructed by the D$^3$PO\
+           algorithm \citep{Selig2015} that analyzes\
+           the photon data from the \textit{Fermi} Large Area Telescope \citep{Atwood2009}\
+           and removes the contribution from point-like component.
+           The red arrow at the center of the right\
+           panel depicts the direction of the bipolar jet, constantly ejecting at an angle of $45^{\circ}$\
+           to the disk normal in 1.2 Myr.
+  }
+  \label{fig__gammaRay-map}
+\end{figure*}
+
+
+
+  \begin{figure}
+    \includegraphics[width=\columnwidth]{bble-figures/fig__jetI5+ismSeed3-45deg-CR.png}
+    \caption{
+     The CR pressure slice passing through the jet source at 12.39 Myr.\
+     Comparison between\
+     gas pressure (Fig. \ref{fig__jetI5+ismSeed3-45deg}) and cosmic ray pressure\
+     shows that
+     the CR pressure\
+     is around 5$\times10^{-15}$--8$\times10^{-15}$ erg/cm$^{3}$,\
+     bringing the CR-to-gas pressure ratio is 0.1--0.2,
+     similar to 0.18 at the beginning of the simulation.
+     We therefore stress that\
+     ignoring the contribution of CR pressure gradient to the momentum of the gas\
+     in Eq. \ref{governing-eq} is reasonable.
+     }
+    \label{fig__jetI5+ismSeed3-45deg-CR}
+  \end{figure}
+

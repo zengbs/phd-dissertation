@@ -1,0 +1,292 @@
+\chapter{Methodology}
+\label{c:methodology}
+
+%\section{Methodology}
+\label{Methodology}
+  We use the GPU-accelerated SRHD adaptive-mesh-refinement (AMR) code \textsc{gamer-sr} developed at the\
+  National Taiwan University\
+  (\citeauthor{gamer-1} \citeyear{gamer-1}, \citeyear{gamer-2}; \citeauthor{tseng2021} \citeyear{tseng2021})\
+  to carry out the simulations of the Galactic bubbles formed by CR and relativistic-fluid injections from the GC.
+
+  The governing equations solving the special relativistic ideal fluid\
+  including CR advection, and dynamical coupling between the thermal gas and CRs without CR diffusion\
+  can be written in a succinct form as
+
+
+  \begin{subequations}
+    \label{governing-eq}
+    \begin{align}
+     &\partial_{t} D+\partial_{j} \left(DU^{j}/\gamma\right)=0,\label{D evolution}\\
+     &\partial_{t} M^{i}+\partial_{j} \left(M^{i}U^{j}/\gamma+p_{\text{total}}\delta^{ij}\right)=\
+     -\rho\partial_{i}\Phi,\label{M evolution}\\
+     &\partial_{t} \tilde{E}+\partial_j \left[\left(\tilde{E}+p_{\text{gas}}\right)U^{j}/\gamma\right]=0, \label{E evoltion}\\
+     &\partial_{t} \left(\gamma e_{\text{cr}}\right) + \partial_{j} \left(e_{\text{cr}}U^{j}\right)=\
+     -p_{\text{cr}} \partial_{j} U^{j},\label{E evolution}
+    \end{align}
+  \end{subequations}
+
+
+  where the five conserved quantities of gas $D$, $M^{i}$, and $\tilde{E}$ are the mass density,\
+  the momentum densities, and the reduced energy density, respectively.\
+  The reduced energy density is defined by subtracting the rest mass energy density of gas\
+  from the total energy density of gas.\
+  $\gamma$ and $U^{j}$ are the temporal and spatial component of four-velocity of gas.\
+  $\rho$ is the gas density in the local rest frame defined by $D/\gamma$.\
+  $p_{\text{gas}}$ is the gas pressure.\
+  $p_{\text{cr}}$ and $e_{\text{cr}}$ are the CR pressure and CR energy density measured in the local rest frame.\
+  $p_{\text{total}}$ is the sum of $p_{\text{gas}}$ and $p_{\text{cr}}$.\
+  Note that we simply replace $p_{\text{total}}$ by $p_{\text{gas}}$ in this paper\
+  as we have assumed $p_{\text{cr}}\ll p_{\text{gas}}$.\
+  $\Phi$ is a gravitational potential.\
+  $c$ is the speed of light, and $\delta^{ij}$ is the Kronecker delta notation.\
+  Throughout this paper, Latin indices run from 1 to 3, except when stated otherwise. The set of Eq. \ref{governing-eq} is closed by using the Taub-Mathews equation of state \citep[EoS;][]{Taub,TM_EOS}\
+  that approximates the exact EoS \citep{Synge} for ultra-relativistically\
+  hot gases coexisting with non-relativistically cold gases.
+  %Since the relativistic fluid ejected by the jet source\
+  %is quickly stalled off and slowed down by the dense ISM,\
+  %and the relativistic fluid\
+  %accounts for a little minority of total mass inside the simulation box,\
+  %we still use the Newtonian gravity to attack this problem.
+
+  \textsc{gamer-sr} adopts a new SRHD solver \citep{tseng2021}, which significantly reduce numerical errors
+  in non- and ultra-relativistic limits caused by catastrophic cancellations
+  in the conversion between primitive ($\rho$, $U^{j}$, $p$) and conserved variables ($D$, $M^{j}$, $\tilde{E}$).
+  %that commonly occur within the regions with high Mach number flows. e.g., jet-ISM interaction zones.\
+  \textsc{gamer-sr} also adaptively and locally reduce the min-mod coefficient\
+  \citep{tseng2021} within the failed patch group rarely occurring in the SRHD solver,\
+  new patches allocations, and ghost-zone interpolations.\
+  In this manner, we provide an elegant approach to avoid the use of pressure/density floor,\
+  being unnatural but widely used in almost publicly available codes.\
+
+  In order to track the evolution of CRs injected by the AGN jets and make predictions of the non-thermal radiation they produce, we adopt the CR hydrodynamic formalism and model the CRs as a second fluid \citep{Zweibel2013}. The approach is similar to previous works of \cite{Guo2012} and \cite{Yang2012}, but generalized to CRs that couple with thermal gas moving with relativistic speeds. The detailed implementations in \textsc{gamer-sr} and tests of the algorithm can be found in a forthcoming paper (Chen et al. in prep). In this approach, the CRs are treated as a single species without distinctions between CR electrons and protons,\
+  and the CR energy density $e_{\text{cr}}$ is evolved according to Eq. \ref{E evolution}.
+  The CRs are advected with the thermal gas and can have adiabatic compression and expansion with the gas. Also, we do not simulate the spectral evolution of the CRs and assume that the CR-to-gas pressure ratio is much less than 1 so that\
+  the contribution of CR pressure gradient to the momentum of the gas can be ignored\
+  (we will see that the ratio is around 0.1--0.2 throughout the simulations). %Note that, although our later calculations of the non-thermal spectra are based on the leptonic model, only a small fraction of the simulated CRs is required to produce the observed gamma-ray and microwave emission \citep{Yang2013}.
+%{\color{red} KY: Is this also true in the current simulations? That is, from the simulated CR energy densities, did you have to apply a normalization constant to match with the observed gamma-ray/microwave spectra? PH: We have reached a consensus on this matter on Slack!}
+Therefore, in the simulations we have neglected the cooling of CRs because it should have a negligible impact on the overall dynamics.
+  %Over and above, we neglect the cooling and heating processes of CRs,\
+  %such as energy losses due to synchrotron and inverse Compton emission,\
+  %and CR reacceleration in shocks/turbulences.
+
+  As stressed by \citet{Yang2012}, CR diffusion with a canonical diffusion coefficient of $\kappa \sim 3\times 10^{28}$ cm$^2$ s$^{-1}$ in the Galaxy has a minor effect\
+  on the overall morphology of the \textit{Fermi} bubbles as it
+  only acts to smooth the CR distributions on the scales of $l \sim \sqrt{\kappa t} \sim 0.3\ (t/1 {\rm Myr})$ kpc. Including anisotropic CR diffusion can also help to sharpen the edges of the bubbles due to interplay between the magnetic field\
+  and anisotropic CR diffusion with suppressed perpendicular diffusion across the bubble surface. As for the magnetic field, \cite{Yang2013} has found that the magnetic field within the \textit{Fermi} bubbles needs to be amplified to comparable values to the ambient field in order to reproduce the microwave haze emission. We thus directly adopt the exponential model for the magnetic field distribution in our calculation for the haze (see descriptions in Section \ref{sec:model}).
+%  Furthermore, the magnetic field within the \textit{Fermi} bubbles should be weak due to\
+%  adiabatic expansion, and thus the fields has\
+%  a little effect on the overall dynamics.
+   For the above reasons, we have ignored CR diffusion and the magnetic field in the simulations.\
+
+
+  \section{The Galactic and Disk Models} \label{sec:model}
+  As a proof-of-concept study, we approximate conventionally axisymmetric stellar potential of Milky Way\
+  by a plane-parallel potential that is symmetric about the Galactic plane, $z=0$,\
+  in a simulation domain of\
+  $14\times14\times28$ kpc, slightly larger than the size of eROISTA bubbles. The plane-parallel potential is fixed throughout our simulations and given by
+  \begin{equation}
+    \Phi_{\text{total}}(z) = \Phi_{\text{bulge}}(z) + \Phi_{\text{halo}}(z),
+  \end{equation}
+  where
+  \begin{equation}
+    \Phi_{\text{bulge}}(z)=\
+    2\sigma^2_{\text{bulge}}\
+    \ln\cosh\left(z\sqrt{\frac{2\pi G\rho_{\text{bulge}}^{\text{peak}}}{\sigma^2_{\text{bulge}}}}\right)
+  \end{equation}
+  is the potential of an isothermal slab mainly contributed by stars around the Galactic bulge, and\
+  $\Phi_{\text{halo}}(z)=v^2_{\text{halo}}\ln\left(z^2+d^2_{\text{h}}\right)$\
+  is a plane-parallel logarithmic dark halo potential.
+
+  With the isothermal assumption and the condition of hydrostatic equilibrium within the total potential of the disk and halo, as well as pressure equilibrium between the isothermal disk and the halo gas, we can write down the steady-state gaseous density distribution as\
+  \begin{subequations}
+  \begin{align}
+     \displaystyle \rho_{\text{isoDisk}}(z) = \rho_{\text{isoDisk}}^{\text{peak}}
+     \exp\left[-\frac{\Phi_{\text{total}}(z)}{k_{B}T_{\text{isoDisk}}/m_{\text{p}}}\right]&\label{isothermal-disc-density}\\
+     \text{, if $|z| < z_{0}$,}& \nonumber \\
+     \nonumber\\
+     \displaystyle \rho_{\text{atmp}}(z) = \rho_{\text{atmp}}^{\text{peak}}
+     \exp\left[-\frac{\Phi_{\text{total}}(z)}{k_{B}T_{\text{atmp}}/m_{\text{p}}}\right]&\label{isothermal-atmp-density}\\
+     \text{, otherwise,}& \nonumber
+  \end{align}
+  \label{disc-atm-sys}
+  \end{subequations}
+  where $m_{\text{p}}$ is the proton mass,\
+  $T_{\text{isoDisk}}$ and $T_{\text{atmp}}$ are the temperature of the isothermal disk and the ambient atmosphere, and\
+  $\rho_{\text{isoDisk}}^{\text{peak}}$ and $\rho_{\text{atmp}}^{\text{peak}}$ are the peak density\
+  of the disk and the atmosphere at $z=0$, respectively.
+
+  We tabulate parameters adopted for the Galactic model in \Cref{table-parameters},\
+  except for $\rho_{\text{atmp}}^{\text{peak}}$ that\
+  can be derived from the other known parameters and the pressure equilibrium condition\
+  at the interfaces $(z=\pm z_{0})$ between the disk and the atmosphere. The density profile of Eq. \ref{disc-atm-sys} is shown in Fig. \ref{fig__initial-density-profile}.\
+  Beyond the core radius ($\sim 2 \text{ kpc}$) the gas density decreases rapidly as a power-law.
+
+
+  \begin{figure}
+    \includegraphics[width=\columnwidth]{bble-figures/fig__initial-density-profile.png}
+    \caption{The density profile of the isothermal disk (red pluses) and\
+             the ambient atmosphere (blue crosses) along the positive $z$-axis.\
+             The density distribution is derived from the condition of hydrostatic equilibrium.\
+             The gas at the interface between the isothermal disk\
+             and the atmosphere at $z=0.1$ is in pressure equilibrium.}
+    \label{fig__initial-density-profile}
+  \end{figure}
+
+
+
+  To compute the predicted synchrotron radiation as a function of position,\
+  we adopt the default exponential magnetic field in \textsc{galprop} \citep{Strong2007}
+  that obeys the following spatial dependence:\
+
+  \begin{equation}
+     |\mathbf{B}(R, z)|=B_{0}\exp\left[-\frac{z}{z_{0}}\right]\exp\left[-\frac{R}{R_{0}}\right],
+     \label{magnetic-field}
+  \end{equation}
+
+
+  where $R=\sqrt{x^{2}+y^{2}}$, $B_{0}$ is the average field strength at the GC,\
+  and $z_{0}$ and $R_{0}$ are the characteristic scales in the vertical and radial\
+  directions, respectively. We adopt $z_{0} = 2$ kpc and $R_{0} = 10$ kpc, which\
+  are best-fitting values in the \textsc{galprop} model to reproduce the\
+  observed large-scale 408 MHz synchrotron radiation in the Galaxy.\
+  We choose $B_{0} = 50$ $\mu$G based on the observed field strength at the\
+  GC \citep{Crocker2010}.
+
+  % The dispersion:
+  %   2010-Comparing the statistics of interstellar turbulence in simulations and observations
+  %   2011-RELATIVISTIC JET FEEDBACK IN EVOLVING GALAXIES
+
+
+  \section{The Clumpy Multiphase Interstellar Medium}
+
+  A crucial component in our work is the clumpy ISM disk initialized by\
+  the publicly available pyFC code
+  \footnote{\url{https://pypi.python.org/pypi/pyFC}}.
+  pyFC randomly generates dimensionless 3D scalar field $f(\bold{x})$\ % that is clumpy and porous.
+  that obeys the log-normal probability distribution\
+  with mean $\mu$ and dispersion $\sigma$,\
+  and follows the power-law Kolmogorov spectrum
+  \begin{equation}
+    D(\bold{k})=\int k^{2} \hat{f}(\bold{k})\hat{f}^{*}(\bold{k})d\Omega \propto k^{-\delta},
+    \label{Kolmogorov-spectrum}
+  \end{equation}
+  where $\hat{f}(\bold{k})$ is the Fourier transform of $f(\bold{x})$.\
+  The spectrum $D(\bold{k})$ in the Fourier space is characterized by a power-law index $\delta=5/3$,\
+  a Nyquist limit $k_{\text{max}}$, and a lower cutoff wave number $k_{\text{min}}$.
+  $k_{\text{max}}$ is one-half of the spatial resolution within the disk,\
+  and $k_{\text{min}}$ is 375.0, corresponding to the maximum size of an individual clump of $\sim 20$ pc.\
+  \citet{LA2002} and \citet{Wagner2012} have outlined a detailed procedure\
+  for constructing a clumpy scalar field, and we refer the readers for more information.
+
+  The density of the clumpy disk can then be obtained by taking the scalar products of\
+  $f(\bold{x})$ with $\rho_{\text{isoDisk}}(z)$ over all cells within the disk, i.e.,\
+  $\displaystyle\rho_{\text{ismDisk}}(\bold{x}) =\
+  f(\bold{x}) \rho_{\text{isoDisk}}(z)$.\
+  Also, the thermal pressure equilibrium within the clumpy disk implies that the temperature of the disk is
+  $\displaystyle T_{\text{ismDisk}}(\bold{x}) =\
+  T_{\text{isoDisk}}(z)\rho_{\text{isoDisk}}(z)/\rho_{\text{ismDisk}}(\bold{x})$. The last category in \Cref{table-parameters} summarizes the parameters of the clumpy disk and their references.
+
+  On the basis of this setup, we cover the AMR base level with\
+  $16\times16\times32$ root cells, refined progressively on the mid-plane at $z=0$\
+  based on the gradient of density.\
+  We also restrict the refinement level at 7 within the disk so that\
+  a molecular cloud can be adequately resolved by approximately 30 cells along their diameter of 20 pc. We plot the volume filling factor as a function of\
+  initial number density within the disk without the jet source in Fig. \ref{fig__numberDensityHistogram},\
+  and show a close-up view of the\
+  pressure, temperature, and number density slices
+  in the $y-z$ plane through the center of the disk in Fig. \ref{fig__zoom-in-disc}.
+
+  \begin{figure}
+      \includegraphics[width=\columnwidth]{bble-figures/fig__numberDensityHistogram.png}
+    \caption{The volume filling factor as a function of\
+             initial number density within the disk without the jet source.\
+             The vertical bands from left to right depict the allowable number densities \citep{peak-ism-density} for\
+             hot ionized, warm neutral (WNM), warm ionized (WIM), cold neutral mediums (CNM), and molecular clouds.}
+      \label{fig__numberDensityHistogram}
+  \end{figure}
+
+  \begin{figure}
+    \includegraphics[width=\columnwidth]{bble-figures/fig__zoom-in-disc.png}
+    \caption{Close-up view of the initial\
+             pressure (top), temperature (middle), and number density (bottom) slices\
+             in the $y-z$ plane through the center of the disk.
+             }
+    \label{fig__zoom-in-disc}
+  \end{figure}
+
+\begin{table*}
+\raggedright
+\caption{Parameters of the disk, atmosphere, and gravitational potential in the simulations.}
+\label{table-parameters}
+\begin{tabular}{@{}llrc@{}}
+\toprule[1pt]\midrule[0.3pt]
+Parameter                             & Description                    & Value                                &  Reference                     \\ \midrule
+{\bf Static stellar potential }       &                                &                                      &                                \\
+$\sigma_{\text{bulge}}$               & Velocity dispersion of bulge   & 100 km s$^{-1}$                      & \citep{velocity-dispersion-MW} \\
+$\rho_{\text{bulge}}^{\text{peak}}$   & Peak average density of bulge  & $4\times 10^{-24}$ g cm$^{-3}$       &   N/A                          \\ \hline
+{\bf Static dark halo potential }     &                                &                                      &                                \\
+$v_{\text{halo}}$                     & Characteristic velocity        & 131.5 km s$^{-1}$                    & \citep{Johnston1995}           \\
+$d_{\text{h}}$                        & Core radius                    & 12 kpc                               & \multicolumn{1}{c}{''}         \\ \hline
+{\bf Atmosphere }                     &                                &                                      &                                \\
+$T_{\text{\text{atmp}}}$              & Temperature of atmosphere      & $10^{6}$ K                           & \citep{temperature-MW}         \\ \hline
+{\bf Isothermal disk }                &                                &                                      &                                \\
+$z_{0}$                               & Scale height of disk           & 100 pc                               & \citep{peak-ism-density}       \\
+$T_{\text{\text{isoDisk}}}$           & Temperature of disk            & $10^{3}$ K                           & \multicolumn{1}{c}{''}         \\
+$\rho_{\text{isoDisk}}^{\text{peak}}$ & Peak density of disk           & $10^{-23}$ g cm$^{-3}$               & \multicolumn{1}{c}{''}         \\ \hline
+{\bf Clumpy disk }                    &                                &                                      &                                \\
+$k_{\text{min}}^\dagger$              & Cutoff wave number             & 375.0                                & \citep{peak-ism-density}       \\
+$\mu$                                 & Mean of scalar field           & 1.0                                  &   N/A                          \\
+$\sigma^\ddag$                        & Dispersion of scalar field     & 5.0                                  & \citep{Federrath2010}          \\
+$\delta$                              & Power law index                & -5/3                                 &   N/A                          \\ \midrule
+\end{tabular}
+\begin{tablenotes}
+      \raggedright
+      \item  $\dagger$  $k_{\text{min}}=375.0$ leads to the size of an individual molecular cloud of $\sim 100$ pc.
+      \item  $\ddag$ In numerical simulations of turbulence,\
+             \citet{Federrath2010} find $\sigma\sim 3.6$ and 35 for solenoidal (divergence-free)\
+             and compressive (curl-free) driving force,\
+             respectively, so that our adopted value of 5 is closer to their solenoidal result.
+    \end{tablenotes}
+\end{table*}
+
+%
+
+\section{Oblique jets}
+
+  We simulate the jets emanating from the GC with an inclination angle\
+  $45^{\circ}$ with respect to the Galactic plane\
+  in order to alleviate the constraint that\
+  the jet direction must be perpendicular to the Galactic plane, and in particular to\
+  investigate how the dense disk affects the bubble formation.
+
+
+  We use the following quantities to characterize the jets:
+  the density contrast between the thermal gas contained in the jet source and the ambient gas,\
+  $\rho_{\text{jet}}/\rho_{\text{amb}}=10^{-3}$,\
+  the temperature contrast, $T_{\text{jet}}/T_{\text{amb}}=2\times10^{4}$,\
+  the CR-to-gas pressure ratio of 0.18,\
+  and the flow 4-velocity ($\beta\gamma = 0.6$) inside the jet source along the jet axis.\
+  The jet power is thus $3.2\times 10^{42}$ erg s$^{-1}$, resulting in an Eddington ratio of 0.008.\
+  Note that since we inject the jets at the center of the clumpy disk,\
+  we define the atmosphere gas density by the peak density of\
+  the isothermal disk on the mid-plane $z=0$ (i.e. $\rho^{\text{peak}}_{\text{isoDisk}}$),\
+  as opposed to the \textit{clumpy} density around the jet source.
+
+
+  The bipolar jets are constantly ejected from a cylindrical source starting from the beginning of simulation ($t=0$)\
+  and suddenly quenched at $t=1.2$ Myr before fully breaking out the disk.\
+  Without quenching, the Galactic bubbles at the present time would be asymmetric about the Galactic plane.
+  The jet duration allows the total ejected energy to be $1.2\times10^{56}$ erg, \
+  within the range of enclosed energy estimated by \citet{Predehl2020} between\
+  $8\times10^{55}$ erg and $1.3\times10^{56}$ erg.
+
+
+
+  The diameter and height of cylindrical source are 4 pc,\
+  leading to a source volume ($\sim 50 \text{ pc}^{3}$)\
+  much smaller than that of an individual clump by a factor of $\sim 83$.\
+  By intentionally reducing the volume ratio of the jet source to an individual clump,\
+  we can mitigate the effect of the randomness of the clumps on the bubbles.\
+  Moreover, we resolve the jet source with the highest refinement level of 11,\
+  bringing the finest spatial resolution up to 0.4 pc.\
+

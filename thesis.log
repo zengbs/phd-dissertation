@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.11.4)  11 APR 2022 16:55
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.11.4)  17 MAY 2022 22:08
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1216,14 +1216,32 @@ l.58 \begin{document}
                      
 Things are pretty mixed up, but I think the worst is over.
 
-(./thesis.aux)
+(./thesis.aux
+
+LaTeX Warning: Label `D evolution' multiply defined.
+
+
+LaTeX Warning: Label `D evolution@cref' multiply defined.
+
+
+LaTeX Warning: Label `M evolution' multiply defined.
+
+
+LaTeX Warning: Label `M evolution@cref' multiply defined.
+
+
+LaTeX Warning: Label `E evoltion' multiply defined.
+
+
+LaTeX Warning: Label `E evoltion@cref' multiply defined.
+
+)
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 58.
 LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line
  58.
-
-(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/omlntxmi.fd
+ (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/omlntxmi.fd
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
 LaTeX Font Info:    ... okay on input line 58.
@@ -1455,11 +1473,16 @@ LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
 
 ] [12
 
-] (./thesis.toc [13])
+] (./thesis.toc [13]
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/it' will be
+(Font)              scaled to size 12.0pt on input line 32.
+ [14])
 \tf@toc=\write6
 \openout6 = `thesis.toc'.
 
- [14] (./thesis.lof
+ [15] [16
+
+] (./thesis.lof
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 8.8pt on input line 3.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
@@ -1467,45 +1490,60 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [15
-
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [16]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [17]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [18]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20]
 LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
 (Font)              scaled to size 12.0pt on input line 26.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
 (Font)              scaled to size 8.8pt on input line 26.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
 (Font)              scaled to size 6.6pt on input line 26.
-)
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [22]
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
+(Font)              scaled to size 12.0pt on input line 53.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [23])
 \tf@lof=\write7
 \openout7 = `thesis.lof'.
 
 
-[19] [20
-
-] (./thesis.lot)
+[24] (./thesis.lot)
 \tf@lot=\write8
 \openout8 = `thesis.lot'.
 
- [21] [22
+ [25
+
+] [26
 
 ] (./introduction.tex
 Chapter 1.
 [1
 
-]) (./part.tex [2]) (./special-relativistic-hydrodynamics.tex [3
+]
+
+LaTeX Warning: Reference `c:conclusions' on page 2 undefined on input line 59.
+
+) (./part-1.tex [2]) (./srhd-special-relativistic-hydrodynamics.tex [3
 
 
-] [4
+]
+[4
 
 ]
 Chapter 2.
@@ -1543,8 +1581,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-File: figures/compare_eos.pdf Graphic file (type pdf)
-<use figures/compare_eos.pdf>
+File: srhd-figures/compare_eos.pdf Graphic file (type pdf)
+<use srhd-figures/compare_eos.pdf>
 ! Undefined control sequence.
 <argument> ...e the maximum relative errors $\abs 
                                                   {1-\Gamma _{\text {TM}}/\G...
@@ -1754,8 +1792,8 @@ My plan is to forget the whole thing and hope for the best.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [11]
-File: figures/ErrorDistributionImproved.png Graphic file (type bmp)
-<figures/ErrorDistributionImproved.png>
+File: srhd-figures/ErrorDistributionImproved.png Graphic file (type bmp)
+<srhd-figures/ErrorDistributionImproved.png>
 
 ! Undefined control sequence.
 <argument> \abs 
@@ -1798,7 +1836,7 @@ File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
 (Font)              scaled to size 12.0pt on input line 208.
 
-[12] [13]) (./numerical-methods.tex [14]
+[12] [13]) (./srhd-numerical-methods.tex [14]
 Chapter 3.
 [15
 
@@ -1900,9 +1938,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 12.0pt on input line 65.
-[18]) (./test-problems.tex [19] [20
+[18]) (./srhd-test-problems.tex [19] [20
 
 ]
 Chapter 4.
@@ -1934,18 +1970,18 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-File: figures/fig__convergence.pdf Graphic file (type pdf)
-<use figures/fig__convergence.pdf>
+File: srhd-figures/fig__convergence.pdf Graphic file (type pdf)
+<use srhd-figures/fig__convergence.pdf>
 [22] [23]
 Overfull \hbox (11.27263pt too wide) in paragraph at lines 110--116
 [][] 
  []
 
-File: figures/HeadCollision.pdf Graphic file (type pdf)
-<use figures/HeadCollision.pdf>
+File: srhd-figures/HeadCollision.pdf Graphic file (type pdf)
+<use srhd-figures/HeadCollision.pdf>
 [24] [25]
-File: figures/RiemannProbs.png Graphic file (type bmp)
-<figures/RiemannProbs.png>
+File: srhd-figures/RiemannProbs.png Graphic file (type bmp)
+<srhd-figures/RiemannProbs.png>
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
 (Font)              scaled to size 17.28pt on input line 152.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
@@ -2035,20 +2071,20 @@ and I'll forget about whatever was undefined.
 Underfull \vbox (badness 4673) has occurred while \output is active []
 
  [28]
-File: figures/fig__HorizontalFlowLow.png Graphic file (type bmp)
-<figures/fig__HorizontalFlowLow.png>
+File: srhd-figures/fig__HorizontalFlowLow.png Graphic file (type bmp)
+<srhd-figures/fig__HorizontalFlowLow.png>
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 10.0pt on input line 181.
-File: figures/fig__DiagonalFlowLow.png Graphic file (type bmp)
-<figures/fig__DiagonalFlowLow.png>
-File: figures/fig__HorizontalFlowHig.png Graphic file (type bmp)
-<figures/fig__HorizontalFlowHig.png>
-File: figures/fig__DiagonalFlowHig.png Graphic file (type bmp)
-<figures/fig__DiagonalFlowHig.png>
-File: figures/fig__HorizontalFlowHigZoomIn.png Graphic file (type bmp)
-<figures/fig__HorizontalFlowHigZoomIn.png>
+File: srhd-figures/fig__DiagonalFlowLow.png Graphic file (type bmp)
+<srhd-figures/fig__DiagonalFlowLow.png>
+File: srhd-figures/fig__HorizontalFlowHig.png Graphic file (type bmp)
+<srhd-figures/fig__HorizontalFlowHig.png>
+File: srhd-figures/fig__DiagonalFlowHig.png Graphic file (type bmp)
+<srhd-figures/fig__DiagonalFlowHig.png>
+File: srhd-figures/fig__HorizontalFlowHigZoomIn.png Graphic file (type bmp)
+<srhd-figures/fig__HorizontalFlowHigZoomIn.png>
 )
-(./performance-scaling.tex [29] [30] [31] [32
+(./srhd-performance-scaling.tex [29] [30] [31] [32
 
 ]
 Chapter 5.
@@ -2059,26 +2095,26 @@ nd hy-brid MPI/OpenMP/GPU
  []
 
 [33]
-File: figures/fig__weak_scaling.pdf Graphic file (type pdf)
-<use figures/fig__weak_scaling.pdf>
-File: figures/fig__benchmark_strongscaling.pdf Graphic file (type pdf)
-<use figures/fig__benchmark_strongscaling.pdf>
+File: srhd-figures/fig__weak_scaling.pdf Graphic file (type pdf)
+<use srhd-figures/fig__weak_scaling.pdf>
+File: srhd-figures/fig__benchmark_strongscaling.pdf Graphic file (type pdf)
+<use srhd-figures/fig__benchmark_strongscaling.pdf>
 
 Underfull \vbox (badness 7777) has occurred while \output is active []
 
  [34]
-File: figures/fig__benchmark_weakscaling.pdf Graphic file (type pdf)
-<use figures/fig__benchmark_weakscaling.pdf>
+File: srhd-figures/fig__benchmark_weakscaling.pdf Graphic file (type pdf)
+<use srhd-figures/fig__benchmark_weakscaling.pdf>
 )
-(./astrophysical-applications.tex [35] [36]
+(./srhd-astrophysical-applications.tex [35] [36]
 Chapter 6.
 [37
 
 ]
-File: figures/ProfileSliceLowRes.png Graphic file (type bmp)
-<figures/ProfileSliceLowRes.png>
-File: figures/fig__AxesRatio.pdf Graphic file (type pdf)
-<use figures/fig__AxesRatio.pdf>
+File: srhd-figures/ProfileSliceLowRes.png Graphic file (type bmp)
+<srhd-figures/ProfileSliceLowRes.png>
+File: srhd-figures/fig__AxesRatio.pdf Graphic file (type pdf)
+<use srhd-figures/fig__AxesRatio.pdf>
  [38] [39]
 ! Undefined control sequence.
 <recently read> \abs 
@@ -2106,14 +2142,14 @@ and I'll forget about whatever was undefined.
 Underfull \vbox (badness 1496) has occurred while \output is active []
 
  [40]
-File: figures/JetAccLowRes.png Graphic file (type bmp)
-<figures/JetAccLowRes.png>
+File: srhd-figures/JetAccLowRes.png Graphic file (type bmp)
+<srhd-figures/JetAccLowRes.png>
 )
-(./conclusion-part-1.tex [41] [42]
+(./srhd-conclusion-part-1.tex [41] [42]
 Chapter 7.
 [43
 
-]) (./appendix.tex [44]
+]) (./srhd-appendix.tex [44]
 Chapter 8.
 ! Undefined control sequence.
 <argument> \abs 
@@ -2317,8 +2353,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-File: figures/FunHTilde.pdf Graphic file (type pdf)
-<use figures/FunHTilde.pdf>
+File: srhd-figures/FunHTilde.pdf Graphic file (type pdf)
+<use srhd-figures/FunHTilde.pdf>
 ! Undefined control sequence.
 <argument> ... }{\ignorespaces $f(\tilde {h};\abs 
                                                   {\mathbf {M}}/D=1)$ (brown...
@@ -2352,8 +2388,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-File: figures/screenshot.png Graphic file (type bmp)
-<figures/screenshot.png>
+File: srhd-figures/screenshot.png Graphic file (type bmp)
+<srhd-figures/screenshot.png>
 ! Undefined control sequence.
 <recently read> \abs 
                      
@@ -2393,8 +2429,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [46] [47]
-File: figures/ErrorMap3.pdf Graphic file (type pdf)
-<use figures/ErrorMap3.pdf>
+File: srhd-figures/ErrorMap3.pdf Graphic file (type pdf)
+<use srhd-figures/ErrorMap3.pdf>
 
 ! Undefined control sequence.
 <argument> .... It shows the relative error $\abs 
@@ -2525,12 +2561,462 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5.5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 147.
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
 (Font)              scaled to size 8.0pt on input line 150.
-) [51] [52] (./thesis.bbl
+) (./part-2.tex [51] [52]
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
+(Font)              scaled to size 24.88pt on input line 2.
+) (./bble-brief-review-of-bubbles.tex [53
+
+
+] [54
+
+]
+Chapter 9.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/it' will be
+(Font)              scaled to size 24.88pt on input line 1.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [55])
+(./bble-methodology.tex [56]
+Chapter 10.
+[57
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [58]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [59]
+File: bble-figures/fig__initial-density-profile.png Graphic file (type bmp)
+<bble-figures/fig__initial-density-profile.png>
+LaTeX Font Info:    Trying to load font information for T1+ntxsups on input lin
+e 164.
+
+(/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/t1ntxsups.fd
+File: t1ntxsups.fd 2015/01/17 v1.0
+)
+LaTeX Font Info:    Font shape `T1/ntxsups/m/n' will be
+(Font)              scaled to size 12.0pt on input line 164.
+LaTeX Font Info:    Font shape `T1/ntxsups/m/n' will be
+(Font)              scaled to size 10.0pt on input line 164.
+LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
+(Font)              scaled to size 10.0pt on input line 164.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 10.0pt on input line 164.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 7.3pt on input line 164.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
+(Font)              scaled to size 10.0pt on input line 164.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
+(Font)              scaled to size 7.3pt on input line 164.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 164.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.3> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 164.
+
+
+Package amsfonts Warning: Obsolete command \bold; \mathbf should be used instea
+d on input line 165.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [60]
+[61]
+File: bble-figures/fig__numberDensityHistogram.png Graphic file (type bmp)
+<bble-figures/fig__numberDensityHistogram.png>
+File: bble-figures/fig__zoom-in-disc.png Graphic file (type bmp)
+<bble-figures/fig__zoom-in-disc.png>
+
+
+! LaTeX Error: Environment tablenotes undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.242 \begin{tablenotes}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (98.39954pt too wide) in paragraph at lines 221--244
+[][]  
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.244       \item  $
+                    \dagger$  $k_{\text{min}}=375.0$ leads to the size of an...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 244
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.245       \item  $
+                    \ddag$ In numerical simulations of turbulence,\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 245
+[][]
+ []
+
+
+! LaTeX Error: \begin{table*} on input line 217 ended by \end{tablenotes}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.249     \end{tablenotes}
+                          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [62]
+[63] [64]) (./bble-result.tex [65] [66
+
+]
+Chapter 11.
+[67]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [68]
+! Undefined control sequence.
+<recently read> \captionsetup 
+                              
+l.79       \captionsetup
+                        [subfigure]{labelformat=simple}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.80       \begin{subfigure}[b]{0.2\linewidth}
+                                              %
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.80       \begin{subfigure}[b]{0.2\linewidth}
+                                              %
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
+[]\T1/ntxtlf/m/n/10 (a)
+ []
+
+File: bble-figures/fig__jetI5+ismSeed3-45deg-a.png Graphic file (type bmp)
+<bble-figures/fig__jetI5+ismSeed3-45deg-a.png>
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.86       \begin{subfigure}[b]{0.2\linewidth}
+                                              %
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.86       \begin{subfigure}[b]{0.2\linewidth}
+                                              %
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--86
+[]\T1/ntxtlf/m/n/10 (a)
+ []
+
+File: bble-figures/fig__jetI5+ismSeed3-45deg-b.png Graphic file (type bmp)
+<bble-figures/fig__jetI5+ismSeed3-45deg-b.png>
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.92       \begin{subfigure}[b]{0.2\linewidth}
+                                              %
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.92       \begin{subfigure}[b]{0.2\linewidth}
+                                              %
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+[]\T1/ntxtlf/m/n/10 (a)
+ []
+
+File: bble-figures/fig__jetI5+ismSeed3-45deg-c.png Graphic file (type bmp)
+<bble-figures/fig__jetI5+ismSeed3-45deg-c.png>
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.98       \begin{subfigure}[b]{0.2\linewidth}
+                                              %
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.98       \begin{subfigure}[b]{0.2\linewidth}
+                                              %
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
+[]\T1/ntxtlf/m/n/10 (a)
+ []
+
+File: bble-figures/fig__jetI5+ismSeed3-45deg-d.png Graphic file (type bmp)
+<bble-figures/fig__jetI5+ismSeed3-45deg-d.png>
+
+LaTeX Warning: Float too large for page by 833.03906pt on input line 121.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.125       \begin{subfigure}[t]{0.5\linewidth}
+                                               %
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.125       \begin{subfigure}[t]{0.5\linewidth}
+                                               %
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+[]\T1/ntxtlf/m/n/10 (a)
+ []
+
+File: bble-figures/fig__profile-1.png Graphic file (type bmp)
+<bble-figures/fig__profile-1.png>
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.130       \begin{subfigure}[t]{0.5\linewidth}
+                                               %
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.130       \begin{subfigure}[t]{0.5\linewidth}
+                                               %
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--130
+[]\T1/ntxtlf/m/n/10 (b)
+ []
+
+File: bble-figures/fig__profile-2.png Graphic file (type bmp)
+<bble-figures/fig__profile-2.png>
+File: bble-figures/fig__innerbubbles.png Graphic file (type bmp)
+<bble-figures/fig__innerbubbles.png>
+[69] [70] [71]
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.221       \begin{subfigure}[t]{\textwidth}
+                                            %
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.221       \begin{subfigure}[t]{\textwidth}
+                                            %
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Overfull \hbox (11.09981pt too wide) in paragraph at lines 221--221
+[]\T1/ntxtlf/m/n/10 (a)
+ []
+
+
+Overfull \hbox (2.78pt too wide) in paragraph at lines 221--221
+\T1/ntxtlf/m/n/10 t 
+ []
+
+File: bble-figures/fig__xraymap.png Graphic file (type bmp)
+<bble-figures/fig__xraymap.png>
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.237       \begin{subfigure}[t]{\textwidth}
+                                            %
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.237       \begin{subfigure}[t]{\textwidth}
+                                            %
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Overfull \hbox (11.09981pt too wide) in paragraph at lines 237--237
+[]\T1/ntxtlf/m/n/10 (a)
+ []
+
+
+Overfull \hbox (2.78pt too wide) in paragraph at lines 237--237
+\T1/ntxtlf/m/n/10 t 
+ []
+
+File: bble-figures/fig__xray-profile-0.8keV-000.png Graphic file (type bmp)
+<bble-figures/fig__xray-profile-0.8keV-000.png>
+
+LaTeX Warning: Float too large for page by 5.56065pt on input line 249.
+
+[72] [73]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [74]
+[75]
+Overfull \hbox (2.78383pt too wide) in paragraph at lines 351--355
+[]\T1/ntxtlf/m/n/12 Finally, the good agree-ment be-tween the sim-u-lated and o
+b-served gamma-ray/microwave
+ []
+
+File: bble-figures/fig__spectrum.png Graphic file (type bmp)
+<bble-figures/fig__spectrum.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [76]
+[77]
+File: bble-figures/fig__GammaRay_100e9_1e6_angle_000.png Graphic file (type bmp
+)
+<bble-figures/fig__GammaRay_100e9_1e6_angle_000.png>
+File: bble-figures/fig__jetI5+ismSeed3-45deg-CR.png Graphic file (type bmp)
+<bble-figures/fig__jetI5+ismSeed3-45deg-CR.png>
+) (./bble-discussion.tex [78] [79] [80
+
+]
+Chapter 12.
+[81]) (./bble-conclusion.tex [82]
+Chapter 13.
+[83
+
+]) (./bble-appendix.tex [84]
+Chapter 14.
+File: bble-figures/fig__slice-compare.png Graphic file (type bmp)
+<bble-figures/fig__slice-compare.png>
+) [85
+
+] [86] (./thesis.bbl [87
+
+
+]
 ! Undefined control sequence.
 <argument> \apj 
                 
-l.48   {10.1086/170375}
+l.91   {10.1086/170375}
                        , \href
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \apj 
+                
+l.116 ...@doi [\apj] {10.1088/0004-637X/808/2/107}
+                                                  , \href
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2540,7 +3026,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \apjl 
                  
-l.61 ...\mn@doi [\apjl] {10.3847/2041-8213/ab3d9e}
+l.159 ...mn@doi [\apjl] {10.3847/2041-8213/ab3d9e}
                                                   , \href
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2548,14 +3034,31 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[53
-
-
-]
+[88]
 ! Undefined control sequence.
 <argument> \apj 
                 
-l.97 ....,  1984a, \mn@doi [\apj] {10.1086/162356}
+l.203   {10.1088/0004-637X/756/2/182}
+                                     , \href
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.230 {Kaastra} J.~S.,  {Mewe} R.,  1993, \aaps
+                                               , \href
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \apj 
+                
+l.245 ...,  1984a, \mn@doi [\apj] {10.1086/162356}
                                                   ,
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2566,7 +3069,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \apj 
                 
-l.102 ...,  1984b, \mn@doi [\apj] {10.1086/162357}
+l.250 ...,  1984b, \mn@doi [\apj] {10.1086/162357}
                                                   ,
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2577,7 +3080,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \apj 
                 
-l.111   {10.1086/171597}
+l.273   {10.1086/171597}
                         , \href
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2585,10 +3088,53 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+[89]
 ! Undefined control sequence.
 <argument> \apj 
                 
-l.126 ....,  1971, \mn@doi [\apj] {10.1086/150883}
+l.279   {10.1088/0004-637X/779/2/154}
+                                     , \href
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \apjl 
+                 
+l.285   [\apjl] {10.1086/187729}
+                                , \href
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \apj 
+                
+l.304 ....,  1971, \mn@doi [\apj] {10.1086/150883}
+                                                  , \href
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.320   \aaps
+             , \href {https://ui.adsabs.harvard.edu/abs/1985A&AS...62..197M}...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \nat 
+                
+l.355 ...18a, \mn@doi [\nat] {10.1038/nature25452}
                                                   , \href
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2599,19 +3145,20 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \nat 
                 
-l.151 ...18a, \mn@doi [\nat] {10.1038/nature25452}
-                                                  , \href
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \nat 
-                
-l.156 ...mn@doi [\nat] {10.1038/s41586-018-0486-3}
+l.360 ...mn@doi [\nat] {10.1038/s41586-018-0486-3}
                                                   ,
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[90]
+! Undefined control sequence.
+<argument> \apj 
+                
+l.372   {10.1088/0004-637X/790/2/109}
+                                     , \href
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2621,7 +3168,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \mnras 
                   
-l.172   {10.1093/mnras/stw999}
+l.393   {10.1093/mnras/stw999}
                               , \href
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2629,11 +3176,22 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[54]
+[91] [92]
+! Undefined control sequence.
+<argument> \aaps 
+                 
+l.520 ...doi [\aaps] {10.1051/0004-6361/201832905}
+                                                  , 616,
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ! Undefined control sequence.
 <argument> \apj 
                 
-l.235 ....,  1993, \mn@doi [\apj] {10.1086/172359}
+l.534 ....,  1993, \mn@doi [\apj] {10.1086/172359}
                                                   , \href
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2641,7 +3199,18 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-) [55]
+! Undefined control sequence.
+<argument> \apj 
+                
+l.569   [\apj] {10.3847/1538-4357/ab0e05}
+                                         , \href
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+) [93]
 
 Package catoptions Warning: Undefined options 
 (catoptions)                [Family, Option, Value]: 
@@ -2650,22 +3219,25 @@ Package catoptions Warning: Undefined options
 
 (./thesis.aux)
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: A5272BCD6DF1B7B7CC0F6C11B50F74A6;5313.
+(rerunfilecheck)             Checksum: 4EE099051247FB012CA21EF4BE1DDA80;7823.
  )
 (\end occurred inside a group at level 1)
 
 ### semi simple group (level 1) entered at line 58 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 35391 strings out of 476473
- 706229 string characters out of 5812052
- 1104727 words of memory out of 5000000
- 55203 multiletter control sequences out of 15000+600000
- 534393 words of font info for 219 fonts, out of 8000000 for 9000
+ 36125 strings out of 476473
+ 725811 string characters out of 5812052
+ 1119777 words of memory out of 5000000
+ 55889 multiletter control sequences out of 15000+600000
+ 581366 words of font info for 303 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 132i,12n,136p,1973b,2712s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 132i,15n,136p,1978b,2781s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.pdf (77 pages).
+Output written on thesis.pdf (119 pages).

@@ -51,8 +51,8 @@
 \DeclareRobustCommand{\keywords}[2]{\gdef\@keywordsen{#1}\gdef\@keywordszh{#2}}
 
 \abstractname{Abstract}{摘要}
-\partonename{Part I}
-\parttwoname{Part II}
+\partonename{Part I \huge}
+\parttwoname{Part II \huge}
 \acknowledgements{Acknowledgements}{誌謝}
 
 \DeclareRobustCommand{\makecover}{

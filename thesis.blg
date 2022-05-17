@@ -3,8 +3,88 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: thesis.aux
 The style file: mnras.bst
 Database file #1: thesis.bib
+Repeated entry---line 1270 of file thesis.bib
+ : @article{TM_EOS
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1283 of file thesis.bib
+ : @article{Synge
+ :               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1290 of file thesis.bib
+ : @article{van_Leer_1979
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1304 of file thesis.bib
+ : @article{Taub
+ :              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1318 of file thesis.bib
+ : @article{gamer-2
+ :                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1334 of file thesis.bib
+ : @article{HLLC_srhydro
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1363 of file thesis.bib
+ : @book{Toro
+ :           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1389 of file thesis.bib
+ : @article{gamer-1
+ :                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1406 of file thesis.bib
+ : @article{YT
+ :            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1439 of file thesis.bib
+ : @article{VL2
+ :             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1450 of file thesis.bib
+ : @article{VL1
+ :             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1465 of file thesis.bib
+ : @article{Yang2017
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1479 of file thesis.bib
+ : @article{Yang2013
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1493 of file thesis.bib
+ : @article{Yang2012
+ :                  ,
+I'm skipping whatever remains of this entry
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
+Name 1 in "Lewis, G. M., and Austin, P. H." has a comma at the end for entry LA2002
+while executing---line 1706 of file mnras.bst
+Name 1 in "Lewis, G. M., and Austin, P. H." has a comma at the end for entry LA2002
+while executing---line 1706 of file mnras.bst
+Name 1 in "Lewis, G. M., and Austin, P. H." has a comma at the end for entry LA2002
+while executing---line 1706 of file mnras.bst
+"ArXiv e-prints" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry halo-radius-1
+while executing---line 1822 of file mnras.bst
+`journal' is a missing field, not a string, for entry halo-radius-1
+while executing---line 1822 of file mnras.bst
+"ArXiv e-prints" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry halo-radius-1
+while executing---line 1822 of file mnras.bst
+"ArXiv e-prints" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry halo-radius-2
+while executing---line 1822 of file mnras.bst
+`journal' is a missing field, not a string, for entry halo-radius-2
+while executing---line 1822 of file mnras.bst
+"ArXiv e-prints" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry halo-radius-2
+while executing---line 1822 of file mnras.bst
+Name 1 in "Lewis, G. M., and Austin, P. H." has a comma at the end for entry LA2002
+while executing---line 1822 of file mnras.bst
 "ArXiv e-prints" is a string literal, `journal' is a missing field
 ---they aren't the same literal types for entry VL2
 while executing---line 1822 of file mnras.bst
@@ -12,45 +92,45 @@ Warning--empty journal in VL2
 "ArXiv e-prints" is a string literal, `journal' is a missing field
 ---they aren't the same literal types for entry VL2
 while executing---line 1822 of file mnras.bst
-You've used 48 entries,
+You've used 115 entries,
             2881 wiz_defined-function locations,
-            1142 strings with 19528 characters,
-and the built_in function-call counts, 21462 in all, are:
-= -- 1764
-> -- 1481
-< -- 129
-+ -- 684
-- -- 186
-* -- 2592
-:= -- 3371
+            1673 strings with 48345 characters,
+and the built_in function-call counts, 52871 in all, are:
+= -- 4361
+> -- 3780
+< -- 293
++ -- 1673
+- -- 530
+* -- 6406
+:= -- 8341
 add.period$ -- 0
-call.type$ -- 48
-change.case$ -- 97
-chr.to.int$ -- 46
-cite$ -- 49
-duplicate$ -- 1080
-empty$ -- 1098
-format.name$ -- 352
-if$ -- 3696
-int.to.chr$ -- 3
+call.type$ -- 115
+change.case$ -- 231
+chr.to.int$ -- 112
+cite$ -- 116
+duplicate$ -- 2595
+empty$ -- 2588
+format.name$ -- 920
+if$ -- 9131
+int.to.chr$ -- 4
 int.to.str$ -- 0
-missing$ -- 51
-newline$ -- 160
-num.names$ -- 324
-pop$ -- 215
+missing$ -- 118
+newline$ -- 361
+num.names$ -- 806
+pop$ -- 488
 preamble$ -- 1
-purify$ -- 192
+purify$ -- 460
 quote$ -- 0
-skip$ -- 670
+skip$ -- 1604
 stack$ -- 0
-substring$ -- 1187
-swap$ -- 521
-text.length$ -- 193
+substring$ -- 2999
+swap$ -- 1323
+text.length$ -- 464
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 423
+type$ -- 1026
 warning$ -- 1
-while$ -- 355
+while$ -- 864
 width$ -- 0
-write$ -- 493
-(There were 2 error messages)
+write$ -- 1160
+(There were 26 error messages)

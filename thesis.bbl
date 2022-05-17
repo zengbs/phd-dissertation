@@ -17,10 +17,35 @@
   {mn@eprint@\@tempb}{\@tempb:\@tempc}{\expandafter \expandafter \csname
   mn@eprint@\@tempb\endcsname \expandafter{\@tempc}}}
 
+\bibitem[\protect\citeauthoryear{Ackermann et~al.,}{Ackermann
+  et~al.}{2014}]{Ackermann2014}
+Ackermann M.,  et~al., 2014, \mn@doi [The Astrophysical Journal]
+  {10.1088/0004-637x/793/1/64}, 793, 64
+
+\bibitem[\protect\citeauthoryear{Ade et~al.,}{Ade
+  et~al.}{2013}]{PlanckCollaborationIX2013}
+Ade P. A.~R.,  et~al., 2013, \mn@doi [Astronomy {\&} Astrophysics]
+  {10.1051/0004-6361/201220271}, 554, A139
+
+\bibitem[\protect\citeauthoryear{{Arnaud}}{{Arnaud}}{1996}]{XSPEC}
+{Arnaud} K.~A.,  1996, in {Jacoby} G.~H.,  {Barnes} J.,  eds,  Astronomical
+  Society of the Pacific Conference Series Vol. 101, Astronomical Data Analysis
+  Software and Systems V. p.~17
+
 \bibitem[\protect\citeauthoryear{Asada \& Nakamura}{Asada \&
   Nakamura}{2012}]{Asada2012}
 Asada K.,  Nakamura M.,  2012, \mn@doi [The Astrophysical Journal]
   {10.1088/2041-8205/745/2/l28}, 745, L28
+
+\bibitem[\protect\citeauthoryear{Atwood et~al.,}{Atwood
+  et~al.}{2009}]{Atwood2009}
+Atwood W.~B.,  et~al., 2009, \mn@doi [The Astrophysical Journal]
+  {10.1088/0004-637x/697/2/1071}, 697, 1071
+
+\bibitem[\protect\citeauthoryear{Berkhuijsen, Haslam  \& Salter}{Berkhuijsen
+  et~al.}{1971}]{berkhuijsen1971galactic}
+Berkhuijsen E.~M.,  Haslam C.,   Salter C.,  1971, Astronomy and Astrophysics,
+  14, 252
 
 \bibitem[\protect\citeauthoryear{Blandford \& Payne}{Blandford \&
   Payne}{1982}]{Blandford1982}
@@ -32,11 +57,29 @@ Blandford R.~D.,  Payne D.~G.,  1982, \mn@doi [Monthly Notices of the Royal
 Blandford R.,  Meier D.,   Readhead A.,  2019, \mn@doi [Annual Review of
   Astronomy and Astrophysics] {10.1146/annurev-astro-081817-051948}, 57, 467
 
+\bibitem[\protect\citeauthoryear{Blitz \& Robishaw}{Blitz \&
+  Robishaw}{2000}]{halo-radius-1}
+Blitz L.,  Robishaw T.,  2000, ] {10.1086/309457}, 541, 675
+
+\bibitem[\protect\citeauthoryear{Blumenthal \& Gould}{Blumenthal \&
+  Gould}{1970}]{BLUMENTHAL1970}
+Blumenthal G.~R.,  Gould R.~J.,  1970, \mn@doi [Reviews of Modern Physics]
+  {10.1103/revmodphys.42.237}, 42, 237
+
 \bibitem[\protect\citeauthoryear{Boccardi, Krichbaum, Bach, Mertens, Ros, Alef
   \& Zensus}{Boccardi et~al.}{2015}]{Boccardi2015}
 Boccardi B.,  Krichbaum T.~P.,  Bach U.,  Mertens F.,  Ros E.,  Alef W.,
   Zensus J.~A.,  2015, \mn@doi [A and A] {10.1051/0004-6361/201526985}, 585,
   A33
+
+\bibitem[\protect\citeauthoryear{Carretti et~al.,}{Carretti
+  et~al.}{2013}]{Carretti2013}
+Carretti E.,  et~al., 2013, \mn@doi [Nature] {10.1038/nature11734}, 493, 66
+
+\bibitem[\protect\citeauthoryear{Cecil, Bland-Hawthorn, Veilleux  \&
+  Filippenko}{Cecil et~al.}{2001}]{Cecil2001}
+Cecil G.,  Bland-Hawthorn J.,  Veilleux S.,   Filippenko A.~V.,  2001, \mn@doi
+  [The Astrophysical Journal] {10.1086/321481}, 555, 338
 
 \bibitem[\protect\citeauthoryear{Chiueh}{Chiueh}{1989}]{Chiue-PhysRevLett.63.113}
 Chiueh T.,  1989, \mn@doi [Phys. Rev. Lett.] {10.1103/PhysRevLett.63.113}, 63,
@@ -53,9 +96,64 @@ Chiueh T.,  1989, \mn@doi [Phys. Rev. Lett.] {10.1103/PhysRevLett.63.113}, 63,
 Chiueh T.,  Li Z.-Y.,   Begelman M.~C.,  1998, \mn@doi [The Astrophysical
   Journal] {10.1086/306209}, 505, 835
 
+\bibitem[\protect\citeauthoryear{Crocker}{Crocker}{2012}]{Crocker2012}
+Crocker R.~M.,  2012, \mn@doi [Monthly Notices of the Royal Astronomical
+  Society] {10.1111/j.1365-2966.2012.21149.x}, 423, 3512
+
+\bibitem[\protect\citeauthoryear{Crocker \& Aharonian}{Crocker \&
+  Aharonian}{2011}]{PhysRevLett.106.101102}
+Crocker R.~M.,  Aharonian F.,  2011, \mn@doi [Phys. Rev. Lett.]
+  {10.1103/PhysRevLett.106.101102}, 106, 101102
+
+\bibitem[\protect\citeauthoryear{Crocker, Jones, Melia, Ott  \&
+  Protheroe}{Crocker et~al.}{2010}]{Crocker2010}
+Crocker R.~M.,  Jones D.~I.,  Melia F.,  Ott J.,   Protheroe R.~J.,  2010,
+  \mn@doi [Nature] {10.1038/nature08635}, 463, 65
+
+\bibitem[\protect\citeauthoryear{{Crocker}, {Bicknell}, {Taylor}  \&
+  {Carretti}}{{Crocker} et~al.}{2015}]{Crocker2015}
+{Crocker} R.~M.,  {Bicknell} G.~V.,  {Taylor} A.~M.,   {Carretti} E.,  2015,
+  \mn@doi [\apj] {10.1088/0004-637X/808/2/107}, \href
+  {http://adsabs.harvard.edu/abs/2015ApJ...808..107C} {808, 107}
+
+\bibitem[\protect\citeauthoryear{Dahmén et~al.,}{Dahmén
+  et~al.}{1998}]{Dahmen1998}
+Dahmén G.,  et~al., 1998, http://dx.doi.org/10.1051/aas:1997389
+
+\bibitem[\protect\citeauthoryear{Das, Zucker, Speagle, Goodman, Green  \&
+  Alves}{Das et~al.}{2020}]{Das2020}
+Das K.~K.,  Zucker C.,  Speagle J.~S.,  Goodman A.,  Green G.~M.,   Alves J.,
+  2020, \mn@doi [Monthly Notices of the Royal Astronomical Society]
+  {10.1093/mnras/staa2702}, 498, 5863
+
+\bibitem[\protect\citeauthoryear{Dobler \& Finkbeiner}{Dobler \&
+  Finkbeiner}{2008}]{Dobler_2008}
+Dobler G.,  Finkbeiner D.~P.,  2008, \mn@doi [The Astrophysical Journal]
+  {10.1086/587862}, 680, 1222
+
+\bibitem[\protect\citeauthoryear{Dopita et~al.,}{Dopita
+  et~al.}{2015}]{Dopita2015}
+Dopita M.~A.,  et~al., 2015, \mn@doi [The Astrophysical Journal Supplement
+  Series] {10.1088/0067-0049/217/1/12}, 217, 12
+
 \bibitem[\protect\citeauthoryear{Falle}{Falle}{1991}]{VL1}
 Falle S. A. E.~G.,  1991, \mn@doi [Monthly Notices of the Royal Astronomical
   Society] {10.1093/mnras/250.3.581}, 250, 581
+
+\bibitem[\protect\citeauthoryear{Federrath, Roman-Duval, Klessen, Schmidt  \&
+  Low}{Federrath et~al.}{2010}]{Federrath2010}
+Federrath C.,  Roman-Duval J.,  Klessen R.~S.,  Schmidt W.,   Low M.-M.~M.,
+  2010, \mn@doi [Astronomy and Astrophysics] {10.1051/0004-6361/200912437},
+  512, A81
+
+\bibitem[\protect\citeauthoryear{Ferri{\`{e}}re}{Ferri{\`{e}}re}{2001}]{peak-ism-density}
+Ferri{\`{e}}re K.~M.,  2001, \mn@doi [Rev. Mod. Phys.]
+  {10.1103/revmodphys.73.1031}, 73, 1031
+
+\bibitem[\protect\citeauthoryear{Ferri{\`{e}}re, Gillard  \&
+  Jean}{Ferri{\`{e}}re et~al.}{2007}]{Ferrire2007}
+Ferri{\`{e}}re K.,  Gillard W.,   Jean P.,  2007, \mn@doi [Astronomy and
+  Astrophysics] {10.1051/0004-6361:20066992}, 467, 611
 
 \bibitem[\protect\citeauthoryear{{Fong} et~al.,}{{Fong} et~al.}{2019}]{NM4}
 {Fong} W.,  et~al., 2019, \mn@doi [\apjl] {10.3847/2041-8213/ab3d9e}, \href
@@ -64,6 +162,12 @@ Falle S. A. E.~G.,  1991, \mn@doi [Monthly Notices of the Royal Astronomical
 \bibitem[\protect\citeauthoryear{Fryxell et~al.,}{Fryxell et~al.}{2000}]{FLASH}
 Fryxell B.,  et~al., 2000, \mn@doi [The Astrophysical Journal Supplement
   Series] {10.1086/317361}, 131, 273
+
+\bibitem[\protect\citeauthoryear{Gallimore, Axon, O{\textquotesingle}Dea, Baum
+  \& Pedlar}{Gallimore et~al.}{2006}]{Gallimore2006}
+Gallimore J.~F.,  Axon D.~J.,  O{\textquotesingle}Dea C.~P.,  Baum S.~A.,
+  Pedlar A.,  2006, \mn@doi [The Astronomical Journal] {10.1086/504593}, 132,
+  546
 
 \bibitem[\protect\citeauthoryear{{Ghirlanda} et~al.,}{{Ghirlanda}
   et~al.}{2019}]{NM3}
@@ -84,13 +188,57 @@ Giroletti M.,  et~al., 2004, \mn@doi [The Astrophysical Journal]
 Gourgouliatos K.~N.,  Komissarov S.~S.,  2017, \mn@doi [Nature Astronomy]
   {10.1038/s41550-017-0338-3}, 2, 167
 
+\bibitem[\protect\citeauthoryear{Grcevich \& Putman}{Grcevich \&
+  Putman}{2009}]{halo-radius-2}
+Grcevich J.,  Putman M.~E.,  2009, ] {10.1088/0004-637x/696/1/385}, 696, 385
+
+\bibitem[\protect\citeauthoryear{Guo \& Mathews}{Guo \&
+  Mathews}{2012}]{Guo2012}
+Guo F.,  Mathews W.~G.,  2012, \mn@doi [The Astrophysical Journal]
+  {10.1088/0004-637x/756/2/181}, 756, 181
+
+\bibitem[\protect\citeauthoryear{{Guo}, {Mathews}, {Dobler}  \& {Oh}}{{Guo}
+  et~al.}{2012}]{Guo2012b}
+{Guo} F.,  {Mathews} W.~G.,  {Dobler} G.,   {Oh} S.~P.,  2012, \mn@doi [\apj]
+  {10.1088/0004-637X/756/2/182}, \href
+  {http://adsabs.harvard.edu/abs/2012ApJ...756..182G} {756, 182}
+
+\bibitem[\protect\citeauthoryear{Heywood et~al.,}{Heywood
+  et~al.}{2019}]{Heywood2019}
+Heywood I.,  et~al., 2019, \mn@doi [Nature] {10.1038/s41586-019-1532-5}, 573,
+  235
+
 \bibitem[\protect\citeauthoryear{Higham}{Higham}{2002}]{Nicholas}
 Higham N.~J.,  2002, Accuracy and Stability of Numerical Algorithms, 2nd edn.
 Society for Industrial and Applied Mathematics, USA
 
+\bibitem[\protect\citeauthoryear{Johnston, Spergel  \& Hernquist}{Johnston
+  et~al.}{1995}]{Johnston1995}
+Johnston K.~V.,  Spergel D.~N.,   Hernquist L.,  1995, \mn@doi [The
+  Astrophysical Journal] {10.1086/176247}, 451, 598
+
+\bibitem[\protect\citeauthoryear{Jones}{Jones}{1968}]{Jones1968}
+Jones F.~C.,  1968, \mn@doi [Physical Review] {10.1103/physrev.167.1159}, 167,
+  1159
+
 \bibitem[\protect\citeauthoryear{Jüttner}{Jüttner}{1911}]{Juttner}
 Jüttner F.,  1911, \mn@doi [Annalen der Physik] {10.1002/andp.19113390503},
   339, 856
+
+\bibitem[\protect\citeauthoryear{{Kaastra} \& {Mewe}}{{Kaastra} \&
+  {Mewe}}{1993}]{Xray-2}
+{Kaastra} J.~S.,  {Mewe} R.,  1993, \aaps, \href
+  {https://ui.adsabs.harvard.edu/abs/1993A&AS...97..443K} {97, 443}
+
+\bibitem[\protect\citeauthoryear{Kataoka, Sofue, Inoue, Akita, Nakashima  \&
+  Totani}{Kataoka et~al.}{2018a}]{Kataoka2018}
+Kataoka J.,  Sofue Y.,  Inoue Y.,  Akita M.,  Nakashima S.,   Totani T.,
+  2018a, \mn@doi [Galaxies] {10.3390/galaxies6010027}, 6, 27
+
+\bibitem[\protect\citeauthoryear{Kataoka, Sofue, Inoue, Akita, Nakashima  \&
+  Totani}{Kataoka et~al.}{2018b}]{kataoka2018x}
+Kataoka J.,  Sofue Y.,  Inoue Y.,  Akita M.,  Nakashima S.,   Totani T.,
+  2018b, Galaxies, 6, 27
 
 \bibitem[\protect\citeauthoryear{{Kennel} \& {Coroniti}}{{Kennel} \&
   {Coroniti}}{1984a}]{1984ApJ...283..694K}
@@ -105,17 +253,47 @@ Jüttner F.,  1911, \mn@doi [Annalen der Physik] {10.1002/andp.19113390503},
 \bibitem[\protect\citeauthoryear{Kim et~al.,}{Kim et~al.}{2018}]{Kim2018}
 Kim J.-Y.,  et~al., 2018, A\&A, 616
 
+\bibitem[\protect\citeauthoryear{Krumholz \& Kruijssen}{Krumholz \&
+  Kruijssen}{2015}]{Krumholz2015}
+Krumholz M.~R.,  Kruijssen J. M.~D.,  2015, \mn@doi [Monthly Notices of the
+  Royal Astronomical Society] {10.1093/mnras/stv1670}, 453, 739
+
+\bibitem[\protect\citeauthoryear{LaRocca, Kaaret, Kuntz, Hodges-Kluck, Zajczyk,
+  Bluem, Ringuette  \& Jahoda}{LaRocca et~al.}{2020}]{larocca2020analysis}
+LaRocca D.~M.,  Kaaret P.,  Kuntz K.,  Hodges-Kluck E.,  Zajczyk A.,  Bluem J.,
+   Ringuette R.,   Jahoda K.~M.,  2020, The Astrophysical Journal, 904, 54
+
+\bibitem[\protect\citeauthoryear{Lewis \& Austin}{Lewis \&
+  Austin}{2002}]{LA2002}
+Lewis G.~M.,  Austin P.~H.,  2002, 1th Conference on AtmosphericRadiation
+
 \bibitem[\protect\citeauthoryear{{Li}, {Chiueh}  \& {Begelman}}{{Li}
   et~al.}{1992}]{Chiueh-1992ApJ...394..459L}
 {Li} Z.-Y.,  {Chiueh} T.,   {Begelman} M.~C.,  1992, \mn@doi [\apj]
   {10.1086/171597}, \href
   {https://ui.adsabs.harvard.edu/abs/1992ApJ...394..459L} {394, 459}
 
+\bibitem[\protect\citeauthoryear{{Li}, {Morris}  \& {Baganoff}}{{Li}
+  et~al.}{2013}]{Li}
+{Li} Z.,  {Morris} M.~R.,   {Baganoff} F.~K.,  2013, \mn@doi [\apj]
+  {10.1088/0004-637X/779/2/154}, \href
+  {https://ui.adsabs.harvard.edu/abs/2013ApJ...779..154L} {779, 154}
+
+\bibitem[\protect\citeauthoryear{{Liedahl}, {Osterheld}  \&
+  {Goldstein}}{{Liedahl} et~al.}{1995}]{Xray-3}
+{Liedahl} D.~A.,  {Osterheld} A.~L.,   {Goldstein} W.~H.,  1995, \mn@doi
+  [\apjl] {10.1086/187729}, \href
+  {https://ui.adsabs.harvard.edu/abs/1995ApJ...438L.115L} {438, L115}
+
 \bibitem[\protect\citeauthoryear{Lora-Clavijo, Cruz-Osorio  \&
   Guzm{\'{a}}n}{Lora-Clavijo et~al.}{2015}]{CAFE}
 Lora-Clavijo F.~D.,  Cruz-Osorio A.,   Guzm{\'{a}}n F.~S.,  2015, \mn@doi [The
   Astrophysical Journal Supplement Series] {10.1088/0067-0049/218/2/24}, 218,
   24
+
+\bibitem[\protect\citeauthoryear{Lyutikov}{Lyutikov}{2006}]{Lyutikov2006}
+Lyutikov M.,  2006, \mn@doi [Monthly Notices of the Royal Astronomical Society]
+  {10.1111/j.1365-2966.2006.10069.x}, 367, 1594
 
 \bibitem[\protect\citeauthoryear{Martí \& Müller}{Martí \&
   Müller}{1994}]{Marti1994}
@@ -125,6 +303,22 @@ Martí J.~M.,  Müller E.,  1994, \mn@doi [Journal of Fluid Mechanics]
 \bibitem[\protect\citeauthoryear{{Mathews}}{{Mathews}}{1971}]{TM_EOS}
 {Mathews} W.~G.,  1971, \mn@doi [\apj] {10.1086/150883}, \href
   {https://ui.adsabs.harvard.edu/abs/1971ApJ...165..147M} {165, 147}
+
+\bibitem[\protect\citeauthoryear{Mertsch \& Petrosian}{Mertsch \&
+  Petrosian}{2019}]{Mertsch2019}
+Mertsch P.,  Petrosian V.,  2019, \mn@doi [Astronomy {\&} Astrophysics]
+  {10.1051/0004-6361/201833999}, 622, A203
+
+\bibitem[\protect\citeauthoryear{Mertsch \& Sarkar}{Mertsch \&
+  Sarkar}{2011}]{Mertsch2011}
+Mertsch P.,  Sarkar S.,  2011, \mn@doi [Phys. Rev. Lett.]
+  {10.1103/PhysRevLett.107.091101}, 107, 091101
+
+\bibitem[\protect\citeauthoryear{{Mewe}, {Gronenschild}  \& {van den
+  Oord}}{{Mewe} et~al.}{1985}]{Xray-1}
+{Mewe} R.,  {Gronenschild} E.~H.~B.~M.,   {van den Oord} G.~H.~J.,  1985,
+  \aaps, \href {https://ui.adsabs.harvard.edu/abs/1985A&AS...62..197M} {62,
+  197}
 
 \bibitem[\protect\citeauthoryear{Mignone \& Bodo}{Mignone \&
   Bodo}{2005}]{HLLC_srhydro}
@@ -146,6 +340,16 @@ Mignone A.,  McKinney J.~C.,  2007, \mn@doi [Monthly Notices of the Royal
 Mignone A.,  Plewa T.,   Bodo G.,  2005, \mn@doi [The Astrophysical Journal
   Supplement Series] {10.1086/430905}, 160
 
+\bibitem[\protect\citeauthoryear{Miller \& Bregman}{Miller \&
+  Bregman}{2013}]{Miller_2013}
+Miller M.~J.,  Bregman J.~N.,  2013, \mn@doi [The Astrophysical Journal]
+  {10.1088/0004-637x/770/2/118}, 770, 118
+
+\bibitem[\protect\citeauthoryear{Miller \& Bregman}{Miller \&
+  Bregman}{2016}]{Miller2016}
+Miller M.~J.,  Bregman J.~N.,  2016, \mn@doi [The Astrophysical Journal]
+  {10.3847/0004-637x/829/1/9}, 829, 9
+
 \bibitem[\protect\citeauthoryear{{Mooley} et~al.,}{{Mooley}
   et~al.}{2018a}]{NM1}
 {Mooley} K.~P.,  et~al., 2018a, \mn@doi [\nat] {10.1038/nature25452}, \href
@@ -156,10 +360,27 @@ Mignone A.,  Plewa T.,   Bodo G.,  2005, \mn@doi [The Astrophysical Journal
 {Mooley} K.~P.,  et~al., 2018b, \mn@doi [\nat] {10.1038/s41586-018-0486-3},
   \href {https://ui.adsabs.harvard.edu/abs/2018Natur.561..355M} {561, 355}
 
+\bibitem[\protect\citeauthoryear{Morganti, Oosterloo, Oonk, Frieswijk  \&
+  Tadhunter}{Morganti et~al.}{2015}]{Morganti2015}
+Morganti R.,  Oosterloo T.,  Oonk J. B.~R.,  Frieswijk W.,   Tadhunter C.,
+  2015, \mn@doi [Astronomy {\&} Astrophysics] {10.1051/0004-6361/201525860},
+  580, A1
+
+\bibitem[\protect\citeauthoryear{{Mou}, {Yuan}, {Bu}, {Sun}  \& {Su}}{{Mou}
+  et~al.}{2014}]{Mou2014}
+{Mou} G.,  {Yuan} F.,  {Bu} D.,  {Sun} M.,   {Su} M.,  2014, \mn@doi [\apj]
+  {10.1088/0004-637X/790/2/109}, \href
+  {http://adsabs.harvard.edu/abs/2014ApJ...790..109M} {790, 109}
+
 \bibitem[\protect\citeauthoryear{Nagai et~al.,}{Nagai
   et~al.}{2014}]{Nagai_2014}
 Nagai H.,  et~al., 2014, \mn@doi [The Astrophysical Journal]
   {10.1088/0004-637x/785/1/53}, 785, 53
+
+\bibitem[\protect\citeauthoryear{Narayanan \& Slatyer}{Narayanan \&
+  Slatyer}{2017}]{Narayanan2017}
+Narayanan S.~A.,  Slatyer T.~R.,  2017, \mn@doi [Monthly Notices of the Royal
+  Astronomical Society] {10.1093/mnras/stx577}, 468, 3051
 
 \bibitem[\protect\citeauthoryear{Noble, Gammie, McKinney  \& Zanna}{Noble
   et~al.}{2006}]{Noble_2006}
@@ -171,6 +392,30 @@ Noble S.~C.,  Gammie C.~F.,  McKinney J.~C.,   Zanna L.~D.,  2006, \mn@doi [The
 {N{\'u}{\~n}ez-de la Rosa} J.,  {Munz} C.-D.,  2016, \mn@doi [\mnras]
   {10.1093/mnras/stw999}, \href
   {https://ui.adsabs.harvard.edu/abs/2016MNRAS.460..535N} {460, 535}
+
+\bibitem[\protect\citeauthoryear{Panopoulou, Dickinson, Readhead, Pearson  \&
+  Peel}{Panopoulou et~al.}{2021}]{Panopoulou2021}
+Panopoulou G.~V.,  Dickinson C.,  Readhead A. C.~S.,  Pearson T.~J.,   Peel
+  M.~W.,  2021, \mn@doi [The Astrophysical Journal] {10.3847/1538-4357/ac273f},
+  922, 210
+
+\bibitem[\protect\citeauthoryear{Ponti et~al.,}{Ponti et~al.}{2019}]{Ponti2019}
+Ponti G.,  et~al., 2019, \mn@doi [Nature] {10.1038/s41586-019-1009-6}, 567, 347
+
+\bibitem[\protect\citeauthoryear{Porter, J{\'{o}}hannesson  \&
+  Moskalenko}{Porter et~al.}{2017}]{Porter2017}
+Porter T.~A.,  J{\'{o}}hannesson G.,   Moskalenko I.~V.,  2017, \mn@doi [The
+  Astrophysical Journal] {10.3847/1538-4357/aa844d}, 846, 67
+
+\bibitem[\protect\citeauthoryear{Predehl et~al.,}{Predehl
+  et~al.}{2020}]{Predehl2020}
+Predehl P.,  et~al., 2020, \mn@doi [Nature] {10.1038/s41586-020-2979-0}, 588,
+  227
+
+\bibitem[\protect\citeauthoryear{Predehl et~al.,}{Predehl
+  et~al.}{2021}]{Predehl2021}
+Predehl P.,  et~al., 2021, \mn@doi [Astronomy {\&} Astrophysics]
+  {10.1051/0004-6361/202039313}, 647, A1
 
 \bibitem[\protect\citeauthoryear{Rezzolla \& Zanotti}{Rezzolla \&
   Zanotti}{2018}]{Rezzolla2018}
@@ -187,6 +432,11 @@ Rezzolla L.,  Zanotti O.,   Pons J.~A.,  2001, \mn@doi [Journal of Fluid
 Ryu D.,  Chattopadhyay I.,   Choi E.,  2006, \mn@doi [The Astrophysical Journal
   Supplement Series] {10.1086/505937}, 166, 410
 
+\bibitem[\protect\citeauthoryear{Sarkar, Nath  \& Sharma}{Sarkar
+  et~al.}{2015}]{Sarkar2015}
+Sarkar K.~C.,  Nath B.~B.,   Sharma P.,  2015, \mn@doi [Monthly Notices of the
+  Royal Astronomical Society] {10.1093/mnras/stv1806}, 453, 3828
+
 \bibitem[\protect\citeauthoryear{Schive, Tsai  \& Chiueh}{Schive
   et~al.}{2010}]{gamer-1}
 Schive H.-Y.,  Tsai Y.-C.,   Chiueh T.,  2010, \mn@doi [The Astrophysical
@@ -198,14 +448,43 @@ Schive H.-Y.,  ZuHone J.~A.,  Goldbaum N.~J.,  Turk M.~J.,  Gaspari M.,   Cheng
   C.-Y.,  2018, \mn@doi [Monthly Notices of the Royal Astronomical Society]
   {10.1093/mnras/sty2586}, 481, 4815
 
+\bibitem[\protect\citeauthoryear{Selig, Vacca, Oppermann  \& En{\ss}lin}{Selig
+  et~al.}{2015}]{Selig2015}
+Selig M.,  Vacca V.,  Oppermann N.,   En{\ss}lin T.~A.,  2015, \mn@doi
+  [Astronomy {\&} Astrophysics] {10.1051/0004-6361/201425172}, 581, A126
+
 \bibitem[\protect\citeauthoryear{Sod}{Sod}{1978}]{SOD1978}
 Sod G.~A.,  1978, \mn@doi [Journal of Computational Physics]
   {https://doi.org/10.1016/0021-9991(78)90023-2}, 27, 1
+
+\bibitem[\protect\citeauthoryear{Sofue}{Sofue}{2000}]{sofue2000bipolar}
+Sofue Y.,  2000, The Astrophysical Journal, 540, 224
+
+\bibitem[\protect\citeauthoryear{Sormani \& Barnes}{Sormani \&
+  Barnes}{2019}]{Sormani2019}
+Sormani M.~C.,  Barnes A.~T.,  2019, \mn@doi [Monthly Notices of the Royal
+  Astronomical Society] {10.1093/mnras/stz046}, 484, 1213
 
 \bibitem[\protect\citeauthoryear{Stone, Tomida, White  \& Felker}{Stone
   et~al.}{2020}]{Stone2020}
 Stone J.~M.,  Tomida K.,  White C.~J.,   Felker K.~G.,  2020, \mn@doi [The
   Astrophysical Journal Supplement Series] {10.3847/1538-4365/ab929b}, 249, 4
+
+\bibitem[\protect\citeauthoryear{Strong, Moskalenko  \& Ptuskin}{Strong
+  et~al.}{2007}]{Strong2007}
+Strong A.~W.,  Moskalenko I.~V.,   Ptuskin V.~S.,  2007, \mn@doi [Annual Review
+  of Nuclear and Particle Science] {10.1146/annurev.nucl.57.090506.123011}, 57,
+  285
+
+\bibitem[\protect\citeauthoryear{Su \& Finkbeiner}{Su \&
+  Finkbeiner}{2012}]{Su2012}
+Su M.,  Finkbeiner D.~P.,  2012, \mn@doi [The Astrophysical Journal]
+  {10.1088/0004-637x/753/1/61}, 753, 61
+
+\bibitem[\protect\citeauthoryear{Su, Slatyer  \& Finkbeiner}{Su
+  et~al.}{2010}]{Su2010}
+Su M.,  Slatyer T.~R.,   Finkbeiner D.~P.,  2010, \mn@doi [The Astrophysical
+  Journal] {10.1088/0004-637x/724/2/1044}, 724, 1044
 
 \bibitem[\protect\citeauthoryear{Synge}{Synge}{1957}]{Synge}
 Synge J.~L.,  1957, North-Holland Pub. Co.; Interscience Publishers
@@ -214,10 +493,20 @@ Synge J.~L.,  1957, North-Holland Pub. Co.; Interscience Publishers
 {Taub} A.~H.,  1948, \mn@doi [Physical Review] {10.1103/PhysRev.74.328}, \href
   {https://ui.adsabs.harvard.edu/abs/1948PhRv...74..328T} {74, 328}
 
+\bibitem[\protect\citeauthoryear{Tepper-Garc{\'{\i}}a, Bland-Hawthorn  \&
+  Sutherland}{Tepper-Garc{\'{\i}}a et~al.}{2015}]{temperature-MW}
+Tepper-Garc{\'{\i}}a T.,  Bland-Hawthorn J.,   Sutherland R.~S.,  2015, \mn@doi
+  [The Astrophysical Journal] {10.1088/0004-637x/813/2/94}, 813, 94
+
 \bibitem[\protect\citeauthoryear{Toro}{Toro}{2011}]{Toro}
 Toro E.~F.,  2011, Riemann solvers and numerical methods for fluid dynamics : a
   practical introduction.
 Springer, Berlin
+
+\bibitem[\protect\citeauthoryear{Tseng, Schive  \& Chiueh}{Tseng
+  et~al.}{2021}]{tseng2021}
+Tseng P.-H.,  Schive H.-Y.,   Chiueh T.,  2021, \mn@doi [Monthly Notices of the
+  Royal Astronomical Society] {10.1093/mnras/stab1006}, 504, 3298
 
 \bibitem[\protect\citeauthoryear{{Turk}, {Smith}, {Oishi}, {Skory}, {Skillman},
   {Abel}  \& {Norman}}{{Turk} et~al.}{2011}]{YT}
@@ -225,6 +514,16 @@ Springer, Berlin
   {Abel} T.,   {Norman} M.~L.,  2011, \mn@doi [The Astrophysical Journal
   Supplement Series] {10.1088/0067-0049/192/1/9}, \href
   {https://ui.adsabs.harvard.edu/abs/2011ApJS..192....9T} {192, 9}
+
+\bibitem[\protect\citeauthoryear{Valenti et~al.,}{Valenti
+  et~al.}{2018}]{velocity-dispersion-MW}
+Valenti E.,  et~al., 2018, \mn@doi [\aaps] {10.1051/0004-6361/201832905}, 616,
+  A83
+
+\bibitem[\protect\citeauthoryear{Wagner, Bicknell  \& Umemura}{Wagner
+  et~al.}{2012}]{Wagner2012}
+Wagner A.~Y.,  Bicknell G.~V.,   Umemura M.,  2012, \mn@doi [The Astrophysical
+  Journal] {10.1088/0004-637x/757/2/136}, 757, 136
 
 \bibitem[\protect\citeauthoryear{Woodward \& Colella}{Woodward \&
   Colella}{1984}]{Woodward1984}
@@ -239,6 +538,40 @@ Woodward P.,  Colella P.,  1984, \mn@doi [Journal of Computational Physics]
   Ruszkowski}{2017}]{Yang2017}
 Yang H.-Y.~K.,  Ruszkowski M.,  2017, \mn@doi [The Astrophysical Journal]
   {10.3847/1538-4357/aa9434}, 850, 2
+
+\bibitem[\protect\citeauthoryear{Yang, Ruszkowski, Ricker, Zweibel  \&
+  Lee}{Yang et~al.}{2012}]{Yang2012}
+Yang H.-Y.~K.,  Ruszkowski M.,  Ricker P.~M.,  Zweibel E.,   Lee D.,  2012,
+  \mn@doi [The Astrophysical Journal] {10.1088/0004-637x/761/2/185}, 761, 185
+
+\bibitem[\protect\citeauthoryear{Yang, Ruszkowski  \& Zweibel}{Yang
+  et~al.}{2013}]{Yang2013}
+Yang H.-Y.~K.,  Ruszkowski M.,   Zweibel E.,  2013, \mn@doi [Monthly Notices of
+  the Royal Astronomical Society] {10.1093/mnras/stt1772}, 436, 2734
+
+\bibitem[\protect\citeauthoryear{Yang, Ruszkowski  \& Zweibel}{Yang
+  et~al.}{2018}]{Yang2018}
+Yang H.-Y.,  Ruszkowski M.,   Zweibel E.,  2018, \mn@doi [Galaxies]
+  {10.3390/galaxies6010029}, 6, 29
+
+\bibitem[\protect\citeauthoryear{Yang, Ruszkowski  \& Zweibel}{Yang
+  et~al.}{2022}]{Yang2022}
+Yang H.-Y.~K.,  Ruszkowski M.,   Zweibel E.~G.,  2022, \mn@doi [Nature
+  Astronomy] {10.1038/s41550-022-01618-x}
+
+\bibitem[\protect\citeauthoryear{Zhang \& Guo}{Zhang \& Guo}{2020}]{Zhang2020}
+Zhang R.,  Guo F.,  2020, \mn@doi [The Astrophysical Journal]
+  {10.3847/1538-4357/ab8bd0}, 894, 117
+
+\bibitem[\protect\citeauthoryear{{Zhu}, {Li}, {Morris}, {Zhang}  \&
+  {Liu}}{{Zhu} et~al.}{2019}]{Zhu}
+{Zhu} Z.,  {Li} Z.,  {Morris} M.~R.,  {Zhang} S.,   {Liu} S.,  2019, \mn@doi
+  [\apj] {10.3847/1538-4357/ab0e05}, \href
+  {https://ui.adsabs.harvard.edu/abs/2019ApJ...875...44Z} {875, 44}
+
+\bibitem[\protect\citeauthoryear{{Zweibel}}{{Zweibel}}{2013}]{Zweibel2013}
+{Zweibel} E.~G.,  2013, \mn@doi [Physics of Plasmas] {10.1063/1.4807033}, \href
+  {http://adsabs.harvard.edu/abs/2013PhPl...20e5501Z} {20, 055501}
 
 \bibitem[\protect\citeauthoryear{van Leer}{van Leer}{1979}]{van_Leer_1979}
 van Leer B.,  1979, \mn@doi [Journal of Computational Physics]

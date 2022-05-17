@@ -1,0 +1,67 @@
+\chapter{Appendix for part 2}
+\label{c:appendix-2}
+
+%\section{jets parameter variations}
+
+It is instructive to compare the simulation results (Fig. \ref{fig__slice-compare})\
+using exactly same parameters\
+except for the density ($\rho$), temperature ($k_{B}T$),\
+and four-velocity ($\beta\gamma$) within the jet source.\
+The parameters of jet source, including the fiducial run (C),\
+covered in this appendix are given in Table \ref{tablb-jet-parameters}.
+
+We observe that either higher density (F$\rightarrow$C$\rightarrow$E)\
+or higher velocity (G$\rightarrow$C$\rightarrow$A) of the source\
+can enhance the intensity of the shocks driven into the atmosphere,\
+and makes the post-shock region hotter,\
+as well as leads the bubbles to be more asymmetric about the GC.
+This is because the denser/faster jets are more likely to\
+break through the thin disk in a short time, so that\
+the jets have insufficient time to interact with the disk to change their orientations and then be vertically elongated by the stratified atmosphere.
+
+Finally, we find that increasing the source temperature (B$\rightarrow$C$\rightarrow$D)\
+not only improves the symmetry of the bubbles but also increases the temperature
+inside the bubbles at the present time. This result implies that a high-temperature source
+helps the jets ablate the clumpy dense gas away and pours into the atmosphere
+through the intercloud channels of the clumpy disk. In contrast,
+if source temperature is not high enough,
+the jets cannot effectively ablate the high-density clouds within 12 Myr,
+resulting in the formation of asymmetric bubbles (case B).
+
+
+\begin{table*}
+\raggedright
+\caption{The list of runs showing different injected jet parameters.\
+         The fiducial run (C) has been pointed out by an asterisk in the list. }
+\label{tablb-jet-parameters}
+\begin{tabular}{@{}llllllll@{}}
+\toprule[1pt]\midrule[0.3pt]
+                  & A          & B          & C*         & D           & E          & F          & G          \\ \midrule
+$k_{B}T$ (MeV)    & 1.720      & 0.034      & 1.720      & 86.100      & 1.720      & 1.720      & 1.720      \\
+$\rho$ (g/cm$^3$) & $10^{-26}$ & $10^{-26}$ & $10^{-26}$ & $10^{-26}$  & $10^{-25}$ & $10^{-27}$ & $10^{-26}$ \\
+$\beta\gamma$     & 1.20       & 0.60       & 0.60       & 0.60        & 0.60       & 0.60       & 0.3        \\ \midrule
+\end{tabular}
+\end{table*}
+
+%  A    G
+% 1.4 0.28
+
+%\begin{figure*}
+%  \includegraphics[width=\textwidth]{bble-figures/fig__jet_parameters.png}
+%  \caption
+%   {
+%    Jets parameters variation around the fiducial run:\
+%    $\beta\gamma=1.2$ (left), $\beta\gamma=0.6$ (middle), and $\beta\gamma=0.3$ (right).
+%   }
+%  \label{fig__jet_parameters}
+%\end{figure*}
+
+\begin{figure*}
+  \includegraphics[width=\textwidth]{bble-figures/fig__slice-compare.png}
+  \caption
+   {
+    Simulation results based on the jets parameters in Table. \ref{tablb-jet-parameters}.
+   }
+  \label{fig__slice-compare}
+\end{figure*}
+
