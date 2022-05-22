@@ -33,9 +33,9 @@ endif
 TEXFLAG+="\input{$(MAIN)}"
 
 $(MAIN).pdf: *.tex ntuthesis.cls
-ifdef WATERMARK
-	./download.sh $(NTU_WATERMARK_LINK) watermark.pdf
-endif
+#ifdef WATERMARK
+#	./download.sh $(NTU_WATERMARK_LINK) watermark.pdf
+#endif
 	$(LATEX) -interaction=nonstopmode -shell-escape $(MAIN)
 	$(BIBTEX) $(MAIN)
 	$(LATEX) -interaction=nonstopmode -shell-escape $(MAIN)
@@ -47,7 +47,7 @@ $(MAIN)-with-pass.pdf: $(MAIN).pdf
 endif
 
 clean:
-	$(RM) *.log *.aux *.dvi *.lof *.lot *.toc *.bbl *.blg *.pdf *.out
+	$(RM) *.log *.aux *.dvi *.lof *.lot *.toc *.bbl *.blg  *.out
 
 clean-pdf:
 	$(RM) -f $(MAIN).pdf $(MAIN)-with-pass.pdf

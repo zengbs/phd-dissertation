@@ -1,4 +1,4 @@
-rm -rf *.aux *.bbl *.blg *.log *.out *.pdf *.lof *.lot *.xwm
+rm -rf *.aux *.bbl *.blg *.log *.out  *.lof *.lot *.xwm
 
 SRC=thesis.tex
 
@@ -11,3 +11,7 @@ xelatex  -interaction=nonstopmode  -shell-escape ${filename}.tex
 bibtex    ${filename}.aux
 xelatex  -interaction=nonstopmode  -shell-escape ${filename}.tex
 xelatex  -interaction=nonstopmode  -shell-escape ${filename}.tex
+
+pdftk thesis.pdf background watermark.pdf output output.pdf
+mv output.pdf thesis.pdf
+pdftk thesis.pdf cat 9-10 output abstract.pdf

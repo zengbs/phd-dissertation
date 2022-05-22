@@ -29,10 +29,11 @@
 
 \ifdefined\firstpage
 
+  \def\withwatermark{1}
   \ifdefined\withwatermark
     \newsavebox\mybox
     \savebox\mybox{\tikz[opacity=0.5]\node{\includegraphics{watermark.pdf}};}
-    \newwatermark*[allpages,xpos=6.1725cm,ypos=10.5225cm,scale=0.5]{\usebox\mybox}
+    \newwatermark[allpages,xpos=6.1725cm,ypos=10.5225cm,scale=0.5]{\usebox\mybox}
   \fi
 
   % digital object identifier
@@ -63,10 +64,11 @@
 
 \ifdefined\excludefirstpage
 
+  \def\withwatermark{1}
   \ifdefined\withwatermark
     \newsavebox\mybox
     \savebox\mybox{\tikz[opacity=0.5]\node{\includegraphics{watermark.pdf}};}
-    \newwatermark*[allpages,xpos=6.1725cm,ypos=10.5225cm,scale=0.5]{\usebox\mybox}
+    \newwatermark[allpages,xpos=6.1725cm,ypos=10.5225cm,scale=0.5]{\usebox\mybox}
   \fi
 
   % digital object identifier

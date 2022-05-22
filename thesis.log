@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.11.4)  22 MAY 2022 09:40
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.11.4)  22 MAY 2022 13:28
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1208,11 +1208,18 @@ tex-text;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
 
-(./ntuvars.tex)
+(./ntuvars.tex
+! Too many }'s.
+l.13 \institute{College of Science}{天文物理所}}
+                                           
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+)
 ! Extra \endgroup.
 \document ->\endgroup 
                       \let \BeforeStartOfDocument \@firstofone \cpt@beforest...
-l.58 \begin{document}
+l.59 \begin{document}
                      
 Things are pretty mixed up, but I think the worst is over.
 
@@ -1238,53 +1245,53 @@ LaTeX Warning: Label `E evoltion@cref' multiply defined.
 )
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 58.
+LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 59.
 LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line
- 58.
+ 59.
  (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/omlntxmi.fd
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 59.
 LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 
-58.
+59.
 
 (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 59.
 LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line
- 58.
+ 59.
 
 (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 59.
 LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input lin
-e 58.
+e 59.
 
 (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    ... okay on input line 59.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1329,7 +1336,7 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
 
 )
-Package hyperref Info: Link coloring OFF on input line 58.
+Package hyperref Info: Link coloring OFF on input line 59.
 
 (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -1343,9 +1350,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count366
 )
-LaTeX Info: Redefining \ref on input line 58.
-LaTeX Info: Redefining \pageref on input line 58.
-LaTeX Info: Redefining \nameref on input line 58.
+LaTeX Info: Redefining \ref on input line 59.
+LaTeX Info: Redefining \pageref on input line 59.
+LaTeX Info: Redefining \nameref on input line 59.
  (./thesis.out) (./thesis.out)
 \@outlinefile=\write5
 \openout5 = `thesis.out'.
@@ -1353,50 +1360,50 @@ LaTeX Info: Redefining \nameref on input line 58.
 \c@mv@tabular=\count367
 \c@mv@boldtabular=\count368
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 18.0pt on input line 62.
+(Font)              scaled to size 18.0pt on input line 63.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 14.0pt on input line 62.
+(Font)              scaled to size 14.0pt on input line 63.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 16.0pt on input line 62.
-LaTeX Font Info:    Calculating math sizes for size <18> on input line 62.
+(Font)              scaled to size 16.0pt on input line 63.
+LaTeX Font Info:    Calculating math sizes for size <18> on input line 63.
 LaTeX Font Info:    Trying to load font information for OT1+ntxtlf on input lin
-e 62.
+e 63.
 
 (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/ot1ntxtlf.fd
 File: ot1ntxtlf.fd 2021/05/24 v1.0 font definition file for OT1/ntx/tlf
 )
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 18.0pt on input line 62.
+(Font)              scaled to size 18.0pt on input line 63.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 13.13992pt on input line 62.
+(Font)              scaled to size 13.13992pt on input line 63.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 9.90005pt on input line 62.
+(Font)              scaled to size 9.90005pt on input line 63.
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 6
-2.
+3.
 
 (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <18> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 62.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 63.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <13.13992> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 62.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 63.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9.90005> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 62.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 63.
 LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 
-62.
+63.
 
 (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/untxmia.fd
 File: untxmia.fd 2018/04/14 Fontinst v1.933 font definitions for U/ntxmia.
 )
 LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 
-62.
+63.
 
 (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/untxsym.fd
 File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
 )
 LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 
-62.
+63.
 
 (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
@@ -1409,65 +1416,97 @@ File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 
 ]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 24.0pt on input line 78.
+(Font)              scaled to size 24.0pt on input line 80.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 20.0pt on input line 78.
+(Font)              scaled to size 20.0pt on input line 80.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 15.0pt on input line 78.
-LaTeX Font Info:    Calculating math sizes for size <15> on input line 78.
+(Font)              scaled to size 15.0pt on input line 80.
+LaTeX Font Info:    Calculating math sizes for size <15> on input line 80.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 15.0pt on input line 78.
+(Font)              scaled to size 15.0pt on input line 80.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.94994pt on input line 78.
+(Font)              scaled to size 10.94994pt on input line 80.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.25005pt on input line 78.
+(Font)              scaled to size 8.25005pt on input line 80.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <15> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 78.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 80.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.94994> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 78.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 80.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8.25005> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 78.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 80.
 
-Overfull \hbox (31.11316pt too wide) in paragraph at lines 78--78
+Overfull \hbox (31.11316pt too wide) in paragraph at lines 80--80
  [] 
  []
 
-[3] (./acknowledgements.tex [4]
+(./acknowledgements.tex [3] [4
+
+]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 24.88pt on input line 1.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 24.88pt on input line 1.
- [5
-
+) (./abstract.tex [5
 
 ] [6
 
-]) (./abstract.tex [7
+]
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 12.0pt on input line 5.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 8.8pt on input line 5.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 6.6pt on input line 5.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8.8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6.6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
 
-] [8
+! Undefined control sequence.
+l.13 上方和下方幾乎對稱地延伸約 $50^\degree
+                              $。最近發現更巨大的義羅西塔氣泡也顯示對於 GC 的這種對稱性，
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing { inserted.
+<to be read again> 
+                   $
+l.13 上方和下方幾乎對稱地延伸約 $50^\degree$
+                               。最近發現更巨大的義羅西塔氣泡也顯示對於 GC 的這種對稱性，
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.13 上方和下方幾乎對稱地延伸約 $50^\degree$
+                               。最近發現更巨大的義羅西塔氣泡也顯示對於 GC 的這種對稱性，
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Missing character: There is no ≤ ("2264) in font ntx-Regular-tlf-t1!
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7
 
 ]
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 12.0pt on input line 20.
- [9
-
-] [10
-
-]
-LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 29.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.8pt on input line 29.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.6pt on input line 29.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 29.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8.8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 29.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6.6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 29.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
 (Font)              scaled to size 12.0pt on input line 31.
+
+[8]
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
+(Font)              scaled to size 12.0pt on input line 42.
 
 
 Package xeCJK Warning: Unknown CJK family `\CJKttdefault' is being ignored.
@@ -1475,89 +1514,98 @@ Package xeCJK Warning: Unknown CJK family `\CJKttdefault' is being ignored.
 (xeCJK)                Try to use `\setCJKmonofont[...]{...}' to define it.
 
 LaTeX Font Info:    Trying to load font information for T1+ntxtt on input line 
-31.
+42.
 (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/t1ntxtt.fd
 File: t1ntxtt.fd 2012/04/20 v3.1
 )
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 12.0pt on input line 31.
+(Font)              scaled to size 12.0pt on input line 42.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 12.0pt on input line 39.
+(Font)              scaled to size 12.0pt on input line 50.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [11
+ [9
+
 
 ])
-[12] (./thesis.toc [13
+[10] (./thesis.toc [11
 
 ]
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/it' will be
 (Font)              scaled to size 12.0pt on input line 32.
- [14])
+ [12])
 \tf@toc=\write6
 \openout6 = `thesis.toc'.
 
- [15] [16
+ [13] [14
 
 ] (./thesis.lof
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.8pt on input line 3.
+(Font)              scaled to size 8.8pt on input line 4.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.6pt on input line 3.
+(Font)              scaled to size 6.6pt on input line 4.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [17]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [18]
+LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
+(Font)              scaled to size 12.0pt on input line 27.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
+(Font)              scaled to size 8.8pt on input line 27.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
+(Font)              scaled to size 6.6pt on input line 27.
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [19]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [20]
-LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 12.0pt on input line 26.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 8.8pt on input line 26.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 6.6pt on input line 26.
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [21]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [22]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [23])
+ [21])
 \tf@lof=\write7
 \openout7 = `thesis.lof'.
 
 
-[24] (./thesis.lot)
+[22] (./thesis.lot)
 \tf@lot=\write8
 \openout8 = `thesis.lot'.
 
- [25
+ [23
 
-] [26
+] [24
 
 ] (./introduction.tex
 Chapter 1.
 [1
 
-]) (./part-1.tex [2]) (./srhd-special-relativistic-hydrodynamics.tex [3
+]) (./part-1.tex [2] [3
 
 
-]
-[4
+] [4
 
 ]
 Chapter 2.
+
+Overfull \hbox (3.94014pt too wide) in paragraph at lines 3--4
+\T1/ntxtlf/m/n/24.88 SPECIAL REL-A-TIVIS-TIC HY-DRO-
+ []
+
+) (./srhd-special-relativistic-hydrodynamics.tex [5] [6
+
+]
+Chapter 3.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 17.28pt on input line 4.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
@@ -1565,11 +1613,11 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5]
+ [7]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [6]
-[7]
+ [8]
+[9]
 ! Undefined control sequence.
 <recently read> \abs 
                      
@@ -1663,8 +1711,8 @@ and I'll forget about whatever was undefined.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [8]
-[9]
+ [10]
+[11]
 ! Undefined control sequence.
 <argument> \abs 
                 {\mathbf {M}}
@@ -1701,7 +1749,7 @@ and I'll forget about whatever was undefined.
 
 Underfull \vbox (badness 7649) has occurred while \output is active []
 
- [10]
+ [12]
 ! Undefined control sequence.
 l.167 ...de{E}/Dc^2\right)\right]$ and $\left(\abs
                                                   {\mathbf{M}}/Dc\right)^2$ ...
@@ -1802,7 +1850,7 @@ My plan is to forget the whole thing and hope for the best.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [11]
+ [13]
 File: srhd-figures/ErrorDistributionImproved.png Graphic file (type bmp)
 <srhd-figures/ErrorDistributionImproved.png>
 
@@ -1847,11 +1895,11 @@ File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
 (Font)              scaled to size 12.0pt on input line 208.
 
-[12] [13]) (./srhd-numerical-methods.tex [14]
-Chapter 3.
-[15
+[14] [15]) (./srhd-numerical-methods.tex [16]
+Chapter 4.
+[17
 
-] [16]
+] [18]
 ! Undefined control sequence.
 <recently read> \abs 
                      
@@ -1904,7 +1952,7 @@ and I'll forget about whatever was undefined.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [17]
+ [19]
 ! Undefined control sequence.
 <argument> \abs 
                 {v_x}+\abs {v_y}+\abs {v_z}+3c_s
@@ -1949,10 +1997,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[18]) (./srhd-test-problems.tex [19] [20
+[20]) (./srhd-test-problems.tex [21] [22
 
 ]
-Chapter 4.
+Chapter 5.
 ! Undefined control sequence.
 l.80 L1(Q)=\frac{1}{N}\sum^{N}_{i=1}\abs
                                         {1-\frac{Q_{\text{numerical}}\left(\...
@@ -1962,7 +2010,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[21]
+[23]
 ! Undefined control sequence.
 l.92 ...cellation between $(E/Dc^2)^2$ and $[(\abs
                                                   {\mathbf{M}}/Dc)^2+1]$ lea...
@@ -1983,14 +2031,14 @@ and I'll forget about whatever was undefined.
 
 File: srhd-figures/fig__convergence.pdf Graphic file (type pdf)
 <use srhd-figures/fig__convergence.pdf>
-[22] [23]
+[24] [25]
 Overfull \hbox (11.27263pt too wide) in paragraph at lines 110--116
 [][] 
  []
 
 File: srhd-figures/HeadCollision.pdf Graphic file (type pdf)
 <use srhd-figures/HeadCollision.pdf>
-[24] [25]
+[26] [27]
 File: srhd-figures/RiemannProbs.png Graphic file (type bmp)
 <srhd-figures/RiemannProbs.png>
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
@@ -2027,8 +2075,8 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [26]
-[27]
+ [28]
+[29]
 ! Undefined control sequence.
 <recently read> \abs 
                      
@@ -2081,7 +2129,7 @@ and I'll forget about whatever was undefined.
 
 Underfull \vbox (badness 4673) has occurred while \output is active []
 
- [28]
+ [30]
 File: srhd-figures/fig__HorizontalFlowLow.png Graphic file (type bmp)
 <srhd-figures/fig__HorizontalFlowLow.png>
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
@@ -2095,17 +2143,17 @@ File: srhd-figures/fig__DiagonalFlowHig.png Graphic file (type bmp)
 File: srhd-figures/fig__HorizontalFlowHigZoomIn.png Graphic file (type bmp)
 <srhd-figures/fig__HorizontalFlowHigZoomIn.png>
 )
-(./srhd-performance-scaling.tex [29] [30] [31] [32
+(./srhd-performance-scaling.tex [31] [32] [33] [34
 
 ]
-Chapter 5.
+Chapter 6.
 
 Overfull \hbox (35.15826pt too wide) in paragraph at lines 3--5
 \T1/ntxtlf/m/n/12 We mea-sure both strong and weak scal-ings of $[]$ with AMR a
 nd hy-brid MPI/OpenMP/GPU
  []
 
-[33]
+[35]
 File: srhd-figures/fig__weak_scaling.pdf Graphic file (type pdf)
 <use srhd-figures/fig__weak_scaling.pdf>
 File: srhd-figures/fig__benchmark_strongscaling.pdf Graphic file (type pdf)
@@ -2113,20 +2161,20 @@ File: srhd-figures/fig__benchmark_strongscaling.pdf Graphic file (type pdf)
 
 Underfull \vbox (badness 7777) has occurred while \output is active []
 
- [34]
+ [36]
 File: srhd-figures/fig__benchmark_weakscaling.pdf Graphic file (type pdf)
 <use srhd-figures/fig__benchmark_weakscaling.pdf>
 )
-(./srhd-astrophysical-applications.tex [35] [36]
-Chapter 6.
-[37
+(./srhd-astrophysical-applications.tex [37] [38]
+Chapter 7.
+[39
 
 ]
 File: srhd-figures/ProfileSliceLowRes.png Graphic file (type bmp)
 <srhd-figures/ProfileSliceLowRes.png>
 File: srhd-figures/fig__AxesRatio.pdf Graphic file (type pdf)
 <use srhd-figures/fig__AxesRatio.pdf>
- [38] [39]
+ [40] [41]
 ! Undefined control sequence.
 <recently read> \abs 
                      
@@ -2152,16 +2200,16 @@ and I'll forget about whatever was undefined.
 
 Underfull \vbox (badness 1496) has occurred while \output is active []
 
- [40]
+ [42]
 File: srhd-figures/JetAccLowRes.png Graphic file (type bmp)
 <srhd-figures/JetAccLowRes.png>
 )
-(./srhd-conclusion-part-1.tex [41] [42]
-Chapter 7.
-[43
-
-]) (./srhd-appendix.tex [44]
+(./srhd-conclusion-part-1.tex [43] [44]
 Chapter 8.
+[45
+
+]) (./srhd-appendix.tex [46]
+Chapter 9.
 ! Undefined control sequence.
 <argument> \abs 
                 {\mathbf {M}}
@@ -2209,7 +2257,7 @@ and I'll forget about whatever was undefined.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [45
+ [47
 
 ]
 ! Undefined control sequence.
@@ -2439,7 +2487,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[46] [47]
+[48] [49]
 File: srhd-figures/ErrorMap3.pdf Graphic file (type pdf)
 <use srhd-figures/ErrorMap3.pdf>
 
@@ -2542,10 +2590,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[48] [49]
+[50] [51]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [50]
+ [52]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 142.
@@ -2572,33 +2620,36 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5.5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 147.
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
 (Font)              scaled to size 8.0pt on input line 150.
-) (./part-2.tex [51] [52]
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 24.88pt on input line 2.
-) (./bble-brief-review-of-bubbles.tex [53
+) (./part-2.tex [53] [54] [55
 
 
-] [54
+] [56
 
 ]
-Chapter 9.
-LaTeX Font Info:    Font shape `T1/ntxtlf/b/it' will be
-(Font)              scaled to size 24.88pt on input line 1.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [55])
-(./bble-methodology.tex [56]
 Chapter 10.
-[57
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/it' will be
+(Font)              scaled to size 24.88pt on input line 2.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
+(Font)              scaled to size 24.88pt on input line 3.
+) (./bble-brief-review-of-bubbles.tex [57] [58
+
+]
+Chapter 11.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [59])
+(./bble-methodology.tex [60]
+Chapter 12.
+[61
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [58]
+ [62]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [59]
+ [63]
 File: bble-figures/fig__initial-density-profile.png Graphic file (type bmp)
 <bble-figures/fig__initial-density-profile.png>
 LaTeX Font Info:    Trying to load font information for T1+ntxsups on input lin
@@ -2633,8 +2684,8 @@ d on input line 165.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [60]
-[61]
+ [64]
+[65]
 File: bble-figures/fig__numberDensityHistogram.png Graphic file (type bmp)
 <bble-figures/fig__numberDensityHistogram.png>
 File: bble-figures/fig__zoom-in-disc.png Graphic file (type bmp)
@@ -2731,15 +2782,15 @@ or  <return>  to continue without it.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [62]
-[63] [64]) (./bble-result.tex [65] [66
+ [66]
+[67] [68]) (./bble-result.tex [69] [70
 
 ]
-Chapter 11.
-[67]
+Chapter 13.
+[71]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [68]
+ [72]
 File: bble-figures/fig__jetI5+ismSeed3-45deg-a.png Graphic file (type bmp)
 <bble-figures/fig__jetI5+ismSeed3-45deg-a.png>
 File: bble-figures/fig__jetI5+ismSeed3-45deg-b.png Graphic file (type bmp)
@@ -2755,24 +2806,34 @@ File: bble-figures/fig__profile-2.png Graphic file (type bmp)
 File: bble-figures/fig__innerbubbles.png Graphic file (type bmp)
 <bble-figures/fig__innerbubbles.png>
 
-[69] [70] [71]
+[73] [74] [75]
 Underfull \vbox (badness 6032) has occurred while \output is active []
 
- [72]
+ [76]
 File: bble-figures/fig__xraymap.png Graphic file (type bmp)
 <bble-figures/fig__xraymap.png>
 File: bble-figures/fig__xray-profile-0.8keV-000.png Graphic file (type bmp)
 <bble-figures/fig__xray-profile-0.8keV-000.png>
 
+Overfull \hbox (9.0pt too wide) in paragraph at lines 233--244
+ [][] 
+ []
+
+
+Overfull \hbox (9.0pt too wide) in paragraph at lines 233--244
+ [][] 
+ []
+
+
 Underfull \vbox (badness 3623) has occurred while \output is active []
 
- [73]
-[74]
+ [77]
+[78]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [75]
-[76]
-Overfull \hbox (2.78383pt too wide) in paragraph at lines 379--383
+ [79]
+[80]
+Overfull \hbox (2.78383pt too wide) in paragraph at lines 349--353
 []\T1/ntxtlf/m/n/12 Finally, the good agree-ment be-tween the sim-u-lated and o
 b-served gamma-ray/microwave
  []
@@ -2782,28 +2843,28 @@ File: bble-figures/fig__spectrum.png Graphic file (type bmp)
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [77]
-[78]
+ [81]
+[82]
 File: bble-figures/fig__GammaRay_100e9_1e6_angle_000.png Graphic file (type bmp
 )
 <bble-figures/fig__GammaRay_100e9_1e6_angle_000.png>
 File: bble-figures/fig__jetI5+ismSeed3-45deg-CR.png Graphic file (type bmp)
 <bble-figures/fig__jetI5+ismSeed3-45deg-CR.png>
-) (./bble-discussion.tex [79] [80]
-Chapter 12.
-[81
-
-]) (./bble-conclusion.tex [82]
-Chapter 13.
-[83
-
-]) (./bble-appendix.tex [84]
+) (./bble-discussion.tex [83] [84]
 Chapter 14.
+[85
+
+]) (./bble-conclusion.tex [86]
+Chapter 15.
+[87
+
+]) (./bble-appendix.tex [88]
+Chapter 16.
 File: bble-figures/fig__slice-compare.png Graphic file (type bmp)
 <bble-figures/fig__slice-compare.png>
-) [85
+) [89
 
-] [86] (./thesis.bbl [87
+] [90] (./thesis.bbl [91
 
 
 ]
@@ -2840,7 +2901,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[88]
+[92]
 ! Undefined control sequence.
 <argument> \apj 
                 
@@ -2894,7 +2955,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[89]
+[93]
 ! Undefined control sequence.
 <argument> \apj 
                 
@@ -2959,7 +3020,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[90]
+[94]
 ! Undefined control sequence.
 <argument> \apj 
                 
@@ -2982,7 +3043,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[91] [92]
+[95] [96]
 ! Undefined control sequence.
 <argument> \aaps 
                  
@@ -3016,7 +3077,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-) [93]
+) [97]
 
 Package catoptions Warning: Undefined options 
 (catoptions)                [Family, Option, Value]: 
@@ -3028,19 +3089,19 @@ Package catoptions Warning: Undefined options
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 4EE099051247FB012CA21EF4BE1DDA80;7823.
+(rerunfilecheck)             Checksum: 528B8893A410A3D9335C757C4620F3A3;8120.
  )
 (\end occurred inside a group at level 1)
 
-### semi simple group (level 1) entered at line 58 (\begingroup)
+### semi simple group (level 1) entered at line 59 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 36201 strings out of 476473
- 727283 string characters out of 5812052
- 1119728 words of memory out of 5000000
- 55965 multiletter control sequences out of 15000+600000
+ 36294 strings out of 476473
+ 732590 string characters out of 5812052
+ 1122991 words of memory out of 5000000
+ 56058 multiletter control sequences out of 15000+600000
  618547 words of font info for 368 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  132i,15n,136p,1978b,2780s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.pdf (119 pages).
+Output written on thesis.pdf (121 pages).

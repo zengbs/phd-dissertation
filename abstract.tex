@@ -1,21 +1,32 @@
 \begin{abstractzh}
-本論文提出了一影像中使用者感興趣區域 (region of interest)
-偵測之資料集 (benchmark)。
-使用者感興趣區域偵測在許多應用中極為有用，
-過去雖然有許多使用者感興趣區域之自動偵測演算法被提出，
-然而由於缺乏公開資料集，
-這些方法往往只測試了各自的小量資料而難以互相比較。
-從其它領域可以發現，
-基於公開資料集的可重製實驗與該領域突飛猛進密切相關，
-因此本論文填補了此領域之不足，
-我們提出名為「Photoshoot」的遊戲來蒐集人們對於感興趣區域的標記，
-並以這些標記來建立資料集。
-透過這個遊戲，我們已蒐集大量使用者對於感興趣區域的標記，
-並結合這些資料成為使用者感興趣區域模型。
-我們利用這些模型來量化評估五個使用者感興趣區域偵測演算法，
-此資料集也可更進一步作為基於學習理論演算法的測試資料，
-因此使基於學習理論的偵測演算法成為可能。
+{我們提出了一種新的特殊相對論流體力學（SRHD）程式，能夠同時處理共存超相對論熱和非相對論冷的氣體。
+我們通過在 SRHD 求解器中設計一種可以轉換原始和守恆變量的新算法來實現這一點，
+該算法結合了一個涵蓋相對論和非相對論機制的真實理想氣體狀態方程。
+該程式可以處理涉及洛倫茲因子高達 $10^6$ 的問題，並最佳地避免數值災難性相消。
+此外，我們已將新的 SRHD 求解器合併至 GAMER (https://github.com/gamer-project/gamer) 中，
+以支持自適應網格細化和混合 OpenMP/MPI/GPU 平行化。
+它在單個 Tesla P100 GPU 上實現了每秒 $7\times10^7$ 更新網格的峰值性能，
+並且可以很好地擴展到 2048 個 GPU。我們將此程式應用於兩個有趣的天體物理學問題：
+（1）來自不對稱爆炸源的相對論衝擊波（2）相對論射流中的自我加速和臨邊增亮現象。
 
+費米伽馬射線太空望遠鏡揭示了銀河系中的兩個大氣泡，它們在銀河系中心 (GC)
+上方和下方幾乎對稱地延伸約 $50^\degree$。最近發現更巨大的義羅西塔氣泡也顯示對於 GC 的這種對稱性，
+表明它們可能源自同個發生於 GC 附近的事件。先前對氣泡形成的模擬假設
+活躍星系核 (AGN) 噴流是垂直於銀河盤面；然而，一般來說，噴流方向和盤面的旋轉軸之間沒有特別的相關性。
+我們使用包括宇宙射線 (CR) 和熱氣體在內的三維特殊相對論流體動力學模擬，
+並表明事實上, 氣泡對稱性是因為圓盤內的星際物質緻密塊狀氣體破壞了射流的准直性（以下稱為“失敗的射流”），
+導致失敗的噴流形成熱氣泡。隨後分層大氣中的浮力使熱氣泡
+垂直拉長，形成現今觀測到的對稱費米氣泡和義羅西塔氣泡，（統稱：星系氣泡）。
+具體來說，我們發現
+(1）儘管在一千兩百萬年前，從 GC 發出的相對論射流相對於銀河系的旋轉軸處於 ≤ 45°
+的各種角度，但銀河氣泡仍然與軸對齊；模擬的銀河氣泡幾乎是對於 GC 對稱的，儘管雙極噴流與銀河旋轉軸成 45° 角；
+(2) 義羅西塔氣泡的邊緣對應於由熱氣泡驅動的前向衝擊波；
+(3) 緊隨其後的前向衝擊波是在費米氣泡邊緣附近的糾纏接觸間斷（contact discontinuity）
+與外部介質壓力平衡的湍流和高溫（$\sim$2 keV）等離子體組成的氣泡；
+(4) 假設使用輕子模型，我們發現觀測到的伽馬射線氣泡和微波霧霾可以用 CR 冪律指數 2.4 與現今觀測到的數據擬合；
+(5) 從現今到短壽命噴流發射起初之間的一千兩百萬年, 這個時間跨度似乎是觀測到的 GC
+中央分子區形成的時間尺度。模擬和觀察到的多波長特徵之間的廣泛一致性表明，
+由傾斜的 AGN 失敗噴流形成銀河氣泡是一種合理的情況。}
 \bigbreak
 \noindent \textbf{關鍵字：}{\, \makeatletter \@keywordszh \makeatother}
 \end{abstractzh}
@@ -32,8 +43,8 @@ into the code \textsc{gamer} (\url{https://github.com/gamer-project/gamer}) to s
 adaptive mesh refinement and hybrid OpenMP/MPI/GPU parallelization.
 It achieves a peak performance of $7\times 10^{7}$ cell updates per second on a
 single Tesla P100 GPU and scales well to 2048 GPUs. We apply this code
-to two interesting astrophysical applications: (a) an asymmetric explosion source
-on the relativistic blast wave and (b) the flow acceleration and limb-brightening of
+to two interesting astrophysical applications: (1) an asymmetric explosion source
+on the relativistic blast wave and (2) the flow acceleration and limb-brightening of
 relativistic jets.
 
 The \textit{Fermi Gamma-Ray Space Telescope} reveals two large bubbles in the Galaxy,\
@@ -45,7 +56,7 @@ have assumed that the jets are vertical to the Galactic plane;\
 however, in general there does not need to be a correlation between
 the jet orientation and the rotational axis of the Galactic disk.\
 Using three-dimensional (3D) special relativistic hydrodynamic (SRHD) simulations that\
-include cosmic rays (CRs) and thermal gas, we show that the dense clumpy gas within disk ISM\
+include cosmic rays (CRs) and thermal gas, we show that the dense clumpy gas within disk interstellar medium\
 disrupts jets collimation and confinement (``failed jets" hereafter),
 which in turn causes the failed jets to form
 hot bubbles. Subsequent bouyancy in the stratified atmosphere renders them vertical to form
