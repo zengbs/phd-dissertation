@@ -74,33 +74,29 @@
  the outermost bubbles and the turbulent plasma would be oblique,\
  indicating that the dense disk is crucial for the production of symmetric Galactic bubbles.\
 
-
- \begin{figure}%
-      \captionsetup[subfigure]{labelformat=simple}
-      \begin{subfigure}[b]{0.2\linewidth}%
-         \includegraphics[height=10cm]{bble-figures/fig__jetI5+ismSeed3-45deg-a}%
-         \caption{}%
-         \label{fig__jetI5+ismSeed3-45deg-a}%
-      \end{subfigure}%
-      \hspace{10pt}%
-      \begin{subfigure}[b]{0.2\linewidth}%
-         \includegraphics[height=10cm]{bble-figures/fig__jetI5+ismSeed3-45deg-b}%
-         \caption{}%
-         \label{fig__jetI5+ismSeed3-45deg-b}%
-      \end{subfigure}%
-      \hspace{-2pt}%
-      \begin{subfigure}[b]{0.2\linewidth}%
-         \includegraphics[height=10cm]{bble-figures/fig__jetI5+ismSeed3-45deg-c}%
-         \caption{}%
-         \label{fig__jetI5+ismSeed3-45deg-c}%
-      \end{subfigure}%
-      \hspace{-2pt}%
-      \begin{subfigure}[b]{0.2\linewidth}%
-         \includegraphics[height=10cm]{bble-figures/fig__jetI5+ismSeed3-45deg-d}%
-         \caption{}%
-         \label{fig__jetI5+ismSeed3-45deg-d}%
-     \end{subfigure}%
-      \caption{
+\begin{figure*}
+  \centering
+  \subfigure[]
+    {
+      \includegraphics[width=0.2\linewidth]{bble-figures/fig__jetI5+ismSeed3-45deg-a}
+      \label{fig__jetI5+ismSeed3-45deg-a} % A
+    }
+  \subfigure[]
+    {
+      \includegraphics[width=0.156\linewidth]{bble-figures/fig__jetI5+ismSeed3-45deg-b}
+      \label{fig__jetI5+ismSeed3-45deg-b} % B
+    }
+  \subfigure[]
+    {
+      \includegraphics[width=0.157\linewidth]{bble-figures/fig__jetI5+ismSeed3-45deg-c}
+      \label{fig__jetI5+ismSeed3-45deg-c} %C
+    }
+  \subfigure[]
+    {
+      \includegraphics[width=0.256\linewidth]{bble-figures/fig__jetI5+ismSeed3-45deg-d}
+      \label{fig__jetI5+ismSeed3-45deg-d} %D
+    }
+  \caption{
              The slices of pressure (top), temperature (middle), and number density (bottom)\
              at the end of simulation $t=12.39$ Myr.\
              The slices pass through a bipolar jet source injecting along $z=-y$ direction\
@@ -115,23 +111,25 @@
              reveal that the development of the innermost bubbles\
              is always associated with the disk. Also, without the disk (Fig. \ref{fig__jetI5+ismSeed3-45deg-d}),\
              the outermost bubbles and the turbulent plasma would be oblique,
-             indicating that the dense disk is crucial for the production of symmetric Galactic bubbles.\ %{\color{red} KY: Consider reducing the caption as it is essentially the same as the text. PH: Thanks! I would say bble-figures and captions must be self-explanatory i.e. always summarize the key conclusions of this figure instead of just describing how this figure is plotted. This is the reason why the caption is a little long... \textasciicircum\textasciicircum"}
-      }
-      \label{fig__jetI5+ismSeed3-45deg}
- \end{figure}%
+             indicating that the dense disk is crucial for the production of symmetric Galactic bubbles.
+       }
+  \label{fig__jetI5+ismSeed3-45deg}
+\end{figure*}
 
 
- \begin{figure}%
-      \begin{subfigure}[t]{0.5\linewidth}%
-         \includegraphics[height=8cm]{bble-figures/fig__profile-1.png}%
-         \label{fig__profile-1}%
-      \end{subfigure}%
-      \hspace{4pt}
-      \begin{subfigure}[t]{0.5\linewidth}%
-         \includegraphics[height=8cm]{bble-figures/fig__profile-2.png}%
-         \label{fig__profile-2}%
-      \end{subfigure}%
-      \caption{
+\begin{figure*}
+  \centering
+  \subfigure[]
+    {
+      \includegraphics[width=0.39\linewidth]{bble-figures/fig__profile-1.png}
+      \label{fig__profile-1} % A
+    }
+  \subfigure[]
+    {
+      \includegraphics[width=0.4\linewidth]{bble-figures/fig__profile-2.png}
+      \label{fig__profile-2} % B
+    }
+  \caption{
              Left: the profiles of pressure (top), temperature (middle),\
              and number density (bottom)\
              along the positive $z$-axis in Fig. \ref{fig__jetI5+ismSeed3-45deg}.
@@ -140,9 +138,10 @@
              indicates that the innermost bubbles\
              (dashed box in the top panel in Fig. \ref{fig__jetI5+ismSeed3-45deg-a})\
              are an expanding reverse shock.
-      }%
-      \label{fig__profile}%
- \end{figure}%
+          }
+  \label{fig__profile}
+\end{figure*}
+
 
 
   \begin{figure}
@@ -216,12 +215,9 @@
   This is the reason why the innermost bubbles are unseen in the X-ray observation.
 
 
-
- \begin{figure*}%
-      \begin{subfigure}[t]{\textwidth}%
-         \centering%
-         \includegraphics[width=0.85\textwidth]{bble-figures/fig__xraymap.png}%
-         \caption{
+\begin{figure*}
+  \centering
+  \subfigure[
                Simulated (top) and observed (bottom; \citealt{Predehl2020}) count rate\
                (photons s$^{-1}$ deg$^{-2}$) in the 0.6--1.0 keV range.\
                Throughout this paper we show sky maps\
@@ -230,23 +226,25 @@
                The red arrow at the center of the\
                top panel depicts the direction of the bipolar jets, constantly ejecting at an angle of $45^{\circ}$\
                to the disk normal for the first 1.2 Myr.
-         }%
-         \label{fig__xray_0.8keV_angle_000}%
-         \end{subfigure}%
-         \hspace{4pt}%
-      \begin{subfigure}[t]{\textwidth}%
-         \centering%
-         \includegraphics[width=0.85\textwidth]{bble-figures/fig__xray-profile-0.8keV-000.png}%
-         \caption{
+            ]
+    {
+      \includegraphics[width=0.8\linewidth]{bble-figures/fig__xraymap.png}
+      \label{fig__xray_0.8keV_angle_000} % A
+    }
+  \subfigure[
                Comparison of the simulated (red) and observed (black; \citealt{Predehl2020}) one-dimensional photon\
                count-rate profiles in the same energy band as in Fig. \ref{fig__xray_0.8keV_angle_000},\
                cut at various Galactic latitudes (as labelled).
-         }%
-         \label{fig__x-ray-profile-0.8keV-000}%
-      \end{subfigure}%
-      \caption{}%
-      \label{fig_xray-map}
- \end{figure*}%
+            ]
+    {
+      \includegraphics[width=0.8\linewidth]{bble-figures/fig__xray-profile-0.8keV-000.png}
+      \label{fig__x-ray-profile-0.8keV-000} % B
+    }
+  \caption{
+          }
+  \label{fig_xray-map}
+\end{figure*}
+
 
 
 

@@ -37,7 +37,7 @@
 \contentsline {chapter}{\numberline {11}Results}{67}{chapter.11}%
 \contentsline {section}{\numberline {11.1}Morphology and properties of Galactic bubbles}{67}{section.11.1}%
 \contentsline {section}{\numberline {11.2}Morphology and Profiles in X-ray}{69}{section.11.2}%
-\contentsline {section}{\numberline {11.3}Gamma-ray and microwave spectra: constraint on the CRe spectral index}{72}{section.11.3}%
+\contentsline {section}{\numberline {11.3}Gamma-ray and microwave spectra: constraint on the CRe spectral index}{73}{section.11.3}%
 \contentsline {chapter}{\numberline {12}Discussion}{81}{chapter.12}%
 \contentsline {chapter}{\numberline {13}Conclusions for part 2}{83}{chapter.13}%
 \contentsline {chapter}{\numberline {14}Appendix for part 2}{85}{chapter.14}%

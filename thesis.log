@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.11.4)  17 MAY 2022 22:39
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.11.4)  22 MAY 2022 09:40
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1481,12 +1481,17 @@ File: t1ntxtt.fd 2012/04/20 v3.1
 )
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
 (Font)              scaled to size 12.0pt on input line 31.
-)
-[11
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
+(Font)              scaled to size 12.0pt on input line 39.
 
-] [12
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-] (./thesis.toc [13]
+ [11
+
+])
+[12] (./thesis.toc [13
+
+]
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/it' will be
 (Font)              scaled to size 12.0pt on input line 32.
  [14])
@@ -1526,9 +1531,6 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [22]
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 12.0pt on input line 53.
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [23])
@@ -2639,20 +2641,42 @@ File: bble-figures/fig__zoom-in-disc.png Graphic file (type bmp)
 <bble-figures/fig__zoom-in-disc.png>
 
 
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 217.
+
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 10.95pt on input line 218.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 10.95pt on input line 222.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 6.1pt on input line 222.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
+(Font)              scaled to size 10.95pt on input line 222.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
+(Font)              scaled to size 6.1pt on input line 222.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 222.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6.1> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 222.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 10.95pt on input line 225.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 6.1pt on input line 226.
+
 ! LaTeX Error: Environment tablenotes undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.242 \begin{tablenotes}
+l.243 \begin{tablenotes}
                         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (98.39954pt too wide) in paragraph at lines 221--244
+Overfull \hbox (56.87881pt too wide) in paragraph at lines 222--245
 [][]  
  []
 
@@ -2663,14 +2687,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.244       \item  $
+l.245       \item  $
                     \dagger$  $k_{\text{min}}=375.0$ leads to the size of an...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 244
+Underfull \hbox (badness 10000) detected at line 245
 [][]
  []
 
@@ -2681,24 +2705,24 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.245       \item  $
+l.246       \item  $
                     \ddag$ In numerical simulations of turbulence,\
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 245
+Underfull \hbox (badness 10000) detected at line 246
 [][]
  []
 
 
-! LaTeX Error: \begin{table*} on input line 217 ended by \end{tablenotes}.
+! LaTeX Error: \begin{table} on input line 217 ended by \end{tablenotes}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.249     \end{tablenotes}
+l.250     \end{tablenotes}
                           
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2716,266 +2740,39 @@ Chapter 11.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [68]
-! Undefined control sequence.
-<recently read> \captionsetup 
-                              
-l.79       \captionsetup
-                        [subfigure]{labelformat=simple}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   }
-l.80       \begin{subfigure}[b]{0.2\linewidth}
-                                              %
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.80       \begin{subfigure}[b]{0.2\linewidth}
-                                              %
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 80--80
-[]\T1/ntxtlf/m/n/10 (a)
- []
-
 File: bble-figures/fig__jetI5+ismSeed3-45deg-a.png Graphic file (type bmp)
 <bble-figures/fig__jetI5+ismSeed3-45deg-a.png>
-! Missing number, treated as zero.
-<to be read again> 
-                   }
-l.86       \begin{subfigure}[b]{0.2\linewidth}
-                                              %
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.86       \begin{subfigure}[b]{0.2\linewidth}
-                                              %
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 86--86
-[]\T1/ntxtlf/m/n/10 (a)
- []
-
 File: bble-figures/fig__jetI5+ismSeed3-45deg-b.png Graphic file (type bmp)
 <bble-figures/fig__jetI5+ismSeed3-45deg-b.png>
-! Missing number, treated as zero.
-<to be read again> 
-                   }
-l.92       \begin{subfigure}[b]{0.2\linewidth}
-                                              %
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.92       \begin{subfigure}[b]{0.2\linewidth}
-                                              %
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 92--92
-[]\T1/ntxtlf/m/n/10 (a)
- []
-
 File: bble-figures/fig__jetI5+ismSeed3-45deg-c.png Graphic file (type bmp)
 <bble-figures/fig__jetI5+ismSeed3-45deg-c.png>
-! Missing number, treated as zero.
-<to be read again> 
-                   }
-l.98       \begin{subfigure}[b]{0.2\linewidth}
-                                              %
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.98       \begin{subfigure}[b]{0.2\linewidth}
-                                              %
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 98--98
-[]\T1/ntxtlf/m/n/10 (a)
- []
-
 File: bble-figures/fig__jetI5+ismSeed3-45deg-d.png Graphic file (type bmp)
 <bble-figures/fig__jetI5+ismSeed3-45deg-d.png>
-
-LaTeX Warning: Float too large for page by 833.03906pt on input line 121.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   }
-l.125       \begin{subfigure}[t]{0.5\linewidth}
-                                               %
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.125       \begin{subfigure}[t]{0.5\linewidth}
-                                               %
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 125--125
-[]\T1/ntxtlf/m/n/10 (a)
- []
-
 File: bble-figures/fig__profile-1.png Graphic file (type bmp)
 <bble-figures/fig__profile-1.png>
-! Missing number, treated as zero.
-<to be read again> 
-                   }
-l.130       \begin{subfigure}[t]{0.5\linewidth}
-                                               %
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.130       \begin{subfigure}[t]{0.5\linewidth}
-                                               %
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 130--130
-[]\T1/ntxtlf/m/n/10 (b)
- []
-
 File: bble-figures/fig__profile-2.png Graphic file (type bmp)
 <bble-figures/fig__profile-2.png>
 File: bble-figures/fig__innerbubbles.png Graphic file (type bmp)
 <bble-figures/fig__innerbubbles.png>
+
 [69] [70] [71]
-! Missing number, treated as zero.
-<to be read again> 
-                   }
-l.221       \begin{subfigure}[t]{\textwidth}
-                                            %
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
+Underfull \vbox (badness 6032) has occurred while \output is active []
 
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.221       \begin{subfigure}[t]{\textwidth}
-                                            %
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-
-Overfull \hbox (11.09981pt too wide) in paragraph at lines 221--221
-[]\T1/ntxtlf/m/n/10 (a)
- []
-
-
-Overfull \hbox (2.78pt too wide) in paragraph at lines 221--221
-\T1/ntxtlf/m/n/10 t 
- []
-
+ [72]
 File: bble-figures/fig__xraymap.png Graphic file (type bmp)
 <bble-figures/fig__xraymap.png>
-! Missing number, treated as zero.
-<to be read again> 
-                   }
-l.237       \begin{subfigure}[t]{\textwidth}
-                                            %
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.237       \begin{subfigure}[t]{\textwidth}
-                                            %
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-
-Overfull \hbox (11.09981pt too wide) in paragraph at lines 237--237
-[]\T1/ntxtlf/m/n/10 (a)
- []
-
-
-Overfull \hbox (2.78pt too wide) in paragraph at lines 237--237
-\T1/ntxtlf/m/n/10 t 
- []
-
 File: bble-figures/fig__xray-profile-0.8keV-000.png Graphic file (type bmp)
 <bble-figures/fig__xray-profile-0.8keV-000.png>
 
-LaTeX Warning: Float too large for page by 5.56065pt on input line 249.
+Underfull \vbox (badness 3623) has occurred while \output is active []
 
-[72] [73]
+ [73]
+[74]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [74]
-[75]
-Overfull \hbox (2.78383pt too wide) in paragraph at lines 351--355
+ [75]
+[76]
+Overfull \hbox (2.78383pt too wide) in paragraph at lines 379--383
 []\T1/ntxtlf/m/n/12 Finally, the good agree-ment be-tween the sim-u-lated and o
 b-served gamma-ray/microwave
  []
@@ -2985,18 +2782,18 @@ File: bble-figures/fig__spectrum.png Graphic file (type bmp)
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [76]
-[77]
+ [77]
+[78]
 File: bble-figures/fig__GammaRay_100e9_1e6_angle_000.png Graphic file (type bmp
 )
 <bble-figures/fig__GammaRay_100e9_1e6_angle_000.png>
 File: bble-figures/fig__jetI5+ismSeed3-45deg-CR.png Graphic file (type bmp)
 <bble-figures/fig__jetI5+ismSeed3-45deg-CR.png>
-) (./bble-discussion.tex [78] [79] [80
-
-]
+) (./bble-discussion.tex [79] [80]
 Chapter 12.
-[81]) (./bble-conclusion.tex [82]
+[81
+
+]) (./bble-conclusion.tex [82]
 Chapter 13.
 [83
 
@@ -3238,11 +3035,11 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 ### semi simple group (level 1) entered at line 58 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 36164 strings out of 476473
- 726531 string characters out of 5812052
- 1119778 words of memory out of 5000000
- 55928 multiletter control sequences out of 15000+600000
- 597896 words of font info for 339 fonts, out of 8000000 for 9000
+ 36201 strings out of 476473
+ 727283 string characters out of 5812052
+ 1119728 words of memory out of 5000000
+ 55965 multiletter control sequences out of 15000+600000
+ 618547 words of font info for 368 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  132i,15n,136p,1978b,2780s stack positions out of 5000i,500n,10000p,200000b,80000s
 
