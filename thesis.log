@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.11.4)  22 MAY 2022 13:28
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.11.4)  22 MAY 2022 17:27
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1359,6 +1359,18 @@ LaTeX Info: Redefining \nameref on input line 59.
 
 \c@mv@tabular=\count367
 \c@mv@boldtabular=\count368
+
+! Undefined control sequence.
+<argument> \@keywordsen 
+                        
+l.59 \begin{document}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 18.0pt on input line 63.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
@@ -1368,7 +1380,6 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 LaTeX Font Info:    Calculating math sizes for size <18> on input line 63.
 LaTeX Font Info:    Trying to load font information for OT1+ntxtlf on input lin
 e 63.
-
 (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/ot1ntxtlf.fd
 File: ot1ntxtlf.fd 2021/05/24 v1.0 font definition file for OT1/ntx/tlf
 )
@@ -1533,7 +1544,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ]
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/it' will be
-(Font)              scaled to size 12.0pt on input line 32.
+(Font)              scaled to size 12.0pt on input line 31.
  [12])
 \tf@toc=\write6
 \openout6 = `thesis.toc'.
@@ -1542,9 +1553,9 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/b/it' will be
 
 ] (./thesis.lof
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.8pt on input line 4.
+(Font)              scaled to size 8.8pt on input line 3.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.6pt on input line 4.
+(Font)              scaled to size 6.6pt on input line 3.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1559,11 +1570,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [18]
 LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 12.0pt on input line 27.
+(Font)              scaled to size 12.0pt on input line 26.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 8.8pt on input line 27.
+(Font)              scaled to size 8.8pt on input line 26.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 6.6pt on input line 27.
+(Font)              scaled to size 6.6pt on input line 26.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1590,22 +1601,18 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Chapter 1.
 [1
 
-]) (./part-1.tex [2] [3
+]) (./part-1.tex [2]
+Overfull \hbox (21.94014pt too wide) in paragraph at lines 3--4
+[]\T1/ntxtlf/m/n/24.88 SPECIAL REL-A-TIVIS-TIC HY-DRO-
+ []
+
+) (./srhd-special-relativistic-hydrodynamics.tex [3
 
 
 ] [4
 
 ]
 Chapter 2.
-
-Overfull \hbox (3.94014pt too wide) in paragraph at lines 3--4
-\T1/ntxtlf/m/n/24.88 SPECIAL REL-A-TIVIS-TIC HY-DRO-
- []
-
-) (./srhd-special-relativistic-hydrodynamics.tex [5] [6
-
-]
-Chapter 3.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 17.28pt on input line 4.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
@@ -1613,11 +1620,11 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7]
+ [5]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [8]
-[9]
+ [6]
+[7]
 ! Undefined control sequence.
 <recently read> \abs 
                      
@@ -1711,8 +1718,8 @@ and I'll forget about whatever was undefined.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [10]
-[11]
+ [8]
+[9]
 ! Undefined control sequence.
 <argument> \abs 
                 {\mathbf {M}}
@@ -1749,7 +1756,7 @@ and I'll forget about whatever was undefined.
 
 Underfull \vbox (badness 7649) has occurred while \output is active []
 
- [12]
+ [10]
 ! Undefined control sequence.
 l.167 ...de{E}/Dc^2\right)\right]$ and $\left(\abs
                                                   {\mathbf{M}}/Dc\right)^2$ ...
@@ -1850,7 +1857,7 @@ My plan is to forget the whole thing and hope for the best.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [13]
+ [11]
 File: srhd-figures/ErrorDistributionImproved.png Graphic file (type bmp)
 <srhd-figures/ErrorDistributionImproved.png>
 
@@ -1895,11 +1902,11 @@ File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
 (Font)              scaled to size 12.0pt on input line 208.
 
-[14] [15]) (./srhd-numerical-methods.tex [16]
-Chapter 4.
-[17
+[12] [13]) (./srhd-numerical-methods.tex [14]
+Chapter 3.
+[15
 
-] [18]
+] [16]
 ! Undefined control sequence.
 <recently read> \abs 
                      
@@ -1952,7 +1959,7 @@ and I'll forget about whatever was undefined.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19]
+ [17]
 ! Undefined control sequence.
 <argument> \abs 
                 {v_x}+\abs {v_y}+\abs {v_z}+3c_s
@@ -1997,10 +2004,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[20]) (./srhd-test-problems.tex [21] [22
+[18]) (./srhd-test-problems.tex [19] [20
 
 ]
-Chapter 5.
+Chapter 4.
 ! Undefined control sequence.
 l.80 L1(Q)=\frac{1}{N}\sum^{N}_{i=1}\abs
                                         {1-\frac{Q_{\text{numerical}}\left(\...
@@ -2010,7 +2017,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[23]
+[21]
 ! Undefined control sequence.
 l.92 ...cellation between $(E/Dc^2)^2$ and $[(\abs
                                                   {\mathbf{M}}/Dc)^2+1]$ lea...
@@ -2031,14 +2038,14 @@ and I'll forget about whatever was undefined.
 
 File: srhd-figures/fig__convergence.pdf Graphic file (type pdf)
 <use srhd-figures/fig__convergence.pdf>
-[24] [25]
+[22] [23]
 Overfull \hbox (11.27263pt too wide) in paragraph at lines 110--116
 [][] 
  []
 
 File: srhd-figures/HeadCollision.pdf Graphic file (type pdf)
 <use srhd-figures/HeadCollision.pdf>
-[26] [27]
+[24] [25]
 File: srhd-figures/RiemannProbs.png Graphic file (type bmp)
 <srhd-figures/RiemannProbs.png>
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
@@ -2075,8 +2082,8 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [28]
-[29]
+ [26]
+[27]
 ! Undefined control sequence.
 <recently read> \abs 
                      
@@ -2129,7 +2136,7 @@ and I'll forget about whatever was undefined.
 
 Underfull \vbox (badness 4673) has occurred while \output is active []
 
- [30]
+ [28]
 File: srhd-figures/fig__HorizontalFlowLow.png Graphic file (type bmp)
 <srhd-figures/fig__HorizontalFlowLow.png>
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
@@ -2143,17 +2150,17 @@ File: srhd-figures/fig__DiagonalFlowHig.png Graphic file (type bmp)
 File: srhd-figures/fig__HorizontalFlowHigZoomIn.png Graphic file (type bmp)
 <srhd-figures/fig__HorizontalFlowHigZoomIn.png>
 )
-(./srhd-performance-scaling.tex [31] [32] [33] [34
+(./srhd-performance-scaling.tex [29] [30] [31] [32
 
 ]
-Chapter 6.
+Chapter 5.
 
 Overfull \hbox (35.15826pt too wide) in paragraph at lines 3--5
 \T1/ntxtlf/m/n/12 We mea-sure both strong and weak scal-ings of $[]$ with AMR a
 nd hy-brid MPI/OpenMP/GPU
  []
 
-[35]
+[33]
 File: srhd-figures/fig__weak_scaling.pdf Graphic file (type pdf)
 <use srhd-figures/fig__weak_scaling.pdf>
 File: srhd-figures/fig__benchmark_strongscaling.pdf Graphic file (type pdf)
@@ -2161,20 +2168,20 @@ File: srhd-figures/fig__benchmark_strongscaling.pdf Graphic file (type pdf)
 
 Underfull \vbox (badness 7777) has occurred while \output is active []
 
- [36]
+ [34]
 File: srhd-figures/fig__benchmark_weakscaling.pdf Graphic file (type pdf)
 <use srhd-figures/fig__benchmark_weakscaling.pdf>
 )
-(./srhd-astrophysical-applications.tex [37] [38]
-Chapter 7.
-[39
+(./srhd-astrophysical-applications.tex [35] [36]
+Chapter 6.
+[37
 
 ]
 File: srhd-figures/ProfileSliceLowRes.png Graphic file (type bmp)
 <srhd-figures/ProfileSliceLowRes.png>
 File: srhd-figures/fig__AxesRatio.pdf Graphic file (type pdf)
 <use srhd-figures/fig__AxesRatio.pdf>
- [40] [41]
+ [38] [39]
 ! Undefined control sequence.
 <recently read> \abs 
                      
@@ -2200,16 +2207,16 @@ and I'll forget about whatever was undefined.
 
 Underfull \vbox (badness 1496) has occurred while \output is active []
 
- [42]
+ [40]
 File: srhd-figures/JetAccLowRes.png Graphic file (type bmp)
 <srhd-figures/JetAccLowRes.png>
 )
-(./srhd-conclusion-part-1.tex [43] [44]
-Chapter 8.
-[45
+(./srhd-conclusion-part-1.tex [41] [42]
+Chapter 7.
+[43
 
-]) (./srhd-appendix.tex [46]
-Chapter 9.
+]) (./srhd-appendix.tex [44]
+Chapter 8.
 ! Undefined control sequence.
 <argument> \abs 
                 {\mathbf {M}}
@@ -2257,7 +2264,7 @@ and I'll forget about whatever was undefined.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [47
+ [45
 
 ]
 ! Undefined control sequence.
@@ -2487,7 +2494,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[48] [49]
+[46] [47]
 File: srhd-figures/ErrorMap3.pdf Graphic file (type pdf)
 <use srhd-figures/ErrorMap3.pdf>
 
@@ -2590,10 +2597,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[50] [51]
+[48] [49]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [52]
+ [50]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 142.
@@ -2620,36 +2627,39 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5.5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 147.
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
 (Font)              scaled to size 8.0pt on input line 150.
-) (./part-2.tex [53] [54] [55
-
-
-] [56
-
-]
-Chapter 10.
-LaTeX Font Info:    Font shape `T1/ntxtlf/b/it' will be
-(Font)              scaled to size 24.88pt on input line 2.
+) (./part-2.tex [51] [52]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
 (Font)              scaled to size 24.88pt on input line 3.
-) (./bble-brief-review-of-bubbles.tex [57] [58
+
+Overfull \hbox (6.26051pt too wide) in paragraph at lines 3--4
+[]\T1/ntxtlf/m/n/24.88 THE \T1/ntxtlf/m/it/24.88 FERMI \T1/ntxtlf/m/n/24.88 AND
+ EROSITA BUB-
+ []
+
+) (./bble-brief-review-of-bubbles.tex [53
+
+
+] [54
 
 ]
-Chapter 11.
+Chapter 9.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/it' will be
+(Font)              scaled to size 24.88pt on input line 1.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [59])
-(./bble-methodology.tex [60]
-Chapter 12.
-[61
+ [55])
+(./bble-methodology.tex [56]
+Chapter 10.
+[57
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [62]
+ [58]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [63]
+ [59]
 File: bble-figures/fig__initial-density-profile.png Graphic file (type bmp)
 <bble-figures/fig__initial-density-profile.png>
 LaTeX Font Info:    Trying to load font information for T1+ntxsups on input lin
@@ -2684,8 +2694,8 @@ d on input line 165.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [64]
-[65]
+ [60]
+[61]
 File: bble-figures/fig__numberDensityHistogram.png Graphic file (type bmp)
 <bble-figures/fig__numberDensityHistogram.png>
 File: bble-figures/fig__zoom-in-disc.png Graphic file (type bmp)
@@ -2782,15 +2792,15 @@ or  <return>  to continue without it.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [66]
-[67] [68]) (./bble-result.tex [69] [70
+ [62]
+[63] [64]) (./bble-result.tex [65] [66
 
 ]
-Chapter 13.
-[71]
+Chapter 11.
+[67]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [72]
+ [68]
 File: bble-figures/fig__jetI5+ismSeed3-45deg-a.png Graphic file (type bmp)
 <bble-figures/fig__jetI5+ismSeed3-45deg-a.png>
 File: bble-figures/fig__jetI5+ismSeed3-45deg-b.png Graphic file (type bmp)
@@ -2806,10 +2816,10 @@ File: bble-figures/fig__profile-2.png Graphic file (type bmp)
 File: bble-figures/fig__innerbubbles.png Graphic file (type bmp)
 <bble-figures/fig__innerbubbles.png>
 
-[73] [74] [75]
+[69] [70] [71]
 Underfull \vbox (badness 6032) has occurred while \output is active []
 
- [76]
+ [72]
 File: bble-figures/fig__xraymap.png Graphic file (type bmp)
 <bble-figures/fig__xraymap.png>
 File: bble-figures/fig__xray-profile-0.8keV-000.png Graphic file (type bmp)
@@ -2827,12 +2837,12 @@ Overfull \hbox (9.0pt too wide) in paragraph at lines 233--244
 
 Underfull \vbox (badness 3623) has occurred while \output is active []
 
- [77]
-[78]
+ [73]
+[74]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [79]
-[80]
+ [75]
+[76]
 Overfull \hbox (2.78383pt too wide) in paragraph at lines 349--353
 []\T1/ntxtlf/m/n/12 Finally, the good agree-ment be-tween the sim-u-lated and o
 b-served gamma-ray/microwave
@@ -2843,28 +2853,28 @@ File: bble-figures/fig__spectrum.png Graphic file (type bmp)
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [81]
-[82]
+ [77]
+[78]
 File: bble-figures/fig__GammaRay_100e9_1e6_angle_000.png Graphic file (type bmp
 )
 <bble-figures/fig__GammaRay_100e9_1e6_angle_000.png>
 File: bble-figures/fig__jetI5+ismSeed3-45deg-CR.png Graphic file (type bmp)
 <bble-figures/fig__jetI5+ismSeed3-45deg-CR.png>
-) (./bble-discussion.tex [83] [84]
+) (./bble-discussion.tex [79] [80]
+Chapter 12.
+[81
+
+]) (./bble-conclusion.tex [82]
+Chapter 13.
+[83
+
+]) (./bble-appendix.tex [84]
 Chapter 14.
-[85
-
-]) (./bble-conclusion.tex [86]
-Chapter 15.
-[87
-
-]) (./bble-appendix.tex [88]
-Chapter 16.
 File: bble-figures/fig__slice-compare.png Graphic file (type bmp)
 <bble-figures/fig__slice-compare.png>
-) [89
+) [85
 
-] [90] (./thesis.bbl [91
+] [86] (./thesis.bbl [87
 
 
 ]
@@ -2901,7 +2911,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[92]
+[88]
 ! Undefined control sequence.
 <argument> \apj 
                 
@@ -2955,7 +2965,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[93]
+[89]
 ! Undefined control sequence.
 <argument> \apj 
                 
@@ -3020,7 +3030,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[94]
+[90]
 ! Undefined control sequence.
 <argument> \apj 
                 
@@ -3043,7 +3053,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[95] [96]
+[91] [92]
 ! Undefined control sequence.
 <argument> \aaps 
                  
@@ -3077,7 +3087,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-) [97]
+) [93]
 
 Package catoptions Warning: Undefined options 
 (catoptions)                [Family, Option, Value]: 
@@ -3089,19 +3099,19 @@ Package catoptions Warning: Undefined options
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 528B8893A410A3D9335C757C4620F3A3;8120.
+(rerunfilecheck)             Checksum: 1986EAD244818483F8A9C7342073DC7C;7771.
  )
 (\end occurred inside a group at level 1)
 
 ### semi simple group (level 1) entered at line 59 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 36294 strings out of 476473
- 732590 string characters out of 5812052
- 1122991 words of memory out of 5000000
- 56058 multiletter control sequences out of 15000+600000
+ 36286 strings out of 476473
+ 732410 string characters out of 5812052
+ 1122726 words of memory out of 5000000
+ 56050 multiletter control sequences out of 15000+600000
  618547 words of font info for 368 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  132i,15n,136p,1978b,2780s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.pdf (121 pages).
+Output written on thesis.pdf (117 pages).

@@ -4,42 +4,40 @@
 \contentsline {chapter}{Abstract}{ix}{chapter*.3}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {chapter}{Part I \huge }{3}{chapter*.7}%
-\contentsline {chapter}{\numberline {2}SPECIAL RELATIVISTIC HYDRODYNAMICS}{5}{chapter.2}%
-\contentsline {chapter}{\numberline {3}Special relativistic hydrodynamics}{7}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Relativistic hydrodynamics}{7}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Equations of state}{9}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Conversion between primitive and conserved variables}{11}{section.3.3}%
-\contentsline {chapter}{\numberline {4}Numerical methods}{17}{chapter.4}%
-\contentsline {section}{\numberline {4.1}A GAMER Primer}{17}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Flexible Time-step}{18}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Handling unphysical results}{20}{section.4.3}%
-\contentsline {chapter}{\numberline {5}Test problems}{23}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Convergence test for sinusoidal waves}{23}{section.5.1}%
-\contentsline {section}{\numberline {5.2}1-D relativistic Riemann problems}{24}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Ultra-relativistic limit}{26}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Mixed limits}{28}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Multi-dimensional grid effects for high-$\mathslscr {M}$ flows}{30}{section.5.5}%
-\contentsline {chapter}{\numberline {6}Performance scaling}{35}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Astrophysical applications}{39}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Triaxial blast wave}{39}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Limb-brightened jet}{40}{section.7.2}%
-\contentsline {chapter}{\numberline {8}Conclusions for part 1}{45}{chapter.8}%
-\contentsline {chapter}{\numberline {9}Appendix}{47}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Initial guess for Newton-Raphson iteration}{47}{section.9.1}%
-\contentsline {section}{\numberline {9.2}Numerical error analysis for root-finding}{48}{section.9.2}%
-\contentsline {section}{\numberline {9.3}Exact solutions of relativistic Riemann problems with the TM equation of state}{51}{section.9.3}%
-\contentsline {chapter}{Part II \huge }{55}{chapter*.8}%
-\contentsline {chapter}{\numberline {10}THE \textit {FERMI} AND EROSITA BUBBLES}{57}{chapter.10}%
-\contentsline {chapter}{\numberline {11}Brief review of the \textit {Fermi}/eROSITA bubbles}{59}{chapter.11}%
-\contentsline {chapter}{\numberline {12}Methodology}{61}{chapter.12}%
-\contentsline {section}{\numberline {12.1}The Galactic and Disk Models}{63}{section.12.1}%
-\contentsline {section}{\numberline {12.2}The Clumpy Multiphase Interstellar Medium}{66}{section.12.2}%
-\contentsline {section}{\numberline {12.3}Oblique jets}{69}{section.12.3}%
-\contentsline {chapter}{\numberline {13}Results}{71}{chapter.13}%
-\contentsline {section}{\numberline {13.1}Morphology and properties of Galactic bubbles}{71}{section.13.1}%
-\contentsline {section}{\numberline {13.2}Morphology and Profiles in X-ray}{73}{section.13.2}%
-\contentsline {section}{\numberline {13.3}Gamma-ray and microwave spectra: constraint on the CRe spectral index}{77}{section.13.3}%
-\contentsline {chapter}{\numberline {14}Discussion}{85}{chapter.14}%
-\contentsline {chapter}{\numberline {15}Conclusions for part 2}{87}{chapter.15}%
-\contentsline {chapter}{\numberline {16}Appendix for part 2}{89}{chapter.16}%
-\contentsline {chapter}{Bibliography}{91}{section*.9}%
+\contentsline {chapter}{\numberline {2}Special relativistic hydrodynamics}{5}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Relativistic hydrodynamics}{5}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Equations of state}{7}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Conversion between primitive and conserved variables}{9}{section.2.3}%
+\contentsline {chapter}{\numberline {3}Numerical methods}{15}{chapter.3}%
+\contentsline {section}{\numberline {3.1}A GAMER Primer}{15}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Flexible Time-step}{16}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Handling unphysical results}{18}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Test problems}{21}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Convergence test for sinusoidal waves}{21}{section.4.1}%
+\contentsline {section}{\numberline {4.2}1-D relativistic Riemann problems}{22}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Ultra-relativistic limit}{24}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Mixed limits}{26}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Multi-dimensional grid effects for high-$\mathslscr {M}$ flows}{28}{section.4.5}%
+\contentsline {chapter}{\numberline {5}Performance scaling}{33}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Astrophysical applications}{37}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Triaxial blast wave}{37}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Limb-brightened jet}{38}{section.6.2}%
+\contentsline {chapter}{\numberline {7}Conclusions for part I}{43}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Appendix for part I}{45}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Initial guess for Newton-Raphson iteration}{45}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Numerical error analysis for root-finding}{46}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Exact solutions of relativistic Riemann problems with the TM equation of state}{49}{section.8.3}%
+\contentsline {chapter}{Part II \huge }{53}{chapter*.8}%
+\contentsline {chapter}{\numberline {9}Brief review of the \textit {Fermi}/eROSITA bubbles}{55}{chapter.9}%
+\contentsline {chapter}{\numberline {10}Methodology}{57}{chapter.10}%
+\contentsline {section}{\numberline {10.1}The Galactic and Disk Models}{59}{section.10.1}%
+\contentsline {section}{\numberline {10.2}The Clumpy Multiphase Interstellar Medium}{62}{section.10.2}%
+\contentsline {section}{\numberline {10.3}Oblique jets}{65}{section.10.3}%
+\contentsline {chapter}{\numberline {11}Results}{67}{chapter.11}%
+\contentsline {section}{\numberline {11.1}Morphology and properties of Galactic bubbles}{67}{section.11.1}%
+\contentsline {section}{\numberline {11.2}Morphology and Profiles in X-ray}{69}{section.11.2}%
+\contentsline {section}{\numberline {11.3}Gamma-ray and microwave spectra: constraint on the CRe spectral index}{73}{section.11.3}%
+\contentsline {chapter}{\numberline {12}Discussion}{81}{chapter.12}%
+\contentsline {chapter}{\numberline {13}Conclusions for part II}{83}{chapter.13}%
+\contentsline {chapter}{\numberline {14}Appendix for part II}{85}{chapter.14}%
+\contentsline {chapter}{Bibliography}{87}{section*.9}%
