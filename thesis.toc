@@ -1,7 +1,6 @@
-\contentsline {chapter}{口試委員會審定書}{iii}{Doc-Start}%
-\contentsline {chapter}{誌謝}{v}{chapter*.1}%
-\contentsline {chapter}{摘要}{vii}{chapter*.2}%
-\contentsline {chapter}{Abstract}{ix}{chapter*.3}%
+\contentsline {chapter}{誌謝}{iii}{chapter*.1}%
+\contentsline {chapter}{摘要}{v}{chapter*.2}%
+\contentsline {chapter}{Abstract}{vii}{chapter*.3}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {chapter}{Part I \huge }{3}{chapter*.7}%
 \contentsline {chapter}{\numberline {2}Special relativistic hydrodynamics}{5}{chapter.2}%

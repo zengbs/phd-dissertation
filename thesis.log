@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.11.4)  27 MAY 2022 14:32
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.11.4)  2 JUL 2022 11:57
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1219,7 +1219,7 @@ Such booboos are generally harmless, so keep going.
 ! Extra \endgroup.
 \document ->\endgroup 
                       \let \BeforeStartOfDocument \@firstofone \cpt@beforest...
-l.59 \begin{document}
+l.60 \begin{document}
                      
 Things are pretty mixed up, but I think the worst is over.
 
@@ -1245,53 +1245,53 @@ LaTeX Warning: Label `E evoltion@cref' multiply defined.
 )
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 59.
+LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 60.
 LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line
- 59.
+ 60.
  (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/omlntxmi.fd
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 60.
 LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 
-59.
+60.
 
 (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 60.
 LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line
- 59.
+ 60.
 
 (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 60.
 LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input lin
-e 59.
+e 60.
 
 (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    ... okay on input line 60.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1336,7 +1336,7 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
 
 )
-Package hyperref Info: Link coloring OFF on input line 59.
+Package hyperref Info: Link coloring OFF on input line 60.
 
 (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -1350,9 +1350,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count366
 )
-LaTeX Info: Redefining \ref on input line 59.
-LaTeX Info: Redefining \pageref on input line 59.
-LaTeX Info: Redefining \nameref on input line 59.
+LaTeX Info: Redefining \ref on input line 60.
+LaTeX Info: Redefining \pageref on input line 60.
+LaTeX Info: Redefining \nameref on input line 60.
  (./thesis.out) (./thesis.out)
 \@outlinefile=\write5
 \openout5 = `thesis.out'.
@@ -1363,7 +1363,7 @@ LaTeX Info: Redefining \nameref on input line 59.
 ! Undefined control sequence.
 <argument> \@keywordsen 
                         
-l.59 \begin{document}
+l.60 \begin{document}
                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1372,49 +1372,49 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 18.0pt on input line 63.
+(Font)              scaled to size 18.0pt on input line 64.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 14.0pt on input line 63.
+(Font)              scaled to size 14.0pt on input line 64.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 16.0pt on input line 63.
-LaTeX Font Info:    Calculating math sizes for size <18> on input line 63.
+(Font)              scaled to size 16.0pt on input line 64.
+LaTeX Font Info:    Calculating math sizes for size <18> on input line 64.
 LaTeX Font Info:    Trying to load font information for OT1+ntxtlf on input lin
-e 63.
+e 64.
 (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/ot1ntxtlf.fd
 File: ot1ntxtlf.fd 2021/05/24 v1.0 font definition file for OT1/ntx/tlf
 )
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 18.0pt on input line 63.
+(Font)              scaled to size 18.0pt on input line 64.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 13.13992pt on input line 63.
+(Font)              scaled to size 13.13992pt on input line 64.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 9.90005pt on input line 63.
+(Font)              scaled to size 9.90005pt on input line 64.
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 6
-3.
+4.
 
 (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <18> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 63.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 64.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <13.13992> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 63.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 64.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9.90005> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 63.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 64.
 LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 
-63.
+64.
 
 (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/untxmia.fd
 File: untxmia.fd 2018/04/14 Fontinst v1.933 font definitions for U/ntxmia.
 )
 LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 
-63.
+64.
 
 (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/untxsym.fd
 File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
 )
 LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 
-63.
+64.
 
 (/home/tseng/softwares/texlive2021/texmf-dist/tex/latex/newtx/untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
@@ -1423,43 +1423,30 @@ File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 
 
 
-] [2
-
 ]
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 24.0pt on input line 80.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 20.0pt on input line 80.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 15.0pt on input line 80.
-LaTeX Font Info:    Calculating math sizes for size <15> on input line 80.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 15.0pt on input line 80.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.94994pt on input line 80.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.25005pt on input line 80.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <15> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 80.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.94994> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 80.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8.25005> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 80.
-
-Overfull \hbox (31.11316pt too wide) in paragraph at lines 80--80
- [] 
- []
-
-(./acknowledgements.tex [3] [4
-
-]
+File: certification.pdf Graphic file (type pdf)
+<use certification.pdf>
+File: certification.pdf Graphic file (type pdf)
+<use certification.pdf>
+File: certification.pdf Graphic file (type pdf)
+<use certification.pdf, page 1>
+File: certification.pdf Graphic file (type pdf)
+<use certification.pdf, page 1>
+File: certification.pdf Graphic file (type pdf)
+<use certification.pdf, page 1>
+File: certification.pdf Graphic file (type pdf)
+<use certification.pdf, page 1>
+File: certification.pdf Graphic file (type pdf)
+<use certification.pdf, page 1>
+ [2] (./acknowledgements.tex
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 24.88pt on input line 1.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 24.88pt on input line 1.
-) (./abstract.tex [5
+) (./abstract.tex [3
 
-] [6
+
+] [4
 
 ]
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
@@ -1477,13 +1464,13 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6.6> not available
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7
+ [5
 
 ]
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
 (Font)              scaled to size 12.0pt on input line 31.
 
-[8]
+[6]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
 (Font)              scaled to size 12.0pt on input line 42.
 
@@ -1504,20 +1491,20 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [9
+ [7
 
 
 ])
-[10] (./thesis.toc [11
+[8] (./thesis.toc [9
 
 ]
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/it' will be
-(Font)              scaled to size 12.0pt on input line 31.
- [12])
+(Font)              scaled to size 12.0pt on input line 30.
+ [10])
 \tf@toc=\write6
 \openout6 = `thesis.toc'.
 
- [13] [14
+ [11] [12
 
 ] (./thesis.lof
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
@@ -1527,16 +1514,16 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [13]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [14]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [15]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [16]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [17]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [18]
 LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
 (Font)              scaled to size 12.0pt on input line 26.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
@@ -1546,24 +1533,24 @@ LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19]
+ [17]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [20]
+ [18]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [21])
+ [19])
 \tf@lof=\write7
 \openout7 = `thesis.lof'.
 
 
-[22] (./thesis.lot)
+[20] (./thesis.lot)
 \tf@lot=\write8
 \openout8 = `thesis.lot'.
 
- [23
+ [21
 
-] [24
+] [22
 
 ] (./introduction.tex
 Chapter 1.
@@ -3067,19 +3054,19 @@ Package catoptions Warning: Undefined options
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 1986EAD244818483F8A9C7342073DC7C;7771.
+(rerunfilecheck)             Checksum: 10B92B9C090C2DF3546B806072EE9508;7663.
  )
 (\end occurred inside a group at level 1)
 
-### semi simple group (level 1) entered at line 59 (\begingroup)
+### semi simple group (level 1) entered at line 60 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 36286 strings out of 476473
- 732410 string characters out of 5812052
- 1122726 words of memory out of 5000000
- 56050 multiletter control sequences out of 15000+600000
- 618547 words of font info for 368 fonts, out of 8000000 for 9000
+ 36232 strings out of 476473
+ 730554 string characters out of 5812052
+ 1122540 words of memory out of 5000000
+ 55997 multiletter control sequences out of 15000+600000
+ 593797 words of font info for 326 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 132i,15n,136p,1978b,2780s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 132i,19n,136p,1978b,2776s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.pdf (117 pages).
+Output written on thesis.pdf (115 pages).

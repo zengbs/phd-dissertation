@@ -14,4 +14,3 @@ xelatex  -interaction=nonstopmode  -shell-escape ${filename}.tex
 
 pdftk thesis.pdf background watermark.pdf output output.pdf
 mv output.pdf thesis.pdf
-pdftk thesis.pdf cat 9-10 output abstract.pdf

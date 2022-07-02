@@ -26,7 +26,7 @@
 %\setmainfont{Times New Roman}
 \setCJKmainfont[AutoFakeBold=true,AutoFakeSlant=true]{標楷體}
 %\setCJKmainfont[BoldFont={粗楷體},ItalicFont={斜楷體}]{標楷體}
-
+\def\withdoi{1}
 \ifdefined\firstpage
 
   \def\withwatermark{1}
@@ -42,6 +42,7 @@
   \fi
 \fi
 
+\insertdoi
 \makeatletter
 \AtBeginDocument{
   \hypersetup{
@@ -77,7 +78,14 @@
   \fi
 \fi
 
-\makecertification
+%\makecertification
+
+\def\withcertification{1}
+\ifdefined\withcertification
+  \includepdf[angle=0]{certification.pdf}
+\else
+  \makecertification
+\fi
 
 \input{acknowledgements}
 \input{abstract}

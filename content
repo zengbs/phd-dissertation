@@ -1,0 +1,40 @@
+誌謝               iii
+摘要               v
+Abstract           vii
+1 Introduction     1
+Part I              3
+2 Special relativistic hydrodynamics 5
+2.1 Relativistic hydrodynamics  5
+2.2 Equations of state 7
+2.3 Conversion between primitive and conserved variables  10
+3 Numerical methods 15
+3.1 A GAMER Primer  15
+3.2 Flexible Time-step  16
+3.3 Handling unphysical results   18
+4 Test problems  21
+4.1 Convergence test for sinusoidal waves 21
+4.2 1-D relativistic Riemann problems  22
+4.3 Ultra-relativistic limit  24
+4.4 Mixed limits 26
+4.5 Multi-dimensional grid effects for high-M flows  28
+5 Performance scaling 33
+6 Astrophysical applications 37
+6.1 Triaxial blast wave  37
+6.2 Limb-brightened jet  38
+7 Conclusions for part I 43
+8 Appendix for part I 45
+8.1 Initial guess for Newton-Raphson iteration  45
+8.2 Numerical error analysis for root-finding  46
+8.3 Exact solutions of relativistic Riemann problems with the TM equation of state  49
+Part II 53
+9 Brief review of the Fermi/eROSITA bubbles 55
+10 Methodology 57
+10.1 The Galactic and Disk Models  59
+10.2 The Clumpy Multiphase Interstellar Medium  62
+10.3 Oblique jets  65
+11 Results 67
+11.1 Morphology and properties of Galactic bubbles  67
+11.2 Morphology and Profiles in X-ray  69
+11.3 Gamma-ray and microwave spectra: constraint on the CRe spectral index 73
+12 Discussion  81
+13 Conclusions for part II  83
