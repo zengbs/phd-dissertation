@@ -35,11 +35,6 @@
     \savebox\mybox{\tikz[opacity=0.5]\node{\includegraphics{watermark.pdf}};}
     \newwatermark[allpages,xpos=6.1725cm,ypos=10.5225cm,scale=0.5]{\usebox\mybox}
   \fi
-
-  % digital object identifier
-  \ifdefined\withdoi
-    \insertdoi
-  \fi
 \fi
 
 \insertdoi
@@ -72,10 +67,6 @@
     \newwatermark[allpages,xpos=6.1725cm,ypos=10.5225cm,scale=0.5]{\usebox\mybox}
   \fi
 
-  % digital object identifier
-  \ifdefined\withdoi
-    \insertdoi
-  \fi
 \fi
 
 %\makecertification
