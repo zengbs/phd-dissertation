@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.11.4)  2 JUL 2022 13:55
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.11.4)  5 JUL 2022 11:34
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -3061,12 +3061,12 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 ### semi simple group (level 1) entered at line 55 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 36232 strings out of 476473
- 730554 string characters out of 5812052
- 1122540 words of memory out of 5000000
- 55997 multiletter control sequences out of 15000+600000
+ 36235 strings out of 476473
+ 730604 string characters out of 5812052
+ 1122329 words of memory out of 5000000
+ 56000 multiletter control sequences out of 15000+600000
  593797 words of font info for 326 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 132i,19n,136p,1978b,2776s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 132i,19n,136p,1978b,2783s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on thesis.pdf (115 pages).

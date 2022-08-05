@@ -12,5 +12,5 @@ bibtex    ${filename}.aux
 xelatex  -interaction=nonstopmode  -shell-escape ${filename}.tex
 xelatex  -interaction=nonstopmode  -shell-escape ${filename}.tex
 
-pdftk thesis.pdf background watermark.pdf output output.pdf
-mv output.pdf thesis.pdf
+#pdftk thesis.pdf background watermark.pdf output output.pdf
+#mv output.pdf thesis.pdf
